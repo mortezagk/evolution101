@@ -13,7 +13,7 @@ STATIC_PATHS = [
 ]
 
 EXTRA_PATH_METADATA = {
-    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/favicon.ico': {'path': 'theme/images/favicon.ico'},
     'extra/cc.heart.black.png': {'path': 'theme/images/cc.heart.black.png'},
 
 }
