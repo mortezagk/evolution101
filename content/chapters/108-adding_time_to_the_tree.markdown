@@ -1,4 +1,4 @@
-Title: اضافه‌کردن زمان به درخت
+Title: اضافه‌ کردن زمان به درخت
 Date: 2020-01-01 00:09
 Category: Patterns
 Slug: adding-time

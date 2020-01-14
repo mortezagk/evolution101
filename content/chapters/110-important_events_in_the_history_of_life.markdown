@@ -10,7 +10,7 @@ Author: Morteza Ghorbani Kari
 <br>
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;margin:0px auto;;width:500px}
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;margin:0px auto;}
 .tg td{font-family: 'Sahel';
 	src: url('../font/Sahel.eot');
 	src: url('../font/Sahel.eot?#iefix') format('embedded-opentype'), url('../font/Sahel.woff') format('woff'), url('../font/Sahel.ttf') format('truetype');
@@ -19,9 +19,9 @@ Author: Morteza Ghorbani Kari
 .tg th{font-family:inherit;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
 .tg .tg-hdln{background-color:#e0e0e0;font-size:17px;font-family:inherit !important;;text-align:center;vertical-align:center}
 .tg .tg-kntl{background-color:#f9f9f9;font-size:16px;font-family:inherit !important;;text-align:right;vertical-align:center}
-.tg .tg-9cfk{background-color:#f9f9f9;font-size:16px;font-family:inherit !important;;border-color:inherit;text-align:center;vertical-align:center}
-.tg .tg-0gd6{font-size:16px;font-family:inherit !important;;text-align:right;vertical-align:center;width:150px}
-.tg .tg-p7v3{font-size:16px;font-family:inherit !important;;border-color:inherit;text-align:center;vertical-align:center;width:60px}
+.tg .tg-9cfk{background-color:#f9f9f9;font-size:16px;font-family:inherit !important;;border-color:inherit;text-align:center;vertical-align:center;width:80px;}
+.tg .tg-0gd6{font-size:16px;font-family:inherit !important;;text-align:right;vertical-align:center;}
+.tg .tg-p7v3{font-size:16px;font-family:inherit !important;;border-color:inherit;text-align:center;vertical-align:center;width:80px;}
 </style>
 <table class="tg">
   <tr>
@@ -29,15 +29,15 @@ Author: Morteza Ghorbani Kari
     <th class="tg-hdln">رویداد</th>
   </tr>
   <tr>
-    <td class="tg-9cfk">۴٫۶میلیارد</td>
+    <td class="tg-9cfk">۴٫۶ میلیارد</td>
     <td class="tg-kntl">زمین شکل می‌گیرد و با شهاب‌سنگ‌ها و دنباله‌دارها بمباران می‌شود.</td>
   </tr>
   <tr>
-    <td class="tg-p7v3">۳٫۸میلیارد</td>
+    <td class="tg-p7v3">۳٫۸ میلیارد</td>
     <td class="tg-0gd6">مولکول‌های همتاساز (مادهٔ تشکیل‌دهندهٔ DNA) شکل می‌گیرند.</td>
   </tr>
   <tr>
-    <td class="tg-9cfk">۳٫۵میلیارد</td>
+    <td class="tg-9cfk">۳٫۵ میلیارد</td>
     <td class="tg-kntl">حیاتِ تک‌یاخته‌ای فرگشت می‌یابد. باکتری‌های فتوسنتزکننده شروع به آزادسازی اکسیژن در جو زمین می‌کنند.</td>
   </tr>
   <tr>
