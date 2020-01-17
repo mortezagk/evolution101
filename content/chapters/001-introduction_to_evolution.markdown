@@ -1,11 +1,11 @@
-Title: مقدمه
+Title: مقدمه‌ای بر فرگشت
 Date: 2020-01-01 00:01
-Category: Introduction
+Category: مقدمه
 Slug: introdution
 Author: Morteza Ghorbani Kari
+Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
 ------
-## مقدمه‌ای بر فرگشت
 **تعریف**
 
 به زبان ساده، فرگشت زیستی «وراثت همراه با تغییر[^۱]» است. این تعریف دربرگیرندهٔ فرگشت در مقیاس کوچک (تغییرات در فراوانی ژن[^۲] در یک جمعیت، از نسلی به نسل دیگر) و فرگشت در مقیاس بزرگ (پیدایش یک گونهٔ متفاوت از یک نیای مشترک طی نسل‌های بسیار) است. فرگشت در درک تاریخ حیات به ما کمک می‌کند.
@@ -34,3 +34,12 @@ Author: Morteza Ghorbani Kari
 
 [^۱]: Descent with modification
 [^۲]: Gene frequency
+
+------
+<center>
+    <font size="4">
+        <b>
+            [مطلب بعدی >>>]({filename}../chapters/101-looking-at-the-patterns.markdown)
+        </b>
+    </font>
+</center>

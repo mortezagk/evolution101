@@ -1,8 +1,9 @@
 Title: درک فیلوژنی‌ها
 Date: 2020-01-01 00:04
-Category: Patterns
+Category: فصل اول: الگوها
 Slug: understanding-phylogenies
 Author: Morteza Ghorbani Kari
+Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
 ------
 خواندن یک فیلوژنی مشابه خواندن یک درخت خانوادگی است. ریشهٔ درخت نشانگر نسبِ نیایی است و نوک شاخه‌ها نشانگر نوادگانِ آن نیاکان. همینطور که از ریشه به سمت نوک شاخه‌ها حرکت می‌کنید، در زمان به جلو می‌روید.
@@ -37,3 +38,12 @@ Author: Morteza Ghorbani Kari
 
 [^۱]: Speciation
 [^۲]: Common Ancestor: جاندارانِ نیاییِ مشترکِ دو یا چند نسبِ فرزند - به عبارت دیگر، یک نیا که نسب‌های فرزند در آن مشترکند. برای مثال، نیاکانِ مشترکِ یک خواهر و برادر شامل والدین، پدربزرگ‌ها و مادبزرگ‌هایشان است؛ نیاکان مشترک یک کایوت و یک گرگ شامل اولین سگ‌سان و اولین پستاندار است.
+
+------
+<center>
+    <font size="4">
+        <b>
+            [<<< مطلب قبلی]({filename}../chapters/102-the_family_tree.markdown) | [مطلب بعدی >>>]({filename}../chapters/104-trees_not_ladders.markdown) 
+        </b>
+    </font>
+</center>

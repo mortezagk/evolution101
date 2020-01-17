@@ -1,7 +1,6 @@
 <ul class="nav nav-list">
-
     <li class="nav-header">
-      <h4><i class="icon-home icon-large"></i>معرفی</h4>
+      <h4><i class="icon-info-sign icon-large"></i></h4>
     </li>
     <li>
       <ul>
@@ -22,27 +21,38 @@
     <li>
       <ul>
         <li>
-          <a href="http://linkedin.com/in/mortezagk" target="_blank" rel="alternate"><i class="icon-linkedin-sign"></i>لینکداین</a>
-        </li>
-        <li>
           <a href="http://twitter.com/mortezagk" target="_blank" rel="alternate"><i class="icon-twitter-sign"></i>توییتر</a>
         </li>
         <li>
-          <a href="http://mort.ir" target="_blank" rel="alternate"><i class="icon-external-link"></i>وب‌سایت</a>
+          <a href="https://www.instagram.com/evo101_ir/" target="_blank" rel="alternate"><i class="icon-camera-retro"></i>اینستاگرام</a>
+        </li>
+        <li>
+          <a href="https://t.me/Evolution101" target="_blank" rel="alternate"><i class="icon-external-link"></i>کانال تلگرام</a>
         </li>
       </ul>
     </li>
     <li class="nav-header">
-      <h4><i class="icon-book icon-large"></i>مطالب</h4>
+      <h4><i class="icon-book icon-large"></i>محتوای کتاب</h4>
     </li>
     <li>
       <ul>
-        {% for article in articles %} 
-        <li>
-          <a href="{{ SITEURL }}/{{ article.url }}">
-              <i class="icon-bookmark"></i>{{ article.title }}
-          </a>
-        </li>
+        {% for category, articles in categories %}
+          <li>
+            <a><font size="4" color="#00547e"><i class="icon-folder-open"></i><b>{{ category }}</b></font></a>
+          </li>
+          <li>
+            <ul>
+              {% for article in articles %}
+              <li>
+                <font size="3">
+                  <a href="{{ SITEURL }}/{{ article.url }}">
+                      <i class="icon-bookmark"></i>{{ article.title }}
+                  </a>
+                </font>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
         {% endfor %}
       </ul>
     </li>

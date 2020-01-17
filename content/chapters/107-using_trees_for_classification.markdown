@@ -1,8 +1,9 @@
 Title: استفاده از درخت برای رده‌بندی
 Date: 2020-01-01 00:08
-Category: Patterns
+Category: فصل اول: الگوها
 Slug: using-trees
 Author: Morteza Ghorbani Kari
+Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
 ------
 زیست‌شناسان درخت‌های فیلوژنتیکی را برای بسیاری از اهداف استفاده می‌کنند، برای مثال:
@@ -39,3 +40,12 @@ Author: Morteza Ghorbani Kari
 [^۷]: Genus
 [^۸]: Species
 [^۹]: Cladogram
+
+------
+<center>
+    <font size="4">
+        <b>
+            [<<< مطلب قبلی]({filename}../chapters/106-homologies_and_analogies.markdown) | [مطلب بعدی >>>]({filename}../chapters/108-adding_time_to_the_tree.markdown) 
+        </b>
+    </font>
+</center>

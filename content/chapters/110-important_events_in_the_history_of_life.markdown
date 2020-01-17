@@ -1,13 +1,12 @@
 Title: رویدادهای مهم در تاریخ حیات
-Date: 1616-01-01 00:11
-Category: Patterns
+Date: 2020-01-01 00:11
+Category: فصل اول: الگوها
 Slug: important-events
 Author: Morteza Ghorbani Kari
+Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
 ------
 یک خط سیر زمانی می‌تواند اطلاعات بیشتری در مورد تاریخ حیات در اختیارمان قرار دهد، اطلاعاتی که روی درخت حیات محسوس نیست. اینها شامل رویدادهای زمین‌شناختی، تغییرات اقلیمی، انتقال جانداران به زیست‌بوم‌های جدید، تغییر در اکوسیستم‌ها، تغییر موقعیتِ قاره‌ها و انقراض‌های گسترده می‌شود. در خط سیر ‌زمانی که در ادامه می‌آید می‌توانید برخی از رویدادهای مهم تاریخ حیات را مرور کنید.
-
-<br>
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;margin:0px auto;}
@@ -89,3 +88,12 @@ Author: Morteza Ghorbani Kari
     <td class="tg-kntl">انسان‌های مدرن -به لحاظ آناتومیک- فرگشت می‌یابند. هفتاد هزار سال بعد، نوادگانشان غارنگاره‌ها را ایجاد می‌کنند -نشانه‌های اولیه‌ای از خودآگاهی.</td>
   </tr>
 </table>
+
+------
+<center>
+    <font size="4">
+        <b>
+            [<<< مطلب قبلی]({filename}../chapters/109-how_do_we_know_what_happened_when.markdown) | [مطلب بعدی >>>]({filename}../chapters/200-mechanisms.markdown) 
+        </b>
+    </font>
+</center>

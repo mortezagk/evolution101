@@ -1,8 +1,9 @@
 Title: ساختن درخت
 Date: 2020-01-01 00:06
-Category: Patterns
+Category: فصل اول: الگوها
 Slug: building-the-tree
 Author: Morteza Ghorbani Kari
+Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
 ------
 درخت‌های فیلوژنتیکی مانند درخت‌های خانوادگی نمودی از نیاکان هستند. اگرچه، در حالی که خانواده‌ها این فرصت را دارند تا تاریخچهٔ خود را، در حالی که رخ می‌دهد، ثبت کنند؛ نسب‌های فرگشتی چنین فرصتی را ندارند -گونه‌ها در طبیعت همراه با سندی که نشان‌دهندهٔ تاریخ خانوادگی آنها باشد زیست نمی‌کنند. به جای آن، زیست‌شناسان باید این سرگذشت را با جمع‌آوری و تحلیل شواهد، بازسازی کنند -شواهدی که از آنها برای طرحِ «یک فرضیه در مورد چگونگیِ ارتباطِ جانداران» (یک فیلوژنی) استفاده می‌شود.
@@ -30,3 +31,12 @@ Author: Morteza Ghorbani Kari
 [^۲]: Amniotic egg
 [^۳]: Shared derived characters
 [^۴]: Four limbs
+
+------
+<center>
+    <font size="4">
+        <b>
+            [<<< مطلب قبلی]({filename}../chapters/104-trees_not_ladders.markdown) | [مطلب بعدی >>>]({filename}../chapters/106-homologies_and_analogies.markdown) 
+        </b>
+    </font>
+</center>

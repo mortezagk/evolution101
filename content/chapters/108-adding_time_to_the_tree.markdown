@@ -1,8 +1,9 @@
 Title: اضافه‌ کردن زمان به درخت
 Date: 2020-01-01 00:09
-Category: Patterns
+Category: فصل اول: الگوها
 Slug: adding-time
 Author: Morteza Ghorbani Kari
+Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
 ------
 اگر بخواهید تمامِ ۳٫۵ میلیارد سال تاریخِ حیات روی زمین را تنها در یک دقیقه بگنجانید، باید ۵۰ ثانیه برای شکل‌گیریِ حیات مولکولی صبر کنید، ۴ ثانیهٔ دیگر برای حرکت مهره‌داران به سمت خشکی، و چهار ثانیهٔ دیگر هم برای شکل‌گیریِ گل‌ها -تنها در آخرین ۰٫۰۰۲ ثانیه است که «انسان مدرن» پدیدار می‌شود.
@@ -12,3 +13,12 @@ Author: Morteza Ghorbani Kari
 این فیلوژنی نشان‌دهندهٔ فرگشتِ مهره‌داران است -یک کلادِ کوچک از درخت حیات. طولِ شاخه‌ها طوری تنظیم شده که زمان انشقاق و انقراض هر نسب را نشان دهد.
 
 ![فیلوژنی مهره‌داران]({static}/images/11-1.gif)
+
+------
+<center>
+    <font size="4">
+        <b>
+            [<<< مطلب قبلی]({filename}../chapters/107-using_trees_for_classification.markdown) | [مطلب بعدی >>>]({filename}../chapters/109-how_do_we_know_what_happened_when.markdown) 
+        </b>
+    </font>
+</center>
