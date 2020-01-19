@@ -4,588 +4,588 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>evolution101.ir/</loc>
-<lastmod>2020-01-17T22:54:12-00:00</lastmod>
+<loc>www.evolution101.ir/</loc>
+<lastmod>2020-01-20T00:12:28-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/tags.html</loc>
-<lastmod>2020-01-17T22:54:12-00:00</lastmod>
+<loc>www.evolution101.ir/tags.html</loc>
+<lastmod>2020-01-20T00:12:28-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/categories.html</loc>
-<lastmod>2020-01-17T22:54:12-00:00</lastmod>
+<loc>www.evolution101.ir/categories.html</loc>
+<lastmod>2020-01-20T00:12:28-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/authors.html</loc>
-<lastmod>2020-01-17T22:54:12-00:00</lastmod>
+<loc>www.evolution101.ir/authors.html</loc>
+<lastmod>2020-01-20T00:12:28-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/archives.html</loc>
-<lastmod>2020-01-17T22:54:12-00:00</lastmod>
+<loc>www.evolution101.ir/archives.html</loc>
+<lastmod>2020-01-20T00:12:28-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/pages/about.html</loc>
+<loc>www.evolution101.ir/pages/about.html</loc>
 <lastmod>2020-01-01T00:00:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/pages/downloads.html</loc>
+<loc>www.evolution101.ir/pages/downloads.html</loc>
 <lastmod>2020-01-01T00:00:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/pages/index.html</loc>
+<loc>www.evolution101.ir/pages/index.html</loc>
 <lastmod>2020-01-01T00:00:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/pages/support.html</loc>
+<loc>www.evolution101.ir/pages/support.html</loc>
 <lastmod>2020-01-01T00:00:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/introdution.html</loc>
+<loc>www.evolution101.ir/introdution.html</loc>
 <lastmod>2020-01-01T00:01:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/patterns.html</loc>
+<loc>www.evolution101.ir/patterns.html</loc>
 <lastmod>2020-01-01T00:02:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/family-tree.html</loc>
+<loc>www.evolution101.ir/family-tree.html</loc>
 <lastmod>2020-01-01T00:03:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/understanding-phylogenies.html</loc>
+<loc>www.evolution101.ir/understanding-phylogenies.html</loc>
 <lastmod>2020-01-01T00:04:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/trees-not-ladders.html</loc>
+<loc>www.evolution101.ir/trees-not-ladders.html</loc>
 <lastmod>2020-01-01T00:05:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/building-the-tree.html</loc>
+<loc>www.evolution101.ir/building-the-tree.html</loc>
 <lastmod>2020-01-01T00:06:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/homologies-and-analogies.html</loc>
+<loc>www.evolution101.ir/homologies-and-analogies.html</loc>
 <lastmod>2020-01-01T00:07:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/using-trees.html</loc>
+<loc>www.evolution101.ir/using-trees.html</loc>
 <lastmod>2020-01-01T00:08:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/adding-time.html</loc>
+<loc>www.evolution101.ir/adding-time.html</loc>
 <lastmod>2020-01-01T00:09:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/what-happened-when.html</loc>
+<loc>www.evolution101.ir/what-happened-when.html</loc>
 <lastmod>2020-01-01T00:10:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/important-events.html</loc>
+<loc>www.evolution101.ir/important-events.html</loc>
 <lastmod>2020-01-01T00:11:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/mechanisms.html</loc>
+<loc>www.evolution101.ir/mechanisms.html</loc>
 <lastmod>2020-01-01T00:12:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/descent-with-modification.html</loc>
+<loc>www.evolution101.ir/descent-with-modification.html</loc>
 <lastmod>2020-01-01T00:13:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/mechanisms-of-change.html</loc>
+<loc>www.evolution101.ir/mechanisms-of-change.html</loc>
 <lastmod>2020-01-01T00:14:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/genetic-variation.html</loc>
+<loc>www.evolution101.ir/genetic-variation.html</loc>
 <lastmod>2020-01-01T00:15:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/mutations.html</loc>
+<loc>www.evolution101.ir/mutations.html</loc>
 <lastmod>2020-01-01T00:16:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/causes-of-mutations.html</loc>
+<loc>www.evolution101.ir/causes-of-mutations.html</loc>
 <lastmod>2020-01-01T00:17:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/gene-flow.html</loc>
+<loc>www.evolution101.ir/gene-flow.html</loc>
 <lastmod>2020-01-01T00:18:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/sex-and-genetic-shuffling.html</loc>
+<loc>www.evolution101.ir/sex-and-genetic-shuffling.html</loc>
 <lastmod>2020-01-01T00:19:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/development.html</loc>
+<loc>www.evolution101.ir/development.html</loc>
 <lastmod>2020-01-01T00:20:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/genetic-drift.html</loc>
+<loc>www.evolution101.ir/genetic-drift.html</loc>
 <lastmod>2020-01-01T00:21:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/natural-selection.html</loc>
+<loc>www.evolution101.ir/natural-selection.html</loc>
 <lastmod>2020-01-01T00:22:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/natural-selection-at-work.html</loc>
+<loc>www.evolution101.ir/natural-selection-at-work.html</loc>
 <lastmod>2020-01-01T00:23:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/about-fitness.html</loc>
+<loc>www.evolution101.ir/about-fitness.html</loc>
 <lastmod>2020-01-01T00:24:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/sexual-selection.html</loc>
+<loc>www.evolution101.ir/sexual-selection.html</loc>
 <lastmod>2020-01-01T00:25:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/artificial-selection.html</loc>
+<loc>www.evolution101.ir/artificial-selection.html</loc>
 <lastmod>2020-01-01T00:26:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/adaptation.html</loc>
+<loc>www.evolution101.ir/adaptation.html</loc>
 <lastmod>2020-01-01T00:27:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/misconceptions.html</loc>
+<loc>www.evolution101.ir/misconceptions.html</loc>
 <lastmod>2020-01-01T00:28:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/coevolution.html</loc>
+<loc>www.evolution101.ir/coevolution.html</loc>
 <lastmod>2020-01-01T00:29:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/case-study-in-coevolution.html</loc>
+<loc>www.evolution101.ir/case-study-in-coevolution.html</loc>
 <lastmod>2020-01-01T00:30:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/microevolution.html</loc>
+<loc>www.evolution101.ir/microevolution.html</loc>
 <lastmod>2020-01-01T00:31:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/defining-microevolution.html</loc>
+<loc>www.evolution101.ir/defining-microevolution.html</loc>
 <lastmod>2020-01-01T00:32:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/detecting-microevolution.html</loc>
+<loc>www.evolution101.ir/detecting-microevolution.html</loc>
 <lastmod>2020-01-01T00:33:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/mechanisms-of-microevolution.html</loc>
+<loc>www.evolution101.ir/mechanisms-of-microevolution.html</loc>
 <lastmod>2020-01-01T00:34:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/speciation.html</loc>
+<loc>www.evolution101.ir/speciation.html</loc>
 <lastmod>2020-01-01T00:35:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/defining-a-species.html</loc>
+<loc>www.evolution101.ir/defining-a-species.html</loc>
 <lastmod>2020-01-01T00:36:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/defining-speciation.html</loc>
+<loc>www.evolution101.ir/defining-speciation.html</loc>
 <lastmod>2020-01-01T00:37:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/causes-of-speciation.html</loc>
+<loc>www.evolution101.ir/causes-of-speciation.html</loc>
 <lastmod>2020-01-01T00:38:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/reproductive-isolation.html</loc>
+<loc>www.evolution101.ir/reproductive-isolation.html</loc>
 <lastmod>2020-01-01T00:39:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/evidence-for-speciation.html</loc>
+<loc>www.evolution101.ir/evidence-for-speciation.html</loc>
 <lastmod>2020-01-01T00:40:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/coespeciation.html</loc>
+<loc>www.evolution101.ir/coespeciation.html</loc>
 <lastmod>2020-01-01T00:41:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/macroevolution.html</loc>
+<loc>www.evolution101.ir/macroevolution.html</loc>
 <lastmod>2020-01-01T00:42:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/what-is-macroevolution.html</loc>
+<loc>www.evolution101.ir/what-is-macroevolution.html</loc>
 <lastmod>2020-01-01T00:43:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/patterns-in-macroevolution.html</loc>
+<loc>www.evolution101.ir/patterns-in-macroevolution.html</loc>
 <lastmod>2020-01-01T00:44:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/big-issues.html</loc>
+<loc>www.evolution101.ir/big-issues.html</loc>
 <lastmod>2020-01-01T00:45:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/pace-of-evolution.html</loc>
+<loc>www.evolution101.ir/pace-of-evolution.html</loc>
 <lastmod>2020-01-01T00:46:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/diversity-in-clades.html</loc>
+<loc>www.evolution101.ir/diversity-in-clades.html</loc>
 <lastmod>2020-01-01T00:47:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/looking-at-complexity.html</loc>
+<loc>www.evolution101.ir/looking-at-complexity.html</loc>
 <lastmod>2020-01-01T00:48:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/trends-in-evolution.html</loc>
+<loc>www.evolution101.ir/trends-in-evolution.html</loc>
 <lastmod>2020-01-01T00:49:00+03:30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/category/ch0.html</loc>
+<loc>www.evolution101.ir/category/ch0.html</loc>
 <lastmod>2020-01-01T00:01:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/category/ch1.html</loc>
+<loc>www.evolution101.ir/category/ch1.html</loc>
 <lastmod>2020-01-01T00:11:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/category/ch2.html</loc>
+<loc>www.evolution101.ir/category/ch2.html</loc>
 <lastmod>2020-01-01T00:30:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/category/ch3.html</loc>
+<loc>www.evolution101.ir/category/ch3.html</loc>
 <lastmod>2020-01-01T00:34:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/category/ch4.html</loc>
+<loc>www.evolution101.ir/category/ch4.html</loc>
 <lastmod>2020-01-01T00:41:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/category/ch5.html</loc>
+<loc>www.evolution101.ir/category/ch5.html</loc>
 <lastmod>2020-01-01T00:44:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/category/ch6.html</loc>
+<loc>www.evolution101.ir/category/ch6.html</loc>
 <lastmod>2020-01-01T00:49:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/tag/evolution.html</loc>
+<loc>www.evolution101.ir/tag/evolution.html</loc>
 <lastmod>2020-01-01T00:30:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/tag/biology.html</loc>
+<loc>www.evolution101.ir/tag/biology.html</loc>
 <lastmod>2020-01-01T00:30:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/tag/evolution-101.html</loc>
+<loc>www.evolution101.ir/tag/evolution-101.html</loc>
 <lastmod>2020-01-01T00:30:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/tag/evolution101.html</loc>
+<loc>www.evolution101.ir/tag/evolution101.html</loc>
 <lastmod>2020-01-01T00:30:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/tag/science.html</loc>
+<loc>www.evolution101.ir/tag/science.html</loc>
 <lastmod>2020-01-01T00:30:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/tag/bio.html</loc>
+<loc>www.evolution101.ir/tag/bio.html</loc>
 <lastmod>2020-01-01T00:30:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/tag/dna.html</loc>
+<loc>www.evolution101.ir/tag/dna.html</loc>
 <lastmod>2020-01-01T00:30:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/tag/natural-selection.html</loc>
+<loc>www.evolution101.ir/tag/natural-selection.html</loc>
 <lastmod>2020-01-01T00:30:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/tag/ntkhb-tbyy.html</loc>
+<loc>www.evolution101.ir/tag/ntkhb-tbyy.html</loc>
 <lastmod>2020-01-01T00:30:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/tag/lm.html</loc>
+<loc>www.evolution101.ir/tag/lm.html</loc>
 <lastmod>2020-01-01T00:30:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/tag/dnsh.html</loc>
+<loc>www.evolution101.ir/tag/dnsh.html</loc>
 <lastmod>2020-01-01T00:30:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/tag/tkhml.html</loc>
+<loc>www.evolution101.ir/tag/tkhml.html</loc>
 <lastmod>2020-01-01T00:30:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/tag/frgsht.html</loc>
+<loc>www.evolution101.ir/tag/frgsht.html</loc>
 <lastmod>2020-01-01T00:30:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/tag/ttwr.html</loc>
+<loc>www.evolution101.ir/tag/ttwr.html</loc>
 <lastmod>2020-01-01T00:30:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/tag/frgsht-101.html</loc>
+<loc>www.evolution101.ir/tag/frgsht-101.html</loc>
 <lastmod>2020-01-01T00:30:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/tag/frgsht101.html</loc>
+<loc>www.evolution101.ir/tag/frgsht101.html</loc>
 <lastmod>2020-01-01T00:30:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/tag/zyst.html</loc>
+<loc>www.evolution101.ir/tag/zyst.html</loc>
 <lastmod>2020-01-01T00:30:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/tag/zystshnsy.html</loc>
+<loc>www.evolution101.ir/tag/zystshnsy.html</loc>
 <lastmod>2020-01-01T00:30:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>evolution101.ir/author/morteza-ghorbani-kari.html</loc>
+<loc>www.evolution101.ir/author/morteza-ghorbani-kari.html</loc>
 <lastmod>2020-01-01T00:49:00+03:26</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
