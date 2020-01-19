@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'مرتضی قربانی کاری'
 SITENAME = 'فرگشت ۱۰۱'
-SITEURL = 'evolution101.ir'
+SITEURL = 'www.evolution101.ir'
 
 PATH = 'content'
 STATIC_PATHS = ['extra']
@@ -45,7 +45,8 @@ RELATIVE_URLS = True
 THEME = 'theme/bookstrap'
 
 DISPLAY_CATEGORIES_ON_MENU = False
-#TWITTER_USERNAME = "mortezagk"
+
+GOOGLE_CUSTOM_SEARCH_SIDEBAR = False
 
 CATEGORY_REGEX_SUBSTITUTIONS = [(r'(mqdmh)', 'ch0'),
 			                	(r'(fsl wl: lgwh)', 'ch1'),

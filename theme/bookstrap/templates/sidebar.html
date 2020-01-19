@@ -26,11 +26,11 @@
         <li>
           <a href="https://www.instagram.com/evo101_ir/" target="_blank" rel="alternate"><i class="icon-camera-retro"></i>اینستاگرام</a>
         </li>
-        <li>
-          <a href="https://t.me/Evolution101" target="_blank" rel="alternate"><i class="icon-external-link"></i>کانال تلگرام</a>
-        </li>
       </ul>
     </li>
+
+    {% include 'search_sidebar.html' %}
+
     <li class="nav-header">
       <h4><i class="icon-book icon-large"></i>محتوای کتاب</h4>
     </li>
@@ -60,7 +60,6 @@
 
 
 {% include 'twitter_profile.html' %}
-{% include 'search_sidebar.html' %}
 
 {% if SIDEBAR_CUSTOM %}
     {{ SIDEBAR_CUSTOM }}

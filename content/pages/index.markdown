@@ -10,11 +10,14 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 فرگشت ۱۰۱ مبانیِ الگو‌ها و سازوکارهای فرگشت را تبیین می‌کند.
 
-![logo]({static}/images/circular.jpg){:width="200px"}
+<br>
+
+![درخت حیات]({static}/images/600px-Tree_of_life_SVG.svg.png){:width="400px"}
+<center><b>درخت حیات</b></center>
 
 <br>
 
-**می‌توانید مطالب را در فصل‌های زیر مرور کنید:**
+**در زیر می‌توانید فصل‌های کتاب را مشاهده کنید:**
 
 ### [مقدمه]({filename}../chapters/001-introduction_to_evolution.markdown/)
 
