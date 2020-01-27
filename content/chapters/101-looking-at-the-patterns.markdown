@@ -20,7 +20,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/001-introduction_to_evolution.markdown) | [مطلب بعدی >>>]({filename}../chapters/102-the_family_tree.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/001-introduction_to_evolution.markdown) | [مطلب بعدی ⟵]({filename}../chapters/102-the_family_tree.markdown) 
         </b>
     </font>
 </center>

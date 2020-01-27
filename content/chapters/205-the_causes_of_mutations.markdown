@@ -24,7 +24,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/204-mutations.markdown) | [مطلب بعدی >>>]({filename}../chapters/206-gene_flow.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/204-mutations.markdown) | [مطلب بعدی ⟵]({filename}../chapters/206-gene_flow.markdown) 
         </b>
     </font>
 </center>

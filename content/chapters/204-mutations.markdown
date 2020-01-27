@@ -52,7 +52,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/203-genetic_variation.markdown) | [مطلب بعدی >>>]({filename}../chapters/205-the_causes_of_mutations.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/203-genetic_variation.markdown) | [مطلب بعدی ⟵]({filename}../chapters/205-the_causes_of_mutations.markdown) 
         </b>
     </font>
 </center>

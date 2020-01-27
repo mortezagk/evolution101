@@ -36,7 +36,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/216-misconceptions_about_natural_selection.markdown) | [مطلب بعدی >>>]({filename}../chapters/218-a_case_study_of_coevolution.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/216-misconceptions_about_natural_selection.markdown) | [مطلب بعدی ⟵]({filename}../chapters/218-a_case_study_of_coevolution.markdown) 
         </b>
     </font>
 </center>

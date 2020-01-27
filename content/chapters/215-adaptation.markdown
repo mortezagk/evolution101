@@ -40,7 +40,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/214-artificial_selection.markdown) | [مطلب بعدی >>>]({filename}../chapters/216-misconceptions_about_natural_selection.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/214-artificial_selection.markdown) | [مطلب بعدی ⟵]({filename}../chapters/216-misconceptions_about_natural_selection.markdown) 
         </b>
     </font>
 </center>

@@ -38,7 +38,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/105-building_the_tree.markdown) | [مطلب بعدی >>>]({filename}../chapters/107-using_trees_for_classification.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/105-building_the_tree.markdown) | [مطلب بعدی ⟵]({filename}../chapters/107-using_trees_for_classification.markdown) 
         </b>
     </font>
 </center>

@@ -36,7 +36,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/104-trees_not_ladders.markdown) | [مطلب بعدی >>>]({filename}../chapters/106-homologies_and_analogies.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/104-trees_not_ladders.markdown) | [مطلب بعدی ⟵]({filename}../chapters/106-homologies_and_analogies.markdown) 
         </b>
     </font>
 </center>

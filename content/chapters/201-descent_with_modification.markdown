@@ -34,7 +34,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/200-mechanisms.markdown) | [مطلب بعدی >>>]({filename}../chapters/202-mechanisms_of_change.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/200-mechanisms.markdown) | [مطلب بعدی ⟵]({filename}../chapters/202-mechanisms_of_change.markdown) 
         </b>
     </font>
 </center>

@@ -23,7 +23,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/110-important_events_in_the_history_of_life.markdown) | [مطلب بعدی >>>]({filename}../chapters/201-descent_with_modification.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/110-important_events_in_the_history_of_life.markdown) | [مطلب بعدی ⟵]({filename}../chapters/201-descent_with_modification.markdown) 
         </b>
     </font>
 </center>

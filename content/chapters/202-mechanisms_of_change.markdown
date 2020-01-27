@@ -37,7 +37,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/201-descent_with_modification.markdown) | [مطلب بعدی >>>]({filename}../chapters/203-genetic_variation.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/201-descent_with_modification.markdown) | [مطلب بعدی ⟵]({filename}../chapters/203-genetic_variation.markdown) 
         </b>
     </font>
 </center>

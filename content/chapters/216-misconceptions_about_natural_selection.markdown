@@ -27,7 +27,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/215-adaptation.markdown) | [مطلب بعدی >>>]({filename}../chapters/217-coevolution.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/215-adaptation.markdown) | [مطلب بعدی ⟵]({filename}../chapters/217-coevolution.markdown) 
         </b>
     </font>
 </center>

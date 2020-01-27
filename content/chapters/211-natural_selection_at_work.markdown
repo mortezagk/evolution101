@@ -36,7 +36,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/210-natural_selection.markdown) | [مطلب بعدی >>>]({filename}../chapters/212-what_about_fitness.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/210-natural_selection.markdown) | [مطلب بعدی ⟵]({filename}../chapters/212-what_about_fitness.markdown) 
         </b>
     </font>
 </center>

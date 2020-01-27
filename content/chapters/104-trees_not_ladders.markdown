@@ -48,7 +48,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/103-understanding_phylogenies.markdown) | [مطلب بعدی >>>]({filename}../chapters/105-building_the_tree.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/103-understanding_phylogenies.markdown) | [مطلب بعدی ⟵]({filename}../chapters/105-building_the_tree.markdown) 
         </b>
     </font>
 </center>

@@ -45,7 +45,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/106-homologies_and_analogies.markdown) | [مطلب بعدی >>>]({filename}../chapters/108-adding_time_to_the_tree.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/106-homologies_and_analogies.markdown) | [مطلب بعدی ⟵]({filename}../chapters/108-adding_time_to_the_tree.markdown) 
         </b>
     </font>
 </center>

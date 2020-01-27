@@ -43,7 +43,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/102-the_family_tree.markdown) | [مطلب بعدی >>>]({filename}../chapters/104-trees_not_ladders.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/102-the_family_tree.markdown) | [مطلب بعدی ⟵]({filename}../chapters/104-trees_not_ladders.markdown) 
         </b>
     </font>
 </center>

@@ -39,7 +39,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/211-natural_selection_at_work.markdown) | [مطلب بعدی >>>]({filename}../chapters/213-sexual_selection.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/211-natural_selection_at_work.markdown) | [مطلب بعدی ⟵]({filename}../chapters/213-sexual_selection.markdown) 
         </b>
     </font>
 </center>

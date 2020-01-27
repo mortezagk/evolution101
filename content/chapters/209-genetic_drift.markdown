@@ -22,7 +22,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/208-development.markdown) | [مطلب بعدی >>>]({filename}../chapters/210-natural_selection.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/208-development.markdown) | [مطلب بعدی ⟵]({filename}../chapters/210-natural_selection.markdown) 
         </b>
     </font>
 </center>

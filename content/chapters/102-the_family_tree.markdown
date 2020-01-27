@@ -39,7 +39,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/101-looking-at-the-patterns.markdown) | [مطلب بعدی >>>]({filename}../chapters/103-understanding_phylogenies.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/101-looking-at-the-patterns.markdown) | [مطلب بعدی ⟵]({filename}../chapters/103-understanding_phylogenies.markdown) 
         </b>
     </font>
 </center>

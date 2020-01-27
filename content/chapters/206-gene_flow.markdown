@@ -14,7 +14,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/205-the_causes_of_mutations.markdown) | [مطلب بعدی >>>]({filename}../chapters/207-sex_and_genetic_shuffling.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/205-the_causes_of_mutations.markdown) | [مطلب بعدی ⟵]({filename}../chapters/207-sex_and_genetic_shuffling.markdown) 
         </b>
     </font>
 </center>

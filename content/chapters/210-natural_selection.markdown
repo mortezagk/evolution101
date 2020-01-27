@@ -40,7 +40,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/209-genetic_drift.markdown) | [مطلب بعدی >>>]({filename}../chapters/211-natural_selection_at_work.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/209-genetic_drift.markdown) | [مطلب بعدی ⟵]({filename}../chapters/211-natural_selection_at_work.markdown) 
         </b>
     </font>
 </center>

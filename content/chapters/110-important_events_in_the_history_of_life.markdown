@@ -93,7 +93,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [<<< مطلب قبلی]({filename}../chapters/109-how_do_we_know_what_happened_when.markdown) | [مطلب بعدی >>>]({filename}../chapters/200-mechanisms.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/109-how_do_we_know_what_happened_when.markdown) | [مطلب بعدی ⟵]({filename}../chapters/200-mechanisms.markdown) 
         </b>
     </font>
 </center>
