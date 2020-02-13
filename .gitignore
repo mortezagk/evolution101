@@ -13,4 +13,4 @@ pelican.pid
 *swp
 publishconf.py
 .idea
-.evo
+.venv
