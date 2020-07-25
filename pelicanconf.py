@@ -52,7 +52,7 @@ GOOGLE_CUSTOM_SEARCH_SIDEBAR = False
 CATEGORY_REGEX_SUBSTITUTIONS = [(r'(mqdmh)', 'ch0'),
                                 (r'(fsl wl: lgwh)', 'ch1'),
                                 (r'(fsl dwm: szwkhrh)', 'ch2'),
-                                (r'(fsl swm: frgsht khrd)', 'ch3'),
+                                (r'(fsl swm: frgsht khurd)', 'ch3'),
                                 (r'(fsl chhrm: gwnhzyy)', 'ch4'),
                                 (r'(fsl pnjm: frgsht khln)', 'ch5'),
                                 (r"(fsl shshm: msy'l mhm)", 'ch6')]

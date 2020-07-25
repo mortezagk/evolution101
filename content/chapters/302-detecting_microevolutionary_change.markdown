@@ -1,6 +1,6 @@
 Title: شناسایی تغییر فرگشتی خرد
 Date: 2020-01-01 00:33
-Category: فصل سوم: فرگشت خرد
+Category: فصل سوم: فرگشت خُرد
 Slug: detecting-microevolution
 Author: Morteza Ghorbani Kari
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
@@ -12,7 +12,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 ![تغییر فرگشتی]({static}/images/38-1.gif)
 
-شما یک الگوی فرگشت خرد را شناسایی کرده‌اید: یک تغییر در فراوانی ژن. تغییر در فراوانی ژن در طول زمان به این معناست که جمعیت فرگشت یافته است.
+شما یک الگوی فرگشت خُرد را شناسایی کرده‌اید: یک تغییر در فراوانی ژن. تغییر در فراوانی ژن در طول زمان به این معناست که جمعیت فرگشت یافته است.
 
 سوال مهم این است که این اتفاق چگونه رخ داده است؟
 
