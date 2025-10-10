@@ -2,18 +2,15 @@
     <li>
       <ul>
         <li>
-          <a href="{{ SITEURL }}/pages/about.html">درباره</a>
+          <a href="{{ SITEURL }}/pages/about.html">درباره <i class="icon-info-sign"></i></a>
         </li>
         <li>
-          <a href="{{ SITEURL }}/pages/search.html">جستجو</a>
+          <a href="{{ SITEURL }}/pages/search.html">جستجو <i class="icon-search"></i></a>
         </li>
       </ul>
     </li>
     {% include 'search_sidebar.html' %}
 
-    <li class="nav-header">
-      <h4><i class="icon-book icon-large"></i>محتوای کتاب</h4>
-    </li>
     <li>
       <ul>
         {% set current_category = category if category is defined else None %}
@@ -25,7 +22,7 @@
           <li class="category-group{% if is_active_group %} is-open{% endif %}" data-category-slug="{{ category_slug }}">
             <div class="category-header">
               <a class="category-link category-toggle" href="#" role="button" aria-controls="sidebar-{{ group_id }}" aria-expanded="{% if is_active_group %}true{% else %}false{% endif %}">
-                <span class="category-title">{{ category|persian_digits }}</span>
+                <span class="category-title"><i class="icon-book icon-large"></i>{{ category|persian_digits }}</span>
               </a>
             </div>
             <ul id="sidebar-{{ group_id }}" class="category-articles{% if not is_active_group %} is-collapsed{% endif %}">
