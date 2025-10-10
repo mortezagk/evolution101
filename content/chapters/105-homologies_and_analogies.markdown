@@ -2,7 +2,7 @@ Title: هومولوژی و آنالوژی
 Date: 2020-01-01 00:07
 Category: فصل اول: الگوها
 Slug: homologies-and-analogies
-Author: Morteza Ghorbani Kari
+Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
 ------
@@ -38,7 +38,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [⟶ مطلب قبلی]({filename}../chapters/105-building_the_tree.markdown) | [مطلب بعدی ⟵]({filename}../chapters/107-using_trees_for_classification.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/104-building_the_tree.markdown) | [مطلب بعدی ⟵]({filename}../chapters/106-using_trees_for_classification.markdown) 
         </b>
     </font>
 </center>

@@ -2,7 +2,7 @@ Title: درخت، نه نردبان!
 Date: 2020-01-01 00:05
 Category: فصل اول: الگوها
 Slug: trees-not-ladders
-Author: Morteza Ghorbani Kari
+Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
 ------
@@ -48,7 +48,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [⟶ مطلب قبلی]({filename}../chapters/103-understanding_phylogenies.markdown) | [مطلب بعدی ⟵]({filename}../chapters/105-building_the_tree.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/102-understanding_phylogenies.markdown) | [مطلب بعدی ⟵]({filename}../chapters/104-building_the_tree.markdown) 
         </b>
     </font>
 </center>

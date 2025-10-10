@@ -2,7 +2,7 @@ Title: تاریخ حیات: نگاهی به الگوها
 Date: 2020-01-01 00:02
 Category: فصل اول: الگوها
 Slug: patterns 
-Author: Morteza Ghorbani Kari
+Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
 ------
@@ -20,7 +20,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [⟶ مطلب قبلی]({filename}../chapters/001-introduction_to_evolution.markdown) | [مطلب بعدی ⟵]({filename}../chapters/102-the_family_tree.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/000-introduction_to_evolution.markdown) | [مطلب بعدی ⟵]({filename}../chapters/101-the_family_tree.markdown) 
         </b>
     </font>
 </center>

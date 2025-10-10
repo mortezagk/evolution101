@@ -4,4 +4,3 @@ Disallow:
 Crawl-delay: 120
 Disallow: /images/
 Disallow: /theme/
-Sitemap: https://www.evolution101.ir/sitemap.xml

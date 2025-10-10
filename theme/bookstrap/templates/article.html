@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block title %}{{ article.title }}{% endblock %}
+{% block body_attrs %}{% if article.category %}data-category-slug="{{ article.category.slug }}"{% endif %}{% endblock %}
 {% block content %}
 <section id="content">
         <article>

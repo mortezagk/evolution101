@@ -2,7 +2,7 @@ Title: به فرگشت ۱۰۱ خوش آمدید!
 save_as: index.html
 Date: 2020-01-01 00:00
 Slug: index
-Author: Morteza Ghorbani Kari
+Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
 ------
@@ -22,11 +22,11 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 **می‌توانید فصل‌های کتاب را از طریق لینک‌های زیر مطالعه کنید:**
 
-### [مقدمه]({filename}../chapters/001-introduction_to_evolution.markdown/)
+### [مقدمه]({filename}../chapters/000-introduction_to_evolution.markdown/)
 
 - تعریف و توضیح فرگشت به صورت خلاصه
 <br>
-### [فصل اول: الگوها]({filename}../chapters/101-looking-at-the-patterns.markdown/)
+### [فصل اول: الگوها]({filename}../chapters/100-looking-at-the-patterns.markdown/)
 
 - چگونه فرگشت منجر به شکل‌گیری درخت حیات می‌شود؟
 <br>

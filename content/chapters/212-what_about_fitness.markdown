@@ -2,7 +2,7 @@ Title: در مورد سازواری
 Date: 2020-01-01 00:24
 Category: فصل دوم: سازوکارها
 Slug: about-fitness
-Author: Morteza Ghorbani Kari
+Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
 ------

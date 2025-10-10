@@ -2,7 +2,7 @@ Title: درخت خانوادگی
 Date: 2020-01-01 00:03
 Category: فصل اول: الگوها
 Slug: family-tree 
-Author: Morteza Ghorbani Kari
+Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
 ------
@@ -39,7 +39,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [⟶ مطلب قبلی]({filename}../chapters/101-looking-at-the-patterns.markdown) | [مطلب بعدی ⟵]({filename}../chapters/103-understanding_phylogenies.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/100-looking-at-the-patterns.markdown) | [مطلب بعدی ⟵]({filename}../chapters/102-understanding_phylogenies.markdown) 
         </b>
     </font>
 </center>

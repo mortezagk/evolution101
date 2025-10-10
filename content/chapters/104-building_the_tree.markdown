@@ -2,7 +2,7 @@ Title: ساختن درخت
 Date: 2020-01-01 00:06
 Category: فصل اول: الگوها
 Slug: building-the-tree
-Author: Morteza Ghorbani Kari
+Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
 ------
@@ -36,7 +36,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [⟶ مطلب قبلی]({filename}../chapters/104-trees_not_ladders.markdown) | [مطلب بعدی ⟵]({filename}../chapters/106-homologies_and_analogies.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/103-trees_not_ladders.markdown) | [مطلب بعدی ⟵]({filename}../chapters/105-homologies_and_analogies.markdown) 
         </b>
     </font>
 </center>

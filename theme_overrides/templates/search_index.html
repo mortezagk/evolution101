@@ -1,0 +1,30 @@
+{% set baseurl = SITEURL.rstrip('/') if SITEURL else '' %}{
+  "items": [
+  {%- for article in articles %}
+    {%- if RELATIVE_URLS -%}
+      {%- set article_url = article.url -%}
+    {%- else -%}
+      {%- set article_url = (baseurl ~ '/' if baseurl else '/') ~ article.url -%}
+    {%- endif -%}
+    {
+      "title": {{ article.title|striptags|tojson }},
+      "url": {{ article_url|tojson }},
+      "summary": {{ (article.summary or article.content)|striptags|truncate(220, True, '…')|tojson }},
+      "category": {{ article.category.name|default('')|tojson }}
+    }{%- if not loop.last or pages %},{% endif %}
+  {%- endfor %}
+  {%- for page in pages if page.slug != 'search' %}
+    {%- if RELATIVE_URLS -%}
+      {%- set page_url = page.url -%}
+    {%- else -%}
+      {%- set page_url = (baseurl ~ '/' if baseurl else '/') ~ page.url -%}
+    {%- endif -%}
+    {
+      "title": {{ page.title|striptags|tojson }},
+      "url": {{ page_url|tojson }},
+      "summary": {{ page.content|striptags|truncate(220, True, '…')|tojson }},
+      "category": "page"
+    }{%- if not loop.last %},{% endif %}
+  {%- endfor %}
+  ]
+}

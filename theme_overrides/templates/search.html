@@ -1,0 +1,131 @@
+{% extends 'page.html' %}
+
+{% block content %}
+<h1 class="page-title">{{ page.title }}</h1>
+<div class="search-wrapper">
+  <form id="site-search-form" class="form-inline" role="search">
+    <div class="input-append">
+      <input type="search" name="q" id="site-search-input" placeholder="چی را می‌خواهید پیدا کنید؟" required>
+      <button type="submit" class="btn btn-primary">جستجو</button>
+    </div>
+  </form>
+  <p class="muted" id="site-search-hint">برای آغاز، عبارتی را جستجو کنید.</p>
+  <div id="site-search-results" class="well" dir="rtl"></div>
+</div>
+{% if page.content %}
+<div class="page-content">{{ page.content }}</div>
+{% endif %}
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const SEARCH_INDEX_URL = '{{ SEARCH_INDEX_URL }}';
+  const form = document.getElementById('site-search-form');
+  const input = document.getElementById('site-search-input');
+  const hint = document.getElementById('site-search-hint');
+  const results = document.getElementById('site-search-results');
+  let index = [];
+  let loading = false;
+  let failed = false;
+
+  function renderResults(query) {
+    const term = query.trim().toLowerCase();
+    if (!term) {
+      results.innerHTML = '';
+      hint.textContent = 'برای آغاز، عبارتی را جستجو کنید.';
+      hint.style.display = 'block';
+      return;
+    }
+
+    const matches = index.filter(item => {
+      return (
+        item.title.toLowerCase().includes(term) ||
+        item.summary.toLowerCase().includes(term)
+      );
+    });
+
+    hint.style.display = 'none';
+
+    if (matches.length === 0) {
+      results.innerHTML = '<p>هیچ نتیجه‌ای یافت نشد.</p>';
+      return;
+    }
+
+    const list = document.createElement('ul');
+    list.className = 'unstyled';
+
+    matches.forEach(item => {
+      const li = document.createElement('li');
+      li.className = 'search-result-item';
+      const link = document.createElement('a');
+      link.href = item.url;
+      link.textContent = item.title;
+      link.dir = 'rtl';
+
+      const summary = document.createElement('p');
+      summary.textContent = item.summary;
+      summary.className = 'muted';
+
+      li.appendChild(link);
+      li.appendChild(summary);
+      list.appendChild(li);
+    });
+
+    results.innerHTML = '';
+    results.appendChild(list);
+  }
+
+  function loadIndex() {
+    if (index.length || loading) {
+      return Promise.resolve(index);
+    }
+    loading = true;
+    hint.textContent = 'در حال آماده‌سازی فهرست جستجو…';
+    return fetch(SEARCH_INDEX_URL)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Search index fetch failed');
+        }
+        return response.json();
+      })
+      .then(data => {
+        index = (data.items || []).map(item => ({
+          title: item.title || '',
+          summary: item.summary || '',
+          url: item.url || '#'
+        }));
+        return index;
+      })
+      .catch(error => {
+        console.error(error);
+        hint.textContent = 'بارگذاری فهرست جستجو با خطا مواجه شد.';
+        failed = true;
+        throw error;
+      })
+      .finally(() => {
+        loading = false;
+      });
+  }
+
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    loadIndex().then(() => renderResults(input.value));
+  });
+
+  input.addEventListener('input', function () {
+    const value = input.value;
+    if (!index.length && !loading && !failed) {
+      loadIndex().then(() => renderResults(value));
+      return;
+    }
+    if (failed) {
+      return;
+    }
+    renderResults(value);
+  });
+
+  if (location.protocol !== 'file:') {
+    loadIndex().catch(() => {});
+  }
+});
+</script>
+{% endblock content %}

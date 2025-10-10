@@ -2,7 +2,7 @@ Title: سازوکارها: شیوه‌های عملکرد فرگشت
 Date: 2020-01-01 00:12
 Category: فصل دوم: سازوکارها
 Slug: mechanisms
-Author: Morteza Ghorbani Kari
+Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
 ------
@@ -23,7 +23,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center>
     <font size="4">
         <b>
-            [⟶ مطلب قبلی]({filename}../chapters/110-important_events_in_the_history_of_life.markdown) | [مطلب بعدی ⟵]({filename}../chapters/201-descent_with_modification.markdown) 
+            [⟶ مطلب قبلی]({filename}../chapters/109-important_events_in_the_history_of_life.markdown) | [مطلب بعدی ⟵]({filename}../chapters/201-descent_with_modification.markdown) 
         </b>
     </font>
 </center>

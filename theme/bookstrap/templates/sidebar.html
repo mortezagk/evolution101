@@ -1,19 +1,13 @@
 <ul class="nav nav-list">
-    <li class="nav-header">
-      <h4><i class="icon-info-sign icon-large"></i></h4>
-    </li>
     <li>
       <ul>
         <li>
           <a href="{{ SITEURL }}/pages/about.html">درباره</a>
         </li>
         <li>
-          <a href="{{ SITEURL }}/pages/support.html">حمایت</a>
+          <a href="{{ SITEURL }}/pages/search.html">جستجو</a>
         </li>
       </ul>
-    </li>
-    <li class="nav-header">
-      <h4><i class="icon-search icon-large"></i>لینک‌ها</h4>
     </li>
     {% include 'search_sidebar.html' %}
 
@@ -22,19 +16,25 @@
     </li>
     <li>
       <ul>
+        {% set current_category = category if category is defined else None %}
         {% for category, articles in categories %}
-          <li>
-            <a><font size="4" color="#00547e"><i class="icon-folder-open"></i><b>{{ category }}</b></font></a>
-          </li>
-          <li>
-            <ul>
-              {% for article in articles %}
+          {% set category_slug = category.slug if category.slug is defined else category|string %}
+          {% set group_id = 'cat-' ~ loop.index %}
+          {% set is_active_group = current_category and (category == current_category or category_slug == current_category.slug) %}
+          {% set sorted_articles = articles|sort(attribute='section_index') %}
+          <li class="category-group{% if is_active_group %} is-open{% endif %}" data-category-slug="{{ category_slug }}">
+            <div class="category-header">
+              <a class="category-link category-toggle" href="#" role="button" aria-controls="sidebar-{{ group_id }}" aria-expanded="{% if is_active_group %}true{% else %}false{% endif %}">
+                <span class="category-title">{{ category|persian_digits }}</span>
+              </a>
+            </div>
+            <ul id="sidebar-{{ group_id }}" class="category-articles{% if not is_active_group %} is-collapsed{% endif %}">
+              {% for article in sorted_articles %}
               <li>
-                <font size="3">
-                  <a href="{{ SITEURL }}/{{ article.url }}">
-                      <i class="icon-bookmark"></i>{{ article.title }}
-                  </a>
-                </font>
+                <a href="{{ SITEURL }}/{{ article.url }}">
+                  {% if article.section_index %}<span class="category-article-index">{{ (article.section_index|int + 1)|persian_digits }}</span>{% endif %}
+                  <span class="category-article-title">{{ article.title|persian_digits }}</span>
+                </a>
               </li>
               {% endfor %}
             </ul>

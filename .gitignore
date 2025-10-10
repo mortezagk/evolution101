@@ -14,3 +14,4 @@ pelican.pid
 publishconf.py
 .idea
 .venv
+_build

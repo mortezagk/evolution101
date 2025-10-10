@@ -1,2 +1,32 @@
 {% extends "index.html" %}
-{% block title %}{{ SITENAME }} - {{ category }}{% endblock %}
+{% block title %}{{ SITENAME }} - {{ category|persian_digits }}{% endblock %}
+
+{% block body_attrs %}data-category-slug="{{ category.slug }}"{% endblock %}
+
+{% block content %}
+<h1 class="page-title">{{ category|persian_digits }}</h1>
+
+{% if category.description %}
+<div class="category-description">{{ category.description }}</div>
+{% endif %}
+
+{% set articles_in_category = category.articles | default([]) %}
+
+{% if articles_in_category %}
+<ul class="category-article-list">
+	{% for article in articles_in_category|sort(attribute='section_index') %}
+	<li>
+		<a href="{{ SITEURL }}/{{ article.url }}">
+			{% if article.section_index %}{{ article.section_index|int|persian_digits }} &mdash; {% endif %}{{ article.title|persian_digits }}
+		</a>
+		{% if article.summary %}
+		<p class="muted">{{ article.summary|striptags }}</p>
+		{% endif %}
+	</li>
+	{% endfor %}
+</ul>
+{% else %}
+<p>در حال حاضر محتوایی برای این فصل منتشر نشده است.</p>
+{% endif %}
+
+{% endblock content %}
