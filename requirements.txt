@@ -3,7 +3,7 @@ docutils==0.20.1
 feedgenerator==2.1.0
 Jinja2==3.1.6
 Markdown==3.10
-MarkupSafe==2.1.5
+MarkupSafe==3.0.3
 pelican==4.11.0.post0
 pip==24.2
 Pygments==2.19.2
