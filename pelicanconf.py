@@ -92,9 +92,10 @@ MARKDOWN = {
         'markdown.extensions.codehilite': {
             'css_class': 'highlight',},
         'markdown.extensions.extra': {},
+        'markdown.extensions.md_in_html': {},
         'markdown.extensions.meta': {},
         'markdown.extensions.toc': {
-            'permalink': '¶',
+            'permalink': '',
             'title': 'فهرست'},},
         # optionally, more extensions,
         # e.g. markdown.extensions.meta
