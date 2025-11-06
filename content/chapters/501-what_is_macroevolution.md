@@ -1,5 +1,5 @@
 Title: فرگشت کلان چیست؟
-Date: 2020-01-01 00:43
+Date: 2025-11-06 00:43
 Category: فصل پنجم: فرگشت کلان
 Slug: what-is-macroevolution
 Author: mortezagk

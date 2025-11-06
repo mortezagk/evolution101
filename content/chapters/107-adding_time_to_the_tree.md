@@ -1,5 +1,5 @@
 Title: اضافه‌ کردن زمان به درخت
-Date: 2020-01-01 00:09
+Date: 2025-11-06 00:09
 Category: فصل اول: الگوها
 Slug: adding-time
 Author: mortezagk

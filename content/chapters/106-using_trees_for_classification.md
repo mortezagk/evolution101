@@ -1,5 +1,5 @@
 Title: استفاده از درخت برای رده‌بندی
-Date: 2020-01-01 00:08
+Date: 2025-11-06 00:08
 Category: فصل اول: الگوها
 Slug: using-trees
 Author: mortezagk

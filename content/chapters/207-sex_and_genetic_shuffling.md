@@ -1,5 +1,5 @@
 Title: سکس و بُرخوردگی ژنتیکی
-Date: 2020-01-01 00:19
+Date: 2025-11-06 00:19
 Category: فصل دوم: سازوکارها
 Slug: sex-and-genetic-shuffling
 Author: mortezagk

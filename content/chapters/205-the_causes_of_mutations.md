@@ -1,5 +1,5 @@
 Title: عوامل جهش
-Date: 2020-01-01 00:17
+Date: 2025-11-06 00:17
 Category: فصل دوم: سازوکارها
 Slug: causes-of-mutations
 Author: mortezagk

@@ -1,5 +1,5 @@
 Title: درک فیلوژنی‌ها
-Date: 2020-01-01 00:04
+Date: 2025-11-06 00:04
 Category: فصل اول: الگوها
 Slug: understanding-phylogenies
 Author: mortezagk

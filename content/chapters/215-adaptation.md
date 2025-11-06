@@ -1,5 +1,5 @@
 Title: سازگاری
-Date: 2020-01-01 00:27
+Date: 2025-11-06 00:27
 Category: فصل دوم: سازوکارها
 Slug: adaptation
 Author: mortezagk

@@ -1,5 +1,5 @@
 Title: سازوکارهای تغییر
-Date: 2020-01-01 00:14
+Date: 2025-11-06 00:14
 Category: فصل دوم: سازوکارها
 Slug: mechanisms-of-change
 Author: mortezagk

@@ -1,5 +1,5 @@
 Title: جریان ژن
-Date: 2020-01-01 00:18
+Date: 2025-11-06 00:18
 Category: فصل دوم: سازوکارها
 Slug: gene-flow
 Author: mortezagk

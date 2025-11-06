@@ -1,5 +1,5 @@
 Title: انتخاب جنسی
-Date: 2020-01-01 00:25
+Date: 2025-11-06 00:25
 Category: فصل دوم: سازوکارها
 Slug: sexual-selection
 Author: mortezagk

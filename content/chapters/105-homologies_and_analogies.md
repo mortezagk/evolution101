@@ -1,5 +1,5 @@
 Title: هومولوژی و آنالوژی
-Date: 2020-01-01 00:07
+Date: 2025-11-06 00:07
 Category: فصل اول: الگوها
 Slug: homologies-and-analogies
 Author: mortezagk

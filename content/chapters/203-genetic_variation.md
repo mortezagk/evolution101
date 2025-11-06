@@ -1,5 +1,5 @@
 Title: تنوع ژنتیکی
-Date: 2020-01-01 00:15
+Date: 2025-11-06 00:15
 Category: فصل دوم: سازوکارها
 Slug: genetic-variation
 Author: mortezagk

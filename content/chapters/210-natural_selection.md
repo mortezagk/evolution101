@@ -1,5 +1,5 @@
 Title: انتخاب طبیعی
-Date: 2020-01-01 00:22
+Date: 2025-11-06 00:22
 Category: فصل دوم: سازوکارها
 Slug: natural-selection
 Author: mortezagk

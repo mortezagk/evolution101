@@ -1,5 +1,5 @@
 Title: درخت خانوادگی
-Date: 2020-01-01 00:03
+Date: 2025-11-06 00:03
 Category: فصل اول: الگوها
 Slug: family-tree 
 Author: mortezagk

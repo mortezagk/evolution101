@@ -1,5 +1,5 @@
 Title: ساختن درخت
-Date: 2020-01-01 00:06
+Date: 2025-11-06 00:06
 Category: فصل اول: الگوها
 Slug: building-the-tree
 Author: mortezagk

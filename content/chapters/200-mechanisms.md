@@ -1,5 +1,5 @@
 Title: سازوکارها: شیوه‌های عملکرد فرگشت
-Date: 2020-01-01 00:12
+Date: 2025-11-06 00:12
 Category: فصل دوم: سازوکارها
 Slug: mechanisms
 Author: mortezagk

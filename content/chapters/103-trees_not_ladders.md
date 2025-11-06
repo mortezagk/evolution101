@@ -1,5 +1,5 @@
 Title: درخت، نه نردبان!
-Date: 2020-01-01 00:05
+Date: 2025-11-06 00:05
 Category: فصل اول: الگوها
 Slug: trees-not-ladders
 Author: mortezagk

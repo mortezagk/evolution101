@@ -1,5 +1,5 @@
 Title: رویدادهای مهم در تاریخ حیات
-Date: 2020-01-01 00:11
+Date: 2025-11-06 00:11
 Category: فصل اول: الگوها
 Slug: important-events
 Author: mortezagk

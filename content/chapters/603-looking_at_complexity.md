@@ -1,5 +1,5 @@
 Title: نگاهی به پیچیدگی
-Date: 2020-01-01 00:48
+Date: 2025-11-06 00:48
 Category: فصل ششم: مسائل مهم
 Slug: looking-at-complexity
 Author: mortezagk

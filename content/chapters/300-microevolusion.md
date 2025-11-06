@@ -1,5 +1,5 @@
 Title: فرگشت خُرد
-Date: 2020-01-01 00:31
+Date: 2025-11-06 00:31
 Category: فصل سوم: فرگشت خُرد
 Slug: microevolution
 Author: mortezagk

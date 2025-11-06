@@ -1,5 +1,5 @@
 Title: از کجا می‌دانیم چه چیزی چه زمانی اتفاق افتاده؟
-Date: 2020-01-01 00:10
+Date: 2025-11-06 00:10
 Category: فصل اول: الگوها
 Slug: what-happened-when
 Author: mortezagk

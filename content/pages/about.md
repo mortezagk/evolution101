@@ -1,5 +1,5 @@
 Title: درباره / About
-Date: 2025-11-06 2:00
+Date: 2025-11-06 00:00
 Slug: about
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
@@ -28,7 +28,8 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 - مرجع اصلی مطالب [Understanding Evolution](https://evolution.berkeley.edu/evolution-101/) است.
 - تصویر و فونت لوگو از جلد شمارهٔ سپتامبر ۲۰۱۴ نشریهٔ Scientific American وام گرفته شده.
 - این سایت از قالبی که [جادی](http://jadi.ir/) برای «[راهنمای دوچرخه](http://bikezen.ir/)» شخصی‌سازی کرده بود استفاده می‌کند. از این بابت از جادی متشکرم.
-- در این اثر از فونت آزاد ساحل (طراحی شده توسط [صابر راستی کردار](https://rastikerdar.github.io/)) استفاده شده است.
+- در این اثر از فونت آزاد ساحل (اثری از [صابر راستی‌کردار](https://rastikerdar.github.io/)) استفاده شده است.
+- این وب‌سایت با [Pelican](https://blog.getpelican.com/) و [Python](http://python.org) ساخته شده است.
 
 ------
 ## مشارکت
@@ -64,9 +65,10 @@ This translation (as a derivative work) is licensed under the [Creative Commons 
 ## Other Credits
 
 - The primary reference for the content is [Understanding Evolution](https://evolution.berkeley.edu/evolution-101/).
-- The logo image and font are borrowed from the cover of the September 2014 issue of Scientific American.
-- This site uses a theme that [Jadi](http://jadi.ir/) customized for his "[Bike Zen Guide](http://bikezen.ir/)". Many thanks to Jadi for this.
-- This work uses the open-source [Sahel Font](https://rastikerdar.github.io/) (designed by Saber Rastikerdar).
+- The logo image and font are adapted from the cover of the September 2014 issue of Scientific American.
+- This site uses a theme that [Jadi](http://jadi.ir/) customized for his "[BikeZen](http://bikezen.ir/)". Many thanks to Jadi for this.
+- This work uses the open-source Sahel Font, designed by [Saber Rastikerdar](https://rastikerdar.github.io/).
+- This website is built with [Pelican](https://blog.getpelican.com/) and [Python](http://python.org).
 
 ------
 ## Contribution

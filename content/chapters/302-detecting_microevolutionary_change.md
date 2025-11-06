@@ -1,5 +1,5 @@
 Title: شناسایی تغییر فرگشتی خرد
-Date: 2020-01-01 00:33
+Date: 2025-11-06 00:33
 Category: فصل سوم: فرگشت خُرد
 Slug: detecting-microevolution
 Author: mortezagk

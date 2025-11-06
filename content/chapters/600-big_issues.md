@@ -1,5 +1,5 @@
 Title: مسائل مهم
-Date: 2020-01-01 00:45
+Date: 2025-11-06 00:45
 Category: فصل ششم: مسائل مهم
 Slug: big-issues
 Author: mortezagk

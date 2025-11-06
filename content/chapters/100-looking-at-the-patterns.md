@@ -1,5 +1,5 @@
 Title: تاریخ حیات: نگاهی به الگوها
-Date: 2020-01-01 00:02
+Date: 2025-11-06 00:02
 Category: فصل اول: الگوها
 Slug: patterns 
 Author: mortezagk

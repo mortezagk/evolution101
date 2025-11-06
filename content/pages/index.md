@@ -1,6 +1,6 @@
 Title: به فرگشت ۱۰۱ خوش آمدید!
 save_as: index.html
-Date: 2025-11-06 2:00
+Date: 2025-11-06 00:00
 Slug: index
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی

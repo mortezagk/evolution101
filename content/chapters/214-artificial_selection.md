@@ -1,5 +1,5 @@
 Title: انتخاب مصنوعی
-Date: 2020-01-01 00:26
+Date: 2025-11-06 00:26
 Category: فصل دوم: سازوکارها
 Slug: artificial-selection
 Author: mortezagk

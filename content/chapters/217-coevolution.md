@@ -1,5 +1,5 @@
 Title: هم‌فرگشتی
-Date: 2020-01-01 00:29
+Date: 2025-11-06 00:29
 Category: فصل دوم: سازوکارها
 Slug: coevolution
 Author: mortezagk

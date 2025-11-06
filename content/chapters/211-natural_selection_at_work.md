@@ -1,5 +1,5 @@
 Title: انتخاب طبیعی در عمل
-Date: 2020-01-01 00:23
+Date: 2025-11-06 00:23
 Category: فصل دوم: سازوکارها
 Slug: natural-selection-at-work
 Author: mortezagk

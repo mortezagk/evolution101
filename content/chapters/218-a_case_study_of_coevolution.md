@@ -1,5 +1,5 @@
 Title: یک مطالعهٔ موردی در هم‌فرگشتی
-Date: 2020-01-01 00:30
+Date: 2025-11-06 00:30
 Category: فصل دوم: سازوکارها
 Slug: case-study-in-coevolution
 Author: mortezagk

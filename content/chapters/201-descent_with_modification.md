@@ -1,5 +1,5 @@
 Title: وراثت همراه با تغییر
-Date: 2020-01-01 00:13
+Date: 2025-11-06 00:13
 Category: فصل دوم: سازوکارها
 Slug: descent-with-modification
 Author: mortezagk

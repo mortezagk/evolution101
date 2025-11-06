@@ -1,5 +1,5 @@
 Title: رشد
-Date: 2020-01-01 00:20
+Date: 2025-11-06 00:20
 Category: فصل دوم: سازوکارها
 Slug: development
 Author: mortezagk

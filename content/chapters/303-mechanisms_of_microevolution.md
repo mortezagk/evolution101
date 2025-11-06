@@ -1,5 +1,5 @@
 Title: سازوکارهای فرگشت خُرد
-Date: 2020-01-01 00:34
+Date: 2025-11-06 00:34
 Category: فصل سوم: فرگشت خُرد
 Slug: mechanisms-of-microevolution
 Author: mortezagk

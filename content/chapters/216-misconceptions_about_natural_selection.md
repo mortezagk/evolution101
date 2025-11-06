@@ -1,5 +1,5 @@
 Title: تصورات غلط در مورد انتخاب طبیعی
-Date: 2020-01-01 00:28
+Date: 2025-11-06 00:28
 Category: فصل دوم: سازوکارها
 Slug: misconceptions
 Author: mortezagk

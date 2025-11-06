@@ -1,5 +1,5 @@
 Title: رانش ژن
-Date: 2020-01-01 00:21
+Date: 2025-11-06 00:21
 Category: فصل دوم: سازوکارها
 Slug: genetic-drift
 Author: mortezagk

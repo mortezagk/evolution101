@@ -1,5 +1,5 @@
 Title: مقدمه‌ای بر فرگشت
-Date: 2020-01-01 00:01
+Date: 2025-11-06 00:01
 Category: مقدمه
 Slug: introdution
 Author: mortezagk

@@ -1,5 +1,5 @@
 Title: علل گونه‌زایی
-Date: 2020-01-01 00:38
+Date: 2025-11-06 00:38
 Category: فصل چهارم: گونه‌زایی
 Slug: causes-of-speciation
 Author: mortezagk

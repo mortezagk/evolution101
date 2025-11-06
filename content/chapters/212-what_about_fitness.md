@@ -1,5 +1,5 @@
 Title: در مورد سازواری
-Date: 2020-01-01 00:24
+Date: 2025-11-06 00:24
 Category: فصل دوم: سازوکارها
 Slug: about-fitness
 Author: mortezagk

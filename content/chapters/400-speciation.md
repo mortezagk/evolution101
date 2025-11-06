@@ -1,5 +1,5 @@
 Title: گونه‌زایی
-Date: 2020-01-01 00:35
+Date: 2025-11-06 00:35
 Category: فصل چهارم: گونه‌زایی
 Slug: speciation
 Author: mortezagk
