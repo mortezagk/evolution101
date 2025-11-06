@@ -19,16 +19,16 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 در جریان فرایندِ «وراثت همراه با تغییر»، نیای مشترکِ حیات روی زمین موجب تنوع خارق‌العاده‌ای شده که امروزه به طور مستند در آثار فسیلی و اطرافمان می‌بینیم. فرگشت یعنی همهٔ ما عموزاده‌های دور هستیم: انسان‌ها و درختان بلوط، مگس‌مرغ‌ها و نهنگ‌ها.
 
 ![تغییر رنگ برگ درختان]({static}/images/2-1.gif)
-<center>برگ‌های درختان طی چند هفته تغییر رنگ داده و می‌ریزد.</center>
+<center markdown="1">برگ‌های درختان طی چند هفته تغییر رنگ داده و می‌ریزد.</center>
 
 ![فرسایش کوه‌ها]({static}/images/2-2.gif)
-<center>کوه‌ها طی میلیون‌ها سال فرسایش می‌یابد.</center>
+<center markdown="1">کوه‌ها طی میلیون‌ها سال فرسایش می‌یابد.</center>
 
 ![درخت خانوادگی]({static}/images/2-3.gif)
-<center>یک تبارشناسی، تغییر از طریق وراثت را طی سال‌های کمی نمایش می‌دهد.</center>
+<center markdown="1">یک تبارشناسی، تغییر از طریق وراثت را طی سال‌های کمی نمایش می‌دهد.</center>
 
 ![تغییر گونه‌ها]({static}/images/2-4.gif)
-<center>طی سال‌های زیاد، فرگشت تنوع چشمگیری در انواع حیات ایجاد می‌کند.</center>
+<center markdown="1">طی سال‌های زیاد، فرگشت تنوع چشمگیری در انواع حیات ایجاد می‌کند.</center>
 
 <br>
 
@@ -36,7 +36,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 [^۲]: Gene frequency
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [مطلب بعدی ⟵]({filename}../chapters/100-looking-at-the-patterns.md)

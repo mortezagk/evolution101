@@ -17,7 +17,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 سوال مهم این است که این اتفاق چگونه رخ داده است؟
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/301-defining_microevolution.md) | [مطلب بعدی ⟵]({filename}../chapters/303-mechanisms_of_microevolution.md) 

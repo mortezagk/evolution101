@@ -35,7 +35,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ![انتخاب طبیعی]({static}/images/39-4.gif)
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/302-detecting_microevolutionary_change.md) | [مطلب بعدی ⟵]({filename}../chapters/400-speciation.md) 

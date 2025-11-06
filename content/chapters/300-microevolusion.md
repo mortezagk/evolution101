@@ -15,7 +15,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 می‌توانیم با یک تعریف دقیق شروع کنیم.
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/218-a_case_study_of_coevolution.md) | [مطلب بعدی ⟵]({filename}../chapters/301-defining_microevolution.md) 

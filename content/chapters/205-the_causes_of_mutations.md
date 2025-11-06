@@ -21,7 +21,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ![رادیواکتیو]({static}/images/20-2.gif)
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/204-mutations.md) | [مطلب بعدی ⟵]({filename}../chapters/206-gene_flow.md) 

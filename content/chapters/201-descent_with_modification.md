@@ -31,7 +31,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 حالا باید بپرسیم، این اتفاق چگونه رخ می‌دهد؟
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/200-mechanisms.md) | [مطلب بعدی ⟵]({filename}../chapters/202-mechanisms_of_change.md) 

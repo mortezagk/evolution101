@@ -17,7 +17,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 [^۱]: Deep history
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/406-coespeciation.md) | [مطلب بعدی ⟵]({filename}../chapters/501-what_is_macroevolution.md) 

@@ -90,7 +90,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 </table>
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/108-how_do_we_know_what_happened_when.md) | [مطلب بعدی ⟵]({filename}../chapters/200-mechanisms.md) 

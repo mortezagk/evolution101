@@ -11,7 +11,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 همانطور که در ادامه مشاهده می‌کنید، کشاورزان محصولات زیادی را از خردل وحشی[^۲] کشت کرده‌اند، با انتخاب مصنوعی برای به‌دست آوردن ویژگی‌هایی خاص.
 
 ![انتخاب مصنوعی]({static}/images/30-1.jpg)
-<center>نام گیاهان از چپ-پایین (به صورت ساعت‌گرد):<br>
+<center markdown="1">نام گیاهان از چپ-پایین (به صورت ساعت‌گرد):<br>
 گل کلم، بروکلی، کلم، کلم پیچ، کلم قمری</center>
 
 این سبزیجاتِ رایج از انواع خردل وحشی کشت شده‌اند. این، فرگشت به واسطهٔ انتخاب مصنوعی است.
@@ -22,7 +22,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 [^۲]: Wild Mustard
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/213-sexual_selection.md) | [مطلب بعدی ⟵]({filename}../chapters/215-adaptation.md) 

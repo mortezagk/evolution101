@@ -15,7 +15,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ![فیلوژنی مهره‌داران]({static}/images/11-1.gif)
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/106-using_trees_for_classification.md) | [مطلب بعدی ⟵]({filename}../chapters/108-how_do_we_know_what_happened_when.md) 

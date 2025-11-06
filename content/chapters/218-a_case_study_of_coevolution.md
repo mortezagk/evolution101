@@ -12,7 +12,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 **بازیگران:** سنجاب قرمز[^۱]، پرندهٔ نوک‌ضربدری[^۲]، کاج Lodgepole
 
-<center>
+<center markdown="1">
     <table>
         <tr>
             <td><img src='{static}/images/34-1.jpg' alt="سنجاب"></td>
@@ -43,7 +43,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 این پیشگویی درست از کار درآمده. جایی که سنجاب‌ها حضور دارند، میوه‌های کاج سنگین‌تر هستند و دانه‌های کمتری دارند، ولی فلس‌های کم‌پشتی دارند (مثل تصویر چپ). جایی که فقط نوک‌ضربدری‌ها حضور دارند، میوه‌های کاج سبک‌تر هستند و دانه‌های بیشتری دارند، ولی فلس‌های پرپشتی دارند (مثل تصویر راست).
 
-<center>
+<center markdown="1">
     <table>
         <tr>
             <td><img src='{static}/images/35-2.jpg' alt="میوهٔ کاج"></td>
@@ -51,7 +51,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
         </tr>
     </table>
 </center>
-<center>
+<center markdown="1">
 راست: سازگاری یافته نسبت به نوک‌ضربدری‌ها، مناسب‌تر برای سنجاب‌ها<br>
 چپ: سازگاری یافته نسبت به سنجاب‌ها، مناسب‌تر برای نوک‌ضربدری‌ها
 </center>
@@ -60,7 +60,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 اگر نوک‌ضربدری‌ها در واکنش به درختان کاج فرگشت یافته باشند، باید تفاوت‌های جغرافیایی را در پرنده‌ها ببینیم: جایی که میوه‌های کاج فلس‌های پرپشتی دارند، پرنده‌ها باید منقارهای عمیق‌تر و کم انحنا‌تری داشته باشند (تصویر چپ) -در مقایسه با جاهایی که میوه‌های کاج فلس‌های کم‌پشتی دارند (تصویر راست). این پیشگویی هم درست از آب در آمده.
 
-<center>
+<center markdown="1">
     <table>
         <tr>
             <td><img src='{static}/images/35-4.jpg' alt="نوک‌ضربدری"></td>
@@ -68,7 +68,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
         </tr>
     </table>
 </center>
-<center>
+<center markdown="1">
 چپ: منقار این نوک‌ضربدری ماده کم انحناتر است<br>
 راست: منقار این نوک‌ضربدری نر انحنای بیشتری دارد
 </center>
@@ -85,7 +85,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 [^۶]: Coevolutionary Arms Race
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/217-coevolution.md) | [مطلب بعدی ⟵]({filename}../chapters/300-microevolusion.md) 

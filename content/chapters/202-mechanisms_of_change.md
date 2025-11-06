@@ -34,7 +34,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 خب، چه چیزهایی منشأ تنوع ژنتیکی هستند؟
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/201-descent_with_modification.md) | [مطلب بعدی ⟵]({filename}../chapters/203-genetic_variation.md) 

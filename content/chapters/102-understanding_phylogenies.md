@@ -40,7 +40,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 [^۲]: Common Ancestor: جاندارانِ نیاییِ مشترکِ دو یا چند نسبِ فرزند - به عبارت دیگر، یک نیا که نسب‌های فرزند در آن مشترکند. برای مثال، نیاکانِ مشترکِ یک خواهر و برادر شامل والدین، پدربزرگ‌ها و مادبزرگ‌هایشان است؛ نیاکان مشترک یک کایوت و یک گرگ شامل اولین سگ‌سان و اولین پستاندار است.
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/101-the_family_tree.md) | [مطلب بعدی ⟵]({filename}../chapters/103-trees_not_ladders.md) 

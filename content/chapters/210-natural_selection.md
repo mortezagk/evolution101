@@ -37,7 +37,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 اگر تنوع، تولیدمثل افتراقی و وراثت وجود داشته باشد، فرگشت به واسطهٔ انتخاب طبیعی حاصل خواهد شد. به همین سادگی.
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/209-genetic_drift.md) | [مطلب بعدی ⟵]({filename}../chapters/211-natural_selection_at_work.md) 

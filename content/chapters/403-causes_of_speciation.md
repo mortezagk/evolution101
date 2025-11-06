@@ -23,7 +23,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 در غیاب یک مانعِ جغرافیایی، حتی جریان ژنِ کاهش‌یافته در محدودهٔ زیست یک گونه می‌تواند به گونه‌زایی کمک کند.
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/402-defining_speciation.md) | [مطلب بعدی ⟵]({filename}../chapters/404-reproductive_isolation.md) 

@@ -11,7 +11,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ![جریان ژن]({static}/images/21-1.gif)
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/205-the_causes_of_mutations.md) | [مطلب بعدی ⟵]({filename}../chapters/207-sex_and_genetic_shuffling.md) 

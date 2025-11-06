@@ -43,7 +43,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 [^۱]: Courtship Display
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/401-defining_a_species.md) | [مطلب بعدی ⟵]({filename}../chapters/403-causes_of_speciation.md) 

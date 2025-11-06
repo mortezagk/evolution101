@@ -37,7 +37,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 [^۳]: Redback Spider
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/212-what_about_fitness.md) | [مطلب بعدی ⟵]({filename}../chapters/214-artificial_selection.md) 

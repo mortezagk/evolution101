@@ -58,7 +58,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 [^۲]: Niche
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/601-the_pace_of_evolution.md) | [مطلب بعدی ⟵]({filename}../chapters/603-looking_at_complexity.md) 

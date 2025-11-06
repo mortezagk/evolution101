@@ -31,7 +31,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 [^۵]: Carrion crows
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/400-speciation.md) | [مطلب بعدی ⟵]({filename}../chapters/402-defining_speciation.md) 

@@ -11,13 +11,13 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 هر کتاب دم‌دستی که دربارهٔ تاریخ طبیعی باشد با تمام‌صفحه‌هایی خوش رنگ و لعاب از انطباق‌های شگفت‌انگیزی که توسط انتخاب طبیعی ایجاد شده شما را غرق تفکر می‌کند، مثل نمونه‌های زیر.
 
 ![ارکید]({static}/images/26-1.jpg)
-<center>ارکیدها (Orchids) زنبورها را فریب داده و به جفتگیری با خود ترغیب می‌کنند.</center>
+<center markdown="1">ارکیدها (Orchids) زنبورها را فریب داده و به جفتگیری با خود ترغیب می‌کنند.</center>
 
 ![حشره]({static}/images/26-2.jpg)
-<center>حشرهٔ راست‌بال (Katydids) طوری استتار شده که شبیه برگ به نظر برسد.</center>
+<center markdown="1">حشرهٔ راست‌بال (Katydids) طوری استتار شده که شبیه برگ به نظر برسد.</center>
 
 ![مار]({static}/images/26-3.jpg)
-<center>شه‌مارِ (King snakes) غیر سمی به مار مرجانیِ (Coral snakes) سمی شبیه است.</center>
+<center markdown="1">شه‌مارِ (King snakes) غیر سمی به مار مرجانیِ (Coral snakes) سمی شبیه است.</center>
 
 شکل‌گیری رفتار نیز می‌تواند به واسطهٔ انتخاب طبیعی باشد. رفتارهایی مثل مناسک جفت‌گیری پرندگان، رقص زنبورها و استعداد انسان‌ها برای یادگیری زبان هم دارای مؤلفه‌های ژنتیکی هستند و در معرض انتخاب طبیعی. کودنِ[^۱] پاآبی مذکر در حرکت دادن پای خود اغراق می‌کند تا کودن مونث را جذب کند.
 
@@ -33,7 +33,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 [^۲]: Dark moths
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/210-natural_selection.md) | [مطلب بعدی ⟵]({filename}../chapters/212-what_about_fitness.md) 

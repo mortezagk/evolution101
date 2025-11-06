@@ -49,7 +49,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 [^۵]: Teenage Mutant Ninja Turtles
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/203-genetic_variation.md) | [مطلب بعدی ⟵]({filename}../chapters/205-the_causes_of_mutations.md) 

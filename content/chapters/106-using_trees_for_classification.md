@@ -43,7 +43,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 [^۹]: Cladogram
 
 ------
-<center>
+<center markdown="1">
     <font size="4">
         <b>
             [⟶ مطلب قبلی]({filename}../chapters/105-homologies_and_analogies.md) | [مطلب بعدی ⟵]({filename}../chapters/107-adding_time_to_the_tree.md) 
