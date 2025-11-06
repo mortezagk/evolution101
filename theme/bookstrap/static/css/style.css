@@ -272,7 +272,12 @@ footer address
 .entry-content table th:first-child,
 .entry-content table td:first-child {
 	text-align: center;
-	white-space: nowrap;
+	white-space: normal;
+}
+
+.entry-content table th,
+.entry-content table td {
+	word-break: break-word;
 }
 
 .entry-content table tbody tr:nth-child(even) {
