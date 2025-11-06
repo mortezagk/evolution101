@@ -35,12 +35,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 [^۱]: Creosote Bush
 [^۲]: Echolocation
 [^۳]: Vestigial Structures
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/214-artificial_selection.md) | [مطلب بعدی ⟵]({filename}../chapters/216-misconceptions_about_natural_selection.md) 
-        </b>
-    </font>
-</center>

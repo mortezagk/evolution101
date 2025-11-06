@@ -43,12 +43,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <br>
 
 [^۱]: Land plants
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/102-understanding_phylogenies.md) | [مطلب بعدی ⟵]({filename}../chapters/104-building_the_tree.md) 
-        </b>
-    </font>
-</center>

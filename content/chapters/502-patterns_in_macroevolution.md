@@ -42,12 +42,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 [^۱]: Coelacanths
 [^۲]: Trilobites
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/501-what_is_macroevolution.md) | [مطلب بعدی ⟵]({filename}../chapters/600-big_issues.md) 
-        </b>
-    </font>
-</center>

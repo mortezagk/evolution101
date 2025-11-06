@@ -20,12 +20,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 [^۱]: Artificial Selection
 [^۲]: Wild Mustard
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/213-sexual_selection.md) | [مطلب بعدی ⟵]({filename}../chapters/215-adaptation.md) 
-        </b>
-    </font>
-</center>

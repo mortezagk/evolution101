@@ -15,12 +15,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <br>
 
 [^۱]: Family Tree
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/000-introduction_to_evolution.md) | [مطلب بعدی ⟵]({filename}../chapters/101-the_family_tree.md) 
-        </b>
-    </font>
-</center>

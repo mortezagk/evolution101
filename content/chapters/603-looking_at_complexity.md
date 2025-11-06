@@ -37,12 +37,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center markdown="1">بالا-چپ: این دایناسورِ کوچک از خانوادهٔ Dromaesaur است.<br>
 بالا-راست: نقوش پر همراه با استخوان‌های دایناسور حفظ شده است. اینجا می‌توانیم پرها را روی ساعد ببینیم.<br>
 پایین: نمای نزدیکی از پرهای سرِ فسیل.</center>
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/602-diversity_in_clades.md) | [مطلب بعدی ⟵]({filename}../chapters/604-trends_in_evolution.md) 
-        </b>
-    </font>
-</center>

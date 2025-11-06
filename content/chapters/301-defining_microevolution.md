@@ -22,12 +22,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center markdown="1">در طبیعت توانایی تولیدمثل مرزهای یک جمعیت را مشخص می‌کند.</center>
 
 زیست‌شناسانی که در این سطح دربارهٔ فرگشت پژوهش می‌کنند، فرگشت را به عنوان تغییر در فراوانی ژن در یک جمعیت تعریف می‌کنند.
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/300-microevolusion.md) | [مطلب بعدی ⟵]({filename}../chapters/302-detecting_microevolutionary_change.md) 
-        </b>
-    </font>
-</center>

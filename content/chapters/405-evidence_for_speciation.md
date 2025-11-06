@@ -39,12 +39,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 [^۳]: Mexican Spotted Owl
 [^۴]: Ring species: گونه‌هایی منشعب از یک گونهٔ اولیه که توزیع جغرافیایی آنها یک حلقه‌ را تشکیل می‌دهد؛ گونه‌های همسایه در این حلقه می‌توانند با یکدیگر جفت‌گیری کنند. اما گونه‌هایی که در انتهای دو مسیر قرار دارند به علت تفاوت‌های زیاد ژنتیکی امکان جفت‌گیری موفقیت‌آمیز ندارند.
 [^۵]: Diane Dodd
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/404-reproductive_isolation.md) | [مطلب بعدی ⟵]({filename}../chapters/406-coespeciation.md) 
-        </b>
-    </font>
-</center>

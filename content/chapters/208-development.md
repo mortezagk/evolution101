@@ -37,12 +37,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 [^۱]: Embryo
 [^۲]: Genotype
 [^۳]: Morphology
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/207-sex_and_genetic_shuffling.md) | [مطلب بعدی ⟵]({filename}../chapters/209-genetic_drift.md) 
-        </b>
-    </font>
-</center>

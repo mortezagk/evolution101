@@ -33,12 +33,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 سوسک‌هایی که ژن‌های قهوه‌ای دارند از شکار شدن گریخته و بقا می‌یابند، و می‌توانند بیشتر از سوسک‌هایی که ژن‌های سبز دارند تولیدمثل کنند، در نتیجه مقدار بیشتری ژن قهوه‌ای به نسل بعد انتقال می‌یابد.
 
 ![انتخاب طبیعی]({static}/images/39-4.gif)
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/302-detecting_microevolutionary_change.md) | [مطلب بعدی ⟵]({filename}../chapters/400-speciation.md) 
-        </b>
-    </font>
-</center>

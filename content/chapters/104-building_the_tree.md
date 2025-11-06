@@ -31,12 +31,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 [^۲]: Amniotic egg
 [^۳]: Shared derived characters
 [^۴]: Four limbs
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/103-trees_not_ladders.md) | [مطلب بعدی ⟵]({filename}../chapters/105-homologies_and_analogies.md) 
-        </b>
-    </font>
-</center>

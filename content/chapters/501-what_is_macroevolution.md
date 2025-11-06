@@ -28,12 +28,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <br>
 
 [^۱]: Radiation: افزایش در تنوع تکسونومیک یا اختلافات ریخت‌شناختی، به دلیلِ تغییرات سازشی یا باز شدن فضای بوم‌شناختی.
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/500-macroevolution.md) | [مطلب بعدی ⟵]({filename}../chapters/502-patterns_in_macroevolution.md) 
-        </b>
-    </font>
-</center>

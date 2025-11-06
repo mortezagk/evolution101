@@ -15,12 +15,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 شما یک الگوی فرگشت خُرد را شناسایی کرده‌اید: یک تغییر در فراوانی ژن. تغییر در فراوانی ژن در طول زمان به این معناست که جمعیت فرگشت یافته است.
 
 سوال مهم این است که این اتفاق چگونه رخ داده است؟
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/301-defining_microevolution.md) | [مطلب بعدی ⟵]({filename}../chapters/303-mechanisms_of_microevolution.md) 
-        </b>
-    </font>
-</center>

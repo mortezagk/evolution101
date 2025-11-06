@@ -33,12 +33,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 [^۲]: Tetrapods: کلادی از حیوانات که شامل مهره‌دارانی با چهار اندام زیرین استوار (در مقایسه با باله) می‌شود.
 [^۳]: Analogous: شباهت به دلیلِ فرگشت همگرا، و نه به دلیلِ داشتن نیای مشترک. دو ویژگی وقتی آنالوگ هستند که دو نسب به صورت مستقل آنها را کسب کرده باشند.
 [^۴]: Convergent evolution: فرایندی که در آن دو نسبِ مجزا ویژگی مشابهی را به صورت مستقل کسب می‌کنند، معمولا زمانی اتفاق می‌افتد که هر دو نسب چالش‌های محیطی و فشارِ انتخابیِ مشابهی را تجربه کنند.
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/104-building_the_tree.md) | [مطلب بعدی ⟵]({filename}../chapters/106-using_trees_for_classification.md) 
-        </b>
-    </font>
-</center>

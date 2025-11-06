@@ -26,12 +26,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <center markdown="1">بررسیِ موازیِ فیلوژنیِ میزبان‌ها و انگل‌ها از شواهدِ گونه‌زایی موازی است.</center>
 
 البته این مثال تا اندازه‌ای آرمانی است -دانشمندان به ندرت میزبان‌ها و انگل‌هایی با فیلوژنی‌هایی کاملاً مطابق هم می‌یابند. اگرچه، فیلوژنی‌ها گاهی حاکی از این هستند که فرایند گونه‌زاییِ موازی با اندکی «تعویض میزبان» همراه بوده است.
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/405-evidence_for_speciation.md) | [مطلب بعدی ⟵]({filename}../chapters/500-macroevolution.md) 
-        </b>
-    </font>
-</center>

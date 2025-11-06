@@ -18,12 +18,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 - چگونه گونه‌های مختلف می‌توانند از طریقِ هم‌فرگشتی بر روی فرگشتِ یکدیگر تاثیر بگذارند.
 
 ![سازوکارها]({static}/images/14-1.gif)
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/109-important_events_in_the_history_of_life.md) | [مطلب بعدی ⟵]({filename}../chapters/201-descent_with_modification.md) 
-        </b>
-    </font>
-</center>

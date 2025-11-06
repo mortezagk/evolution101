@@ -17,12 +17,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <br>
 
 [^۱]: Adaptation: یک خصوصیت که به دلیل کاراییِ فعلیِ خود ،توسط انتخاب طبیعی، ایجاد شده است.
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/208-development.md) | [مطلب بعدی ⟵]({filename}../chapters/210-natural_selection.md) 
-        </b>
-    </font>
-</center>

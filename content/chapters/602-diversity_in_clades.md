@@ -56,12 +56,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 [^۱]: Specialization: گونه‌های specialist فقط می‌توانند در شرایط زیست‌محیطی یا با رژیم غذایی خاصی به زیست خود ادامه دهند.
 [^۲]: Niche
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/601-the_pace_of_evolution.md) | [مطلب بعدی ⟵]({filename}../chapters/603-looking_at_complexity.md) 
-        </b>
-    </font>
-</center>

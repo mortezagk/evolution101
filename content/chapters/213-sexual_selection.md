@@ -35,12 +35,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 [^۱]: Elephant Seals
 [^۲]: Mormon Cricket
 [^۳]: Redback Spider
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/212-what_about_fitness.md) | [مطلب بعدی ⟵]({filename}../chapters/214-artificial_selection.md) 
-        </b>
-    </font>
-</center>

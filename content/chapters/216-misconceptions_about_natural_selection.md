@@ -22,12 +22,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ![فرگشت اینگونه عمل نمی‌کند.]({static}/images/32-2.gif)
 <center markdown="1">«چیزی که نیاز دارم یک کتِ خز حسابیه!»<br>
 <b>فرگشت اینگونه عمل نمی‌کند.</b></center>
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/215-adaptation.md) | [مطلب بعدی ⟵]({filename}../chapters/217-coevolution.md) 
-        </b>
-    </font>
-</center>

@@ -13,12 +13,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ![سکس]({static}/images/22-1.gif)
 
 بُرخوردگی برای فرگشت مهم است، چون می‌تواند در هر نسل ترکیباتِ ژنتیکی جدیدی ایجاد کند. اگرچه، این فرایند همچنین می‌تواند بعضی ترکیباتِ ژنتیکیِ «خوب» را از بین ببرد.
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/206-gene_flow.md) | [مطلب بعدی ⟵]({filename}../chapters/208-development.md) 
-        </b>
-    </font>
-</center>

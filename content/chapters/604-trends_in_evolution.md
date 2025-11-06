@@ -33,12 +33,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 **و ما برگی هستیم از برگ‌های بسیارِ این درخت.**
 
 ![برگی از برگ‌های بسیارِ این درخت]({static}/images/54-5.gif)
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/603-looking_at_complexity.md)
-        </b>
-    </font>
-</center>

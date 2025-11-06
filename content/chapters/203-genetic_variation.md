@@ -18,12 +18,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 ![بُرخوردگیِ ژنتیکی]({static}/images/17-1.gif)
 <center markdown="1">بُرخوردگیِ ژنتیکی یک منشأ برای تنوع ژنتیکی است.</center>
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/202-mechanisms_of_change.md) | [مطلب بعدی ⟵]({filename}../chapters/204-mutations.md) 
-        </b>
-    </font>
-</center>

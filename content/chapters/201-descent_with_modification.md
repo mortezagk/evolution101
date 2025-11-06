@@ -29,12 +29,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 تغییر رنگ در مثال دوم به طور قطع فرگشت است: این دو نسل که از یک جمعیتِ یکسان هستند، از لحاظ ژنتیکی با هم متفاوتند.
 
 حالا باید بپرسیم، این اتفاق چگونه رخ می‌دهد؟
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/200-mechanisms.md) | [مطلب بعدی ⟵]({filename}../chapters/202-mechanisms_of_change.md) 
-        </b>
-    </font>
-</center>

@@ -13,15 +13,9 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 البته، سازواری یک موضوع نسبی است. سازواریِ یک ژنوتیپ به محیط زیستی که جاندار در آن زندگی می‌کند بستگی دارد. برای مثال، ژنوتیپی که در عصر یخبندان سازوارترین است، احتمالاً پس از پایان این دوره دیگر سازوارترین ژنوتیپ نخواهد بود.
 
-<center markdown="1">
-    <table>
-        <tr>
-            <td><img src='{static}/images/27-2.jpg' alt="نگهداری از فرزند"></td>
-            <td><img src='{static}/images/27-3.jpg' alt="زاییدن هزاران فرزند"></td>
-            <td><img src='{static}/images/27-4.jpg' alt="به رخ کشیدنِ پرها"></td>
-        </tr>
-    </table>
-</center>
+| ![نگهداری از فرزند]({static}/images/27-2.jpg) | ![زاییدن هزاران فرزند]({static}/images/27-3.jpg) | ![به رخ کشیدنِ پرها]({static}/images/27-4.jpg) |
+| :---: | :---: | :---: |
+| نگهداری از فرزند | زاییدن هزاران فرزند | به رخ کشیدنِ پرها |
 
 مراقبت از فرزند (تصویر وسط)، زاییدن هزاران فرزند -که بسیاری از آنها بقا نمی‌یابند- (تصویر دوم)، به رخ کشیدنِ پرهای پر زرق و برق که جنس مونث را جذب می‌کند (تصویر سوم)، باری بر سلامتی و بقای والدین هستند؛ اما، این راهبردها سازواری را افزایش می‌دهند، چون به والدین کمک می‌کنند فرزندان بیشتری از آنها در نسل بعد باقی بماند.
 
@@ -34,12 +28,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 [^۱]: Fitness: توانایی زیستی
 [^۲]: Reproductive behavior
 [^۳]: Sexual selection
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/211-natural_selection_at_work.md) | [مطلب بعدی ⟵]({filename}../chapters/213-sexual_selection.md) 
-        </b>
-    </font>
-</center>

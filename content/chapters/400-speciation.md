@@ -11,12 +11,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 بیایید با چگونگی تعریف یک گونه شروع کنیم.
 
 ![گونه‌زایی]({static}/images/40-1.gif)
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/303-mechanisms_of_microevolution.md) | [مطلب بعدی ⟵]({filename}../chapters/401-defining_a_species.md) 
-        </b>
-    </font>
-</center>

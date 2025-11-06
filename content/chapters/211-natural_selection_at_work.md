@@ -31,12 +31,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 [^۱]: Booby
 [^۲]: Dark moths
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/210-natural_selection.md) | [مطلب بعدی ⟵]({filename}../chapters/212-what_about_fitness.md) 
-        </b>
-    </font>
-</center>

@@ -18,12 +18,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 [^۱]: Half-life decay of radioactive elements
 [^۲]: Stratigraphy
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/107-adding_time_to_the_tree.md) | [مطلب بعدی ⟵]({filename}../chapters/109-important_events_in_the_history_of_life.md) 
-        </b>
-    </font>
-</center>

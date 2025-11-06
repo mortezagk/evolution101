@@ -14,11 +14,56 @@
                                 {% include 'twitter.html' %}
                         </h1>
                 </header>
+
+                {% set sorted_articles = articles | sort(attribute='source_path') %}
+                {% set nav = namespace(prev=None, next=None) %}
+                {% for item in sorted_articles %}
+                        {% if item == article %}
+                                {% if not loop.first %}
+                                        {% set nav.prev = sorted_articles[loop.index0 - 1] %}
+                                {% endif %}
+                                {% if not loop.last %}
+                                        {% set nav.next = sorted_articles[loop.index0 + 1] %}
+                                {% endif %}
+                        {% endif %}
+                {% endfor %}
+
                 <div class="entry-content">
                 <!--div class="well">
                       {% include 'article_infos.html' %}
                 </div-->
+                {% if nav.prev or nav.next %}
+                <div class="article-pagination article-pagination--top">
+                        <div class="article-pagination__item article-pagination__item--prev">
+                                {% if nav.prev %}
+                                <a class="article-pagination__link article-pagination__link--prev" href="{{ SITEURL }}/{{ nav.prev.url }}">⟶ مطلب قبلی</a>
+                                {% endif %}
+                        </div>
+                        <div class="article-pagination__item article-pagination__item--next">
+                                {% if nav.next %}
+                                <a class="article-pagination__link article-pagination__link--next" href="{{ SITEURL }}/{{ nav.next.url }}">مطلب بعدی ⟵</a>
+                                {% endif %}
+                        </div>
+                </div>
+                {% endif %}
+
                 {{ article.content }}
+
+                {% if nav.prev or nav.next %}
+                <div class="article-pagination article-pagination--bottom">
+                        <div class="article-pagination__item article-pagination__item--prev">
+                                {% if nav.prev %}
+                                <a class="article-pagination__link article-pagination__link--prev" href="{{ SITEURL }}/{{ nav.prev.url }}">⟶ مطلب قبلی</a>
+                                {% endif %}
+                        </div>
+                        <div class="article-pagination__item article-pagination__item--next">
+                                {% if nav.next %}
+                                <a class="article-pagination__link article-pagination__link--next" href="{{ SITEURL }}/{{ nav.next.url }}">مطلب بعدی ⟵</a>
+                                {% endif %}
+                        </div>
+                </div>
+                {% endif %}
+
                 </div><!-- /.entry-content -->
                 {% if DISQUS_SITENAME %}
                 <div class="comments">

@@ -34,12 +34,3 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 [^۵]: Archaea
 [^۶]: Bacteria
 [^۷]: Eukaryote
-
-------
-<center markdown="1">
-    <font size="4">
-        <b>
-            [⟶ مطلب قبلی]({filename}../chapters/100-looking-at-the-patterns.md) | [مطلب بعدی ⟵]({filename}../chapters/102-understanding_phylogenies.md) 
-        </b>
-    </font>
-</center>
