@@ -6,7 +6,7 @@ Markdown==3.10
 MarkupSafe==2.1.5
 pelican==4.11.0.post0
 pip==24.2
-Pygments==2.19.2
+Pygments==2.18.0
 python-dateutil==2.9.0.post0
 pytz==2024.2
 setuptools==75.1.0
