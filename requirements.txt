@@ -5,7 +5,7 @@ Jinja2==3.1.6
 Markdown==3.10
 MarkupSafe==2.1.5
 pelican==4.11.0.post0
-pip==24.2
+pip==25.3
 Pygments==2.18.0
 python-dateutil==2.9.0.post0
 pytz==2024.2
