@@ -240,13 +240,13 @@ footer address
 }
 
 .article-pagination__link {
-	color: #0d6efd;
+	color: #0088cc;
 	text-decoration: none;
 }
 
 .article-pagination__link:hover,
 .article-pagination__link:focus {
-	color: #0a58ca;
+	color: #005580;
 	text-decoration: underline;
 }
 
