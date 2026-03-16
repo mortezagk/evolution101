@@ -9,7 +9,7 @@ pip==26.0.1
 Pygments==2.18.0
 python-dateutil==2.9.0.post0
 pytz==2025.2
-setuptools==82.0.0
+setuptools==82.0.1
 six==1.17.0
 Unidecode==1.4.0
 wheel==0.46.3
