@@ -11,6 +11,10 @@ updates:
     directory: "/" # Location of requirements.txt
     schedule:
       interval: "monthly"
+    ignore:
+      # pelican 4.12.0 requires pygments<2.20.0. Remove once pelican allows it.
+      - dependency-name: "pygments"
+        versions: [">=2.20"]
     groups:
       pip-minor-and-patch:
         update-types:
