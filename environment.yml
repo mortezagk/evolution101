@@ -1,21 +1,15 @@
+# Conda environment for local development.
+# Package pins live only in requirements.txt (kept up to date by Dependabot);
+# this file just provides Python and installs requirements.txt with pip.
+# Keep the Python version in sync with .python-version.
+#
+#   conda env create -f environment.yml    # first time
+#   conda env update -f environment.yml    # after requirements.txt changes
 name: evolution101
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python=3.12
-  - blinker=1.9.0
-  - docutils=0.22.3
-  - feedgenerator=2.1.0
-  - jinja2=3.1.6
-  - markdown=3.10
-  - markupsafe=2.1.5
-  - pelican=4.11.0.post0
-  - pip=25.3
-  - pygments=2.18.0
-  - python-dateutil=2.9.0.post0
-  - pytz=2025.2
-  - setuptools=80.9.0
-  - six=1.17.0
-  - unidecode=1.3.7
-  - wheel=0.44.0
+  - pip
+  - pip:
+      - -r requirements.txt

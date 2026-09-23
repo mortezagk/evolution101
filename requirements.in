@@ -1,0 +1,4 @@
+# Direct dependencies. Edit this file, then regenerate the lock file with:
+#   pip-compile --strip-extras requirements.in
+# (Dependabot does this automatically for its updates.)
+pelican[markdown]==4.12.0
