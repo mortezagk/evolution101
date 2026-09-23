@@ -1,11 +1,18 @@
-# To get started with Dependabot version updates, you'll need to specify which
-# package ecosystems to update and where the package manifests are located.
-# Please see the documentation for all configuration options:
-# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+# Dependabot version updates for Python dependencies (requirements.txt).
+# Docs: https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+#
+# Minor and patch updates are grouped into a single PR and auto-merged once the
+# build passes (see .github/workflows/dependabot-automerge.yml). Major updates
+# are not grouped, so each arrives as its own PR for manual review.
 
 version: 2
 updates:
   - package-ecosystem: "pip" # Check for Python package updates
     directory: "/" # Location of requirements.txt
     schedule:
-      interval: "weekly"
+      interval: "monthly"
+    groups:
+      pip-minor-and-patch:
+        update-types:
+          - "minor"
+          - "patch"
