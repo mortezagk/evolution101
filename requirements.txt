@@ -12,4 +12,4 @@ pytz==2026.1.post1
 setuptools==82.0.1
 six==1.17.0
 Unidecode==1.4.0
-wheel==0.46.3
+wheel==0.48.0
