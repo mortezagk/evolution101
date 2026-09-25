@@ -1,9 +1,10 @@
 Title: مسائل مهم
 Date: 2025-11-06 00:45
 Category: فصل ششم: مسائل مهم
-Slug: big-issues
+Slug: the-big-issues
 Source: https://evolution.berkeley.edu/evolution-101/the-big-issues/
 Source_title: The big issues
+Redirect_from: chapter-6/00-big-issues.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

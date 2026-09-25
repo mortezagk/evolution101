@@ -1,9 +1,10 @@
 Title: یک مطالعهٔ موردی در هم‌فرگشتی
 Date: 2025-11-06 00:30
 Category: فصل دوم: سازوکارها
-Slug: case-study-in-coevolution
+Slug: mechanisms-the-processes-of-evolution/a-case-study-of-coevolution-squirrels-birds-and-the-pinecones-they-love
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/a-case-study-of-coevolution-squirrels-birds-and-the-pinecones-they-love/
 Source_title: A case study of coevolution: squirrels, birds, and the pinecones they love
+Redirect_from: chapter-2/18-case-study-in-coevolution.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

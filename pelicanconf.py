@@ -73,10 +73,10 @@ DEFAULT_PAGINATION = False
 DISPLAY_CATEGORIES_ON_MENU = False
 GOOGLE_CUSTOM_SEARCH_SIDEBAR = False
 
-ARTICLE_URL = 'chapter-{section}/{section_index}-{slug}.html'
-ARTICLE_SAVE_AS = 'chapter-{section}/{section_index}-{slug}.html'
-ARTICLE_TRANSLATION_URL = 'chapter-{section}/{section_index}-{slug}-{lang}.html'
-ARTICLE_TRANSLATION_SAVE_AS = 'chapter-{section}/{section_index}-{slug}-{lang}.html'
+ARTICLE_URL = '{slug}/'
+ARTICLE_SAVE_AS = '{slug}/index.html'
+ARTICLE_TRANSLATION_URL = '{slug}/{lang}/'
+ARTICLE_TRANSLATION_SAVE_AS = '{slug}/{lang}/index.html'
 
 CATEGORY_REGEX_SUBSTITUTIONS = [(r'(mqdmh)', 'ch0'),
                                 (r'(fsl wl: lgwh)', 'ch1'),
@@ -110,7 +110,8 @@ JINJA_FILTERS = {
     'persian_digits': persian_digits,
 }
 
-PLUGINS = []
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['redirects']
 
 DIRECT_TEMPLATES = ('categories', 'authors', 'archives', 'search_index')
 

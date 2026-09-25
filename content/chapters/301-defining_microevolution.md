@@ -1,9 +1,10 @@
 Title: تعریف فرگشت خُرد
 Date: 2025-11-06 00:32
 Category: فصل سوم: فرگشت خُرد
-Slug: defining-microevolution
+Slug: microevolution/defining-microevolution
 Source: https://evolution.berkeley.edu/evolution-101/microevolution/defining-microevolution/
 Source_title: Defining microevolution
+Redirect_from: chapter-3/01-defining-microevolution.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

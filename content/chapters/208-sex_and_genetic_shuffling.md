@@ -1,9 +1,10 @@
 Title: سکس و بُرخوردگی ژنتیکی
 Date: 2025-11-06 00:19
 Category: فصل دوم: سازوکارها
-Slug: sex-and-genetic-shuffling
+Slug: mechanisms-the-processes-of-evolution/sex-and-genetic-shuffling
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/sex-and-genetic-shuffling/
 Source_title: Sex and genetic shuffling
+Redirect_from: chapter-2/07-sex-and-genetic-shuffling.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

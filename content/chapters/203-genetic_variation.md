@@ -1,9 +1,10 @@
 Title: تنوع ژنتیکی
 Date: 2025-11-06 00:15
 Category: فصل دوم: سازوکارها
-Slug: genetic-variation
+Slug: mechanisms-the-processes-of-evolution/genetic-variation
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/genetic-variation/
 Source_title: Genetic variation
+Redirect_from: chapter-2/03-genetic-variation.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

@@ -1,9 +1,10 @@
 Title: استفاده از درخت برای رده‌بندی
 Date: 2025-11-06 00:08
 Category: فصل اول: الگوها
-Slug: using-trees
+Slug: the-history-of-life-looking-at-the-patterns/using-the-tree-for-classification
 Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/using-the-tree-for-classification/
 Source_title: Using the tree for classification
+Redirect_from: chapter-1/06-using-trees.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

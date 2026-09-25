@@ -1,9 +1,10 @@
 Title: عوامل جهش
 Date: 2025-11-06 00:17
 Category: فصل دوم: سازوکارها
-Slug: causes-of-mutations
+Slug: mechanisms-the-processes-of-evolution/the-causes-of-mutations
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/the-causes-of-mutations/
 Source_title: The causes of mutations
+Redirect_from: chapter-2/05-causes-of-mutations.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

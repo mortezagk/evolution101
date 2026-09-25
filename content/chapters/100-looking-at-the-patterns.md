@@ -1,9 +1,10 @@
 Title: تاریخ حیات: نگاهی به الگوها
 Date: 2025-11-06 00:02
 Category: فصل اول: الگوها
-Slug: patterns
+Slug: the-history-of-life-looking-at-the-patterns
 Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/
 Source_title: The history of life: looking at the patterns
+Redirect_from: chapter-1/00-patterns.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

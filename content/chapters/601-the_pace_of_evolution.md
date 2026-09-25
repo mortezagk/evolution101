@@ -1,9 +1,10 @@
 Title: سرعت فرگشت
 Date: 2025-11-06 00:46
 Category: فصل ششم: مسائل مهم
-Slug: pace-of-evolution
+Slug: the-big-issues/the-pace-of-evolution
 Source: https://evolution.berkeley.edu/evolution-101/the-big-issues/the-pace-of-evolution/
 Source_title: The pace of evolution
+Redirect_from: chapter-6/01-pace-of-evolution.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

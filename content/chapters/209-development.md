@@ -1,9 +1,10 @@
 Title: رشد
 Date: 2025-11-06 00:20
 Category: فصل دوم: سازوکارها
-Slug: development
+Slug: mechanisms-the-processes-of-evolution/development
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/development/
 Source_title: Development
+Redirect_from: chapter-2/08-development.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

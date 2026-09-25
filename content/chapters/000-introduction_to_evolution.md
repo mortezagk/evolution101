@@ -1,11 +1,12 @@
 Title: مقدمه‌ای بر فرگشت
 Date: 2025-11-06 00:01
 Category: مقدمه
-Slug: introdution
+Slug: an-introduction-to-evolution
 Save_as: index.html
 URL: index.html
 Source: https://evolution.berkeley.edu/evolution-101/an-introduction-to-evolution/
 Source_title: An introduction to evolution
+Redirect_from: chapter-0/00-introdution.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

@@ -1,9 +1,10 @@
 Title: جهش‌ها
 Date: 2025-11-06 00:16
 Category: فصل دوم: سازوکارها
-Slug: mutations
+Slug: mechanisms-the-processes-of-evolution/mutations
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/mutations/
 Source_title: Mutations
+Redirect_from: chapter-2/04-mutations.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

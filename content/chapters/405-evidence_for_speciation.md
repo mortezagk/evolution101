@@ -1,9 +1,10 @@
 Title: شواهد گونه‌زایی
 Date: 2025-11-06 00:40
 Category: فصل چهارم: گونه‌زایی
-Slug: evidence-for-speciation
+Slug: speciation/evidence-for-speciation
 Source: https://evolution.berkeley.edu/evolution-101/speciation/evidence-for-speciation/
 Source_title: Evidence for speciation
+Redirect_from: chapter-4/05-evidence-for-speciation.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
