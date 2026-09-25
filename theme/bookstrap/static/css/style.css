@@ -443,3 +443,12 @@ footer address
 	font-size: 1em;
 	line-height: 1.7;
 }
+
+/* The sidebar is a Bootstrap .span3 with .well padding; count the padding
+   inside the column width so it stays beside the text instead of wrapping
+   below it. */
+#sidebar {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
