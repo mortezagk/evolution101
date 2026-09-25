@@ -1,57 +1,41 @@
-<ul class="nav nav-list">
-    <li>
-      <ul>
-        <li>
-          <a href="{{ SITEURL }}/pages/about.html">درباره <i class="icon-info-sign"></i></a>
-        </li>
-        <li>
-          <a href="{{ SITEURL }}/pages/search.html">جستجو <i class="icon-search"></i></a>
-        </li>
-      </ul>
-    </li>
+<ul class="sidebar-links">
+  <li><a href="{{ SITEURL }}/pages/about.html"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> درباره</a></li>
+  <li><a href="{{ SITEURL }}/pages/search.html"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i> جستجو</a></li>
+</ul>
 
-    <li>
-      <ul>
-        {% set current_category = category if category is defined else None %}
-        {% for category, articles in categories %}
-          {% set category_slug = category.slug if category.slug is defined else category|string %}
-          {% set group_id = 'cat-' ~ loop.index %}
-          {% set is_active_group = current_category and (category == current_category or category_slug == current_category.slug) %}
-          {% set sorted_articles = articles|sort(attribute='source_path') %}
-          {% set cover = sorted_articles|selectattr('section_index', 'equalto', '00')|first %}
-          {% set pages = sorted_articles|rejectattr('section_index', 'equalto', '00')|list %}
-          <li class="category-group{% if is_active_group %} is-open{% endif %}" data-category-slug="{{ category_slug }}">
-            <div class="category-header">
-              <a class="category-link{% if article is defined and cover and article == cover %} is-current{% endif %}" href="{{ SITEURL }}/{{ (cover or sorted_articles[0]).url }}">
-                <span class="category-title"><i class="icon-book icon-large"></i>{{ category|persian_digits }}</span>
-              </a>
-              {% if pages %}
-              <button type="button" class="category-toggle" aria-controls="sidebar-{{ group_id }}" aria-expanded="{% if is_active_group %}true{% else %}false{% endif %}" aria-label="نمایش مطالب {{ category }}">
-                <i class="icon-chevron-down"></i>
-              </button>
-              {% endif %}
-            </div>
-            {% if pages %}
-            <ul id="sidebar-{{ group_id }}" class="category-articles{% if not is_active_group %} is-collapsed{% endif %}">
-              {% for item in pages %}
-              <li>
-                <a href="{{ SITEURL }}/{{ item.url }}"{% if article is defined and item == article %} class="is-current" aria-current="page"{% endif %}>
-                  <span class="category-article-index">{{ item.section_index|int|persian_digits }}</span>
-                  <span class="category-article-title">{{ item.title|persian_digits }}</span>
-                </a>
-              </li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-          </li>
+<ul class="chapter-nav">
+  {% set current_category = category if category is defined else None %}
+  {% for category, articles in categories %}
+    {% set category_slug = category.slug if category.slug is defined else category|string %}
+    {% set group_id = 'cat-' ~ loop.index %}
+    {% set is_active_group = current_category and (category == current_category or category_slug == current_category.slug) %}
+    {% set sorted_articles = articles|sort(attribute='source_path') %}
+    {% set cover = sorted_articles|selectattr('section_index', 'equalto', '00')|first %}
+    {% set pages = sorted_articles|rejectattr('section_index', 'equalto', '00')|list %}
+    <li class="category-group{% if is_active_group %} is-open{% endif %}" data-category-slug="{{ category_slug }}">
+      <div class="category-header">
+        <a class="category-link{% if article is defined and cover and article == cover %} is-current{% endif %}" href="{{ SITEURL }}/{{ (cover or sorted_articles[0]).url }}">
+          <i class="fa-solid fa-book" aria-hidden="true"></i>
+          <span class="category-title">{{ category|persian_digits }}</span>
+        </a>
+        {% if pages %}
+        <button type="button" class="category-toggle" aria-controls="sidebar-{{ group_id }}" aria-expanded="{% if is_active_group %}true{% else %}false{% endif %}" aria-label="نمایش مطالب {{ category }}">
+          <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+        </button>
+        {% endif %}
+      </div>
+      {% if pages %}
+      <ul id="sidebar-{{ group_id }}" class="category-articles{% if not is_active_group %} is-collapsed{% endif %}">
+        {% for item in pages %}
+        <li>
+          <a href="{{ SITEURL }}/{{ item.url }}"{% if article is defined and item == article %} class="is-current" aria-current="page"{% endif %}>
+            <span class="category-article-index">{{ item.section_index|int|persian_digits }}</span>
+            <span class="category-article-title">{{ item.title|persian_digits }}</span>
+          </a>
+        </li>
         {% endfor %}
       </ul>
+      {% endif %}
     </li>
-
-
-
-
-{% if SIDEBAR_CUSTOM %}
-    {{ SIDEBAR_CUSTOM }}
-{% endif %}
+  {% endfor %}
 </ul>

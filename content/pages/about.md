@@ -27,7 +27,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 - مرجع اصلی مطالب [Understanding Evolution](https://evolution.berkeley.edu/evolution-101/) است. تصاویر هر صفحه مستقیماً از همان وب‌سایت نمایش داده می‌شوند و بالای هر صفحه پیوندی به متن اصلی آن هست.
 - تصویر و فونت لوگو از جلد شمارهٔ سپتامبر ۲۰۱۴ نشریهٔ Scientific American وام گرفته شده.
-- این سایت از قالبی که [جادی](http://jadi.ir/) برای «[راهنمای دوچرخه](http://bikezen.ir/)» شخصی‌سازی کرده بود استفاده می‌کند. از این بابت از جادی متشکرم.
+- قالب این سایت بر پایهٔ قالبی است که [جادی](http://jadi.ir/) برای «[راهنمای دوچرخه](http://bikezen.ir/)» شخصی‌سازی کرده بود، و اکنون با [Bootstrap](https://getbootstrap.com/) و [Font Awesome](https://fontawesome.com/) بازنویسی شده است. از جادی متشکرم.
 - در این اثر از فونت آزاد ساحل (اثری از [صابر راستی‌کردار](https://rastikerdar.github.io/)) استفاده شده است.
 - این وب‌سایت با [Pelican](https://blog.getpelican.com/) و [Python](http://python.org) ساخته شده است.
 
@@ -64,7 +64,7 @@ This translation (as a derivative work) is licensed under the [Creative Commons 
 
 - The primary reference for the content is [Understanding Evolution](https://evolution.berkeley.edu/evolution-101/). Each page shows its figures directly from that website and links to its original page at the top.
 - The logo image and font are adapted from the cover of the September 2014 issue of Scientific American.
-- This site uses a theme that [Jadi](http://jadi.ir/) customized for his "[BikeZen](http://bikezen.ir/)". Many thanks to Jadi for this.
+- This site's theme is based on the one [Jadi](http://jadi.ir/) customized for his "[BikeZen](http://bikezen.ir/)", since rewritten on [Bootstrap](https://getbootstrap.com/) and [Font Awesome](https://fontawesome.com/). Many thanks to Jadi for this.
 - This work uses the open-source Sahel Font, designed by [Saber Rastikerdar](https://rastikerdar.github.io/).
 - This website is built with [Pelican](https://blog.getpelican.com/) and [Python](http://python.org).
 

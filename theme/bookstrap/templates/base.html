@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 
 <head>
   <!-- Google tag (gtag.js) -->
@@ -13,149 +13,76 @@
   </script>
 
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{% block description %}{{ SITENAME }}: ترجمهٔ فارسی Evolution 101 از وب‌سایت Understanding Evolution{% endblock %}">
   <meta name="author" content="{{ AUTHOR }}">
   {% block head_extra %}{% endblock %}
 
-  <!-- Le styles -->
-  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.min.css" type="text/css" />
-  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" type="text/css" />
-  <link href="{{ SITEURL }}/theme/css/bootstrap-responsive.min.css" rel="stylesheet">
-  <link href="{{ SITEURL }}/theme/css/font-awesome.css" rel="stylesheet">
-
-
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.rtl.min.css">
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
   <link rel="icon" href="{{ SITEURL }}/theme/images/favicon.ico">
-
 </head>
 
 <body {% block body_attrs %}{% endblock %}>
 
-
-  <div class="navbar navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container">
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </a>
-        <a class="brand" href="{{ SITEURL }}/index.html"><img alt="logo" style="height:20px;"
-            src="{{ SITEURL }}/theme/images/favicon.ico" /> {{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE
-            }}</strong>{% endif %}</a>
-        <div class="nav-collapse">
-          <ul class="nav">
-            <li><a href="{{ SITEURL }}/pages/about.html">درباره</a></li>
-            <li><a href="{{ SITEURL }}/pages/search.html">جستجو</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="{{ SITEURL }}/index.html">
+        <img src="{{ SITEURL }}/theme/images/favicon.ico" alt="" width="20" height="20">
+        {{ SITENAME }}
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#site-nav" aria-controls="site-nav" aria-expanded="false" aria-label="نمایش منو">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="site-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="{{ SITEURL }}/pages/about.html">درباره</a></li>
+          <li class="nav-item"><a class="nav-link" href="{{ SITEURL }}/pages/search.html">جستجو</a></li>
+        </ul>
       </div>
     </div>
-  </div>
+  </nav>
 
-  <div class="container">
-    <div class="row">
-      <div class="span9">
+  <div class="container site-body">
+    <div class="row g-4">
+      <main class="col-md-8 col-lg-9">
         {% block content %}
         {% endblock %}
-      </div><!--/span-->
+      </main>
 
-      <div class="span3 well sidebar-nav" id="sidebar">
-        {% include 'sidebar.html' %}
-      </div><!--/.well -->
-
-    </div><!--/row-->
+      <aside class="col-md-4 col-lg-3 order-md-first" id="sidebar" aria-label="فهرست کتاب">
+        <div class="sidebar-box">
+          {% include 'sidebar.html' %}
+        </div>
+      </aside>
+    </div>
 
     <hr>
 
-    <footer>
-      <address class="description">
-        ترجمه توسط <a href="https://mortezagk.github.io/">mortezagk <i class="icon-external-link"></i></a> | پروژه <a href="https://github.com/mortezagk/evolution101">روی گیت هاب <i class="icon-github-sign"></i></a>
-        <br>
-        Original content: © UC Museum of Paleontology Understanding Evolution, <a
-          href="https://www.understandingevolution.org">www.understandingevolution.org</a>
-        <br>
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.fa">
-          <img alt="Creative Commons License" style="border-width:0"
-            src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+    <footer class="site-footer">
+      <p>
+        ترجمه توسط <a href="https://mortezagk.github.io/">mortezagk <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+        | پروژه <a href="https://github.com/mortezagk/evolution101">روی گیت‌هاب <i class="fa-brands fa-github" aria-hidden="true"></i></a>
+      </p>
+      <p dir="ltr">
+        Original content: © UC Museum of Paleontology Understanding Evolution,
+        <a href="https://www.understandingevolution.org">www.understandingevolution.org</a>
+      </p>
+      <p>
+        <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fa">
+          <img alt="Creative Commons License" width="88" height="31" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png">
         </a>
-        <br>
-        این ترجمه تحت مجوز <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.fa">CC BY-NC-SA
-          4.0</a> منتشر می‌شود.
-      </address>
+      </p>
+      <p>
+        این ترجمه تحت مجوز <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fa">CC BY-NC-SA 4.0</a> منتشر می‌شود.
+      </p>
     </footer>
-  </div><!--/.container-->
+  </div>
 
-
-  <!-- Le javascript -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="{{ SITEURL }}/theme/js/jquery-1.7.2.min.js"></script>
-  <script src="{{ SITEURL }}/theme/js/bootstrap.min.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      var groups = Array.prototype.slice.call(document.querySelectorAll('#sidebar .category-group'));
-      if (!groups.length) {
-        return;
-      }
-
-      function setGroupState(group, open) {
-        var list = group.querySelector('.category-articles');
-        var button = group.querySelector('.category-toggle');
-        group.classList.toggle('is-open', open);
-        if (list) {
-          list.classList.toggle('is-collapsed', !open);
-        }
-        if (button) {
-          button.setAttribute('aria-expanded', open ? 'true' : 'false');
-        }
-      }
-
-      function closeOthers(except) {
-        groups.forEach(function (group) {
-          if (group !== except) {
-            setGroupState(group, false);
-          }
-        });
-      }
-
-      groups.forEach(function (group) {
-        setGroupState(group, group.classList.contains('is-open'));
-      });
-
-      groups.forEach(function (group) {
-        var button = group.querySelector('.category-toggle');
-        if (!button) {
-          return;
-        }
-
-        button.addEventListener('click', function (event) {
-          event.preventDefault();
-          var isOpen = group.classList.contains('is-open');
-          if (isOpen) {
-            setGroupState(group, false);
-          } else {
-            closeOthers(group);
-            setGroupState(group, true);
-          }
-        });
-      });
-
-      var currentSlug = document.body.dataset.categorySlug;
-      if (currentSlug) {
-        var activeGroup = null;
-        groups.forEach(function (group) {
-          if (!activeGroup && group.dataset.categorySlug === currentSlug) {
-            activeGroup = group;
-          }
-        });
-        if (activeGroup) {
-          closeOthers(activeGroup);
-          setGroupState(activeGroup, true);
-        }
-      }
-    });
-  </script>
+  <script src="{{ SITEURL }}/theme/js/bootstrap.bundle.min.js"></script>
+  <script src="{{ SITEURL }}/theme/js/site.js"></script>
 </body>
 
 </html>

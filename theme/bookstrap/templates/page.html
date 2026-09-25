@@ -12,11 +12,6 @@
         {% if page.source %}
         <a class="source-link" href="{{ page.source }}" rel="noopener" target="_blank" title="{{ page.source_title or page.source }}">متن اصلی ⎋</a>
         {% endif %}
-        {% if PDF_PROCESSOR %}
-                <a href="{{ SITEURL }}/pdf/{{ page.slug }}.pdf">
-                        get the pdf
-                </a>
-        {% endif %}
         {{ page.content }}
 </section>
 {% endblock %}
