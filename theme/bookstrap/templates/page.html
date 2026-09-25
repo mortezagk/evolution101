@@ -1,5 +1,11 @@
 {% extends "base.html" %}
-{% block title %}{{ page.title }} | {{ SITENAME }}{% endblock %}
+{% block title %}{% if page.url == 'index.html' %}{{ SITENAME }}{% else %}{{ page.title }} | {{ SITENAME }}{% endif %}{% endblock %}
+{% block description %}{{ page.content|plain_text(160) or SITENAME }}{% endblock %}
+{% block head_extra %}
+  {% if CANONICAL_SITEURL %}
+  <link rel="canonical" href="{{ CANONICAL_SITEURL }}/{{ page.url|replace('index.html', '') }}">
+  {% endif %}
+{% endblock %}
 {% block content %}
 <section id="content" class="body">
         <h1 class="entry-title">{{ page.title }}</h1>
