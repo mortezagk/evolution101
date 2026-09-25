@@ -1,5 +1,6 @@
 """Pelican configuration for the فرگشت ۱۰۱ project."""
 
+import json
 import os
 import re
 from html import unescape
@@ -112,15 +113,26 @@ def plain_text(html, length=None):
     return text
 
 
+def to_json(value):
+    """JSON for the search index, keeping Persian text as UTF-8 rather than
+    \\uXXXX escapes (a third of the size)."""
+
+    return json.dumps(value, ensure_ascii=False)
+
+
 JINJA_FILTERS = {
     'persian_digits': persian_digits,
     'plain_text': plain_text,
+    'to_json': to_json,
 }
 
 PLUGINS = []
 
-DIRECT_TEMPLATES = ('sitemap',)
+DIRECT_TEMPLATES = ('sitemap', 'search_index')
 SITEMAP_SAVE_AS = 'sitemap.xml'
+# Full text of every page for the on-site search (pages/search.html). A .js
+# file rather than JSON so it also loads when the site is opened from disk.
+SEARCH_INDEX_SAVE_AS = 'search-index.js'
 CATEGORY_SAVE_AS = ''
 TAG_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''

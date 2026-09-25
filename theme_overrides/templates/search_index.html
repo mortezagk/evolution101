@@ -1,0 +1,5 @@
+window.SEARCH_INDEX = [
+{%- for article in articles|sort(attribute='source_path') %}
+  {"title": {{ article.title|striptags|to_json }}, "url": {{ article.url|to_json }}, "chapter": {{ article.category.name|to_json }}, "text": {{ article.content|plain_text|to_json }}}{{ "," if not loop.last }}
+{%- endfor %}
+];

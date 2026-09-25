@@ -43,7 +43,11 @@ also works when opened straight from disk.
 - Each page's address is `<chapter>-<chapter slug>/<position>-<page slug>/`,
   e.g. `4-speciation/06-cospeciation/`, taken from its `Slug` metadata. The
   slugs follow the original page's path on evolution.berkeley.edu.
-- `Source` / `Source_title` name the original page, linked at the bottom.
+- `Source` / `Source_title` name the original page, linked as «منبع ⎋» after
+  the footnotes.
+- Search runs in the browser over `search-index.js`, which the build writes
+  from every page's text (`theme_overrides/templates/search_index.html`,
+  `theme/bookstrap/static/js/search.js`); no Google indexing needed.
 - Link to another page with `{filename}NNN-name.md` so links follow any
   future address change.
 - Figures are not stored in this repository: each image links to the file

@@ -355,21 +355,24 @@ main table tbody tr:nth-child(even) {
 	background-color: #f9fafb;
 }
 
-/* Link to the original page, under the title */
-.source-link {
-	display: inline-block;
-	margin-top: -0.5rem;
-	font-size: 0.9em;
-	color: #11695f;
-	text-decoration: none;
+/* Link to the original page, after the footnotes */
+.source-note {
+	margin: 1.5rem 0 0;
+	padding-top: 0.75rem;
+	border-top: 1px dashed #d5dbd9;
+	font-size: 0.9rem;
+}
+
+.source-note a {
+	color: var(--site-teal-dark);
 	border-bottom: 1px dotted currentColor;
 }
 
-.source-link:hover,
-.source-link:focus {
+main .source-note a:hover,
+.source-note a:focus-visible {
 	color: #0b4a43;
-	text-decoration: none;
 	border-bottom-style: solid;
+	text-decoration: none;
 }
 
 /* Chapter cover: list of the chapter's pages */
@@ -497,4 +500,50 @@ main table tbody tr:nth-child(even) {
 .caption p {
 	font-size: 1em;
 	line-height: 1.7;
+}
+
+/* Search page */
+.search-status {
+	margin: 1rem 0 0.5rem;
+	color: #555;
+	font-size: 0.95rem;
+}
+
+.search-results {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.search-result {
+	padding: 0.85rem 0;
+	border-bottom: 1px solid #eee;
+}
+
+.search-result__title {
+	font-weight: 700;
+	font-size: 1.05rem;
+}
+
+.search-result__chapter {
+	display: block;
+	font-size: 0.8rem;
+	color: #777;
+}
+
+.search-result__snippet {
+	margin: 0.25rem 0 0;
+	font-size: 0.92rem;
+	color: #444;
+}
+
+.search-results mark {
+	padding: 0 0.1em;
+	background: #fff1a8;
+	border-radius: 0.2em;
+}
+
+.search-google {
+	margin-top: 1rem;
+	font-size: 0.9rem;
 }

@@ -18,9 +18,6 @@
                                         {{ article.title}}
                                 </a>
                         </h1>
-                        {% if article.source %}
-                        <a class="source-link" href="{{ article.source }}" rel="noopener" target="_blank" title="{{ article.source_title or article.source }}">متن اصلی ⎋</a>
-                        {% endif %}
                 </header>
 
                 {% set sorted_articles = articles | sort(attribute='source_path') %}
@@ -49,6 +46,12 @@
                 {% endif %}
 
                 {{ article.content }}
+
+                {% if article.source %}
+                <p class="source-note">
+                        <a href="{{ article.source }}" rel="noopener" target="_blank" title="{{ article.source_title or article.source }}">منبع ⎋</a>
+                </p>
+                {% endif %}
 
                 {% if article.section_index == '00' and article.section != '0' %}
                 {% set chapter_articles = articles | selectattr('category', 'equalto', article.category) | rejectattr('source_path', 'equalto', article.source_path) | sort(attribute='source_path') | list %}
@@ -98,7 +101,5 @@
 
                 </div><!-- /.entry-content -->
         </article>
-
-        <hr />
 </section>
 {% endblock %}

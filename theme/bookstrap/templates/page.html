@@ -9,10 +9,12 @@
 {% block content %}
 <section id="content" class="body">
         <h1 class="entry-title">{{ page.title }}</h1>
-        {% if page.source %}
-        <a class="source-link" href="{{ page.source }}" rel="noopener" target="_blank" title="{{ page.source_title or page.source }}">متن اصلی ⎋</a>
-        {% endif %}
         {{ page.content }}
+        {% if page.source %}
+        <p class="source-note">
+                <a href="{{ page.source }}" rel="noopener" target="_blank" title="{{ page.source_title or page.source }}">منبع ⎋</a>
+        </p>
+        {% endif %}
 </section>
 {% endblock %}
 
