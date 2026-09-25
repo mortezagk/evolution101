@@ -1,10 +1,9 @@
 Title: فرگشت کلان
 Date: 2025-11-06 00:42
 Category: فصل پنجم: فرگشت کلان
-Slug: macroevolution
+Slug: 5-macroevolution
 Source: https://evolution.berkeley.edu/evolution-101/macroevolution/
 Source_title: Macroevolution
-Redirect_from: chapter-5/00-macroevolution.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

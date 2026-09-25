@@ -1,10 +1,9 @@
 Title: جریان ژن
 Date: 2025-11-06 00:18
 Category: فصل دوم: سازوکارها
-Slug: mechanisms-the-processes-of-evolution/gene-flow
+Slug: 2-mechanisms-the-processes-of-evolution/07-gene-flow
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/gene-flow/
 Source_title: Gene flow
-Redirect_from: chapter-2/06-gene-flow.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

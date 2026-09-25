@@ -1,10 +1,9 @@
 Title: فرگشت خُرد
 Date: 2025-11-06 00:31
 Category: فصل سوم: فرگشت خُرد
-Slug: microevolution
+Slug: 3-microevolution
 Source: https://evolution.berkeley.edu/evolution-101/microevolution/
 Source_title: Microevolution
-Redirect_from: chapter-3/00-microevolution.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

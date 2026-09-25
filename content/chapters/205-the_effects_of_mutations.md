@@ -1,7 +1,7 @@
 Title: اثرات جهش‌ها
 Date: 2025-11-06 00:16
 Category: فصل دوم: سازوکارها
-Slug: mechanisms-the-processes-of-evolution/the-effects-of-mutations
+Slug: 2-mechanisms-the-processes-of-evolution/05-the-effects-of-mutations
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/the-effects-of-mutations/
 Source_title: The effects of mutations
 Author: mortezagk

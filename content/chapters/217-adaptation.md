@@ -1,10 +1,9 @@
 Title: سازگاری
 Date: 2025-11-06 00:27
 Category: فصل دوم: سازوکارها
-Slug: mechanisms-the-processes-of-evolution/adaptation
+Slug: 2-mechanisms-the-processes-of-evolution/17-adaptation
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/adaptation/
 Source_title: Adaptation
-Redirect_from: chapter-2/15-adaptation.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

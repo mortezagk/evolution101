@@ -1,10 +1,9 @@
 Title: از کجا می‌دانیم چه چیزی چه زمانی اتفاق افتاده؟
 Date: 2025-11-06 00:10
 Category: فصل اول: الگوها
-Slug: the-history-of-life-looking-at-the-patterns/how-we-know-what-happened-when
+Slug: 1-the-history-of-life-looking-at-the-patterns/08-how-we-know-what-happened-when
 Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/how-we-know-what-happened-when/
 Source_title: How we know what happened when
-Redirect_from: chapter-1/08-what-happened-when.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

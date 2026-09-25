@@ -29,7 +29,7 @@
               {% for article in sorted_articles %}
               <li>
                 <a href="{{ SITEURL }}/{{ article.url }}">
-                  {% if article.section_index %}<span class="category-article-index">{{ (article.section_index|int + 1)|persian_digits }}</span>{% endif %}
+                  {% if article.section_index and article.section_index != '00' %}<span class="category-article-index">{{ article.section_index|int|persian_digits }}</span>{% endif %}
                   <span class="category-article-title">{{ article.title|persian_digits }}</span>
                 </a>
               </li>

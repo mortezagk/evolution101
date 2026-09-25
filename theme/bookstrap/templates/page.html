@@ -9,6 +9,13 @@
                 </a>
         {% endif %}
         {{ page.content }}
+        {% if page.source %}
+        <p class="article-source">
+                این صفحه ترجمهٔ صفحهٔ
+                «<a href="{{ page.source }}" dir="ltr" lang="en" rel="noopener" target="_blank">{{ page.source_title or page.source }}</a>»
+                از وب‌سایت Understanding Evolution است.
+        </p>
+        {% endif %}
 </section>
 {% endblock %}
 

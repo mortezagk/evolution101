@@ -1,10 +1,9 @@
 Title: رویدادهای مهم در تاریخ حیات
 Date: 2025-11-06 00:11
 Category: فصل اول: الگوها
-Slug: the-history-of-life-looking-at-the-patterns/important-events-in-the-history-of-life
+Slug: 1-the-history-of-life-looking-at-the-patterns/09-important-events-in-the-history-of-life
 Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/important-events-in-the-history-of-life/
 Source_title: Important events in the history of life
-Redirect_from: chapter-1/09-important-events.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

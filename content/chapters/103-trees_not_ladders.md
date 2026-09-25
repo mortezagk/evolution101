@@ -1,10 +1,9 @@
 Title: درخت، نه نردبان!
 Date: 2025-11-06 00:05
 Category: فصل اول: الگوها
-Slug: the-history-of-life-looking-at-the-patterns/trees-not-ladders
+Slug: 1-the-history-of-life-looking-at-the-patterns/03-trees-not-ladders
 Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/trees-not-ladders/
 Source_title: Trees, not ladders
-Redirect_from: chapter-1/03-trees-not-ladders.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

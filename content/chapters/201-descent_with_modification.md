@@ -1,10 +1,9 @@
 Title: وراثت همراه با تغییر
 Date: 2025-11-06 00:13
 Category: فصل دوم: سازوکارها
-Slug: mechanisms-the-processes-of-evolution/descent-with-modification
+Slug: 2-mechanisms-the-processes-of-evolution/01-descent-with-modification
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/descent-with-modification/
 Source_title: Descent with modification
-Redirect_from: chapter-2/01-descent-with-modification.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

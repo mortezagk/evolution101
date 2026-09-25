@@ -1,10 +1,9 @@
 Title: شناسایی تغییر فرگشتی خرد
 Date: 2025-11-06 00:33
 Category: فصل سوم: فرگشت خُرد
-Slug: microevolution/detecting-microevolutionary-change
+Slug: 3-microevolution/02-detecting-microevolutionary-change
 Source: https://evolution.berkeley.edu/evolution-101/microevolution/detecting-microevolutionary-change/
 Source_title: Detecting microevolutionary change
-Redirect_from: chapter-3/02-detecting-microevolution.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

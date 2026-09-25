@@ -1,10 +1,9 @@
 Title: تعریف گونه‌زایی
 Date: 2025-11-06 00:37
 Category: فصل چهارم: گونه‌زایی
-Slug: speciation/defining-speciation
+Slug: 4-speciation/02-defining-speciation
 Source: https://evolution.berkeley.edu/evolution-101/speciation/defining-speciation/
 Source_title: Defining speciation
-Redirect_from: chapter-4/02-defining-speciation.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

@@ -1,9 +1,9 @@
 {% extends "base.html" %}
-{% block title %}{{ article.title }}{% if article.url != 'index.html' %} | {{ SITENAME }}{% endif %}{% endblock %}
+{% block title %}{{ article.title }} | {{ SITENAME }}{% endblock %}
 {% block description %}{{ article.summary|striptags|truncate(160, True, '…') }}{% endblock %}
 {% block head_extra %}
   {% if CANONICAL_SITEURL %}
-  <link rel="canonical" href="{{ CANONICAL_SITEURL }}/{{ '' if article.url == 'index.html' else article.url }}">
+  <link rel="canonical" href="{{ CANONICAL_SITEURL }}/{{ article.url|replace('index.html', '') }}">
   {% endif %}
 {% endblock %}
 {% block body_attrs %}{% if article.category %}data-category-slug="{{ article.category.slug }}"{% endif %}{% endblock %}
@@ -12,7 +12,7 @@
         <article>
                 <header>
                         <h1>
-                                <a href="{{ pagename }}"
+                                <a href="{{ SITEURL }}/{{ article.url }}"
                                         rel="bookmark"
                                         title="Permalink to {{ article.title|striptags }}">
                                         {{ article.title}}

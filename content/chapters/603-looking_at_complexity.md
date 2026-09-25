@@ -1,10 +1,9 @@
 Title: نگاهی به پیچیدگی
 Date: 2025-11-06 00:48
 Category: فصل ششم: مسائل مهم
-Slug: the-big-issues/looking-at-complexity
+Slug: 6-the-big-issues/03-looking-at-complexity
 Source: https://evolution.berkeley.edu/evolution-101/the-big-issues/looking-at-complexity/
 Source_title: Looking at complexity
-Redirect_from: chapter-6/03-looking-at-complexity.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

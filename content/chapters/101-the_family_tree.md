@@ -1,10 +1,9 @@
 Title: درخت خانوادگی
 Date: 2025-11-06 00:03
 Category: فصل اول: الگوها
-Slug: the-history-of-life-looking-at-the-patterns/the-family-tree
+Slug: 1-the-history-of-life-looking-at-the-patterns/01-the-family-tree
 Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/the-family-tree/
 Source_title: The family tree
-Redirect_from: chapter-1/01-family-tree.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

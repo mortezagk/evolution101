@@ -27,21 +27,21 @@ pelican content -s pelicanconf.py --fatal warnings
 pelican content -s pelicanconf.py --listen --autoreload
 ```
 
-Pages use folder-style addresses (`speciation/cospeciation/`), so preview
-through `--listen` (or any web server) rather than opening the HTML files
-directly from disk.
+Every link points at a real `index.html` file, so the built `_build/` folder
+also works when opened straight from disk.
 
 ### Content layout
 
+- `content/pages/index.md`: the home page, listing every section.
 - `content/chapters/NNN-name.md`: one file per page. The first digit is the
-  chapter (0-6) and the next two digits its position; `x00` is the chapter's
-  cover page. `000` is the introduction, which is also the home page.
-- Each file's metadata ties it to the original page:
-  - `Slug`: its path on evolution.berkeley.edu after `/evolution-101/`,
-    which is also its address on this site.
-  - `Source` / `Source_title`: the original page, linked at the bottom.
-  - `Redirect_from`: old addresses that should forward here
-    (handled by `plugins/redirects`).
+  chapter (0 is the introduction, 1-6 the chapters) and the next two digits
+  its position; `x00` is the chapter's cover page.
+- Each page's address is `<chapter>-<chapter slug>/<position>-<page slug>/`,
+  e.g. `4-speciation/06-cospeciation/`, taken from its `Slug` metadata. The
+  slugs follow the original page's path on evolution.berkeley.edu.
+- `Source` / `Source_title` name the original page, linked at the bottom.
+- Link to another page with `{filename}NNN-name.md` so links follow any
+  future address change.
 - `content/images/`: figures, named as on the original site where possible.
 
 ---

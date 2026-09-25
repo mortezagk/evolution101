@@ -1,10 +1,9 @@
 Title: انتخاب طبیعی
 Date: 2025-11-06 00:22
 Category: فصل دوم: سازوکارها
-Slug: mechanisms-the-processes-of-evolution/natural-selection
+Slug: 2-mechanisms-the-processes-of-evolution/11-natural-selection
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/natural-selection/
 Source_title: Natural Selection
-Redirect_from: chapter-2/10-natural-selection.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

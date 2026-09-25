@@ -1,10 +1,9 @@
 Title: سازوکارها: شیوه‌های عملکرد فرگشت
 Date: 2025-11-06 00:12
 Category: فصل دوم: سازوکارها
-Slug: mechanisms-the-processes-of-evolution
+Slug: 2-mechanisms-the-processes-of-evolution
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/
 Source_title: Mechanisms: the processes of evolution
-Redirect_from: chapter-2/00-mechanisms.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

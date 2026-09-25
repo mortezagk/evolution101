@@ -61,11 +61,13 @@ THEME_TEMPLATES_OVERRIDES = ['theme_overrides/templates']
 ARTICLE_ORDER_BY = 'source_path'
 DEFAULT_PAGINATION = False
 
-# Articles mirror the paths of evolution.berkeley.edu/evolution-101/: the
-# Slug of each chapter file is its path there, e.g. 'speciation/cospeciation'.
-ARTICLE_URL = '{slug}/'
+# Addresses are <chapter>-<chapter slug>/<page order>-<page slug>/, e.g.
+# 4-speciation/06-cospeciation/. Each chapter file's Slug holds that path
+# (a chapter cover is just the chapter folder). Links point at index.html
+# explicitly so the built site also works when opened straight from disk.
+ARTICLE_URL = '{slug}/index.html'
 ARTICLE_SAVE_AS = '{slug}/index.html'
-ARTICLE_TRANSLATION_URL = '{slug}/{lang}/'
+ARTICLE_TRANSLATION_URL = '{slug}/{lang}/index.html'
 ARTICLE_TRANSLATION_SAVE_AS = '{slug}/{lang}/index.html'
 
 # Category slugs (ch0-ch6) only feed the sidebar's open/closed state; the
@@ -100,8 +102,7 @@ JINJA_FILTERS = {
     'persian_digits': persian_digits,
 }
 
-PLUGIN_PATHS = ['plugins']
-PLUGINS = ['redirects']
+PLUGINS = []
 
 DIRECT_TEMPLATES = ()
 CATEGORY_SAVE_AS = ''

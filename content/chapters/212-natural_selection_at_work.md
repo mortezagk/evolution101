@@ -1,10 +1,9 @@
 Title: انتخاب طبیعی در عمل
 Date: 2025-11-06 00:23
 Category: فصل دوم: سازوکارها
-Slug: mechanisms-the-processes-of-evolution/natural-selection-at-work
+Slug: 2-mechanisms-the-processes-of-evolution/12-natural-selection-at-work
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/natural-selection-at-work/
 Source_title: Natural selection at work
-Redirect_from: chapter-2/11-natural-selection-at-work.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

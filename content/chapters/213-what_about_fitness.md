@@ -1,10 +1,9 @@
 Title: در مورد سازواری
 Date: 2025-11-06 00:24
 Category: فصل دوم: سازوکارها
-Slug: mechanisms-the-processes-of-evolution/evolutionary-fitness
+Slug: 2-mechanisms-the-processes-of-evolution/13-evolutionary-fitness
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/evolutionary-fitness/
 Source_title: Evolutionary fitness
-Redirect_from: chapter-2/12-about-fitness.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

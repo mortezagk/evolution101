@@ -1,10 +1,9 @@
 Title: فرگشت کلان چیست؟
 Date: 2025-11-06 00:43
 Category: فصل پنجم: فرگشت کلان
-Slug: macroevolution/what-is-macroevolution
+Slug: 5-macroevolution/01-what-is-macroevolution
 Source: https://evolution.berkeley.edu/evolution-101/macroevolution/what-is-macroevolution/
 Source_title: What is macroevolution?
-Redirect_from: chapter-5/01-what-is-macroevolution.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

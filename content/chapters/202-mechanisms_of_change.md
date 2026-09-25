@@ -1,10 +1,9 @@
 Title: سازوکارهای تغییر
 Date: 2025-11-06 00:14
 Category: فصل دوم: سازوکارها
-Slug: mechanisms-the-processes-of-evolution/mechanisms-of-change
+Slug: 2-mechanisms-the-processes-of-evolution/02-mechanisms-of-change
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/mechanisms-of-change/
 Source_title: Mechanisms of change
-Redirect_from: chapter-2/02-mechanisms-of-change.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
