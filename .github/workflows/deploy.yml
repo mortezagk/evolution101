@@ -40,6 +40,12 @@ jobs:
           rm -rf _build
           pelican content -s pelicanconf.py --fatal warnings
 
+      # Fails the build (and so blocks the deploy) if an internal link points
+      # at a missing file or an image linked from evolution.berkeley.edu
+      # doesn't load.
+      - name: Check links and images
+        run: python scripts/check_links.py _build
+
       - name: Upload site artifact
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
         uses: actions/upload-pages-artifact@v3

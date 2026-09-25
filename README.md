@@ -23,6 +23,10 @@ pip install -r requirements.txt
 # Build into _build/ exactly as CI does (any warning fails the build):
 pelican content -s pelicanconf.py --fatal warnings
 
+# Check that every internal link resolves and every linked image loads
+# (CI runs this after each build and fails on any broken link):
+python scripts/check_links.py _build
+
 # Preview at http://localhost:8000 with rebuild on save:
 pelican content -s pelicanconf.py --listen --autoreload
 ```
