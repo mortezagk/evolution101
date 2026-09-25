@@ -42,7 +42,9 @@ also works when opened straight from disk.
 - `Source` / `Source_title` name the original page, linked at the bottom.
 - Link to another page with `{filename}NNN-name.md` so links follow any
   future address change.
-- `content/images/`: figures, named as on the original site where possible.
+- Figures are not stored in this repository: each image links to the file
+  on evolution.berkeley.edu, at the size the original page shows it, e.g.
+  `![alt](https://evolution.berkeley.edu/wp-content/uploads/…/x.png){: width="500" height="185" loading="lazy" }`.
 
 ---
 

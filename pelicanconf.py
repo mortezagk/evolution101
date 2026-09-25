@@ -30,7 +30,7 @@ OUTPUT_PATH = str((BASE_DIR / '_build').resolve())
 DELETE_OUTPUT_DIRECTORY = os.getenv('PELICAN_CLEAN_OUTPUT', '1') == '1'
 
 PATH = 'content'
-STATIC_PATHS = ['extra', 'images']
+STATIC_PATHS = ['extra']
 FILENAME_METADATA = r'(?P<section>\d)(?P<section_index>\d{2})-.*'
 
 EXTRA_PATH_METADATA = {

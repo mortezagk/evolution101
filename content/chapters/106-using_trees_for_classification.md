@@ -18,20 +18,20 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 این سیستم رده‌بندیِ فیلوژنتیکی فقط نام کلادها -گروهی از جانداران که همه از یک نیای مشترک نشأت گرفته‌اند- را عنوان می‌کند. به عنوان مثال، می‌توانیم به طور دقیق‌تر به خزندگان و پرندگان نگاهی بیاندازیم.
 
-![فیلوژنی‌ای که روابط میان پرندگان، دایناسورهای غیرپرنده و خزندگان را نشان می‌دهد.]({static}/images/15_01_How_to_classify-1.png)
+![فیلوژنی‌ای که روابط میان پرندگان، دایناسورهای غیرپرنده و خزندگان را نشان می‌دهد.](https://evolution.berkeley.edu/wp-content/uploads/2021/12/15_01_How_to_classify-1-500x411.png){: width="500" height="411" loading="lazy" }
 <center markdown="1">*درخت برگرفته از: Irisarri, I., Baurain, D., Brinkmann, H., Delsuc, F., Sire, J.-Y., Kupfer, A., … and Philippe, H., 2017. Phylotranscriptomic consolidation of the jawed vertebrate timetree. Nat Ecol Evol 1, 1370–1378.*</center>
 
 در یک سیستم رده‌بندی فیلوژنتیکی، می‌توانیم هر کدام از کلادهای روی درخت را نام‌گذاری کنیم. برای مثال، Testudines، Squamata، Archosauria و Crocodylomorpha هر کدام یک کلاد هستند.
 
-![کلادهای خزندگان و پرندگان]({static}/images/15_02_How_to_classify_v04.png)
+![کلادهای خزندگان و پرندگان](https://evolution.berkeley.edu/wp-content/uploads/2026/07/15_02_How_to_classify_v04-500x436.png){: width="500" height="436" loading="lazy" }
 
 اما، خزندگان یک کلاد را تشکیل نمی‌دهند، همان‌گونه که در کلادوگرام[^۹] نشان داده شده. از این رو یا «خزنده» یک دسته‌بندی فیلوژنتیکیِ معتبر نیست یا از این به بعد باید پرندگان را به عنوان خزنده در نظر بگیریم.
 
-![فیلوژنی‌ای که نشان می‌دهد خزندگان یک کلاد را تشکیل نمی‌دهند.]({static}/images/15_03_How_to_classify_15_.png)
+![فیلوژنی‌ای که نشان می‌دهد خزندگان یک کلاد را تشکیل نمی‌دهند.](https://evolution.berkeley.edu/wp-content/uploads/2021/12/15_03_How_to_classify_15_-500x452.png){: width="500" height="452" loading="lazy" }
 
 یک نکتهٔ جالب دیگر این که از نظر رده‌بندی فیلوژنتیکی دایناسورها کاملاً منقرض نشده‌اند. پرندگان در واقع دایناسور هستند (عضوی از کلاد Dinosauria). خیلی جالب است، وقتی به این فکر می‌کنید که با مطالعهٔ پرندگان می‌توانید در مورد تی‌رکس اطلاعات کسب کنید!
 
-![کلادِ Dinosauria پرندگان را نیز در بر می‌گیرد.]({static}/images/15_04_How_to_classify_15_.png)
+![کلادِ Dinosauria پرندگان را نیز در بر می‌گیرد.](https://evolution.berkeley.edu/wp-content/uploads/2021/12/15_04_How_to_classify_15_-500x452.png){: width="500" height="452" loading="lazy" }
 
 <br>
 

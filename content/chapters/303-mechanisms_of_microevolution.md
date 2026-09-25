@@ -16,22 +16,22 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 بعضی از «ژن‌های سبز» به صورت تصادفی به «ژن‌های قهوه‌ای» جهش یافتند (اگرچه از آنجایی که رخ دادن هر جهش نادر است، این فرایند «به تنهایی» نمی‌تواند تغییری بزرگ در فراوانی ژن طی یک نسل را شرح دهد).
 
-![جهش]({static}/images/mech01_mutation-e1616207371250.png)
+![جهش](https://evolution.berkeley.edu/wp-content/uploads/2021/03/mech01_mutation-e1616207371250-300x295.png){: width="300" height="295" loading="lazy" }
 
 **مهاجرت (یا جریان ژن)**
 
 بعضی سوسک‌های حامل ژن‌های قهوه‌ای از جمعیتی دیگر به جمعیت فعلی مهاجرت کردند، یا بعضی از سوسک‌ها که حامل ژن‌های سبز هستند از جمعیت فعلی مهاجرت کردند.
 
-![جریان ژن]({static}/images/mech02_migration.png)
+![جریان ژن](https://evolution.berkeley.edu/wp-content/uploads/2021/03/mech02_migration-1024x791.png){: width="1024" height="791" loading="lazy" }
 
 **رانش ژن**
 
 وقتی سوسک‌ها تولیدمثل کردند، صرفاً به دلیل تصادف، تعداد ژن‌های قهوه‌ای که به نسل بعد انتقال یافت بیشتر از ژن‌های سبز بود.
 
-![رانش ژن]({static}/images/mech03_genetic-drift.png)
+![رانش ژن](https://evolution.berkeley.edu/wp-content/uploads/2021/03/mech03_genetic-drift-1024x791.png){: width="1024" height="791" loading="lazy" }
 
 **انتخاب طبیعی**
 
 سوسک‌هایی که ژن‌های قهوه‌ای دارند از شکار شدن گریخته و بقا می‌یابند، و می‌توانند بیشتر از سوسک‌هایی که ژن‌های سبز دارند تولیدمثل کنند، در نتیجه مقدار بیشتری ژن قهوه‌ای به نسل بعد انتقال می‌یابد.
 
-![انتخاب طبیعی]({static}/images/mech04_naturalselection.png)
+![انتخاب طبیعی](https://evolution.berkeley.edu/wp-content/uploads/2021/03/mech04_naturalselection-1024x791.png){: width="1024" height="791" loading="lazy" }

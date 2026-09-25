@@ -10,29 +10,29 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ------
 خواندن یک فیلوژنی مشابه خواندن یک درخت خانوادگی است. ریشهٔ درخت نشانگر نسبِ نیایی است و نوک شاخه‌ها نشانگر نوادگانِ آن نیاکان. همینطور که از ریشه به سمت نوک شاخه‌ها حرکت می‌کنید، در زمان به جلو می‌روید.
 
-![فیلوژنی]({static}/images/understanding_phylos_Understanding-phylo1.png)
+![فیلوژنی](https://evolution.berkeley.edu/wp-content/uploads/2021/11/understanding_phylos_Understanding-phylo1-500x185.png){: width="500" height="185" loading="lazy" }
 
 وقتی یک نسب دچار انشقاق می‌شود (گونه‌زایی[^۱])، به صورت انشعاب روی فیلوژنی نمایش داده می‌شود. وقتی یک رویدادِ گونه‌زایی رخ می‌دهد، یک نسبِ نیاییْ دو -یا چند- نسبِ فرزند ایجاد می‌کند.
 
-![گونه‌زایی]({static}/images/understanding_phylos_speciation-event.png)
+![گونه‌زایی](https://evolution.berkeley.edu/wp-content/uploads/2021/11/understanding_phylos_speciation-event-500x184.png){: width="500" height="184" loading="lazy" }
 
 فیلوژنی‌ها الگوی تبارهای مشترکِ نسب‌ها را ردیابی می‌کنند. هر نسب، تاریخی دارد که بخشی از آن منحصر به خودش است و بخشی‌هایی که با نسب‌های دیگر مشترک است.
 
-![تبارها]({static}/images/understanding_phylos_unique-history.png)
+![تبارها](https://evolution.berkeley.edu/wp-content/uploads/2021/11/understanding_phylos_unique-history-500x185.png){: width="500" height="185" loading="lazy" }
 
 به طور مشابه، هر نسبْ نیاکانی دارد که منحصر به همان نسب هستند و نیاکانی که با دیگر نسب‌ها مشترکند -نیاکان مشترک[^۲].
 
-![نیاکان مشترک]({static}/images/understanding_phylos_unique-ancestor.png)
+![نیاکان مشترک](https://evolution.berkeley.edu/wp-content/uploads/2021/11/understanding_phylos_unique-ancestor-500x184.png){: width="500" height="184" loading="lazy" }
 
 ## کلادها
 ------
 کلاد یک دسته‌بندی است که شامل نیای مشترک و تمام نوادگان (زنده یا منقرض شدهٔ) آن نیا می‌شود. با استفاده از یک فیلوژنی، به سادگی می‌توان تشخیص داد که کدام نسب‌ها یک کلاد را تشکیل می‌دهند. فرض کنید یک شاخه را از فیلوژنی بچینیم -همهٔ جاندارانی که روی شاخهٔ هرس‌شده هستند یک کلاد را می‌سازند.
 
-![کلادها]({static}/images/7-scissorclade-e1625009351568.png)
+![کلادها](https://evolution.berkeley.edu/wp-content/uploads/2021/06/7-scissorclade-e1625009351568.png){: width="792" height="576" loading="lazy" }
 
 کلادها درون یکدیگر قرار می‌گیرند -آنها یک سلسله مراتبِ تو در تو را تشکیل می‌دهند. یک کلاد می‌تواند شامل چندین هزار یا تعداد کمی گونه باشد. چند مثال از کلادها در سطوح مختلف روی فیلوژنی‌های زیر علامت‌گذاری شده است. توجه کنید که چگونه کلادها درون کلادهای بزرگتر قرار گرفته‌اند.
 
-![کلادهای تو در تو]({static}/images/6-2.gif)
+![کلادهای تو در تو](https://evolution.berkeley.edu/wp-content/uploads/2021/03/nested.gif){: width="467" height="104" loading="lazy" }
 
 تا اینجا گفته‌ایم که نوک شاخه‌های یک فیلوژنی نشانگر نسب‌های فرزند هستند. اگرچه بسته به تعداد شاخه‌هایی از درخت که در نظر می‌گیرید، نوادگانِ روی سرشاخه‌ها ممکن است شامل جمعیت‌های مختلفی از یک گونه، گونه‌های مختلف یا کلادهای مختلف -که شامل چندین گونهٔ مختلف می‌شوند- باشند.
 

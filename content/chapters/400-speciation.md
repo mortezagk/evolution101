@@ -14,4 +14,4 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 بیایید با چگونگی تعریف یک گونه شروع کنیم.
 
-![گونه‌زایی]({static}/images/40-1.gif)
+![گونه‌زایی](https://evolution.berkeley.edu/wp-content/uploads/2021/09/Drosophila_scene_3_2-1024x450.png){: width="1024" height="450" loading="lazy" }

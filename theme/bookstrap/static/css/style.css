@@ -74,6 +74,7 @@ article img, section img
 	margin: 0.7rem auto;
 	display: block;
 	max-width: 100%;
+	height: auto;
 }
 
 article img.full, section img.full
@@ -452,13 +453,7 @@ footer address
 	background: #fff;
 }
 
-.digging-data p img {
-	max-height: 460px;
-	width: auto;
-}
-
 .digging-data p.digging-data__banner img {
-	max-height: none;
 	width: 100%;
 }
 

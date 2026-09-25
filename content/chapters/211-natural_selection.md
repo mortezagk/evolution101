@@ -16,24 +16,24 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 برای مثال، بعضی از سوسک‌ها سبز و بعضی قهوه‌ای هستند.
 
-![تنوع ژنتیکی]({static}/images/mech01_mutation-e1616207371250.png)
+![تنوع ژنتیکی](https://evolution.berkeley.edu/wp-content/uploads/2021/03/mech01_mutation-e1616207371250-300x295.png){: width="200" height="197" loading="lazy" }
 
 **۲) تولیدمثل افتراقی رخ می‌دهد**
 
 از آنجایی که محیط زیست نمی‌تواند از جمعیتی نامحدود پشتیبانی کند، همهٔ اعضا این امکان را ندارند که با تمام ظرفیت خود تولیدمثل کنند. در این مثال، سوسک‌های سبز اغلب توسط پرندگان خورده شده و کمتر از سوسک‌های قهوه‌ای امکانِ تولیدمثل می‌یابند.
 
-![تولیدمثل افتراقی]({static}/images/natselect02_birdeatingbeetles.png)
+![تولیدمثل افتراقی](https://evolution.berkeley.edu/wp-content/uploads/2021/03/natselect02_birdeatingbeetles-300x232.png){: width="300" height="232" loading="lazy" }
 
 **۳) وراثت**
 
 سوسک‌های قهوه‌ای که بقا یافته‌اند فرزندانی با رنگ قهوه‌ای دارند چون این خصوصیت ریشهٔ ژنتیکی دارد.
 
-![وراثت]({static}/images/natselect03_simple_beetle_brown_tree.png)
+![وراثت](https://evolution.berkeley.edu/wp-content/uploads/2021/03/natselect03_simple_beetle_brown_tree-300x232.png){: width="300" height="232" loading="lazy" }
 
 **۴) نتیجهٔ نهایی**
 
 خصوصیت سودمندتر (رنگ قهوه‌ای) که به سوسک‌ها امکانِ داشتنِ فرزندان بیشتر را می‌داد، در جمعیت رایج‌تر می‌شود. اگر این فرایند ادامه یابد، در نهایت همهٔ اعضای این جمعیت قهوه‌ای خواهند بود.
 
-![انتخاب طبیعی]({static}/images/natselect04_allbrownbeetles.png)
+![انتخاب طبیعی](https://evolution.berkeley.edu/wp-content/uploads/2021/03/natselect04_allbrownbeetles-300x232.png){: width="300" height="232" loading="lazy" }
 
 اگر تنوع، تولیدمثل افتراقی و وراثت وجود داشته باشد، فرگشت به واسطهٔ انتخاب طبیعی حاصل خواهد شد. به همین سادگی.

@@ -19,4 +19,4 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 - چگونه تنوع ژنتیکی، تولیدمثلِ افتراقی و وراثت منجر به فرگشت به واسطهٔ انتخاب طبیعی می‌شوند؛
 - چگونه گونه‌های مختلف می‌توانند از طریقِ هم‌فرگشتی بر روی فرگشتِ یکدیگر تاثیر بگذارند.
 
-![سازوکارها]({static}/images/14-1.gif)
+![سازوکارها](https://evolution.berkeley.edu/wp-content/uploads/2021/03/natselect02_birdeatingbeetles.png){: width="1651" height="1276" loading="lazy" }

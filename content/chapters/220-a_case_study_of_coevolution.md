@@ -14,7 +14,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 **بازیگران:** سنجاب قرمز[^۱]، پرندهٔ نوک‌ضربدری[^۲]، کاج Lodgepole
 
-| ![سنجاب]({static}/images/large.jpg) | ![پرندهٔ نوک‌ضربدری]({static}/images/large-2.jpg) | ![کاج Lodgepole]({static}/images/large-3.jpg) |
+| ![سنجاب](https://evolution.berkeley.edu/wp-content/uploads/2021/10/large.jpg){: width="1024" height="768" loading="lazy" } | ![پرندهٔ نوک‌ضربدری](https://evolution.berkeley.edu/wp-content/uploads/2021/10/large-2-300x200.jpg){: width="300" height="200" loading="lazy" } | ![کاج Lodgepole](https://evolution.berkeley.edu/wp-content/uploads/2021/10/large-3-225x300.jpg){: width="225" height="300" loading="lazy" } |
 | :---: | :---: | :---: |
 | سنجاب قرمز<br>*عکس از P. Holroyd* | پرندهٔ نوک‌ضربدری<br>*عکس از Noah Strycker، CC BY-NC 4.0* | کاج Lodgepole<br>*عکس از kendalloei، CC BY-NC 4.0* |
 
@@ -39,17 +39,15 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 این پیشگویی درست از کار درآمده. جایی که سنجاب‌ها حضور دارند، میوه‌های کاج سنگین‌تر هستند و دانه‌های کمتری دارند، ولی فلس‌های کم‌پشتی دارند (مثل تصویر چپ). جایی که فقط نوک‌ضربدری‌ها حضور دارند، میوه‌های کاج سبک‌تر هستند و دانه‌های بیشتری دارند، ولی فلس‌های پرپشتی دارند (مثل تصویر راست).
 
-| ![میوهٔ کاج سازگار با نوک‌ضربدری‌ها، مناسب‌تر برای سنجاب‌ها]({static}/images/35-2.jpg) | ![میوهٔ کاج سازگار با سنجاب‌ها، مناسب‌تر برای نوک‌ضربدری‌ها]({static}/images/35-1.jpg) |
-| :---: | :---: |
-| میوهٔ کاج سازگار با نوک‌ضربدری‌ها، مناسب‌تر برای سنجاب‌ها | میوهٔ کاج سازگار با سنجاب‌ها، مناسب‌تر برای نوک‌ضربدری‌ها |
+![دو میوهٔ کاج Lodgepole: چپ، سازگار با سنجاب‌ها؛ راست، سازگار با نوک‌ضربدری‌ها.](https://evolution.berkeley.edu/wp-content/uploads/2021/03/LodgepolePine_conecomparison_lppbg064.gif){: width="363" height="246" loading="lazy" }
 
-<center markdown="1">*تصاویر میوه‌های کاج از Ed Jensen، دانشگاه ایالتی اورگن.*</center>
+<center markdown="1">میوهٔ کاج Lodgepole سازگار با سنجاب‌ها (چپ)، که خوردنش برای نوک‌ضربدری‌ها آسان‌تر است؛ و میوهٔ کاج سازگار با نوک‌ضربدری‌ها (راست)، که خوردنش برای سنجاب‌ها آسان‌تر است.<br>*تصویر از Ed Jensen، دانشگاه ایالتی اورگن.*</center>
 
 **۲) تفاوت‌های جغرافیایی در شکارچیان باید با تفاوت‌های طعمه تطابق داشته باشد.**
 
 اگر نوک‌ضربدری‌ها در واکنش به درختان کاج فرگشت یافته باشند، باید تفاوت‌های جغرافیایی را در پرنده‌ها ببینیم: جایی که میوه‌های کاج فلس‌های پرپشتی دارند، پرنده‌ها باید منقارهای عمیق‌تر و کم انحنا‌تری داشته باشند (تصویر چپ) -در مقایسه با جاهایی که میوه‌های کاج فلس‌های کم‌پشتی دارند (تصویر راست). این پیشگویی هم درست از آب در آمده.
 
-| ![منقار نوک‌ضربدری نر با انحنای بیشتر]({static}/images/35-4.jpg) | ![منقار نوک‌ضربدری ماده با انحنای کمتر]({static}/images/35-3.jpg) |
+| ![منقار نوک‌ضربدری نر با انحنای بیشتر](https://evolution.berkeley.edu/wp-content/uploads/2021/03/crossbill_male.jpg){: width="175" height="123" loading="lazy" } | ![منقار نوک‌ضربدری ماده با انحنای کمتر](https://evolution.berkeley.edu/wp-content/uploads/2021/03/crossbill_female.jpg){: width="175" height="123" loading="lazy" } |
 | :---: | :---: |
 | منقار نوک‌ضربدری نر با انحنای بیشتر | منقار نوک‌ضربدری ماده با انحنای کمتر |
 

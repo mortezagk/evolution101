@@ -10,12 +10,12 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ------
 زیست‌شناسان از عبارت **سازواری**[^۱] برای توصیف سودمندیِ یک ژنوتیپ در بقای فرزندان در نسل بعد نسبت به ژنوتیپ‌های دیگر استفاده می‌کنند. پس اگر سوسک‌های قهوه‌ای به صورت پیوسته و به دلیل رنگشان فرزندان بیشتری (نسبت به سوسک های سبز) از خود به‌جا بگذارند، می‌گوییم سوسک‌های قهوه‌ای سازواری بیشتری داشته‌اند. در فرگشت، سازواری به موفقیت در بقا و تولیدمثل مربوط است، نه به ورزش و قدرت بدنی.
 
-![سازواری]({static}/images/beetles_fitness.png)
+![سازواری](https://evolution.berkeley.edu/wp-content/uploads/2021/03/beetles_fitness-1024x330.png){: width="1024" height="330" loading="lazy" }
 <center markdown="1">در اینجا سوسک‌های قهوه‌ای نسبت به سوسک‌های سبز از سازواری بیشتری برخوردارند.</center>
 
 البته، سازواری یک موضوع نسبی است. سازواریِ یک ژنوتیپ به محیط زیستی که جاندار در آن زندگی می‌کند بستگی دارد. برای مثال، ژنوتیپی که در عصر یخبندان سازوارترین است، احتمالاً پس از پایان این دوره دیگر سازوارترین ژنوتیپ نخواهد بود.
 
-| ![نگهداری از فرزند]({static}/images/27-2.jpg) | ![زاییدن هزاران فرزند]({static}/images/27-3.jpg) | ![به رخ کشیدنِ پرها]({static}/images/27-4.jpg) |
+| ![نگهداری از فرزند](https://evolution.berkeley.edu/wp-content/uploads/2021/03/penguin3.jpg){: width="178" height="243" loading="lazy" } | ![زاییدن هزاران فرزند](https://evolution.berkeley.edu/wp-content/uploads/2021/03/stomatopod3.jpg){: width="190" height="243" loading="lazy" } | ![به رخ کشیدنِ پرها](https://evolution.berkeley.edu/wp-content/uploads/2021/03/peacock3.jpg){: width="178" height="150" loading="lazy" } |
 | :---: | :---: | :---: |
 | نگهداری از فرزند<br>*عکس از Jeff Abbas © California Academy of Sciences.* | زاییدن هزاران فرزند<br>*عکس از Roy Caldwell.* | به رخ کشیدنِ پرها<br>*عکس از Rock Maple Farm.* |
 
