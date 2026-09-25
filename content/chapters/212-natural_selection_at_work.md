@@ -13,20 +13,20 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 انتخاب طبیعی می‌تواند سازگاری‌های چشمگیری ایجاد کند که به جانداران در بقا و تولیدمثل کمک می‌کنند. چند نمونه در ادامه آمده است.
 
 ![ارکید](https://evolution.berkeley.edu/wp-content/uploads/2021/03/orchid_wasp_sm.jpg){: width="158" height="111" loading="lazy" }
-<center markdown="1">ارکیدها (Orchids) زنبورها را فریب داده و به جفتگیری با خود ترغیب می‌کنند.<br>*تصویر ارکید و زنبور از Colin Bower.*</center>
+<div class="caption" markdown="1">ارکیدها (Orchids) زنبورها را فریب داده و به جفتگیری با خود ترغیب می‌کنند.<br>*تصویر ارکید و زنبور از Colin Bower.*</div>
 
 ![حشره](https://evolution.berkeley.edu/wp-content/uploads/2021/03/katydid_sm.jpg){: width="158" height="111" loading="lazy" }
-<center markdown="1">حشرهٔ راست‌بال (Katydids) طوری استتار شده که شبیه برگ به نظر برسد.<br>*تصویر © Greg Neise، GE Neise Digital Communication.*</center>
+<div class="caption" markdown="1">حشرهٔ راست‌بال (Katydids) طوری استتار شده که شبیه برگ به نظر برسد.<br>*تصویر © Greg Neise، GE Neise Digital Communication.*</div>
 
 ![مار](https://evolution.berkeley.edu/wp-content/uploads/2021/03/kingsnake_coral_sm.jpg){: width="158" height="111" loading="lazy" }
-<center markdown="1">شه‌مارِ (King snakes) غیر سمی به مار مرجانیِ (Coral snakes) سمی شبیه است.<br>*تصاویر از Neurotoxin.*</center>
+<div class="caption" markdown="1">شه‌مارِ (King snakes) غیر سمی به مار مرجانیِ (Coral snakes) سمی شبیه است.<br>*تصاویر از Neurotoxin.*</div>
 
 شکل‌گیری رفتار نیز می‌تواند به واسطهٔ انتخاب طبیعی باشد. رفتارهایی مثل مناسک جفت‌گیری پرندگان، رقص زنبورها و استعداد انسان‌ها برای یادگیری زبان هم دارای مؤلفه‌های ژنتیکی هستند و در معرض انتخاب طبیعی. برای مثال، کودنِ[^۱] پاآبیِ نر در حرکت دادن پاهای خود اغراق می‌کند؛ سازگاری‌ای که به او در جذب جفت کمک می‌کند.
 
 در برخی موارد، می‌توانیم انتخاب طبیعی را به طور مستقیم مشاهده کنیم. داده‌هایی بسیار متقاعدکننده حکایت از این دارد که شکل منقار سهره‌های جزایر گالاپاگوس الگوهای آب‌و‌هوا را دنبال کرده است: بعد از خشکسالی‌ها، جمعیت سهره دارای منقار عمیق‌تر (منظور ارتفاع کف تا روی منقار است) و قوی‌تری است، که به آنها امکان استفاده از دانه‌های سخت‌تر را می‌دهد.
 
 ![کودن](https://evolution.berkeley.edu/wp-content/uploads/2021/03/boobies.jpg){: width="137" height="175" loading="lazy" }
-<center markdown="1">*تصویر کودن پاآبی از Ian Skipworth.*</center>
+<div class="caption" markdown="1">*تصویر کودن پاآبی از Ian Skipworth.*</div>
 
 در موارد دیگر، فعالیت‌های انسانی منجر به تغییر محیط زیست شده که خود باعث فرگشتِ جمعیت‌ها توسط انتخاب طبیعی شده است. نمونه‌ای قابل توجه، بیدِ فلفلی[^۲] است که ممکن است رنگ روشن یا تیره داشته باشد. در دوران انقلاب صنعتی، وقتی آلودگی هوا تنهٔ درختان را تیره کرد، شکل‌های تیره‌رنگ برتری یافتند چون بهتر استتار می‌شدند، و در نتیجه رایج‌تر شدند. بعدها که آلودگی کاهش یافت، شکل‌های روشن‌رنگ دوباره رایج‌تر شدند. انتخاب طبیعی‌ای که با فعالیت انسان آغاز شده باشد اغلب قابل مشاهده و مستندسازی است.
 

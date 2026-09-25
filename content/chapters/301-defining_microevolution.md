@@ -21,6 +21,6 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 در حوزهٔ حیوانات، تصمیم‌گیری در مورد اینکه چه چیزی یک جمعیت است نسبتاً ساده است: گروهی از جانداران که با هم آمیزش دارند (به عبارتی، خزانهٔ ژنی آنها مشترک است). پس گونه‌های سوسکِ مورد بحث ما، ممکن است گروهی از سوسک‌ها باشند که روی قلهٔ کوهی زندگی می‌کنند و جفت‌های بالقوه‌ای برای یکدیگر هستند.
 
 ![جمعیت](https://evolution.berkeley.edu/wp-content/uploads/2021/04/beetlesmating_USGS.jpg){: width="325" height="175" loading="lazy" }
-<center markdown="1">در طبیعت توانایی آمیزش مرزهای یک جمعیت را مشخص می‌کند.<br>*تصویر از Northern Prairie Wildlife Research Center، USGS.*</center>
+<div class="caption" markdown="1">در طبیعت توانایی آمیزش مرزهای یک جمعیت را مشخص می‌کند.<br>*تصویر از Northern Prairie Wildlife Research Center، USGS.*</div>
 
 زیست‌شناسانی که در این سطح دربارهٔ فرگشت پژوهش می‌کنند، فرگشت را به عنوان تغییر در فراوانی ژن در یک جمعیت تعریف می‌کنند.

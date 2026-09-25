@@ -15,7 +15,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 برخی جهش‌ها هیچ اثر قابل ملاحظه‌ای روی جاندار نمی‌گذارند. این اتفاق می‌تواند در شرایط مختلفی رخ دهد: ممکن است جهش در بخشی از DNA رخ دهد که عملکردی ندارد، یا ممکن است جهش در ناحیهٔ کُدکنندهٔ پروتئین رخ دهد، ولی تاثیری بر توالیِ آمینواسیدیِ[^۱] پروتئین نگذارد. جهش‌های دیگری اثر قابل ملاحظه‌ای دارند، ولی اثری که به نظر نمی‌رسد کمکی کند یا آسیبی بزند. برای مثال، تنها یک جهش باعث شده گوش‌های این گربه کمی به سوی عقب انحنا یابد، ویژگی‌ای که به نظر نمی‌رسد بر سلامت آن اثری داشته باشد.
 
 ![گربه](https://evolution.berkeley.edu/wp-content/uploads/2021/03/American_curl_kitten_wikipedia-225x300.jpg){: width="225" height="300" loading="lazy" }
-<center markdown="1">*تصویر از Tanakawho در فلیکر، تحت مجوز Creative Commons Attribution 2.0 Generic.*</center>
+<div class="caption" markdown="1">*تصویر از Tanakawho در فلیکر، تحت مجوز Creative Commons Attribution 2.0 Generic.*</div>
 
 **۲) اثر زیان‌بار**
 

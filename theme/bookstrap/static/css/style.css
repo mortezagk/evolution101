@@ -1,9 +1,8 @@
-/*@import url(//fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
-*/
 @font-face {
 	font-family: 'Sahel';
 	src: url('../font/Sahel.eot');
-	src: url('../font/Sahel.eot?#iefix') format('embedded-opentype'), url('../font/Sahel.woff') format('woff'), url('../font/Sahel.ttf') format('truetype');
+	src: url('../font/Sahel.eot?#iefix') format('embedded-opentype'), url('../font/Sahel.woff2') format('woff2'), url('../font/Sahel.woff') format('woff'), url('../font/Sahel.ttf') format('truetype');
+	font-display: swap;
 	font-weight: normal;
 	font-style: normal;
 }
@@ -28,18 +27,6 @@ body {
 .sidebar-nav {
 	padding: 9px 0;
 }
-.tag-1 {
-	font-size: 1.2em;
-}
-.tag-2 {
-	font-size: 10p1emt;
-}
-.tag-2 {
-	font-size: 0.9em;
-}
-.tag-4 {
-	font-size: 0.8em;
-}
 
 p {
 	font-family: 'Sahel', "Droid Arabic Naskh";
@@ -52,11 +39,6 @@ p {
 }
 .navbar .brand, .navbar .nav, .navbar .nav li {
 	float: right;
-}
-@media (min-width:767px) {
-	.container {
-		width: 1200px !important;
-	}
 }
 
 pre {
@@ -95,17 +77,6 @@ article h2, article h3, article h4, article h5, article h6
 	margin-bottom: 0.6rem;
 }
 
-.attentionBox
-{
-	padding: 0.4rem;
-	border-radius: 5px;
-	margin: 33px;
-	border: 1px;
-	background: #f7f7de;
-	border: solid;
-	border-width: 1pt;
-	border-spacing: 10pt;
-}
 
 footer address
 {
@@ -459,4 +430,16 @@ footer address
 
 .category-header .category-link {
 	font-size: 1em;
+}
+
+/* Figure captions */
+.caption {
+	margin: -0.2rem auto 1.2rem;
+	text-align: center;
+	color: #555;
+}
+
+.caption p {
+	font-size: 1em;
+	line-height: 1.7;
 }

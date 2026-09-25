@@ -11,7 +11,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 تصور کنید ۳۵۰ میلیون سال در زمان به عقب سفر کرده‌اید (۵۰ میلیون سال کمتر یا بیشتر). هدف شما این است که حشرات جالبی که در این دورهٔ زمانی می‌زیستند را بررسی کنید. حشرات کوچک بسیاری را خواهید دید که شبیه بیدِ کاغذهای امروزی هستند -چیز چندان خاصی نیست.
 
 ![بیدِ کاغذ](https://evolution.berkeley.edu/wp-content/uploads/2021/04/silverfish.jpg){: width="350" height="135" loading="lazy" }
-<center markdown="1">*عکس بید کاغذ از T.W. Davies © California Academy of Sciences.*</center>
+<div class="caption" markdown="1">*عکس بید کاغذ از T.W. Davies © California Academy of Sciences.*</div>
 
 ولی اتفاق جالب و قابل توجهی در حال رخ دادن است که شما نمی‌توانید آن را ببینید -نسبی دچار انشقاق شده است. یکی از این نسب‌های که به‌تازگی جدا شده باعث به وجود آمدن حدود ۴۰۰ گونهٔ موجود (منقرض نشده) خواهد شد، که بسیار شببیه حشراتِ باستانی هستند. ولی نسبِ دیگر باعث به وجود آمدن میلیون‌ها گونهٔ موجود می‌شود، اکثریتِ حیاتِ جانوری امروز زمین. چرا چنین تفاوت بزرگی میان تنوعِ این دو نسب وجود دارد؟ در نهایت، ۳۵۰ میلیون سال پیش آنها از هم قابل تمییز نبودند...
 
@@ -38,7 +38,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 اگر افزایش تنوع در مدت زمان کوتاهی رخ دهد، معمولا برای اشاره به آن از عنوان «تشعشع سازشی» استفاده می‌شود. اگرچه، زیست‌شناسان استانداردهای متفاوتی برای تعریفِ تشعشع سازشی دارند، این واژه به طور کلی به معنیِ رویدادی است که در آن یک نسب به سرعت تنوع می‌یابد، و سازگاری‌های جدیدی در نسب‌های جدید فرگشت می‌یابد. تنوع‌یافتنِ سریعِ پستانداران، که در تصویر زیر نمایش داده شده، می‌تواند یک تشعشع سازشی باشد.
 
 ![تشعشع سازشی پستانداران](https://evolution.berkeley.edu/wp-content/uploads/2021/10/21_Mammals_Upham2020.png){: width="931" height="521" loading="lazy" }
-<center markdown="1">بیست میلیون سال تنوع‌یابیِ سریع پس از انقراض K/Pg.<br>*درخت برگرفته از: Upham, N.S., Esselstyn, J.A., Jetz, W., 2019. Inferring the mammal tree: Species-level sets of phylogenies for questions in ecology, evolution, and conservation. PLoS Biol 17, e3000494.*</center>
+<div class="caption" markdown="1">بیست میلیون سال تنوع‌یابیِ سریع پس از انقراض K/Pg.<br>*درخت برگرفته از: Upham, N.S., Esselstyn, J.A., Jetz, W., 2019. Inferring the mammal tree: Species-level sets of phylogenies for questions in ecology, evolution, and conservation. PLoS Biol 17, e3000494.*</div>
 
 **۳) تغییرات تاریخی در تنوع**
 
@@ -49,7 +49,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 حدود ۵۳۰ میلیون سال پیش، طیف عظیمی از جانوران دریایی ناگهان وارد صحنهٔ فرگشتی شدند. (**بدیهی است که «ناگهان»، در اصطلاح زمین‌شناسی، یعنی مثلا در ۱۰ میلیون سال**). این جانوران اشکال متنوعی از ساختمانِ بدن داشتند که فرگشت از آن زمان در حالِ استفاده از آنها برای ایجاد «مشتق» است، مثل این نمونه‌ها از Burgess Shale.
 
 ![انفجار](https://evolution.berkeley.edu/wp-content/uploads/2021/04/cambrian_critters.gif){: width="382" height="285" loading="lazy" }
-<center markdown="1">*تصاویر از Chip Clark، موزهٔ تاریخ طبیعی، مؤسسهٔ اسمیتسونیان.*</center>
+<div class="caption" markdown="1">*تصاویر از Chip Clark، موزهٔ تاریخ طبیعی، مؤسسهٔ اسمیتسونیان.*</div>
 
 **ب) انقراض**
 

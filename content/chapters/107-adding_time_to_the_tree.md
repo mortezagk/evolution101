@@ -15,4 +15,4 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 این فیلوژنی نشان‌دهندهٔ فرگشتِ مهره‌داران است -یک کلادِ کوچک از درخت حیات. طولِ شاخه‌ها طوری تنظیم شده که زمان انشقاق و انقراض هر نسب را نشان دهد.
 
 ![درختی که نشان می‌دهد کلادهای مختلف مهره‌داران چه زمانی شکل گرفتند و منقرض شدند.](https://evolution.berkeley.edu/wp-content/uploads/2021/10/12-addingtime_Vertebrate_homology.png){: width="792" height="613" loading="lazy" }
-<center markdown="1">*درخت برگرفته از: Irisarri, I., Baurain, D., Brinkmann, H., Delsuc, F., Sire, J.-Y., Kupfer, A., … and Philippe, H., 2017. Phylotranscriptomic consolidation of the jawed vertebrate timetree. Nat Ecol Evol 1, 1370–1378.*</center>
+<div class="caption" markdown="1">*درخت برگرفته از: Irisarri, I., Baurain, D., Brinkmann, H., Delsuc, F., Sire, J.-Y., Kupfer, A., … and Philippe, H., 2017. Phylotranscriptomic consolidation of the jawed vertebrate timetree. Nat Ecol Evol 1, 1370–1378.*</div>

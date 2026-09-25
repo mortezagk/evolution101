@@ -15,12 +15,12 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 تقلید از برگ‌ها توسط حشرات یک سازگاری برای دوری از شکارچیان است. این مثال یک حشرهٔ راست‌بال از کاستاریکا است.
 
 ![تقلید از برگ‌ها توسط حشرات](https://evolution.berkeley.edu/wp-content/uploads/2021/10/katydid_225.jpg){: width="225" height="148" loading="lazy" }
-<center markdown="1">*تصویر © Greg Neise، GE Neise Digital Communication.*</center>
+<div class="caption" markdown="1">*تصویر © Greg Neise، GE Neise Digital Communication.*</div>
 
 بوتهٔ قطران[^۱] یک گیاه بیابان‌زی است که سمومی تولید می‌کند تا از رشد گیاهان دیگر در اطراف خود جلوگیری، و در نتیجه رقابت برای مواد مغذی و آب را کم کند.
 
 ![بوتهٔ قطران](https://evolution.berkeley.edu/wp-content/uploads/2021/03/creosotebush_225.jpg){: width="225" height="148" loading="lazy" }
-<center markdown="1">*تصویر از سازمان زمین‌شناسی ایالات متحده (USGS).*</center>
+<div class="caption" markdown="1">*تصویر از سازمان زمین‌شناسی ایالات متحده (USGS).*</div>
 
 پژواک‌یابی[^۲] در خفاش‌ها یک سازگاری برای شکار حشرات است.
 
@@ -31,7 +31,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 گونه‌هایی از ماهی که در غارهای کاملاً تاریک زیست می‌کنند چشمانی غیرفعال و اضافی دارند. وقتی نیاکانِ بینای آنها شروع به زندگی در غارها کردند، دیگر هیچ فرایندِ انتخاب طبیعی که کارایی چشمان ماهی‌ها را ابقا کند وجود نداشت. بنابراین ماهی‌های دارای دیدِ قوی دیگر نمی‌توانستند ماهی‌های دارای دید ضعیف را از دور رقابت خارج کنند. امروزه این ماهی‌ها هنوز چشم دارند -ولی آنها غیرفعال هستند و سازگاری نیستند؛ آنها فقط محصول جانبی تاریخ تکاملیِ این ماهی‌ها هستند.
 
 ![ماهی‌های نابینا](https://evolution.berkeley.edu/wp-content/uploads/2021/03/milyeringa.jpg){: width="225" height="148" loading="lazy" }
-<center markdown="1">*تصویر از Wetland Care Australia.*</center>
+<div class="caption" markdown="1">*تصویر از Wetland Care Australia.*</div>
 
 در واقع، زیست‌شناسان در مورد اینکه چه چیزهایی سازگاری هستند (یا نیستند) حرف‌های زیادی برای گفتن دارند.
 

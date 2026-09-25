@@ -19,7 +19,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 این سیستم رده‌بندیِ فیلوژنتیکی فقط نام کلادها -گروهی از جانداران که همه از یک نیای مشترک نشأت گرفته‌اند- را عنوان می‌کند. به عنوان مثال، می‌توانیم به طور دقیق‌تر به خزندگان و پرندگان نگاهی بیاندازیم.
 
 ![فیلوژنی‌ای که روابط میان پرندگان، دایناسورهای غیرپرنده و خزندگان را نشان می‌دهد.](https://evolution.berkeley.edu/wp-content/uploads/2021/12/15_01_How_to_classify-1-500x411.png){: width="500" height="411" loading="lazy" }
-<center markdown="1">*درخت برگرفته از: Irisarri, I., Baurain, D., Brinkmann, H., Delsuc, F., Sire, J.-Y., Kupfer, A., … and Philippe, H., 2017. Phylotranscriptomic consolidation of the jawed vertebrate timetree. Nat Ecol Evol 1, 1370–1378.*</center>
+<div class="caption" markdown="1">*درخت برگرفته از: Irisarri, I., Baurain, D., Brinkmann, H., Delsuc, F., Sire, J.-Y., Kupfer, A., … and Philippe, H., 2017. Phylotranscriptomic consolidation of the jawed vertebrate timetree. Nat Ecol Evol 1, 1370–1378.*</div>
 
 در یک سیستم رده‌بندی فیلوژنتیکی، می‌توانیم هر کدام از کلادهای روی درخت را نام‌گذاری کنیم. برای مثال، Testudines، Squamata، Archosauria و Crocodylomorpha هر کدام یک کلاد هستند.
 
