@@ -39,7 +39,8 @@ main a:hover,
 /* Page body */
 
 main h1 {
-	margin-bottom: 1rem;
+	margin-bottom: 0.5rem;
+	font-size: 1.9rem;
 	font-weight: 700;
 }
 
@@ -54,11 +55,11 @@ main h2, main h3, main h4 {
 }
 
 main h2 {
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 }
 
 main h3 {
-	font-size: 1.3rem;
+	font-size: 1.15rem;
 }
 
 main img {
@@ -210,37 +211,114 @@ main hr {
 
 /* Previous / next links */
 
-.article-pagination {
+.page-nav {
 	display: flex;
+	gap: 0.75rem;
+}
+
+/* Top: two small outlined buttons */
+.page-nav--top {
 	justify-content: space-between;
+	margin: 0.25rem 0 0;
+}
+
+.page-nav__pill {
+	display: inline-flex;
 	align-items: center;
-	margin: 2.5rem 0 1.5rem;
-	font-size: 1.05em;
-	font-weight: 600;
-	gap: 1rem;
+	gap: 0.4rem;
+	padding: 0.2rem 0.8rem;
+	border: 1px solid #d5dbd9;
+	border-radius: 999px;
+	color: #555;
+	font-size: 0.85rem;
+	text-decoration: none;
+	transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
 }
 
-.article-pagination__item {
-	flex: 1 1 0;
+.page-nav__pill--next {
+	margin-right: auto;
 }
 
-.article-pagination__item--prev {
-	text-align: right;
+.page-nav__pill i {
+	font-size: 0.75em;
 }
 
-.article-pagination__item--next {
-	text-align: left;
-}
-
-.article-pagination__link {
-	color: #0088cc;
+main .page-nav__pill:hover,
+.page-nav__pill:focus-visible {
+	border-color: var(--site-teal);
+	background: #f6fbfa;
+	color: var(--site-teal-dark);
 	text-decoration: none;
 }
 
-.article-pagination__link:hover,
-.article-pagination__link:focus {
-	color: #005580;
-	text-decoration: underline;
+/* Bottom: cards with the neighbouring page's title */
+.page-nav--bottom {
+	margin: 3rem 0 1rem;
+}
+
+.page-nav__card {
+	flex: 0 1 50%;
+	display: flex;
+	align-items: center;
+	gap: 0.85rem;
+	min-width: 0;
+	padding: 0.75rem 1rem;
+	border: 1px solid #dfe6e4;
+	border-radius: 0.6rem;
+	color: inherit;
+	text-decoration: none;
+	transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.page-nav__card--next {
+	justify-content: flex-end;
+	margin-right: auto;
+	text-align: left;
+}
+
+main .page-nav__card:hover,
+.page-nav__card:focus-visible {
+	border-color: var(--site-teal);
+	background: #f6fbfa;
+	text-decoration: none;
+}
+
+.page-nav__text {
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+}
+
+.page-nav__label {
+	font-size: 0.8rem;
+	color: #777;
+}
+
+.page-nav__title {
+	color: var(--site-teal-dark);
+	font-weight: 600;
+	line-height: 1.6;
+}
+
+.page-nav__arrow {
+	flex: 0 0 auto;
+	color: #999;
+	font-size: 0.85rem;
+}
+
+.page-nav__card:hover .page-nav__arrow {
+	color: var(--site-teal);
+}
+
+@media (max-width: 575.98px) {
+	.page-nav--bottom {
+		flex-direction: column;
+	}
+
+	.page-nav__card {
+		flex: 1 1 auto;
+		margin-right: 0;
+	}
 }
 
 main table {
