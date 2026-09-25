@@ -17,8 +17,11 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 این سبزیجاتِ رایج از انواع خردل وحشی کشت شده‌اند. این، فرگشت به واسطهٔ انتخاب مصنوعی است.
 
+<section class="digging-data" markdown="1">
+<p class="digging-data__banner"><img src="{static}/images/Shovel_DiggingData.png" alt="کندوکاو در داده‌ها (Digging Data)"></p>
+
 ## کندوکاو در داده‌ها[^۳]: انتخاب مصنوعی
-------
+
 همانطور که انسان‌ها گیاهان زراعی و جانوران اهلی را از نیاکانِ وحشی‌شان پدید آوردند، از انتخاب مصنوعی برای ایجادِ واریته‌ها و نژادهای مجزا از این گونه‌ها نیز استفاده کردیم. سگ‌های اهلی ده‌ها هزار سال پیش از نیاکانی باستانی و اکنون منقرض‌شده از گرگ‌ها فرگشت یافتند[^۱۰] -و سپس، طی ۲۰۰ سال گذشته، انسان‌ها زیرمجموعه‌هایی از سگ‌ها را بیشتر گزینش کردند و گریت دین‌ها، چی‌واواها و طیف کاملی از بیش از ۴۵۰ نژاد را پدید آوردند.
 
 ![چی‌واوا و چساپیک بی رتریور]({static}/images/chi-retreiver.jpg)
@@ -75,6 +78,8 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <div dir="ltr" markdown="1">
 Kim, J., Williams, F. J., Dreger, D. L., Plassais, J., Davis, B. W., Parker, H. G., and Ostrander, E. A. (2018). Genetic selection of athletic success in sport-hunting dogs. *Proceedings of the National Academy of Sciences.* 115: E7212-E7221.
 </div>
+
+</section>
 
 <br>
 

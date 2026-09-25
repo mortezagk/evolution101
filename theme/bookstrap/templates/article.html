@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block title %}{{ article.title }} | {{ SITENAME }}{% endblock %}
-{% block description %}{{ article.summary|striptags|truncate(160, True, '…') }}{% endblock %}
+{% block description %}{{ article.content|plain_text(160) }}{% endblock %}
 {% block head_extra %}
   {% if CANONICAL_SITEURL %}
   <link rel="canonical" href="{{ CANONICAL_SITEURL }}/{{ article.url|replace('index.html', '') }}">
@@ -18,6 +18,9 @@
                                         {{ article.title}}
                                 </a>
                         </h1>
+                        {% if article.source %}
+                        <a class="source-link" href="{{ article.source }}" rel="noopener" target="_blank" title="{{ article.source_title or article.source }}">متن اصلی ⎋</a>
+                        {% endif %}
                 </header>
 
                 {% set sorted_articles = articles | sort(attribute='source_path') %}
@@ -54,24 +57,25 @@
                 {% if article.section_index == '00' and article.section != '0' %}
                 {% set chapter_articles = articles | selectattr('category', 'equalto', article.category) | rejectattr('source_path', 'equalto', article.source_path) | sort(attribute='source_path') | list %}
                 {% if chapter_articles %}
-                <nav class="chapter-toc">
-                        <h2>مطالب این فصل</h2>
-                        <ol>
+                <nav class="chapter-toc" aria-labelledby="chapter-toc-title">
+                        <h2 id="chapter-toc-title">مطالب این فصل</h2>
+                        <ol class="chapter-toc__list">
                         {% for item in chapter_articles %}
-                                <li><a href="{{ SITEURL }}/{{ item.url }}">{{ item.title|persian_digits }}</a></li>
+                                <li class="chapter-toc__item">
+                                        <a class="chapter-toc__link" href="{{ SITEURL }}/{{ item.url }}">
+                                                <span class="chapter-toc__number">{{ item.section_index|int|persian_digits }}</span>
+                                                <span class="chapter-toc__text">
+                                                        <span class="chapter-toc__title">{{ item.title|persian_digits }}</span>
+                                                        <span class="chapter-toc__summary">{{ item.content|plain_text(170) }}</span>
+                                                </span>
+                                        </a>
+                                </li>
                         {% endfor %}
                         </ol>
                 </nav>
                 {% endif %}
                 {% endif %}
 
-                {% if article.source %}
-                <p class="article-source">
-                        این صفحه ترجمهٔ صفحهٔ
-                        «<a href="{{ article.source }}" dir="ltr" lang="en" rel="noopener" target="_blank">{{ article.source_title or article.source }}</a>»
-                        از وب‌سایت Understanding Evolution است.
-                </p>
-                {% endif %}
 
                 {% if nav.prev or nav.next %}
                 <div class="article-pagination article-pagination--bottom">

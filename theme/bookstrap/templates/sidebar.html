@@ -18,23 +18,32 @@
           {% set category_slug = category.slug if category.slug is defined else category|string %}
           {% set group_id = 'cat-' ~ loop.index %}
           {% set is_active_group = current_category and (category == current_category or category_slug == current_category.slug) %}
-          {% set sorted_articles = articles|sort(attribute='section_index') %}
+          {% set sorted_articles = articles|sort(attribute='source_path') %}
+          {% set cover = sorted_articles|selectattr('section_index', 'equalto', '00')|first %}
+          {% set pages = sorted_articles|rejectattr('section_index', 'equalto', '00')|list %}
           <li class="category-group{% if is_active_group %} is-open{% endif %}" data-category-slug="{{ category_slug }}">
             <div class="category-header">
-              <a class="category-link category-toggle" href="#" role="button" aria-controls="sidebar-{{ group_id }}" aria-expanded="{% if is_active_group %}true{% else %}false{% endif %}">
+              <a class="category-link{% if article is defined and cover and article == cover %} is-current{% endif %}" href="{{ SITEURL }}/{{ (cover or sorted_articles[0]).url }}">
                 <span class="category-title"><i class="icon-book icon-large"></i>{{ category|persian_digits }}</span>
               </a>
+              {% if pages %}
+              <button type="button" class="category-toggle" aria-controls="sidebar-{{ group_id }}" aria-expanded="{% if is_active_group %}true{% else %}false{% endif %}" aria-label="نمایش مطالب {{ category }}">
+                <i class="icon-chevron-down"></i>
+              </button>
+              {% endif %}
             </div>
+            {% if pages %}
             <ul id="sidebar-{{ group_id }}" class="category-articles{% if not is_active_group %} is-collapsed{% endif %}">
-              {% for article in sorted_articles %}
+              {% for item in pages %}
               <li>
-                <a href="{{ SITEURL }}/{{ article.url }}">
-                  {% if article.section_index and article.section_index != '00' %}<span class="category-article-index">{{ article.section_index|int|persian_digits }}</span>{% endif %}
-                  <span class="category-article-title">{{ article.title|persian_digits }}</span>
+                <a href="{{ SITEURL }}/{{ item.url }}"{% if article is defined and item == article %} class="is-current" aria-current="page"{% endif %}>
+                  <span class="category-article-index">{{ item.section_index|int|persian_digits }}</span>
+                  <span class="category-article-title">{{ item.title|persian_digits }}</span>
                 </a>
               </li>
               {% endfor %}
             </ul>
+            {% endif %}
           </li>
         {% endfor %}
       </ul>

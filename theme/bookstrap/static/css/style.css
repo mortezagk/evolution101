@@ -285,3 +285,183 @@ footer address
 }
 
 
+
+/* Sidebar: chapter name links to the chapter cover, the arrow toggles its pages */
+.category-toggle {
+	flex: 0 0 auto;
+	width: 2rem;
+	height: 2rem;
+	padding: 0;
+	border: 0;
+	border-radius: 0.4rem;
+	background: transparent;
+	color: #555;
+	cursor: pointer;
+}
+
+.category-toggle:hover,
+.category-toggle:focus {
+	background: #ececec;
+}
+
+.category-toggle i {
+	display: inline-block;
+	transition: transform 0.2s ease;
+}
+
+.category-group.is-open .category-toggle i {
+	transform: rotate(180deg);
+}
+
+.category-header .category-link.is-current,
+.category-articles li a.is-current {
+	background: #e3f1ee;
+	color: #11695f;
+	border-radius: 0.4rem;
+}
+
+.category-articles li a.is-current {
+	font-weight: 600;
+}
+
+/* Link to the original page, under the title */
+.source-link {
+	display: inline-block;
+	margin-top: -0.5rem;
+	font-size: 0.9em;
+	color: #11695f;
+	text-decoration: none;
+	border-bottom: 1px dotted currentColor;
+}
+
+.source-link:hover,
+.source-link:focus {
+	color: #0b4a43;
+	text-decoration: none;
+	border-bottom-style: solid;
+}
+
+/* Chapter cover: list of the chapter's pages */
+.chapter-toc {
+	margin: 2.5rem 0 1rem;
+}
+
+.chapter-toc h2 {
+	font-size: 1.4em;
+	margin-bottom: 1rem;
+}
+
+.chapter-toc__list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: 0.75rem;
+}
+
+.chapter-toc__link {
+	display: flex;
+	align-items: flex-start;
+	gap: 0.9rem;
+	padding: 0.85rem 1rem;
+	border: 1px solid #dfe6e4;
+	border-radius: 0.6rem;
+	background: #fff;
+	color: inherit;
+	text-decoration: none;
+	transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.chapter-toc__link:hover,
+.chapter-toc__link:focus {
+	border-color: #17a391;
+	background: #f6fbfa;
+	box-shadow: 0 2px 8px rgba(17, 105, 95, 0.12);
+	color: inherit;
+	text-decoration: none;
+}
+
+.chapter-toc__number {
+	flex: 0 0 auto;
+	width: 2.2rem;
+	height: 2.2rem;
+	line-height: 2.2rem;
+	border-radius: 50%;
+	background: #17a391;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+}
+
+.chapter-toc__text {
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
+	min-width: 0;
+}
+
+.chapter-toc__title {
+	font-weight: 700;
+	font-size: 1.05em;
+	color: #0b6b86;
+}
+
+.chapter-toc__summary {
+	font-size: 0.9em;
+	line-height: 1.7;
+	color: #555;
+}
+
+/* "Digging Data" research sections, styled after the original site */
+.digging-data {
+	margin: 2.5rem 0 1.5rem;
+	padding: 0 1.5rem 1.25rem;
+	background: #f3f8ee;
+	border: 1px solid #cfe3c4;
+	border-top: 6px solid #17a391;
+	border-radius: 0.6rem;
+}
+
+.digging-data__banner {
+	margin: 0 -1.5rem 0.5rem;
+	padding: 0.75rem 1.5rem 0;
+	background: #fff;
+	border-radius: 0.4rem 0.4rem 0 0;
+	text-align: center;
+}
+
+.digging-data__banner img {
+	max-width: 420px;
+	width: 100%;
+}
+
+.digging-data h2 {
+	color: #11695f;
+	font-size: 1.5em;
+}
+
+.digging-data h3 {
+	margin-top: 1.75rem;
+	padding-bottom: 0.3rem;
+	border-bottom: 2px solid #cfe3c4;
+	color: #11695f;
+	font-size: 1.2em;
+}
+
+.digging-data img {
+	background: #fff;
+}
+
+.digging-data p img {
+	max-height: 460px;
+	width: auto;
+}
+
+.digging-data p.digging-data__banner img {
+	max-height: none;
+	width: 100%;
+}
+
+.category-header .category-link {
+	font-size: 1em;
+}

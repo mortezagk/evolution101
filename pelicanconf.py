@@ -1,6 +1,8 @@
 """Pelican configuration for the فرگشت ۱۰۱ project."""
 
 import os
+import re
+from html import unescape
 from pathlib import Path
 
 PERSIAN_DIGIT_MAP = str.maketrans('0123456789', '۰۱۲۳۴۵۶۷۸۹')
@@ -98,8 +100,21 @@ JINJA_ENVIRONMENT = {
     'lstrip_blocks': True,
 }
 
+def plain_text(html, length=None):
+    """Visible text of *html* without footnote markers or images, optionally
+    shortened to about *length* characters at a word boundary."""
+
+    html = re.sub(r'<sup[^>]*>.*?</sup>', '', html or '', flags=re.S)
+    text = re.sub(r'<[^>]+>', ' ', html)
+    text = unescape(re.sub(r'\s+', ' ', text)).strip()
+    if length and len(text) > length:
+        text = text[:length].rsplit(' ', 1)[0].rstrip('،,.:؛') + '…'
+    return text
+
+
 JINJA_FILTERS = {
     'persian_digits': persian_digits,
+    'plain_text': plain_text,
 }
 
 PLUGINS = []

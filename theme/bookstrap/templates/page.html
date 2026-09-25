@@ -3,19 +3,15 @@
 {% block content %}
 <section id="content" class="body">
         <h1 class="entry-title">{{ page.title }}</h1>
+        {% if page.source %}
+        <a class="source-link" href="{{ page.source }}" rel="noopener" target="_blank" title="{{ page.source_title or page.source }}">متن اصلی ⎋</a>
+        {% endif %}
         {% if PDF_PROCESSOR %}
                 <a href="{{ SITEURL }}/pdf/{{ page.slug }}.pdf">
                         get the pdf
                 </a>
         {% endif %}
         {{ page.content }}
-        {% if page.source %}
-        <p class="article-source">
-                این صفحه ترجمهٔ صفحهٔ
-                «<a href="{{ page.source }}" dir="ltr" lang="en" rel="noopener" target="_blank">{{ page.source_title or page.source }}</a>»
-                از وب‌سایت Understanding Evolution است.
-        </p>
-        {% endif %}
 </section>
 {% endblock %}
 

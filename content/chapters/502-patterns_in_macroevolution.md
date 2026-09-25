@@ -41,8 +41,11 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 ![انقراض]({static}/images/49-6.gif)
 
+<section class="digging-data" markdown="1">
+<p class="digging-data__banner"><img src="{static}/images/Shovel_DiggingData.png" alt="کندوکاو در داده‌ها (Digging Data)"></p>
+
 ## کندوکاو در داده‌ها[^۳]: الگوهای انقراض
-------
+
 انقراض واقعیتی از تاریخ حیات است. همانطور که در طول تاریخ زمین نسب‌های جدیدی فرگشت یافته‌اند، نسب‌هایی هم منقرض شده‌اند. این توازن میان گونه‌زایی و انقراض باعث جایگزینیِ مداوم در مجموعهٔ گونه‌های زنده در هر مقطع زمانی شده است. زیست‌شناسان مدت‌هاست در این فکرند که آیا الگوهایی در این جابه‌جاییِ تنوع زیستی وجود دارد یا نه. به‌ویژه، آیا عواملی وجود دارند که یک گونه را مستعدِ انقراض کنند؟ پاسخ به این سوال فوریت یافته است، چون با چیزی روبرو هستیم که به نظر می‌رسد ششمین انقراض بزرگ زمین باشد؛ انقراضی که عامل آن نه برخورد شهاب‌سنگ‌ها یا فعالیت‌های آتشفشانی، بلکه انسان‌ها هستند. اگر بتوانیم بفهمیم کدام گونه‌ها در برابر انقراض آسیب‌پذیرترند، شاید بتوانیم راه‌های بهتری برای محافظت از آنها پیدا کنیم.
 
 ![مِلیسا کِمپ در حال کاوش در یک غار در کارائیب]({static}/images/mkemp.jpg)
@@ -103,6 +106,8 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 <div dir="ltr" markdown="1">
 Kemp, M. E, and E. A. Hadly. (2015). Extinction biases in quaternary Caribbean lizards. *Global Ecology and Biogeography*. 24: 1281-1289.
 </div>
+
+</section>
 
 <br>
 
