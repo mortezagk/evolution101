@@ -1,8 +1,4 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
 """Pelican configuration for the فرگشت ۱۰۱ project."""
-
-from __future__ import unicode_literals
 
 import os
 from pathlib import Path
@@ -22,6 +18,9 @@ def persian_digits(value):
 AUTHOR = 'mortezagk'
 SITENAME = 'فرگشت ۱۰۱'
 SITEURL = os.getenv('SITEURL', 'https://www.evolution101.ir')
+# Absolute site address for canonical links; SITEURL itself becomes relative
+# in templates when RELATIVE_URLS is on.
+CANONICAL_SITEURL = SITEURL.rstrip('/')
 
 BASE_DIR = Path(__file__).resolve().parent
 
@@ -34,34 +33,25 @@ FILENAME_METADATA = r'(?P<section>\d)(?P<section_index>\d{2})-.*'
 
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'theme/images/favicon.ico'},
-    'extra/cc.heart.black.png': {'path': 'theme/images/cc.heart.black.png'},
     'extra/CNAME': {'path': 'CNAME'},
     'extra/robots.txt': {'path': 'robots.txt'},
 }
 
 TIMEZONE = 'Asia/Tehran'
 DEFAULT_LANG = 'fa'
-LOCALE = ('fa_IR.UTF-8', 'fa_IR', 'fa', 'en_US.UTF-8', 'en_US')
+# C.UTF-8 exists on every modern Linux, so the build never warns (and never
+# fails under --fatal warnings) on machines without fa/en locales.
+LOCALE = ('fa_IR.UTF-8', 'en_US.UTF-8', 'C.UTF-8')
 DEFAULT_DATE_FORMAT = '%Y/%m/%d'
 
 RELATIVE_URLS = os.getenv('PELICAN_RELATIVE_URLS', '1') == '1'
 
-# Feed generation is usually not desired when developing
+# No feeds: the book is not a blog.
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
-
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
 
 THEME = 'theme/bookstrap'
 
@@ -70,14 +60,16 @@ THEME_TEMPLATES_OVERRIDES = ['theme_overrides/templates']
 
 ARTICLE_ORDER_BY = 'source_path'
 DEFAULT_PAGINATION = False
-DISPLAY_CATEGORIES_ON_MENU = False
-GOOGLE_CUSTOM_SEARCH_SIDEBAR = False
 
+# Articles mirror the paths of evolution.berkeley.edu/evolution-101/: the
+# Slug of each chapter file is its path there, e.g. 'speciation/cospeciation'.
 ARTICLE_URL = '{slug}/'
 ARTICLE_SAVE_AS = '{slug}/index.html'
 ARTICLE_TRANSLATION_URL = '{slug}/{lang}/'
 ARTICLE_TRANSLATION_SAVE_AS = '{slug}/{lang}/index.html'
 
+# Category slugs (ch0-ch6) only feed the sidebar's open/closed state; the
+# category, tag, author and archive listing pages themselves are not built.
 CATEGORY_REGEX_SUBSTITUTIONS = [(r'(mqdmh)', 'ch0'),
                                 (r'(fsl wl: lgwh)', 'ch1'),
                                 (r'(fsl dwm: szwkhrh)', 'ch2'),
@@ -89,17 +81,15 @@ CATEGORY_REGEX_SUBSTITUTIONS = [(r'(mqdmh)', 'ch0'),
 
 MARKDOWN = {
     'extension_configs': {
-        'markdown.extensions.codehilite': {
-            'css_class': 'highlight',},
         'markdown.extensions.extra': {},
         'markdown.extensions.md_in_html': {},
         'markdown.extensions.meta': {},
         'markdown.extensions.toc': {
             'permalink': '',
-            'title': 'فهرست'},},
-        # optionally, more extensions,
-        # e.g. markdown.extensions.meta
-    'output_format': 'html5',}
+            'title': 'فهرست'},
+    },
+    'output_format': 'html5',
+}
 
 JINJA_ENVIRONMENT = {
     'trim_blocks': True,
@@ -113,7 +103,7 @@ JINJA_FILTERS = {
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['redirects']
 
-DIRECT_TEMPLATES = ('categories', 'authors', 'archives', 'search_index')
-
-SEARCH_INDEX_SAVE_AS = 'search-index.json'
-SEARCH_INDEX_URL = 'search-index.json'
+DIRECT_TEMPLATES = ()
+CATEGORY_SAVE_AS = ''
+TAG_SAVE_AS = ''
+AUTHOR_SAVE_AS = ''

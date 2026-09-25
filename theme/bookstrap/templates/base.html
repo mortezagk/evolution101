@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 
 <head>
   <!-- Google tag (gtag.js) -->
@@ -15,34 +15,18 @@
   <meta charset="utf-8">
   <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta name="description" content="{% block description %}{{ SITENAME }}: ترجمهٔ فارسی Evolution 101 از وب‌سایت Understanding Evolution{% endblock %}">
   <meta name="author" content="{{ AUTHOR }}">
+  {% block head_extra %}{% endblock %}
 
   <!-- Le styles -->
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" type="text/css" />
-  <!--link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap-rtl.css" type="text/css" /-->
   <link href="{{ SITEURL }}/theme/css/bootstrap-responsive.min.css" rel="stylesheet">
   <link href="{{ SITEURL }}/theme/css/font-awesome.css" rel="stylesheet">
 
-  <link href="{{ SITEURL }}/theme/css/pygments.css" rel="stylesheet">
 
-  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-  <!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-  <!-- Le fav and touch icons -->
-  <link rel="shortcut icon" href="{{ SITEURL }}/theme/images/favicon.ico">
-  <link rel="apple-touch-icon" href="{{ SITEURL }}/theme/images/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="{{ SITEURL }}/theme/images/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="{{ SITEURL }}/theme/images/apple-touch-icon-114x114.png">
-
-  <link href="{{ SITEURL }}/{{ FEED }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed" />
-  {% if FEED_RSS %}
-  <link href="{{ SITEURL }}/{{ FEED_RSS }}" type="application/atom+xml" rel="alternate"
-    title="{{ SITENAME }} RSS Feed" />
-  {% endif %}
+  <link rel="icon" href="{{ SITEURL }}/theme/images/favicon.ico">
 
 </head>
 
@@ -64,12 +48,7 @@
           <ul class="nav">
             <li><a href="{{ SITEURL }}/pages/about.html">درباره</a></li>
             <li><a href="{{ SITEURL }}/pages/search.html">جستجو</a></li>
-            <!--ul class="nav pull-right">
-                                <li><a href="{{ SITEURL }}/archives.html"><i class="icon-th-list"></i>Archives</a></li>
-                          </ul-->
-
           </ul>
-          <!--<p class="navbar-text pull-right">Logged in as <a href="#">username</a></p>-->
         </div><!--/.nav-collapse -->
       </div>
     </div>
@@ -105,8 +84,9 @@
         این ترجمه تحت مجوز <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.fa">CC BY-NC-SA
           4.0</a> منتشر می‌شود.
       </address>
-    <footer>
-      <address class="description">
+    </footer>
+  </div><!--/.container-->
+
   {% include 'analytics.html' %}
   {% include 'piwik.html' %}
   {% include 'disqus_script.html' %}
