@@ -2,6 +2,8 @@ Title: درک فیلوژنی‌ها
 Date: 2025-11-06 00:04
 Category: فصل اول: الگوها
 Slug: understanding-phylogenies
+Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/understanding-phylogenies/
+Source_title: Understanding phylogenies
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

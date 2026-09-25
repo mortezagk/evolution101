@@ -2,6 +2,8 @@ Title: گونه‌زایی موازی
 Date: 2025-11-06 00:41
 Category: فصل چهارم: گونه‌زایی
 Slug: coespeciation
+Source: https://evolution.berkeley.edu/evolution-101/speciation/cospeciation/
+Source_title: Cospeciation
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

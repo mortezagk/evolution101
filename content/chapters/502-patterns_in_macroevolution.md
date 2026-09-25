@@ -2,6 +2,8 @@ Title: الگوها در فرگشت کلان
 Date: 2025-11-06 00:44
 Category: فصل پنجم: فرگشت کلان
 Slug: patterns-in-macroevolution
+Source: https://evolution.berkeley.edu/evolution-101/macroevolution/patterns-in-macroevolution/
+Source_title: Patterns in macroevolution
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

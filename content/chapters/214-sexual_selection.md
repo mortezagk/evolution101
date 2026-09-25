@@ -2,6 +2,8 @@ Title: انتخاب جنسی
 Date: 2025-11-06 00:25
 Category: فصل دوم: سازوکارها
 Slug: sexual-selection
+Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/sexual-selection/
+Source_title: Sexual selection
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
@@ -77,25 +79,6 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 Andrade, M. C. B. (1996). Sexual selection for male sacrifice in the Australian redback spider. *Science*. 271: 70-72.
 </div>
 
-## چرا انتخاب جنسی اینقدر قدرتمند است؟
-------
-وقتی سرنوشت ژن‌های فردی که تا سال‌های پیری و پختگی زیسته ولی هیچ‌وقت فرصت جفت‌گیری نیافته را در نظر می‌گیرید، قدرت انتخاب جنسی مشخص‌تر می‌شود: نداشتن فرزند یعنی عدم بقای ژن فرد در نسل بعد؛ یعنی همهٔ آن ژن‌ها که به رسیدن فرد به سال‌های پیری و پختگی کمک کرده‌اند به هیچ‌کس منتقل نمی‌شوند! در نتیجه سازواریِ آن فرد صفر است. این را با فردی مقایسه کنید که عمر چندان طولانی‌ای ندارد، ولی فرزندانی از خود به جا می‌گذارد...
-
-![انتخاب جنسی]({static}/images/29-1.gif)
-
-
-**انتخاب یک مسیر دوطرفه است**
-
-انتخاب جنسی اغلب در دو جهت کار می‌کند، اگرچه در بعضی موارد شاهد «برعکس شدن نقش جنسی» هستیم:
-
-**رقابت نر**
-
-نرها بر سر دسترسی به ماده‌ها، مدت زمان جفت‌گیری با ماده‌ها و حتی این که اسپرم چه کسی تخمک‌ها را بارور کند رقابت می‌کنند. برای مثال، سنجاقک سوزنیِ[^۹] نر هنگام جفت‌گیری اسپرم رقیب را از مجرای تناسلی ماده می‌زداید.
-
-**انتخاب ماده**
-
-ماده‌ها انتخاب می‌کنند با کدام نرها جفت‌گیری کنند، برای چه مدتی جفت‌گیری کنند و حتی اینکه اسپرم چه کسی تخمک‌هایشان را بارور کند. بعضی ماده‌ها می‌توانند اسپرم یک جفتِ نامطلوب را دفع کنند.
-
 <br>
 
 [^۱]: Elephant Seals
@@ -106,4 +89,3 @@ Andrade, M. C. B. (1996). Sexual selection for male sacrifice in the Australian 
 [^۶]: Maydianne Andrade
 [^۷]: Mann-Whitney test
 [^۸]: Cannibalism
-[^۹]: Damselfly

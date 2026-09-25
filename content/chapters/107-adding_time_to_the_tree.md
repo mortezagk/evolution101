@@ -2,6 +2,8 @@ Title: اضافه‌ کردن زمان به درخت
 Date: 2025-11-06 00:09
 Category: فصل اول: الگوها
 Slug: adding-time
+Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/adding-time-to-the-tree/
+Source_title: Adding time to the tree
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

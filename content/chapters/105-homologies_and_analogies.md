@@ -2,6 +2,8 @@ Title: هومولوژی و آنالوژی
 Date: 2025-11-06 00:07
 Category: فصل اول: الگوها
 Slug: homologies-and-analogies
+Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/homologies-and-analogies/
+Source_title: Homologies and analogies
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 

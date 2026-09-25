@@ -112,7 +112,7 @@ JINJA_FILTERS = {
 
 PLUGINS = []
 
-DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search_index')
+DIRECT_TEMPLATES = ('categories', 'authors', 'archives', 'search_index')
 
 SEARCH_INDEX_SAVE_AS = 'search-index.json'
 SEARCH_INDEX_URL = 'search-index.json'

@@ -2,6 +2,8 @@ Title: انتخاب مصنوعی
 Date: 2025-11-06 00:26
 Category: فصل دوم: سازوکارها
 Slug: artificial-selection
+Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/artificial-selection/
+Source_title: Artificial selection
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
