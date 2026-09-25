@@ -4,11 +4,11 @@
 
 این پروژه، ترجمهٔ فارسی وب‌سایت [Understanding Evolution](https://evolution.berkeley.edu/) متعلق به دانشگاه برکلی است.
 
-**[می‌توانید نسخهٔ آنلاین را اینجا بخوانید.](https://mortezagk.github.io/evolution101/)**
+**[می‌توانید نسخهٔ آنلاین را اینجا بخوانید.](https://evolution101.ir/)**
 
 This project is a Persian translation of UC Berkeley's [Understanding Evolution](https://evolution.berkeley.edu/) website.
 
-**[You can read the live version here.](https://mortezagk.github.io/evolution101/)**
+**[You can read the live version here.](https://evolution101.ir/)**
 
 ---
 

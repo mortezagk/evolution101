@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% for page in pages if page.url == 'index.html' %}
+  <url><loc>{{ CANONICAL_SITEURL }}/</loc></url>
+{% endfor %}
+{% for article in articles|sort(attribute='source_path') %}
+  <url><loc>{{ CANONICAL_SITEURL }}/{{ article.url|replace('index.html', '') }}</loc></url>
+{% endfor %}
+{% for page in pages if page.url != 'index.html' %}
+  <url><loc>{{ CANONICAL_SITEURL }}/{{ page.url }}</loc></url>
+{% endfor %}
+</urlset>

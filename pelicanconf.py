@@ -19,7 +19,7 @@ def persian_digits(value):
 
 AUTHOR = 'mortezagk'
 SITENAME = 'فرگشت ۱۰۱'
-SITEURL = os.getenv('SITEURL', 'https://www.evolution101.ir')
+SITEURL = os.getenv('SITEURL', 'https://evolution101.ir')
 # Absolute site address for canonical links; SITEURL itself becomes relative
 # in templates when RELATIVE_URLS is on.
 CANONICAL_SITEURL = SITEURL.rstrip('/')
@@ -119,7 +119,8 @@ JINJA_FILTERS = {
 
 PLUGINS = []
 
-DIRECT_TEMPLATES = ()
+DIRECT_TEMPLATES = ('sitemap',)
+SITEMAP_SAVE_AS = 'sitemap.xml'
 CATEGORY_SAVE_AS = ''
 TAG_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''

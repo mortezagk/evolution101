@@ -25,7 +25,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ------
 ## سایر منابع و اعتبارها
 
-- مرجع اصلی مطالب [Understanding Evolution](https://evolution.berkeley.edu/evolution-101/) است.
+- مرجع اصلی مطالب [Understanding Evolution](https://evolution.berkeley.edu/evolution-101/) است. تصاویر هر صفحه مستقیماً از همان وب‌سایت نمایش داده می‌شوند و بالای هر صفحه پیوندی به متن اصلی آن هست.
 - تصویر و فونت لوگو از جلد شمارهٔ سپتامبر ۲۰۱۴ نشریهٔ Scientific American وام گرفته شده.
 - این سایت از قالبی که [جادی](http://jadi.ir/) برای «[راهنمای دوچرخه](http://bikezen.ir/)» شخصی‌سازی کرده بود استفاده می‌کند. از این بابت از جادی متشکرم.
 - در این اثر از فونت آزاد ساحل (اثری از [صابر راستی‌کردار](https://rastikerdar.github.io/)) استفاده شده است.
@@ -35,8 +35,6 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ## مشارکت
 
 در صورتی که اصلاحی نیاز است می‌توانید از طریق ایمیل iranevolution101@gmail.com با من در میان بگذارید.
-
-یکی از کارهایی که الان نیاز به انجامش هست اصلاح گرافیک‌هاست.
 
 اگر دوست دارید در اصلاح و بهبود پروژه مشارکت کنید، [پروژه روی گیت‌هاب](https://github.com/mortezagk/evolution101) هست.
 
@@ -64,7 +62,7 @@ This translation (as a derivative work) is licensed under the [Creative Commons 
 ------
 ## Other Credits
 
-- The primary reference for the content is [Understanding Evolution](https://evolution.berkeley.edu/evolution-101/).
+- The primary reference for the content is [Understanding Evolution](https://evolution.berkeley.edu/evolution-101/). Each page shows its figures directly from that website and links to its original page at the top.
 - The logo image and font are adapted from the cover of the September 2014 issue of Scientific American.
 - This site uses a theme that [Jadi](http://jadi.ir/) customized for his "[BikeZen](http://bikezen.ir/)". Many thanks to Jadi for this.
 - This work uses the open-source Sahel Font, designed by [Saber Rastikerdar](https://rastikerdar.github.io/).
@@ -74,8 +72,6 @@ This translation (as a derivative work) is licensed under the [Creative Commons 
 ## Contribution
 
 If any corrections are needed, you can contact me via email at iranevolution101@gmail.com.
-
-One of the tasks that currently needs doing is updating the graphics.
 
 If you would like to participate in correcting and improving the project, [the project is on GitHub](https://github.com/mortezagk/evolution101).
 
