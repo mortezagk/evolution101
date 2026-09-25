@@ -15,7 +15,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 **بازیگران:** سنجاب قرمز[^۱]، پرندهٔ نوک‌ضربدری[^۲]، کاج Lodgepole
 
-| ![سنجاب]({static}/images/34-1.jpg) | ![پرندهٔ نوک‌ضربدری]({static}/images/34-2.jpg) | ![کاج Lodgepole]({static}/images/34-3.jpg) |
+| ![سنجاب]({static}/images/large.jpg) | ![پرندهٔ نوک‌ضربدری]({static}/images/large-2.jpg) | ![کاج Lodgepole]({static}/images/large-3.jpg) |
 | :---: | :---: | :---: |
 | سنجاب قرمز<br>*عکس از P. Holroyd* | پرندهٔ نوک‌ضربدری<br>*عکس از Noah Strycker، CC BY-NC 4.0* | کاج Lodgepole<br>*عکس از kendalloei، CC BY-NC 4.0* |
 

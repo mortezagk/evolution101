@@ -19,5 +19,5 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 **۳) رابطهٔ جنسی** می‌تواند ترکیبات ژنیِ جدیدی را به جمعیت وارد کند. این بُرخوردگیِ ژنتیکی منشأ مهم دیگری برای تنوع ژنتیکی است.
 
-![بُرخوردگیِ ژنتیکی]({static}/images/17-1.gif)
+![بُرخوردگیِ ژنتیکی]({static}/images/threecombination_2020.png)
 <center markdown="1">بُرخوردگیِ ژنتیکی یک منشأ برای تنوع ژنتیکی است.</center>
