@@ -22,7 +22,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 ![بالا: مجموعه‌ای از عکس‌های یک درخت در چهار فصل سال که تغییر در گذر زمان را نشان می‌دهد. پایین: یک تبارنما که نهنگ، انسان، پرنده و مارمولک را همراه با نیای مشترکشان، چهارپای نیایی، نشان می‌دهد.](https://evolution.berkeley.edu/wp-content/uploads/2021/03/Change_over_time_2020.png){: width="1651" height="1888" loading="lazy" }
 
-**بالا: تغییر در گذر زمان، نه فرگشت زیستی. پایین: فرگشت زیستی: وراثت همراه با تغییر.**<br>*عکس چهار فصل از Joisey Showaa، تصویرسازی از UCMP.*
+<div class="caption" markdown="1">**بالا: تغییر در گذر زمان، نه فرگشت زیستی.**<br>**پایین: فرگشت زیستی: وراثت همراه با تغییر.**<br>*عکس چهار فصل از Joisey Showaa، تصویرسازی از UCMP.*</div>
 
 <br>
 
