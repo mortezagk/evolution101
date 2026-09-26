@@ -1,7 +1,9 @@
 Title: سازوکارها: شیوه‌های عملکرد فرگشت
 Date: 2025-11-06 00:12
 Category: فصل دوم: سازوکارها
-Slug: mechanisms
+Slug: 2-mechanisms-the-processes-of-evolution
+Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/
+Source_title: Mechanisms: the processes of evolution
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
@@ -17,4 +19,4 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 - چگونه تنوع ژنتیکی، تولیدمثلِ افتراقی و وراثت منجر به فرگشت به واسطهٔ انتخاب طبیعی می‌شوند؛
 - چگونه گونه‌های مختلف می‌توانند از طریقِ هم‌فرگشتی بر روی فرگشتِ یکدیگر تاثیر بگذارند.
 
-![سازوکارها]({static}/images/14-1.gif)
+![سازوکارها](https://evolution.berkeley.edu/wp-content/uploads/2021/03/natselect02_birdeatingbeetles.png){: width="1651" height="1276" loading="lazy" }

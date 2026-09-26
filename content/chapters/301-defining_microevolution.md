@@ -1,7 +1,9 @@
 Title: تعریف فرگشت خُرد
 Date: 2025-11-06 00:32
 Category: فصل سوم: فرگشت خُرد
-Slug: defining-microevolution
+Slug: 3-microevolution/01-defining-microevolution
+Source: https://evolution.berkeley.edu/evolution-101/microevolution/defining-microevolution/
+Source_title: Defining microevolution
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
@@ -10,7 +12,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 اگر می‌توانستید یکی از شاخه‌های درخت حیات را بزرگنمایی کنید -برای مثال، حشرات- یک فیلوژنی دیگر می‌دیدید که نسب‌های همهٔ حشرات مختلف را به هم پیوند می‌دهد. اگر به بزرگنمایی ادامه دهید و شاخهٔ مربوط به سوسک‌ها را انتخاب کنید، به یک فیلوژنی می‌رسید که گونه‌های مختلف سوسک را به هم پیوند می‌دهد. می‌توانید آنقدر به بزرگنمایی ادامه دهید که به روابط بین جمعیت‌های مختلف سوسک‌ها برسید.
 
-![گونه]({static}/images/37-1.gif)
+![گونه](https://evolution.berkeley.edu/wp-content/uploads/2021/10/Screen-Shot-2021-10-15-at-12.33.52-PM.png){: width="901" height="237" loading="lazy" }
 
 ولی چطور متوجه می‌شویم که به سطح جمعیت‌ها رسیده‌ایم؟
 
@@ -18,7 +20,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 در حوزهٔ حیوانات، تصمیم‌گیری در مورد اینکه چه چیزی یک جمعیت است نسبتاً ساده است: گروهی از جانداران که با هم آمیزش دارند (به عبارتی، خزانهٔ ژنی آنها مشترک است). پس گونه‌های سوسکِ مورد بحث ما، ممکن است گروهی از سوسک‌ها باشند که روی قلهٔ کوهی زندگی می‌کنند و جفت‌های بالقوه‌ای برای یکدیگر هستند.
 
-![جمعیت]({static}/images/37-2.jpg)
-<center markdown="1">در طبیعت توانایی تولیدمثل مرزهای یک جمعیت را مشخص می‌کند.</center>
+![جمعیت](https://evolution.berkeley.edu/wp-content/uploads/2021/04/beetlesmating_USGS.jpg){: width="325" height="175" loading="lazy" }
+<div class="caption" markdown="1">در طبیعت توانایی آمیزش مرزهای یک جمعیت را مشخص می‌کند.<br>*تصویر از Northern Prairie Wildlife Research Center، USGS.*</div>
 
 زیست‌شناسانی که در این سطح دربارهٔ فرگشت پژوهش می‌کنند، فرگشت را به عنوان تغییر در فراوانی ژن در یک جمعیت تعریف می‌کنند.

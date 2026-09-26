@@ -1,48 +1,26 @@
 {% extends 'page.html' %}
 
-{% set default_domain = 'evolution101.ir' %}
-{% set site_domain = default_domain %}
-{% if SITEURL %}
-  {% set candidate = SITEURL|replace('https://', '')|replace('http://', '') %}
-  {% if candidate.startswith('//') %}
-    {% set candidate = candidate[2:] %}
-  {% endif %}
-  {% if candidate.endswith('/') %}
-    {% set candidate = candidate[:-1] %}
-  {% endif %}
-  {% if candidate and not candidate.startswith('.') %}
-    {% set site_domain = candidate %}
-  {% endif %}
-{% endif %}
+{% set site_domain = (CANONICAL_SITEURL or 'https://evolution101.ir')|replace('https://', '')|replace('http://', '') %}
 
 {% block content %}
-<h1 class="page-title">{{ page.title }}</h1>
-<p>عبارت موردنظر را بنویسید؛ نتایج در گوگل و محدود به سایت «{{ site_domain }}» نمایش داده می‌شود.</p>
-<div class="search-wrapper">
-  <form id="site-search-form" class="form-inline" role="search" action="https://www.google.com/search" method="get">
-    <div class="input-append">
-      <input type="search" name="q" id="site-search-input" placeholder="چه را می‌خواهید پیدا کنید؟" required>
-      <button type="submit" class="btn btn-primary">جستجو</button>
-    </div>
-  </form>
-</div>
-{% if page.content %}
-<div class="page-content">{{ page.content }}</div>
-{% endif %}
+<section id="content" class="body">
+<h1 class="entry-title">{{ page.title }}</h1>
+<p>کلمه یا عبارت موردنظر را بنویسید تا در همهٔ صفحه‌های کتاب جستجو شود.</p>
+<form id="site-search-form" role="search" action="" method="get" data-domain="{{ site_domain }}">
+  <div class="input-group">
+    <input type="search" class="form-control" name="q" id="site-search-input" placeholder="مثلاً: رانش ژن" aria-label="عبارت جستجو" autocomplete="off">
+    <button type="submit" class="btn btn-primary"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i> جستجو</button>
+  </div>
+</form>
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  var form = document.getElementById('site-search-form');
-  var input = document.getElementById('site-search-input');
-  form.addEventListener('submit', function (event) {
-    var term = (input.value || '').trim();
-    if (!term) {
-      event.preventDefault();
-      input.focus();
-      return;
-    }
-    input.value = 'site:{{ site_domain }} ' + term;
-  });
-});
-</script>
+<p id="search-status" class="search-status" role="status" aria-live="polite"></p>
+<ol id="search-results" class="search-results"></ol>
+<p class="search-google">
+  <a id="search-google" href="#" rel="noopener" target="_blank" hidden>جستجوی همین عبارت در گوگل <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+</p>
+
+<noscript><p>برای جستجو، جاوااسکریپت مرورگر باید فعال باشد.</p></noscript>
+<script src="{{ SITEURL }}/search-index.js"></script>
+<script src="{{ SITEURL }}/theme/js/search.js"></script>
+</section>
 {% endblock content %}

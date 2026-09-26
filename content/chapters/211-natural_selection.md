@@ -1,0 +1,39 @@
+Title: انتخاب طبیعی
+Date: 2025-11-06 00:22
+Category: فصل دوم: سازوکارها
+Slug: 2-mechanisms-the-processes-of-evolution/11-natural-selection
+Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/natural-selection/
+Source_title: Natural Selection
+Author: mortezagk
+Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
+
+------
+انتخاب طبیعی، در کنار جهش، مهاجرت و رانش ژن، یکی از سازوکارهای بنیادین فرگشت است.
+
+ایدهٔ مهمِ داروین، فرگشت به واسطهٔ انتخاب طبیعی، نسبتاً ساده است ولی اغلب از آن سوءبرداشت می‌شود. برای فهمِ چگونگیِ عملکرد آن یک جمعیت از سوسک‌ها را در نظر بگیرید.
+
+**۱) در خصوصیات تنوع وجود دارد**
+
+برای مثال، بعضی از سوسک‌ها سبز و بعضی قهوه‌ای هستند.
+
+![تنوع ژنتیکی](https://evolution.berkeley.edu/wp-content/uploads/2021/03/mech01_mutation-e1616207371250-300x295.png){: width="200" height="197" loading="lazy" }
+
+**۲) تولیدمثل افتراقی رخ می‌دهد**
+
+از آنجایی که محیط زیست نمی‌تواند از جمعیتی نامحدود پشتیبانی کند، همهٔ اعضا این امکان را ندارند که با تمام ظرفیت خود تولیدمثل کنند. در این مثال، سوسک‌های سبز اغلب توسط پرندگان خورده شده و کمتر از سوسک‌های قهوه‌ای امکانِ تولیدمثل می‌یابند.
+
+![تولیدمثل افتراقی](https://evolution.berkeley.edu/wp-content/uploads/2021/03/natselect02_birdeatingbeetles-300x232.png){: width="300" height="232" loading="lazy" }
+
+**۳) وراثت**
+
+سوسک‌های قهوه‌ای که بقا یافته‌اند فرزندانی با رنگ قهوه‌ای دارند چون این خصوصیت ریشهٔ ژنتیکی دارد.
+
+![وراثت](https://evolution.berkeley.edu/wp-content/uploads/2021/03/natselect03_simple_beetle_brown_tree-300x232.png){: width="300" height="232" loading="lazy" }
+
+**۴) نتیجهٔ نهایی**
+
+خصوصیت سودمندتر (رنگ قهوه‌ای) که به سوسک‌ها امکانِ داشتنِ فرزندان بیشتر را می‌داد، در جمعیت رایج‌تر می‌شود. اگر این فرایند ادامه یابد، در نهایت همهٔ اعضای این جمعیت قهوه‌ای خواهند بود.
+
+![انتخاب طبیعی](https://evolution.berkeley.edu/wp-content/uploads/2021/03/natselect04_allbrownbeetles-300x232.png){: width="300" height="232" loading="lazy" }
+
+اگر تنوع، تولیدمثل افتراقی و وراثت وجود داشته باشد، فرگشت به واسطهٔ انتخاب طبیعی حاصل خواهد شد. به همین سادگی.

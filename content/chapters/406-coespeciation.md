@@ -1,7 +1,9 @@
 Title: گونه‌زایی موازی
 Date: 2025-11-06 00:41
 Category: فصل چهارم: گونه‌زایی
-Slug: coespeciation
+Slug: 4-speciation/06-cospeciation
+Source: https://evolution.berkeley.edu/evolution-101/speciation/cospeciation/
+Source_title: Cospeciation
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
@@ -10,7 +12,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 برای درک عملکرد آن، یک گونه از شپش که روی گونه‌ای از موش کیسه‌دار زندگی می‌کند را تصور کنید. وقتی موش‌های کیسه‌دار برای جفت‌گیری کنار هم قرار می‌گیرند، شپش‌ها موقعیتی برای عوض کردن جای خود از موشی به موشِ دیگر و شاید جفت‌گیری با شپشی که روی موشِ دیگر زندگی می‌کند پیدا می‌کنند. تعویض موش امکانِ جریان یافتن ژن در گونهٔ شپش را ایجاد می‌کند.
 
-![گونه‌زایی موازی]({static}/images/46-1.gif)
+![گونه‌زایی موازی](https://evolution.berkeley.edu/wp-content/uploads/2021/09/gopher_and_lice_1-1024x353.png){: width="1024" height="353" loading="lazy" }
 
 تصور کنید وقتی گونهٔ موش کیسه‌دار به نسب‌های A و B تقسیم شود چه اتفاقی برای شپش‌ها می‌افتد:
 
@@ -18,11 +20,11 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 **۲)** این انزوای «جغرافیایی» در نسب‌های شپش ممکن است باعث این شود که آنها از لحاظ تولیدمثلی از هم مجزا شوند [به عبارتی، دچار انزوای تولیدمثلی شوند]، و در نتیجه به گونه‌هایی متفاوت تبدیل شوند.
 
-![گونه‌زایی موازی]({static}/images/46-2.gif)
+![گونه‌زایی موازی](https://evolution.berkeley.edu/wp-content/uploads/2021/09/gopher_and_lice_2-1024x582.png){: width="1024" height="582" loading="lazy" }
 
 زیست‌شناسان فرگشتی اغلب توانایی تعیین اینکه گونه‌زایی موازی رخ داده است یا نه، را دارند، چون فیلوژنیِ انگل با فیلوژنیِ میزبان «تقارن» دارد.
 
-![گونه‌زایی موازی]({static}/images/46-3.gif)
-<center markdown="1">بررسیِ موازیِ فیلوژنیِ میزبان‌ها و انگل‌ها از شواهدِ گونه‌زایی موازی است.</center>
+![گونه‌زایی موازی](https://evolution.berkeley.edu/wp-content/uploads/2021/09/gopher_and_lice_3-1024x732.png){: width="1024" height="732" loading="lazy" }
+<div class="caption" markdown="1">بررسیِ موازیِ فیلوژنیِ میزبان‌ها و انگل‌ها از شواهدِ گونه‌زایی موازی است.</div>
 
 البته این مثال تا اندازه‌ای آرمانی است -دانشمندان به ندرت میزبان‌ها و انگل‌هایی با فیلوژنی‌هایی کاملاً مطابق هم می‌یابند. اگرچه، فیلوژنی‌ها گاهی حاکی از این هستند که فرایند گونه‌زاییِ موازی با اندکی «تعویض میزبان» همراه بوده است.

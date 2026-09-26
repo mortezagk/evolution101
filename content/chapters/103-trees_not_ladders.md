@@ -1,7 +1,9 @@
 Title: درخت، نه نردبان!
 Date: 2025-11-06 00:05
 Category: فصل اول: الگوها
-Slug: trees-not-ladders
+Slug: 1-the-history-of-life-looking-at-the-patterns/03-trees-not-ladders
+Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/trees-not-ladders/
+Source_title: Trees, not ladders
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
@@ -10,21 +12,21 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 همچنین، چنین برداشت اشتباهی ممکن است در مورد فیلوژنی‌ها نیز صورت گیرد، به این شکل که فکر کنیم برخی جانداران «پیشرفته‌تر» از بقیه هستند؛ اگرچه، فیلوژنی‌ها به هیچ وجه بر چنین چیزی دلالت ندارند.
 
-![زنجیرهٔ عظیم هستی]({static}/images/7-1.gif)
-<center markdown="1">نسخهٔ ارسطو از زنجیرهٔ عظیم هستی.<br>
-حالا می‌دانیم که این ایده غلط است.</center>
+![زنجیرهٔ عظیم هستی](https://evolution.berkeley.edu/wp-content/uploads/2021/10/chain_of_being-1-143x300.png){: width="143" height="300" loading="lazy" }
+<div class="caption" markdown="1">نسخهٔ ارسطو از زنجیرهٔ عظیم هستی.<br>
+حالا می‌دانیم که این ایده غلط است.</div>
 
 در این فیلوژنیِ بسیار ساده‌شده، بر اثر یک رویدادِ گونه‌زایی دو نسب ایجاد شد. یکی به خزه‌های امروزی منتهی شد؛ دیگری به سرخس، کاج و گل سرخ. از زمانِ این رویدادِ گونه‌زایی، هر دو نسب فرصت مساوی برای فرگشت داشته‌اند. پس، اگرچه خزه‌ها خیلی زود در «درختِ حیات» به شاخه‌ای مستقل تبدیل شدند و خصوصیات مشترک بسیاری با نیای همهٔ گیاهانِ خاکی[^۱] دارند، گونهٔ خزهٔ امروزی نیای گیاهانِ خاکیِ دیگر نیست. همچنین بدوی‌تر از آنها نیز نیست. خزه‌ها عموزاده‌های گیاهانِ خاکیِ دیگر هستند.
 
-![فیلوژنی گیاهان]({static}/images/7-2.gif)
+![فیلوژنی گیاهان](https://evolution.berkeley.edu/wp-content/uploads/2021/11/trees_not_ladders_mossfern-1-300x237.png){: width="300" height="237" loading="lazy" }
 
 پس به‌یاد داشتن این سه نکته در هنگام مطالعهٔ یک فیلوژنی مهم است:
 
-**۱)** فرگشت طرحی از روابط بین نسب‌ها ایجاد می‌کند که به شکلِ یک درخت است، نه یک نردبان. ![فیلوژنی گیاهان]({static}/images/7-3.gif)
+**۱)** فرگشت طرحی از روابط بین نسب‌ها ایجاد می‌کند که به شکلِ یک درخت است، نه یک نردبان. ![فیلوژنی گیاهان](https://evolution.berkeley.edu/wp-content/uploads/2021/11/trees_not_ladders_notladders-500x184.png){: width="500" height="184" loading="lazy" }
 
-**۲)** این که ما ترجیح می‌دهیم فیلوژنی‌ها را از چپ به راست مطالعه کنیم، هیچ ارتباطی با سطح «پیشرفت» ندارد. ![فیلوژنی گیاهان]({static}/images/7-4.gif)
+**۲)** این که ما ترجیح می‌دهیم فیلوژنی‌ها را از چپ به راست مطالعه کنیم، هیچ ارتباطی با سطح «پیشرفت» ندارد. ![فیلوژنی گیاهان](https://evolution.berkeley.edu/wp-content/uploads/2021/11/trees_not_ladders_northis-500x184.png){: width="500" height="184" loading="lazy" }
 
-**۳)** برای هر رویدادِ گونه‌زایی روی یک فیلوژنی، انتخاب این که کدام نسب سمت راست و کدام سمت چپ قرار گیرد اختیاری است. فیلوژنی‌های زیر یکسان هستند: ![فیلوژنی گیاهان]({static}/images/7-5.gif)
+**۳)** برای هر رویدادِ گونه‌زایی روی یک فیلوژنی، انتخاب این که کدام نسب سمت راست و کدام سمت چپ قرار گیرد اختیاری است. فیلوژنی‌های زیر یکسان هستند: ![فیلوژنی گیاهان](https://evolution.berkeley.edu/wp-content/uploads/2021/11/trees_not_ladders_equalmoss-500x184.png){: width="500" height="184" loading="lazy" }
 
 زیست‌شناسان همواره کلادهایی را که بیشتر مدّ نظرشان است (چه خفاش یا ساس باشد، یا باکتری) را در سمت راستِ فیلوژنی قرار می‌دهند.
 
@@ -32,7 +34,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ------
 وقتی به فرگشتِ انسان می‌رسیم، نکات ذکر شده در بالا موجب بیشترین مشکلات می‌شود. فیلوژنیِ نزدیک‌ترین گونه‌های زنده به ما (انسان‌های مدرن) به این صورت است:
 
-![فیلوژنی گیاهان]({static}/images/7-6.gif)
+![فیلوژنی گیاهان](https://evolution.berkeley.edu/wp-content/uploads/2021/11/trees_not_ladders_humans-1-280x300.png){: width="205" height="220" loading="lazy" }
 
 مهم است که به‌یاد داشته باشیم:
 

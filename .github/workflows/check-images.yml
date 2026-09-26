@@ -1,0 +1,46 @@
+name: Check external images
+
+# The site hotlinks its images from evolution.berkeley.edu. This checks that
+# they all still load: on every pull request (a broken image shows as a red
+# check on the PR) and weekly, to catch images Berkeley removes or moves
+# later. It is kept out of the deploy workflow so a slow or unreachable
+# Berkeley server never blocks a deploy. Berkeley's firewall drops
+# connections from some GitHub runners; when that happens the images are
+# reported as "not checked" with a warning, and the check still passes.
+
+on:
+  pull_request:
+  schedule:
+    - cron: '17 5 * * 1'  # Mondays 05:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: '.python-version'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Build site with Pelican
+        run: pelican content -s pelicanconf.py --fatal warnings
+
+      - name: Check external images
+        run: python scripts/check_links.py --images _build

@@ -1,17 +1,22 @@
 {% extends "base.html" %}
-{% block title %}{{ article.title }}{% endblock %}
+{% block title %}{{ article.title }} | {{ SITENAME }}{% endblock %}
+{% block description %}{{ article.content|plain_text(160) }}{% endblock %}
+{% block head_extra %}
+  {% if CANONICAL_SITEURL %}
+  <link rel="canonical" href="{{ CANONICAL_SITEURL }}/{{ article.url|replace('index.html', '') }}">
+  {% endif %}
+{% endblock %}
 {% block body_attrs %}{% if article.category %}data-category-slug="{{ article.category.slug }}"{% endif %}{% endblock %}
 {% block content %}
 <section id="content">
         <article>
                 <header>
                         <h1>
-                                <a href="{{ pagename }}"
+                                <a href="{{ SITEURL }}/{{ article.url }}"
                                         rel="bookmark"
                                         title="Permalink to {{ article.title|striptags }}">
                                         {{ article.title}}
                                 </a>
-                                {% include 'twitter.html' %}
                         </h1>
                 </header>
 
@@ -29,60 +34,72 @@
                 {% endfor %}
 
                 <div class="entry-content">
-                <!--div class="well">
-                      {% include 'article_infos.html' %}
-                </div-->
                 {% if nav.prev or nav.next %}
-                <div class="article-pagination article-pagination--top">
-                        <div class="article-pagination__item article-pagination__item--prev">
-                                {% if nav.prev %}
-                                <a class="article-pagination__link article-pagination__link--prev" href="{{ SITEURL }}/{{ nav.prev.url }}">⟶ مطلب قبلی</a>
-                                {% endif %}
-                        </div>
-                        <div class="article-pagination__item article-pagination__item--next">
-                                {% if nav.next %}
-                                <a class="article-pagination__link article-pagination__link--next" href="{{ SITEURL }}/{{ nav.next.url }}">مطلب بعدی ⟵</a>
-                                {% endif %}
-                        </div>
-                </div>
+                <nav class="page-nav page-nav--top" aria-label="مطلب قبلی و بعدی">
+                        {% if nav.prev %}
+                        <a class="page-nav__pill" href="{{ SITEURL }}/{{ nav.prev.url }}" rel="prev" title="{{ nav.prev.title|striptags }}"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i> قبلی</a>
+                        {% endif %}
+                        {% if nav.next %}
+                        <a class="page-nav__pill page-nav__pill--next" href="{{ SITEURL }}/{{ nav.next.url }}" rel="next" title="{{ nav.next.title|striptags }}">بعدی <i class="fa-solid fa-arrow-left" aria-hidden="true"></i></a>
+                        {% endif %}
+                </nav>
                 {% endif %}
 
                 {{ article.content }}
 
+                {% if article.source %}
+                <p class="source-note">
+                        <a href="{{ article.source }}" rel="noopener" target="_blank" title="{{ article.source_title or article.source }}">منبع ⎋</a>
+                </p>
+                {% endif %}
+
+                {% if article.section_index == '00' and article.section != '0' %}
+                {% set chapter_articles = articles | selectattr('category', 'equalto', article.category) | rejectattr('source_path', 'equalto', article.source_path) | sort(attribute='source_path') | list %}
+                {% if chapter_articles %}
+                <nav class="chapter-toc" aria-labelledby="chapter-toc-title">
+                        <h2 id="chapter-toc-title">مطالب این فصل</h2>
+                        <ol class="chapter-toc__list">
+                        {% for item in chapter_articles %}
+                                <li class="chapter-toc__item">
+                                        <a class="chapter-toc__link" href="{{ SITEURL }}/{{ item.url }}">
+                                                <span class="chapter-toc__number">{{ item.section_index|int|persian_digits }}</span>
+                                                <span class="chapter-toc__text">
+                                                        <span class="chapter-toc__title">{{ item.title|persian_digits }}</span>
+                                                        <span class="chapter-toc__summary">{{ item.content|plain_text(170) }}</span>
+                                                </span>
+                                        </a>
+                                </li>
+                        {% endfor %}
+                        </ol>
+                </nav>
+                {% endif %}
+                {% endif %}
+
+
                 {% if nav.prev or nav.next %}
-                <div class="article-pagination article-pagination--bottom">
-                        <div class="article-pagination__item article-pagination__item--prev">
-                                {% if nav.prev %}
-                                <a class="article-pagination__link article-pagination__link--prev" href="{{ SITEURL }}/{{ nav.prev.url }}">⟶ مطلب قبلی</a>
-                                {% endif %}
-                        </div>
-                        <div class="article-pagination__item article-pagination__item--next">
-                                {% if nav.next %}
-                                <a class="article-pagination__link article-pagination__link--next" href="{{ SITEURL }}/{{ nav.next.url }}">مطلب بعدی ⟵</a>
-                                {% endif %}
-                        </div>
-                </div>
+                <nav class="page-nav page-nav--bottom" aria-label="مطلب قبلی و بعدی">
+                        {% if nav.prev %}
+                        <a class="page-nav__card" href="{{ SITEURL }}/{{ nav.prev.url }}" rel="prev">
+                                <i class="fa-solid fa-arrow-right page-nav__arrow" aria-hidden="true"></i>
+                                <span class="page-nav__text">
+                                        <span class="page-nav__label">مطلب قبلی</span>
+                                        <span class="page-nav__title">{{ nav.prev.title|persian_digits }}</span>
+                                </span>
+                        </a>
+                        {% endif %}
+                        {% if nav.next %}
+                        <a class="page-nav__card page-nav__card--next" href="{{ SITEURL }}/{{ nav.next.url }}" rel="next">
+                                <span class="page-nav__text">
+                                        <span class="page-nav__label">مطلب بعدی</span>
+                                        <span class="page-nav__title">{{ nav.next.title|persian_digits }}</span>
+                                </span>
+                                <i class="fa-solid fa-arrow-left page-nav__arrow" aria-hidden="true"></i>
+                        </a>
+                        {% endif %}
+                </nav>
                 {% endif %}
 
                 </div><!-- /.entry-content -->
-                {% if DISQUS_SITENAME %}
-                <div class="comments">
-                <h2>Comments !</h2>
-                        <div id="disqus_thread"></div>
-                        <script type="text/javascript">
-                           var disqus_identifier = "{{ article.url }}";
-                           (function() {
-                                var dsq = document.createElement('script');
-                                dsq.type = 'text/javascript'; dsq.async = true;
-                                dsq.src = 'https://{{ DISQUS_SITENAME }}.disqus.com/embed.js';
-                                (document.getElementsByTagName('head')[0] ||
-                                 document.getElementsByTagName('body')[0]).appendChild(dsq);
-                          })();
-                        </script>
-                </div>
-                {% endif %}
         </article>
-
-        <hr />
 </section>
 {% endblock %}

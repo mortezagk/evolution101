@@ -1,7 +1,9 @@
 Title: شناسایی تغییر فرگشتی خرد
 Date: 2025-11-06 00:33
 Category: فصل سوم: فرگشت خُرد
-Slug: detecting-microevolution
+Slug: 3-microevolution/02-detecting-microevolutionary-change
+Source: https://evolution.berkeley.edu/evolution-101/microevolution/detecting-microevolutionary-change/
+Source_title: Detecting microevolutionary change
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
@@ -10,7 +12,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 تصور کنید امسال بالای کوه می‌روید، از سوسک‌ها نمونه‌برداری می‌کنید، و تعیین می‌کنید که ۸۰٪ از ژن‌های موجود در جمعیت مربوط به رنگ سبز و ۲۰٪ مربوط به رنگ قهوه‌ای است. سال بعد برمی‌گردید، فرایند را تکرار می‌کنید، و یک نسبت جدید می‌یابید: ۶۰٪ ژن سبز، نسبت به ۴۰٪ ژن قهوه‌ای.
 
-![تغییر فرگشتی]({static}/images/38-1.gif)
+![تغییر فرگشتی](https://evolution.berkeley.edu/wp-content/uploads/2021/04/browngreen_genes.gif){: width="388" height="208" loading="lazy" }
 
 شما یک الگوی فرگشت خُرد را شناسایی کرده‌اید: یک تغییر در فراوانی ژن. تغییر در فراوانی ژن در طول زمان به این معناست که جمعیت فرگشت یافته است.
 
