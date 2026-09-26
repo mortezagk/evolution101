@@ -1,4 +1,5 @@
-# Dependabot version updates for Python dependencies (requirements.txt).
+# Dependabot version updates for Python dependencies (requirements.txt) and
+# the GitHub Actions used in .github/workflows.
 # Docs: https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 #
 # Minor and patch updates are grouped into a single PR and auto-merged once the
@@ -17,6 +18,16 @@ updates:
         versions: [">=2.20"]
     groups:
       pip-minor-and-patch:
+        update-types:
+          - "minor"
+          - "patch"
+
+  - package-ecosystem: "github-actions" # Keep workflow actions up to date
+    directory: "/" # Scans .github/workflows
+    schedule:
+      interval: "monthly"
+    groups:
+      actions-minor-and-patch:
         update-types:
           - "minor"
           - "patch"
