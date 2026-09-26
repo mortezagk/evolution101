@@ -8,19 +8,30 @@
 	font-display: swap;
 }
 
+/* Type and layout follow the original site's article pages
+   (evolution.berkeley.edu, "Understanding Evolution: content page style
+   reference"): one layout breakpoint at 960px, a 1140px page with the text
+   column at 65% and the sidebar at 30%. Sizes are in rem/em rather than the
+   original's px, so they match it exactly at the default 16px browser font
+   size but grow with the reader's font-size setting. Colours are our own:
+   article titles stay link blue and headings use the text colour. The Persian font
+   (Sahel) replaces Source Sans Pro; left/right are mirrored for RTL. */
+
 :root {
 	--site-teal: #17a391;
 	--site-teal-dark: #11695f;
 	--site-teal-light: #e3f1ee;
+	--site-text: #333333;
 	--bs-body-font-family: 'Sahel', 'Droid Arabic Naskh', Tahoma, sans-serif;
+	--bs-body-font-size: 1.125rem;
+	--bs-body-line-height: 1.625;
+	--bs-body-color: var(--site-text);
 	--bs-link-color-rgb: 0, 136, 204;
 	--bs-link-hover-color-rgb: 0, 85, 128;
 }
 
 body {
-	padding-top: 4.5rem;
-	font-size: 1.05rem;
-	line-height: 1.9;
+	padding-top: 3.5rem; /* fixed navbar */
 }
 
 a {
@@ -36,37 +47,124 @@ main a:hover,
 	vertical-align: -3px;
 }
 
-/* Page body */
+/* Page container and the two-column layout */
 
-main h1 {
-	margin-bottom: 0.5rem;
-	font-size: 1.9rem;
-	font-weight: 700;
+.site-container {
+	width: 100%;
+	max-width: 71.25rem;
+	margin: 0 auto;
+	padding: 0 1.875rem;
 }
 
-main h1 a {
+.navbar > .site-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.site-body {
+	padding-top: 1.875rem;
+}
+
+.layout {
+	display: flex;
+	flex-direction: column;
+	gap: 1.875rem;
+}
+
+.layout-main,
+.layout-sidebar {
+	min-width: 0;
+}
+
+@media (min-width: 60em) /* 960px at the default font size */ {
+	.layout {
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 0;
+	}
+
+	.layout-main {
+		width: 65%;
+	}
+
+	.layout-sidebar {
+		order: -1; /* first in the row = on the right in RTL */
+		width: 30%;
+	}
+}
+
+/* Article text */
+
+main h1, main h2, main h3, main h4, main h5, main h6 {
+	margin: 0 0 1.25rem;
+	color: inherit;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+main h1 {
+	margin-bottom: 0.625rem;
+	font-size: 1.875rem;
+}
+
+/* The article title links to the page itself and keeps the link blue. */
+main h1 a,
+main h1 a:hover {
 	text-decoration: none;
 }
 
-main h2, main h3, main h4 {
-	margin-top: 2rem;
-	margin-bottom: 0.75rem;
-	font-weight: 700;
-}
-
 main h2 {
-	font-size: 1.4rem;
+	font-size: 1.6875rem;
 }
 
 main h3 {
-	font-size: 1.15rem;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+main h4 {
+	margin-top: 2.5rem;
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+
+main h5 {
+	font-size: 1.125rem;
+}
+
+main h6 {
+	font-size: 1rem;
+}
+
+main p {
+	margin: 0 0 1.875rem;
+}
+
+main ul,
+main ol {
+	margin: 0 0 1.875rem;
+	padding-right: 2.5rem;
+	padding-left: 0;
+}
+
+main ul ul,
+main ol ul {
+	margin-bottom: 0;
+	list-style-type: circle;
+}
+
+main ol ol,
+main ul ol {
+	margin-bottom: 0;
 }
 
 main img {
 	display: block;
 	max-width: 100%;
 	height: auto;
-	margin: 0.75rem auto;
+	margin: 0 auto;
 }
 
 main table img {
@@ -78,15 +176,21 @@ main hr {
 }
 
 .footnote {
-	font-size: 0.9rem;
+	font-size: 0.9375rem;
+}
+
+.footnote p {
+	margin: 0;
 }
 
 /* Sidebar */
 
 .sidebar-box {
 	position: sticky;
-	top: 4.5rem;
-	max-height: calc(100vh - 5.5rem);
+	top: 5.375rem; /* navbar + page top padding */
+	max-height: calc(100vh - 7.25rem);
+	font-size: 1rem;
+	line-height: 1.6;
 	overflow-y: auto;
 	padding: 0.75rem 0.5rem;
 	background: #f5f5f5;
@@ -310,7 +414,7 @@ main .page-nav__card:hover,
 	color: var(--site-teal);
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 35.999em) {
 	.page-nav--bottom {
 		flex-direction: column;
 	}
@@ -465,7 +569,7 @@ main .source-note a:hover,
 }
 
 .digging-data__banner img {
-	max-width: 420px;
+	max-width: 26.25rem;
 	width: 100%;
 }
 
@@ -490,16 +594,19 @@ main .source-note a:hover,
 	width: 100%;
 }
 
-/* Figure captions */
+/* Figure captions: 14px, start-aligned, just under the image */
 .caption {
-	margin: -0.2rem auto 1.2rem;
-	text-align: center;
-	color: #555;
+	margin: 0.5em 0 1em;
+	padding: 0 0.625rem;
+	color: var(--site-text);
+	font-size: 0.875rem;
+	font-weight: 400;
+	line-height: 1.625;
+	text-align: start;
 }
 
-.caption p {
-	font-size: 1em;
-	line-height: 1.7;
+main .caption p {
+	margin: 0;
 }
 
 /* Search page */

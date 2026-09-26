@@ -28,7 +28,7 @@
 <body {% block body_attrs %}{% endblock %}>
 
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <div class="container">
+    <div class="site-container">
       <a class="navbar-brand" href="{{ SITEURL }}/index.html">
         <img src="{{ SITEURL }}/theme/images/favicon.ico" alt="" width="20" height="20">
         {{ SITENAME }}
@@ -45,14 +45,14 @@
     </div>
   </nav>
 
-  <div class="container site-body">
-    <div class="row g-4">
-      <main class="col-md-8 col-lg-9">
+  <div class="site-container site-body">
+    <div class="layout">
+      <main class="layout-main">
         {% block content %}
         {% endblock %}
       </main>
 
-      <aside class="col-md-4 col-lg-3 order-md-first" id="sidebar" aria-label="فهرست کتاب">
+      <aside class="layout-sidebar" id="sidebar" aria-label="فهرست کتاب">
         <div class="sidebar-box">
           {% include 'sidebar.html' %}
         </div>
