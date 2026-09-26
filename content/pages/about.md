@@ -25,7 +25,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ------
 ## سایر منابع و اعتبارها
 
-- مرجع اصلی مطالب [Understanding Evolution](https://evolution.berkeley.edu/evolution-101/) است. تصاویر هر صفحه مستقیماً از همان وب‌سایت نمایش داده می‌شوند و بالای هر صفحه پیوندی به متن اصلی آن هست.
+- مرجع اصلی مطالب [Understanding Evolution](https://evolution.berkeley.edu/evolution-101/) است. تصاویر هر صفحه مستقیماً از همان وب‌سایت نمایش داده می‌شوند و پایین هر صفحه، با پیوند «منبع»، به صفحهٔ اصلی آن ارجاع داده شده است.
 - تصویر و فونت لوگو از جلد شمارهٔ سپتامبر ۲۰۱۴ نشریهٔ Scientific American وام گرفته شده.
 - قالب این سایت بر پایهٔ قالبی است که [جادی](http://jadi.ir/) برای «[راهنمای دوچرخه](http://bikezen.ir/)» شخصی‌سازی کرده بود، و اکنون با [Bootstrap](https://getbootstrap.com/) و [Font Awesome](https://fontawesome.com/) بازنویسی شده است. از جادی متشکرم.
 - در این اثر از فونت آزاد ساحل (اثری از [صابر راستی‌کردار](https://rastikerdar.github.io/)) استفاده شده است.
@@ -62,7 +62,7 @@ This translation (as a derivative work) is licensed under the [Creative Commons 
 ------
 ## Other Credits
 
-- The primary reference for the content is [Understanding Evolution](https://evolution.berkeley.edu/evolution-101/). Each page shows its figures directly from that website and links to its original page at the top.
+- The primary reference for the content is [Understanding Evolution](https://evolution.berkeley.edu/evolution-101/). Each page shows its figures directly from that website and links to its original page ("منبع") at the bottom.
 - The logo image and font are adapted from the cover of the September 2014 issue of Scientific American.
 - This site's theme is based on the one [Jadi](http://jadi.ir/) customized for his "[BikeZen](http://bikezen.ir/)", since rewritten on [Bootstrap](https://getbootstrap.com/) and [Font Awesome](https://fontawesome.com/). Many thanks to Jadi for this.
 - This work uses the open-source Sahel Font, designed by [Saber Rastikerdar](https://rastikerdar.github.io/).
