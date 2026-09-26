@@ -1,16 +1,19 @@
 #!/usr/bin/env python3
 """Check the built site for broken links.
 
-  python scripts/check_links.py [_build]
+  python scripts/check_links.py [_build]           # internal links
+  python scripts/check_links.py --images [_build]  # external images
 
-* Internal links and images (relative href/src) must point at a file that
-  exists in the build.
-* External images (<img src="http...">) must load: HTTP 200 with an image
-  content type. Each URL is tried a few times before it counts as broken.
+* By default, internal links and images (relative href/src) must point at a
+  file that exists in the build. No network needed; takes a second or two.
+* With --images, external images (<img src="http...">, hotlinked from
+  evolution.berkeley.edu) must load instead: HTTP 200 with an image content
+  type. Each URL is tried twice before it counts as broken.
 
 Exits with status 1 and lists every broken link if anything fails.
 """
 
+import argparse
 import concurrent.futures
 import sys
 import time
@@ -19,9 +22,18 @@ import urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
 
-USER_AGENT = 'evolution101-link-check (+https://github.com/mortezagk/evolution101)'
-ATTEMPTS = 3
-TIMEOUT = 20
+# Browser-like headers: some servers stall or refuse requests that look like
+# bots, which made this check hang for minutes on GitHub's runners.
+HEADERS = {
+    'User-Agent': ('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 '
+                   '(KHTML, like Gecko) Chrome/140.0 Safari/537.36 '
+                   'evolution101-link-check'),
+    'Accept': 'image/avif,image/webp,image/png,image/*;q=0.8,*/*;q=0.5',
+    'Referer': 'https://evolution101.ir/',
+}
+ATTEMPTS = 2
+TIMEOUT = 15
+WORKERS = 16
 
 
 class LinkCollector(HTMLParser):
@@ -56,7 +68,7 @@ def check_image(url):
         url = 'https:' + url
     error = None
     for attempt in range(ATTEMPTS):
-        request = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
+        request = urllib.request.Request(url, headers=HEADERS)
         try:
             with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
                 ctype = response.headers.get('Content-Type', '')
@@ -72,12 +84,18 @@ def check_image(url):
                 return error
         except Exception as exc:  # timeouts, DNS, TLS, connection resets
             error = f'{type(exc).__name__}: {exc}'
-        time.sleep(2 * (attempt + 1))
+        if attempt + 1 < ATTEMPTS:
+            time.sleep(3)
     return error
 
 
 def main():
-    root = Path(sys.argv[1] if len(sys.argv) > 1 else '_build').resolve()
+    parser = argparse.ArgumentParser(description='Check the built site for broken links.')
+    parser.add_argument('build', nargs='?', default='_build')
+    parser.add_argument('--images', action='store_true',
+                        help='check external images over the network instead of internal links')
+    args = parser.parse_args()
+    root = Path(args.build).resolve()
     if not root.is_dir():
         sys.exit(f'Build directory not found: {root}')
 
@@ -94,18 +112,26 @@ def main():
                 if tag == 'img':
                     external_images.setdefault(url, set()).add(page.relative_to(root))
                 continue
+            if args.images:
+                continue
             error = check_internal(page, url, root)
             if error:
                 problems.append((page.relative_to(root), url, error))
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
-        results = dict(zip(external_images, pool.map(check_image, external_images)))
-    for url, error in results.items():
-        if error:
-            for page in sorted(external_images[url]):
-                problems.append((page, url, error))
-
-    print(f'Checked {len(pages)} pages and {len(external_images)} external images.')
+    if args.images:
+        total = len(external_images)
+        with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as pool:
+            futures = {pool.submit(check_image, url): url for url in external_images}
+            for done, future in enumerate(concurrent.futures.as_completed(futures), 1):
+                url, error = futures[future], future.result()
+                print(f'[{done}/{total}] {"FAIL" if error else "ok  "} {url}'
+                      + (f' ({error})' if error else ''), flush=True)
+                if error:
+                    for page in sorted(external_images[url]):
+                        problems.append((page, url, error))
+        print(f'Checked {total} external images on {len(pages)} pages.')
+    else:
+        print(f'Checked internal links on {len(pages)} pages.')
     if problems:
         print(f'\n{len(problems)} broken link(s):')
         for page, url, error in sorted(problems, key=lambda p: (str(p[0]), p[1])):

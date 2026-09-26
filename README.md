@@ -23,9 +23,13 @@ pip install -r requirements.txt
 # Build into _build/ exactly as CI does (any warning fails the build):
 pelican content -s pelicanconf.py --fatal warnings
 
-# Check that every internal link resolves and every linked image loads
-# (CI runs this after each build and fails on any broken link):
+# Check that every internal link resolves (CI runs this after each build and
+# won't deploy if a link is broken):
 python scripts/check_links.py _build
+
+# Check that every image hotlinked from evolution.berkeley.edu loads (CI runs
+# this on every pull request and weekly; see .github/workflows/check-images.yml):
+python scripts/check_links.py --images _build
 
 # Preview at http://localhost:8000 with rebuild on save:
 pelican content -s pelicanconf.py --listen --autoreload
