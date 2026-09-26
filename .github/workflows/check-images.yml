@@ -4,7 +4,9 @@ name: Check external images
 # they all still load: on every pull request (a broken image shows as a red
 # check on the PR) and weekly, to catch images Berkeley removes or moves
 # later. It is kept out of the deploy workflow so a slow or unreachable
-# Berkeley server never blocks a deploy.
+# Berkeley server never blocks a deploy. Berkeley's firewall drops
+# connections from some GitHub runners; when that happens the images are
+# reported as "not checked" with a warning, and the check still passes.
 
 on:
   pull_request:
