@@ -140,7 +140,10 @@
 
         var a = document.createElement('a');
         a.className = 'search-result__title';
-        a.setAttribute('href', root + '/' + e.url);
+        // Both parts come from the build; still refuse script-running schemes.
+        var href = root + '/' + e.url;
+        var scheme = href.replace(/[\u0000-\u0020]/g, ''); // browsers ignore these
+        a.setAttribute('href', /^(?:javascript|data|vbscript):/i.test(scheme) ? '#' : href);
         a.innerHTML = highlight(e.title, result.words);
 
         var chapter = document.createElement('span');
