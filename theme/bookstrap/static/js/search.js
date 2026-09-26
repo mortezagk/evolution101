@@ -137,10 +137,23 @@
       result.hits.forEach(function (hit) {
         var e = hit.entry, li = document.createElement('li');
         li.className = 'search-result';
-        li.innerHTML =
-          '<a class="search-result__title" href="' + root + '/' + e.url + '">' + highlight(e.title, result.words) + '</a>' +
-          '<span class="search-result__chapter">' + escapeHtml(e.chapter) + '</span>' +
-          '<p class="search-result__snippet">' + snippet(e, result.words) + '</p>';
+
+        var a = document.createElement('a');
+        a.className = 'search-result__title';
+        a.setAttribute('href', root + '/' + e.url);
+        a.innerHTML = highlight(e.title, result.words);
+
+        var chapter = document.createElement('span');
+        chapter.className = 'search-result__chapter';
+        chapter.textContent = e.chapter;
+
+        var p = document.createElement('p');
+        p.className = 'search-result__snippet';
+        p.innerHTML = snippet(e, result.words);
+
+        li.appendChild(a);
+        li.appendChild(chapter);
+        li.appendChild(p);
         list.appendChild(li);
       });
     }
