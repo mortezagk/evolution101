@@ -26,7 +26,6 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ## سایر منابع و اعتبارها
 
 - مرجع اصلی مطالب [Understanding Evolution](https://evolution.berkeley.edu/evolution-101/) است. تصاویر هر صفحه مستقیماً از همان وب‌سایت نمایش داده می‌شوند و پایین هر صفحه، با پیوند «منبع»، به صفحهٔ اصلی آن ارجاع داده شده است.
-- نشان سایت: Circle tree by awimovic from [Noun Project](https://thenounproject.com/browse/icons/term/circle-tree/) (CC BY 3.0).
 - قالب اولیهٔ این سایت بر پایهٔ قالب بود که [جادی](https://jadi.net/) برای «[راهنمای دوچرخه](http://bikezen.ir/)» شخصی‌سازی کرده بود، و اکنون با [Bootstrap](https://getbootstrap.com/) و [Font Awesome](https://fontawesome.com/) بازنویسی شده است.
 - در این اثر از فونت آزاد ساحل (اثری از [صابر راستی‌کردار](https://rastikerdar.github.io/)) استفاده شده است.
 - این وب‌سایت با [Pelican](https://blog.getpelican.com/) و [Python](http://python.org) ساخته شده است.
@@ -34,6 +33,6 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ------
 ## مشارکت
 
-از مشارکت شما در این پروژه استقبال می‌کنم. برای هر چیزی که به نظرتان نادرست می‌آید -غلط تایپی، جمله‌ای نارسا، یا پیوندی شکسته- یک Issue باز کنید، یا اگر دوست دارید خودتان آن را درست کنید، Pull Request بفرستید.
+لطفاً برای هر چیزی که به نظرتان نادرست می‌آید -غلط تایپی، جمله‌ای نارسا، یا پیوندی شکسته- یک Issue باز کنید، یا اگر دوست دارید خودتان آن را درست کنید، Pull Request بفرستید.
 
 در صورت نیاز به نشانی iranevolution101@gmail.com ایمیل بزنید.

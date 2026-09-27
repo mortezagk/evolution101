@@ -37,7 +37,6 @@ FILENAME_METADATA = r'(?P<section>\d)(?P<section_index>\d{2})-.*'
 
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'theme/images/favicon.ico'},
-    'extra/logo-light.png': {'path': 'theme/images/logo-light.png'},
     'extra/CNAME': {'path': 'CNAME'},
     'extra/robots.txt': {'path': 'robots.txt'},
 }
