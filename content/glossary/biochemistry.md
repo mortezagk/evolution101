@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-مجموعه واکنش‌های شیمیایی که درون جانداران رخ می‌دهد یا با آن‌ها پیوند دارد.
+مجموعهٔ واکنش‌های شیمیایی که درون جانداران رخ می‌دهند یا با آنها مرتبط‌اند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

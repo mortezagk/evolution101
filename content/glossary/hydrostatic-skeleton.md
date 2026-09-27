@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-حفره‌ای پر از مایع که بدن جانور را نگه می‌دارد، زیرا مایع را نمی‌توان در حجمی کوچک‌تر فشرده کرد (hydro = مایع یا آب، statos = ایستاده، بی‌تغییر).
+حفره‌ای پر از مایع که بدن جانور را نگه می‌دارد، زیرا نمی‌توان مایع را در حجمی کوچک‌تر فشرده کرد (hydro = مایع یا آب، statos = ایستاده، بی‌تغییر).
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

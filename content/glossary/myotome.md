@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-بخشی از ماهیچه.
+قطعه‌ای از ماهیچه.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

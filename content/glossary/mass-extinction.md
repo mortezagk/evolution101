@@ -1,4 +1,4 @@
-Title: انقراض گروهی
+Title: انقراض بزرگ
 Date: 2025-11-06 00:00
 Slug: glossary/mass-extinction
 Term: mass extinction
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-رویدادی که در آن نسب‌های گوناگونِ بسیاری در حدود یک زمان [منقرض]({filename}extinction.md) می‌شوند. انقراض‌های گروهی نرخ‌های انقراضی بالاتر از نرخِ معمولِ انقراضِ زمینه‌ای داشته‌اند که همواره در جریان است. برای توضیح مفصل‌تر، بخش انقراض‌های گروهی در فرگشت ۱۰۱ را ببینید.
+رویدادی که در آن نسب‌های مختلفِ بسیاری در حدود یک زمان [منقرض]({filename}extinction.md) می‌شوند. نرخ انقراض در انقراض‌های بزرگ بیشتر از نرخ معمولِ انقراضِ زمینه‌ای بوده است که همیشه در جریان است. برای توضیح مفصل‌تر، [منبع ما دربارهٔ انقراض‌های بزرگ در فرگشت ۱۰۱](https://evolution.berkeley.edu/mass-extinctions/) (به انگلیسی) را ببینید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

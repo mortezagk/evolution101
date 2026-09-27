@@ -1,4 +1,4 @@
-Title: سازش
+Title: سازگاری
 Date: 2025-11-06 00:00
 Slug: glossary/adaptation
 Term: adaptation
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-ویژگی‌ای که انتخاب طبیعی برای کارکرد کنونی‌اش پدید آورده است. برای توضیح مفصل‌تر، [بخش سازش در فرگشت ۱۰۱]({filename}../chapters/217-adaptation.md) را ببینید.
+ویژگی‌ای که به دلیل کاراییِ فعلیِ خود، توسط انتخاب طبیعی ایجاد شده است. برای توضیح مفصل‌تر، [بخش «سازگاری» در فرگشت ۱۰۱]({filename}../chapters/217-adaptation.md) را ببینید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

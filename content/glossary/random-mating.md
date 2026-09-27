@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-سامانه‌ای از آمیزش که در آن احتمال جفت‌گیری یک فرد با هر فرد دیگرِ جمعیت یکسان است، صرف‌نظر از ژنوتیپ آن فرد.
+نظامی از جفت‌گیری که در آن احتمال جفت‌گیریِ یک فرد با هر فرد دیگرِ جمعیت یکسان است، صرف‌نظر از ژنوتیپِ آن فرد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

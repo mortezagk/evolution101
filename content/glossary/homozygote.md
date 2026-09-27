@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-فردی که دو نسخهٔ یکسان از یک ژنِ مشخص را با خود دارد (مثلاً AA در برابر Aa).
+فردی که دو نسخهٔ یکسان از یک ژنِ مشخص را دارد (مثلاً AA در مقابل Aa).
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

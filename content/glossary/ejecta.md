@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-مواردی که بر اثر نیروی یک برخورد از دهانه‌ای به بیرون پرتاب می‌شوند.
+موادی که بر اثر نیروی یک برخورد، از دهانهٔ برخوردی به بیرون پرتاب می‌شوند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

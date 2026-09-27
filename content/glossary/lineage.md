@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-خطی پیوسته از تبار؛ رشته‌ای از جانداران، جمعیت‌ها، سلول‌ها یا ژن‌ها که با روابط نیا/بازمانده به هم پیوند خورده‌اند.
+خطی پیوسته از تبار؛ رشته‌ای از جانداران، جمعیت‌ها، سلول‌ها یا ژن‌ها که با روابط نیا/نواده به هم پیوند دارند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

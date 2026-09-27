@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-(جمع: سرده‌ها) رتبهٔ بالاتر از گونه در رده‌بندی لینه‌ای. برای نمونه، سردهٔ انسان *Homo* است. گونه‌های دیگرِ سردهٔ ما *Homo erectus* و *Homo neanderthalensis* را در بر می‌گیرند.
+(جمع در انگلیسی: genera) رتبهٔ بالاتر از گونه در رده‌بندی لینه‌ای. برای مثال، سردهٔ انسان‌ها *Homo* است. از گونه‌های دیگرِ سردهٔ ما می‌توان به *Homo erectus* و *Homo neanderthalensis* اشاره کرد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

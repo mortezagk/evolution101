@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-ژنی که تعیین می‌کند ژن‌های رمزگذارِ پروتئین چه زمانی روشن یا خاموش شوند.
+ژنی که کنترل می‌کند ژن‌های رمزکنندهٔ پروتئین چه زمانی روشن یا خاموش شوند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

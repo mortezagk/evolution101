@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-متمرکز بر انسان و سنجیدنِ همهٔ چیزهای دیگر در نسبت با انسان.
+آنچه انسان را در مرکز قرار می‌دهد و همهٔ چیزهای دیگر را در نسبت با انسان در نظر می‌گیرد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

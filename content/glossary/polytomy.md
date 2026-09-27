@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-[گره‌ای]({filename}node.md) بر روی یک [فیلوژنی]({filename}phylogeny.md) که در آن بیش از دو [نسب]({filename}lineage.md) از یک نسب نیایی فرود می‌آیند. چندشاخگی می‌تواند نشان دهد که یا نمی‌دانیم نسب‌های فرزند چگونه با هم خویشاوندند، یا بر این باوریم که نسب‌های فرزند هم‌زمان [گونه‌زایی]({filename}speciation.md) کرده‌اند. برای توضیح مفصل‌تر، منبع ما دربارهٔ چندشاخگی‌ها در فرگشت ۱۰۱ را ببینید.
+[گره‌ای]({filename}node.md) روی یک [فیلوژنی]({filename}phylogeny.md) که در آن بیش از دو [نسب]({filename}lineage.md) از یک نسبِ نیاییِ واحد منشعب می‌شوند. چندشاخگی ممکن است نشان دهد که یا نمی‌دانیم نسب‌های فرزند چه خویشاوندی‌ای با هم دارند، یا فکر می‌کنیم که نسب‌های فرزند به‌طور هم‌زمان [گونه‌زایی]({filename}speciation.md) کرده‌اند. برای توضیح مفصل‌تر، [منبع ما دربارهٔ چندشاخگی‌ها](https://evolution.berkeley.edu/phylogenetic-systematics/reading-trees-a-quick-review/phylogenetic-pitchforks/) (به انگلیسی) را ببینید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

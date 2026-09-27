@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-جایی که جانوران در آن گرد می‌آیند تا نمایش‌های جفت‌جویی اجرا کنند و جفت برگزینند.
+محلی که جانوران در آن گرد هم می‌آیند تا نمایش‌های جفت‌یابی اجرا کنند و جفت انتخاب کنند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

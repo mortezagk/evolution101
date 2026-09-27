@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-ریبونوکلئیک‌اسید؛ مولکولی همانند [DNA]({filename}dna.md) که در حمل اطلاعات و ساختن [پروتئین‌ها]({filename}protein.md) در سلول نقش دارد. برخی ویروس‌ها به جای DNA، RNA را به عنوان مادهٔ ژنتیکی خود حمل می‌کنند.
+ریبونوکلئیک‌اسید؛ مولکولی شبیه به [DNA]({filename}dna.md) که در حمل اطلاعات و تولید [پروتئین‌ها]({filename}protein.md) در سلول‌ها نقش دارد. برخی ویروس‌ها به جای DNA، از RNA به‌عنوان مادهٔ ژنتیکی خود استفاده می‌کنند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

@@ -1,4 +1,4 @@
-Title: درخت فیلوژنتیک نردبانی‌شده
+Title: درخت فیلوژنتیکیِ نردبانی
 Date: 2025-11-06 00:00
 Slug: glossary/ladderized-phylogenetic-tree
 Term: ladderized phylogenetic tree
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-درخت فیلوژنتیکی که در آن کلادهای پرگونه‌تر پیوسته در سمت راستِ کلادهای کم‌تنوع‌تر جای می‌گیرند (در درخت‌های عمودی) یا بالای آن‌ها (در درخت‌های افقی).
+درخت فیلوژنتیکی‌ای که در آن کلادهایی که بیشترین تعداد تاکسون را دارند، همواره در درخت‌های عمودی در سمت راستِ کلادهای کم‌تنوع‌تر و در درخت‌های افقی بالای آنها قرار می‌گیرند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

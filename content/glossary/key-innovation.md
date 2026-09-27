@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-سازشی که به جاندار امکان می‌دهد از آشیان یا منبعی تازه بهره ببرد.
+سازگاری‌ای که به جاندار امکان می‌دهد از یک کُنام یا منبع تازه بهره ببرد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

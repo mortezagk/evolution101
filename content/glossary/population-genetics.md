@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-مطالعهٔ اینکه بسامد [آلل‌ها]({filename}allele.md) و [ژنوتیپ‌ها]({filename}genotype.md) در یک [جمعیت]({filename}population.md) چگونه در گذر زمان از راه [رانش ژن]({filename}genetic-drift.md)، [انتخاب طبیعی]({filename}natural-selection.md)، [جهش]({filename}mutation.md)، [مهاجرت]({filename}migration.md)، [نوترکیبی]({filename}recombination.md) و تولیدمثل تغییر می‌کند. برای جزئیات بیشتر، جستار تاریخی ما دربارهٔ این موضوع را ببینید.
+مطالعهٔ اینکه فراوانیِ [آلل‌ها]({filename}allele.md) و [ژنوتیپ‌ها]({filename}genotype.md) در یک [جمعیت]({filename}population.md) چطور در طول زمان بر اثر [رانش ژن]({filename}genetic-drift.md)، [انتخاب طبیعی]({filename}natural-selection.md)، [جهش]({filename}mutation.md)، [مهاجرت]({filename}migration.md)، [نوترکیبی]({filename}recombination.md) و تولیدمثل تغییر می‌کند. برای جزئیات بیشتر، [نوشتهٔ تاریخی ما دربارهٔ این موضوع](https://evolution.berkeley.edu/the-history-of-evolutionary-thought/1900-to-present/random-mutations-and-evolutionary-change-ronald-fisher-jbs-haldane-sewall-wright/) (به انگلیسی) را ببینید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

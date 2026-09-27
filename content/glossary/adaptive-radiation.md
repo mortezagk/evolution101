@@ -1,4 +1,4 @@
-Title: پرتوزایی سازشی
+Title: واگرایش سازشی
 Date: 2025-11-06 00:00
 Slug: glossary/adaptive-radiation
 Term: adaptive radiation
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-رویدادی که در آن یک نسب به سرعت تنوع می‌یابد و نسب‌های تازه‌شکل‌گرفته سازش‌های متفاوتی را فرگشت می‌دهند.
+رویدادی که در آن یک نسب به سرعت متنوع می‌شود و در نسب‌های تازه‌شکل‌گرفته، سازگاری‌های متفاوتی فرگشت می‌یابد. برای توضیح بیشتر، [منبع ما دربارهٔ واگرایش سازشی](https://evolution.berkeley.edu/triggering-adaptive-radiation/) (به انگلیسی) را ببینید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

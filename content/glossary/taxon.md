@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-(جمع: تاکسون‌ها) هر گروه نام‌داری از جانداران (برای نمونه خزندگان، Felidae، سوسک‌ها، *Homo sapiens*)، چه [کلاد]({filename}clade.md) باشد و چه نباشد.
+(جمع در انگلیسی: taxa) هر گروه نام‌گذاری‌شده‌ای از جانداران (برای مثال خزندگان، Felidae، سوسک‌ها، *Homo sapiens*)، چه یک [کلاد]({filename}clade.md) تشکیل دهد و چه ندهد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

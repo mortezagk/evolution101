@@ -8,18 +8,18 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-حشره‌ها گروهی از بندپایانند که با ویژگی‌های زیر بازشناخته می‌شوند:
+حشره‌ها گروهی از بندپایان هستند که با ویژگی‌های زیر از دیگران متمایز می‌شوند:
 
-- بدنی که به سر، سینه و شکم بخش شده است
-- یک جفت شاخک، سه جفت زائدهٔ دهانی، سه جفت پا بر سینه، و اغلب یک یا دو جفت بال
+- بدنی که به سر، قفسهٔ سینه و شکم تقسیم شده است
+- یک جفت شاخک، سه جفت زائدهٔ دهانی، سه جفت پا روی قفسهٔ سینه، و اغلب یک یا دو جفت بال
 
-![insect](https://evolution.berkeley.edu/wp-content/uploads/2020/07/beetle_sideview.gif){: width="300" height="196" loading="lazy" }
+![نمای جانبی یک سوسک](https://evolution.berkeley.edu/wp-content/uploads/2020/07/beetle_sideview.gif){: width="300" height="196" loading="lazy" }
 
-![insect](https://evolution.berkeley.edu/wp-content/uploads/2020/07/beetle_head.gif){: width="262" height="151" loading="lazy" }
+![سر یک سوسک از نمای نزدیک](https://evolution.berkeley.edu/wp-content/uploads/2020/07/beetle_head.gif){: width="262" height="151" loading="lazy" }
 
-نمونه‌هایی از حشره‌ها عبارت‌اند از مگس‌ها، پروانه‌ها و سوسک‌ها.
+از نمونه‌های حشرات می‌توان به مگس‌ها، شب‌پره‌ها و سوسک‌ها اشاره کرد.
 
-![insect](https://evolution.berkeley.edu/wp-content/uploads/2020/07/insects.jpg){: width="427" height="84" loading="lazy" }
+![یک مگس، یک شب‌پره و یک سوسک](https://evolution.berkeley.edu/wp-content/uploads/2020/07/insects.jpg){: width="427" height="84" loading="lazy" }
 
 ###### عکس‌ها از T. W. Davies © California Academy of Sciences
 </div>

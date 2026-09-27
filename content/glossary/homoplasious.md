@@ -1,4 +1,4 @@
-Title: هوموپلازی
+Title: هوموپلاستیک
 Date: 2025-11-06 00:00
 Slug: glossary/homoplasious
 Term: homoplasious
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-شبیه، اما نه به سببِ ارث بردن از یک نیای مشترک. ویژگی‌های هوموپلازی را می‌توان با فرگشت همگرا در دو جاندار متفاوت یا با بازگشتِ ویژگی توضیح داد.
+مشابه، اما نه به دلیل به ارث رسیدن از یک نیای مشترک. ویژگی‌های هوموپلاستیک را می‌توان با فرگشت همگرا در دو جاندار متفاوت یا با بازگشتِ ویژگی‌ها توضیح داد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

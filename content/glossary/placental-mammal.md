@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-پستانداری، مانند انسان، که زادهٔ آن نمو رویانی خود را در رحم و در پیوند با مادر از راه [جفت]({filename}placenta.md) کامل می‌کند.
+پستانداری، مانند انسان، که نوزادش رشد رویانیِ خود را در رحم کامل می‌کند، در حالی که از راه [جفت]({filename}placenta.md) به مادر متصل است.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

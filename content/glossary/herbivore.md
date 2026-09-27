@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-جانداری که تقریباً به‌تمامی از گیاهان تغذیه می‌کند (herb = گیاه، vorare = بلعیدن).
+جانداری که تقریبا فقط گیاهان را می‌خورد (herb = گیاه، vorare = بلعیدن).
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

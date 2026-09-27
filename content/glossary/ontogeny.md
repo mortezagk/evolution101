@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-[نمو]({filename}development.md) را ببینید.
+[رشد]({filename}development.md) را ببینید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

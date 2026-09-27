@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-ساختار نگه‌دارنده‌ای که بیرون از بدن قرار دارد (exo = بیرون). برای نمونه، بدنِ [بندپایان]({filename}arthropod.md) را اسکلت بیرونیِ زرِه‌مانندی نگه می‌دارد.
+ساختاری نگه‌دارنده که بیرون از بدن قرار دارد (exo = بیرون). برای مثال، بدنِ [بندپایان]({filename}arthropod.md) را یک اسکلت بیرونیِ زره‌مانند نگه می‌دارد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

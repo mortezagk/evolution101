@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-واحد وراثت. معمولاً به معنای ناحیه‌ای از [DNA]({filename}dna.md) با اثری [رخ‌نمودی]({filename}phenotype.md)ِ مشخص است. از دید فنی، ممکن است به معنای بخشی از DNA باشد که ناحیهٔ [رونویسی‌شده]({filename}transcription.md) و ناحیهٔ تنظیمی را در بر می‌گیرد.
+واحد وراثت. به‌طور کلی، به معنای ناحیه‌ای از [DNA]({filename}dna.md) با اثر [فنوتیپیِ]({filename}phenotype.md) مشخص است. از نظر فنی، ممکن است به معنای بخشی از DNA باشد که یک ناحیهٔ [رونویسی‌شونده]({filename}transcription.md) و یک ناحیهٔ تنظیمی را در بر می‌گیرد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

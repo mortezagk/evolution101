@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-آنزیمی که [ATP]({filename}atp.md) را «شارژ» می‌کند. مولکول ATP سنتاز در یک غشا جای گرفته است. وقتی پروتون‌ها از میان ATP سنتاز و از عرض غشا جریان می‌یابند، ADP به شکلِ «شارژشده»‌اش، یعنی ATP، تبدیل می‌شود.
+آنزیمی که [ATP]({filename}atp.md) را «شارژ» می‌کند. مولکول ATP سنتاز درون یک غشا جای گرفته است. وقتی پروتون‌ها از میان ATP سنتاز از یک سوی غشا به سوی دیگر جریان می‌یابند، ADP به شکلِ «شارژشدهٔ» خود، یعنی ATP، تبدیل می‌شود.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

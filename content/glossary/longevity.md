@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-عمر دراز؛ دوامِ طولانیِ هستی.
+عمر طولانی؛ دوام طولانیِ هستی.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

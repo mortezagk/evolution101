@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-جانداری که زادبومش منطقه‌ای مشخص و محدود است و تنها در همان جا یافت می‌شود.
+جانداری که بومیِ منطقه‌ای خاص و محدود است و فقط در همان جا یافت می‌شود.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

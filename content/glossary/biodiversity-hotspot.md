@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-منطقه‌ای که چگالیِ به‌طور غیرعادی بالایی از گونه‌های مختلف را در خود جای داده است.
+منطقه‌ای که گونه‌های مختلف با تراکمی غیرعادی بالا در آن زندگی می‌کنند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

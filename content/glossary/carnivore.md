@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-جانداری که تقریباً فقط از جانوران تغذیه می‌کند (caro = گوشت، vorare = بلعیدن).
+جانداری که تقریبا فقط جانوران را می‌خورد (caro = گوشت، vorare = بلعیدن).
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

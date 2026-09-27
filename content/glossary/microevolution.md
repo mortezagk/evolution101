@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-تغییر بسامد ژن‌ها در یک [جمعیت]({filename}population.md) از نسلی به نسل بعد.
+تغییر در فراوانی ژن در یک جمعیت از یک نسل به نسل بعد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

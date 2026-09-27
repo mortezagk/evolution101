@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-[دیرینه‌شناسی]({filename}paleontologist.md) که فسیل‌های انسان و نزدیک‌ترین خویشاوندان او را مطالعه می‌کند.
+[دیرینه‌شناسی]({filename}paleontologist.md) که فسیل‌های انسان‌ها و نزدیک‌ترین خویشاوندانشان را مطالعه می‌کند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

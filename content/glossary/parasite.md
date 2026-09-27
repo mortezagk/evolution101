@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-جانداری که بر روی یا درون جانداری دیگر زندگی می‌کند و از آن تغذیه می‌کند.
+جانداری که روی یا درون جانداری دیگر زندگی می‌کند و از آن تغذیه می‌کند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

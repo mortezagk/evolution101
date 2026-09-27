@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-جنبه‌هایی از ژنتیک که با مولکول‌های مسئول وراثت سروکار دارد: [DNA]({filename}dna.md) و [RNA]({filename}rna.md). این رشته برای نمونه به توالی [بازها]({filename}base.md) بر مولکول DNA، رونوشت‌برداری از DNA، نسخه‌برداری DNA به RNA و ترجمهٔ RNA به [آمینواسیدها]({filename}amino-acid.md) می‌پردازد.
+جنبه‌هایی از ژنتیک که به مولکول‌های مسئول وراثت مربوط می‌شوند: [DNA]({filename}dna.md) و [RNA]({filename}rna.md). این رشته برای مثال به توالی [بازها]({filename}base.md) روی مولکول DNA، همانندسازی DNA، رونویسی DNA به RNA و ترجمهٔ RNA به [آمینواسیدها]({filename}amino-acid.md) می‌پردازد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

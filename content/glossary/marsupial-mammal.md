@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-پستانداری، مانند اپاسوم یا کانگورو، که زاده‌هایش درون کیسه‌ای مادرانه شیر می‌خورند و محافظت می‌شوند.
+پستانداری، مانند اپاسوم یا کانگورو، که فرزندانش درون کیسه‌ای در بدن مادر شیر می‌خورند و محافظت می‌شوند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

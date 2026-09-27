@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-مجموعهٔ قاعده‌هایی که امکان می‌دهد توالیِ [DNA]({filename}dna.md) یا [RNA]({filename}rna.md) به توالیِ [آمینواسیدها]({filename}amino-acid.md) در یک [پروتئین]({filename}protein.md) [ترجمه]({filename}translation.md) شود.
+مجموعهٔ قواعدی که امکان می‌دهد یک توالیِ [DNA]({filename}dna.md) یا [RNA]({filename}rna.md) به توالیِ [آمینواسیدها]({filename}amino-acid.md) در یک [پروتئین]({filename}protein.md) [ترجمه]({filename}translation.md) شود.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

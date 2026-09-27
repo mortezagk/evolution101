@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-به ارث رسیده از یک نیای مشترک. چشم انسان و چشم موش ساختارهای هومولوگ‌اند، زیرا هر یک از ما آن را از نیای مشترکمان به ارث برده‌ایم که او نیز همان‌گونه چشم داشت. این را با [هوموپلازی]({filename}homoplasious.md) و [آنالوگ]({filename}analogy-analogous-structure.md) بسنجید.
+به ارث رسیده از یک نیای مشترک. چشم‌های انسان و موش ساختارهای هومولوگ هستند، چون انسان و موش هر دو آنها را از نیای مشترکشان که چشمانی از همین نوع داشت به ارث برده‌اند. این را با [هوموپلاستیک]({filename}homoplasious.md) و [آنالوگ]({filename}analogy-analogous-structure.md) مقایسه کنید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-تکه‌ای از یک شهاب‌واره، سیارک یا دنباله‌دار که از سفر خود در جو جان به در می‌برد و به زمین برخورد می‌کند.
+تکه‌ای از یک شهاب‌واره، سیارک یا دنباله‌دار که از سفرش در میان جو سالم بیرون می‌آید و به زمین برخورد می‌کند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

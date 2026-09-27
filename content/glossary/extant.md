@@ -1,4 +1,4 @@
-Title: زیستا
+Title: امروزی
 Date: 2025-11-06 00:00
 Slug: glossary/extant
 Term: extant

@@ -1,4 +1,4 @@
-Title: انتخاب وابسته به بسامد
+Title: انتخاب وابسته به فراوانی
 Date: 2025-11-06 00:00
 Slug: glossary/frequency-dependent-selection
 Term: frequency dependent selection
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-گونه‌ای از انتخاب طبیعی که در آن برتریِ گزینشیِ یک ویژگیِ ارثی به بسامد آن ویژگی در جمعیت بستگی دارد.
+شکلی از انتخاب طبیعی که در آن برتریِ انتخابیِ یک ویژگیِ ارثی به فراوانیِ آن ویژگی در جمعیت بستگی دارد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

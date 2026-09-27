@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-جانداری که یک [شکارچی]({filename}predator.md) آن را برای خوراک می‌کشد.
+جانداری که یک [شکارچی]({filename}predator.md) آن را برای تغذیه می‌کشد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

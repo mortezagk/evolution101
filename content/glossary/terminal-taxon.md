@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-کلاد، گونه یا نسبی که در نوک یک درخت فیلوژنتیک قرار می‌گیرد. تاکسون‌های پایانی ممکن است زنده یا منقرض‌شده باشند.
+کلاد، گونه یا نسبی که در نوک یک درخت فیلوژنتیکی قرار دارد. تاکسون‌های پایانی ممکن است امروزی یا منقرض باشند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

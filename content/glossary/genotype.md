@@ -1,4 +1,4 @@
-Title: ژن‌نمود
+Title: ژنوتیپ
 Date: 2025-11-06 00:00
 Slug: glossary/genotype
 Term: genotype
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-مجموعهٔ ژن‌هایی که یک جاندار دارد. گاهی ژن‌نمود به کلِ [ژنومِ]({filename}genome.md) یک جاندار اشاره دارد و گاهی به [آلل‌هایی]({filename}allele.md) که در یک [جایگاهِ]({filename}locus.md) مشخص حمل می‌شوند.
+مجموعهٔ ژن‌هایی که یک جاندار دارد. گاهی ژنوتیپ به کلِ [ژنومِ]({filename}genome.md) یک جاندار اشاره دارد و گاهی به [آلل‌هایی]({filename}allele.md) که در یک [جایگاهِ]({filename}locus.md) مشخص حمل می‌شوند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-شباهتی که از [فرگشت همگرا]({filename}convergent-evolution.md) می‌آید و نه از نیای مشترک. دو ویژگی آنالوگ‌اند اگر دو نسب آنها را مستقل از هم فرگشت داده باشند. [هومولوگ]({filename}homology-homologous-structure.md) و [هوموپلاستیک]({filename}homoplasious.md) را هم ببینید.
+شباهت به دلیلِ [فرگشت همگرا]({filename}convergent-evolution.md)، و نه به دلیلِ داشتن نیای مشترک. دو ویژگی وقتی آنالوگ هستند که دو نسب به صورت مستقل آنها را در طول فرگشت کسب کرده باشند. همچنین [هومولوگ]({filename}homology-homologous-structure.md) و [هوموپلاستیک]({filename}homoplasious.md) را ببینید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

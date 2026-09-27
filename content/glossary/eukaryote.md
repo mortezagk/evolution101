@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-جانداری با سلول‌های یوکاریوتی — سلول‌هایی با هستهٔ محصور در غشا و اندامک‌های محصور در غشا.
+جانداری با سلول‌های یوکاریوتی؛ یعنی سلول‌هایی که هسته و اندامک‌هایشان درون غشا محصور است.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

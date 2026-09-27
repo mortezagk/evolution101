@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-عنصری کمیاب که در سیارک‌ها با غلظتی نسبتاً بالا یافت می‌شود.
+عنصری کمیاب که در سیارک‌ها با غلظت نسبتا بالایی یافت می‌شود.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

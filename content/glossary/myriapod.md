@@ -8,20 +8,20 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-هزارپایان (*myria* = ده هزار، *pod* = پا) گروهی از بندپایان‌اند که با ویژگی‌های زیر از دیگران بازشناخته می‌شوند:
+هزارپایان (*myria* = ده هزار، *pod* = پا) گروهی از بندپایان‌اند که با ویژگی‌های زیر از دیگران متمایز می‌شوند:
 
 - بدنی ساخته‌شده از یک سر و تنه‌ای دراز و تکرارشونده
-- یک جفت شاخک (شمار دیگر زائده‌های سر متفاوت است) و اندام‌های حرکتی بسیار (اما نه ۱۰٬۰۰۰ تا!) بر روی تنه
+- یک جفت شاخک (شمار دیگر زائده‌های سر متفاوت است) و اندام‌های حرکتیِ بسیار (اما نه ۱۰٬۰۰۰ تا!) روی تنه
 
-![myriapod](https://evolution.berkeley.edu/wp-content/uploads/2020/07/centipede.gif){: width="361" height="95" loading="lazy" }
+![صدپا](https://evolution.berkeley.edu/wp-content/uploads/2020/07/centipede.gif){: width="361" height="95" loading="lazy" }
 
-صدپایان و هزارپایان نمونه‌هایی از هزارپایان‌اند.
+صدپاها و هزارپاها نمونه‌هایی از هزارپایان (Myriapoda) هستند.
 
-![myriapod](https://evolution.berkeley.edu/wp-content/uploads/2020/07/myriapods.jpg){: width="369" height="124" loading="lazy" }
+![یک صدپا و یک هزارپا](https://evolution.berkeley.edu/wp-content/uploads/2020/07/myriapods.jpg){: width="369" height="124" loading="lazy" }
 
 ###### صدپا                                           هزارپا
 
-###### عکس صدپا از James T. Johnson © California Academy of Sciences؛ عکس هزارپا © 2003 John White
+###### *عکس صدپا از جیمز تی. جانسون © آکادمی علوم کالیفرنیا؛ عکس هزارپا © ۲۰۰۳ جان وایت*
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

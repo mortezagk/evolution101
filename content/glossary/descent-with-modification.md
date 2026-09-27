@@ -1,4 +1,4 @@
-Title: تبار با تغییر
+Title: وراثت همراه با تغییر
 Date: 2025-11-06 00:00
 Slug: glossary/descent-with-modification
 Term: descent with modification

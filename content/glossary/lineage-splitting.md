@@ -1,4 +1,4 @@
-Title: انشعاب نسب
+Title: انشقاق نسب
 Date: 2025-11-06 00:00
 Slug: glossary/lineage-splitting
 Term: lineage splitting
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-رویدادی که در آن یک [نسبِ]({filename}lineage.md) تاریخیِ واحد به دو یا چند نسبِ بازمانده می‌انجامد. هر [گرهی]({filename}node.md) بر یک [فیلوژنی]({filename}phylogeny.md) یک رویداد انشعاب نسب است.
+رویدادی که در آن یک [نسبِ]({filename}lineage.md) تاریخیِ واحد دو یا چند نسبِ نواده پدید می‌آورد. هر [گره]({filename}node.md) روی یک [فیلوژنی]({filename}phylogeny.md) یک رویدادِ انشقاق نسب است.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

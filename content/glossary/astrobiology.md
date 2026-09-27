@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-شاخه‌ای از علم که امکانِ وجودِ حیات فراتر از زمین را بررسی می‌کند.
+شاخه‌ای از علم که امکانِ وجودِ حیات در فراسوی زمین را بررسی می‌کند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

@@ -1,4 +1,4 @@
-Title: تنگنای جمعیتی
+Title: گلوگاه جمعیتی
 Date: 2025-11-06 00:00
 Slug: glossary/population-bottleneck
 Term: population bottleneck
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-[تنگنا]({filename}bottleneck.md) را ببینید.
+[گلوگاه]({filename}bottleneck.md) را ببینید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

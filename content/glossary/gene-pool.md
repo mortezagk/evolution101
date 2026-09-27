@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-همهٔ ژن‌های یک جمعیت. هر ژنی که بتواند از راه تولیدمثل جنسی در یک فردِ واحد گرد آید، در همان خزانهٔ ژنی است.
+همهٔ ژن‌های یک جمعیت. همهٔ ژن‌هایی که ممکن است از راه تولیدمثل جنسی در یک فردِ واحد کنار هم قرار بگیرند، در یک خزانهٔ ژنی هستند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

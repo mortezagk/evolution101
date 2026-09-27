@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-بخشی میانجی در یک ژن که فرآوردهٔ اصلیِ آن ژن را رمزگذاری نمی‌کند. اینترون‌ها در جریان فرآوریِ RNA برداشته می‌شوند.
+بخشی میانی در یک ژن که محصول اصلیِ آن ژن را رمزگذاری نمی‌کند. اینترون‌ها در طی پردازش RNA حذف می‌شوند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

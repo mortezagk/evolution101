@@ -1,4 +1,4 @@
-Title: جهش دودمان زایا
+Title: جهش رگهٔ زایشی
 Date: 2025-11-06 00:00
 Slug: glossary/germ-line-mutation
 Term: germ line mutation
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-جهشی که در سلول‌های تولیدمثلی رخ می‌دهد و سرانجام گامت‌ها (مانند تخمک و اسپرم) آن را با خود می‌برند.
+جهشی که در سلول‌های تولیدمثلی رخ می‌دهد و در نهایت گامت‌ها (برای مثال، تخمک‌ها و اسپرم‌ها) آن را با خود حمل می‌کنند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

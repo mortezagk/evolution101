@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-نسخه‌ای از ژن که اثر آن تنها زمانی دیده می‌شود که در کنار نسخه‌ای همانند خود در یک فرد قرار گیرد.
+نسخه‌ای از ژن که اثر آن فقط زمانی دیده می‌شود که در یک فرد با نسخه‌ای یکسان با خودش جفت شده باشد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

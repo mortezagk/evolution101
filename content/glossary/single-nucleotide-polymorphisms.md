@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-تنوعی در یک جایگاه مشخص و منفرد در ژنوم. مقایسهٔ SNPها روشی رایج برای سنجش تنوع ژنتیکی درون یک جمعیت یا میان جمعیت‌هاست.
+تنوعی در یک جایگاه منفرد و مشخص در ژنوم. مقایسهٔ SNPها روشی رایج برای سنجش کمّی تنوع ژنتیکی درون یک جمعیت یا میان جمعیت‌هاست.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-مربوط به ترکیب‌های دارای کربن. همچنین به جانداران یا موادی که جانداران می‌سازند اشاره دارد.
+مربوط به ترکیباتی که کربن دارند. همچنین به جانداران یا موادی که جانداران می‌سازند اشاره دارد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-حالتِ مشتق یا تغییریافتهٔ یک [ویژگی]({filename}character.md) برای [کلادِ]({filename}clade.md) مورد نظر. برای مثال، درون کلادِ مهره‌دارانِ خشکی‌زی (که در آن «داشتنِ چهار پا» حالتِ نیایی یا [پلسیومورفیک]({filename}plesiomorphy.md) است)، پرندگان حالتِ آپومورفیکِ «داشتنِ دو پا و دو بال» را دارند.
+حالتِ اشتقاقی یا تغییریافتهٔ یک [ویژگی]({filename}character.md) در یک [کلادِ]({filename}clade.md) مشخصِ مورد بررسی. برای مثال، در کلادِ مهره‌دارانِ خشکی‌زی (که در آن «داشتنِ چهار پا» حالتِ نیایی یا [پلزیومورفیکِ]({filename}plesiomorphy.md) ویژگی است)، پرندگان حالتِ آپومورفیکِ «داشتنِ دو پا و دو بال» را دارند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-بلورهایی با الگوی ویژه‌ای از شکستگی که می‌تواند در اثر فشار و گرمای شدید رویدادهایی مانند برخورد سیارک پدید آید.
+بلورهایی با الگویی از شکستگی که ممکن است بر اثر فشار و گرمای شدیدِ رویدادهایی مانند برخورد سیارک‌ها ایجاد شود.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

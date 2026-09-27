@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-فرایندی که در آن دو [نسب]({filename}lineage.md) متمایز، ویژگی مشابهی را مستقل از یکدیگر [فرگشت]({filename}evolution.md) می‌دهند. این اغلب از آن رو رخ می‌دهد که هر دو نسب با چالش‌های محیطی و فشارهای انتخابیِ مشابهی روبه‌رو می‌شوند.
+فرایندی که در آن ویژگی مشابهی در دو [نسبِ]({filename}lineage.md) متمایز، مستقل از یکدیگر [فرگشت می‌یابد]({filename}evolution.md). این اغلب از آن رو رخ می‌دهد که هر دو نسب با چالش‌های محیطی و فشارهای انتخابیِ مشابهی روبه‌رو هستند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

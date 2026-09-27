@@ -1,4 +1,4 @@
-Title: گونهٔ نوپا
+Title: گونهٔ در حال شکل‌گیری
 Date: 2025-11-06 00:00
 Slug: glossary/incipient-species
 Term: incipient species
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-گروهی از جانداران که در آستانهٔ گونه‌ای جدا شدن از دیگر افرادِ خویشاوند است.
+گروهی از جانداران که در شرف تبدیل شدن به گونه‌ای مستقل از بقیهٔ افرادِ خویشاوند خود هستند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

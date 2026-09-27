@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-مولکولی که از رشته‌ای از [آمینواسیدها]({filename}amino-acid.md) ساخته شده و به ساختاری پیچیده و سه‌بعدی تا خورده است. پروتئین‌ها را DNA رمزگذاری می‌کند و مولکول‌هایی بنیادی برای زندگی‌اند.
+مولکولی ساخته‌شده از رشته‌ای از [آمینواسیدها]({filename}amino-acid.md) که به شکل ساختاری پیچیده و سه‌بعدی تا خورده است. پروتئین‌ها توسط DNA رمز می‌شوند و مولکول‌هایی ضروری برای حیات هستند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

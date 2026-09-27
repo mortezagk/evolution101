@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-کاهش سلامت و شایستگی که اغلب در زاده‌های برآمده از هم‌خونی دیده می‌شود.
+کاهش سلامت و سازواری که اغلب در فرزندانِ حاصل از هم‌خونی دیده می‌شود.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

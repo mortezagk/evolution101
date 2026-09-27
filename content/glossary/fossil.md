@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-هر ردی از یک جاندار (بدن، بخشی از بدن، لانه، ردِ پا و مانند آن) که در گذرِ زمانِ زمین‌شناختی نگهداری شده باشد.
+هر ردی از یک جاندار زنده (بدن، بخشی از بدن، لانه، ردپا و غیره) که در طول زمانِ زمین‌شناختی حفظ شده باشد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

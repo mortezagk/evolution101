@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-جاندارانِ تک‌سلولیِ شبیه به باکتری که اندامکِ غشادار ندارند و از نظر فیلوژنتیکی از باکتری‌های حقیقی متمایزند. [یوکاریوت‌ها]({filename}eukaryote.md) از ادغامی [درون‌همزیستی]({filename}endosymbiosis.md) میان باکتری‌ها و باستانیان پدید آمدند.
+جاندارانی تک‌سلولی و شبیه به باکتری که اندامک‌های غشادار ندارند و از نظر فیلوژنتیکی از باکتری‌های حقیقی متمایزند. [یوکاریوت‌ها]({filename}eukaryote.md) از ادغامی [درون‌همزیستانه]({filename}endosymbiosis.md) میان باکتری‌ها و باستانیان پدید آمدند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

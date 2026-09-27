@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-تغییری در چگونگیِ بروزِ یک آللِ مشخص که اثری محیطی آن را پدید می‌آورد. برهم‌کنش‌های ژن و محیط نمونه‌ای از [انعطاف‌پذیری رخ‌نمودی]({filename}phenotypic-plasticity.md) هستند.
+تغییری در چگونگیِ بیانِ یک آللِ خاص که ناشی از یک تاثیر محیطی است. برهم‌کنش‌های ژن و محیط نمونه‌ای از [انعطاف‌پذیری فنوتیپی]({filename}phenotypic-plasticity.md) هستند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

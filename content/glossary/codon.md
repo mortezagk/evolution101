@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-واحدی سه‌بازی از DNA که یک [آمینواسید]({filename}amino-acid.md) یا پایانِ یک [پروتئین]({filename}protein.md) را مشخص می‌کند.
+واحدی از DNA متشکل از سه باز که یک آمینواسید یا پایانِ یک پروتئین را مشخص می‌کند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

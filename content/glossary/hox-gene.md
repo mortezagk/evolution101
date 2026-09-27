@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-ژنی که رشد و سازمان‌دهیِ واحدهای اصلیِ بدن را تنظیم می‌کند. برای توضیح مفصل‌تر، بخش ژن‌های *Hox* در فرگشت ۱۰۱ را ببینید.
+ژنی که رشد و سازمان‌یابیِ واحدهای اصلیِ بدن را تنظیم می‌کند. برای توضیح مفصل‌تر، [منبع ما دربارهٔ ژن‌های *Hox* در فرگشت ۱۰۱](https://evolution.berkeley.edu/hox-genes/) (به انگلیسی) را ببینید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

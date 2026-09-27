@@ -1,4 +1,4 @@
-Title: پیراتبارزاد
+Title: پارافیلتیک
 Date: 2025-11-06 00:00
 Slug: glossary/paraphyletic
 Term: paraphyletic
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-واژه‌ای برای توصیف گروهی از جانداران که نزدیک‌ترین نیای مشترک همهٔ اعضایش را در بر می‌گیرد، اما همهٔ فرزندان آن نیای مشترک را در بر نمی‌گیرد.
+اصطلاحی برای توصیف گروهی از جانداران که نزدیک‌ترین نیای مشترکِ همهٔ اعضایش را در بر می‌گیرد، اما همهٔ نوادگانِ آن نزدیک‌ترین نیای مشترک را در بر نمی‌گیرد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

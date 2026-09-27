@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-مادهٔ سخت و چقری که در طبیعت فراوان است، به‌ویژه در [اسکلت بیرونیِ]({filename}exoskeleton.md) [بندپایان]({filename}arthropod.md). کیتین از نظر شیمیایی یک کربوهیدرات است و از مولکول‌های قند ساخته می‌شود.
+ماده‌ای سخت و محکم که در طبیعت فراوان یافت می‌شود، به‌ویژه در [اسکلت بیرونیِ]({filename}exoskeleton.md) [بندپایان]({filename}arthropod.md). کیتین از نظر شیمیایی یک کربوهیدرات است و از مولکول‌های قند ساخته می‌شود.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

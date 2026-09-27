@@ -1,4 +1,4 @@
-Title: گونه‌زایی دگرمیهنی
+Title: گونه‌زایی آلوپاتریک
 Date: 2025-11-06 00:00
 Slug: glossary/allopatric-speciation
 Term: allopatric speciation
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-گونه‌زایی‌ای که برای آغاز یا تکمیل شدن، به سدی بیرونی در برابر جریان ژن (مانند انزوای جغرافیایی) وابسته است.
+گونه‌زایی‌ای که برای شروع یا تکمیل فرایند گونه‌زایی، وابسته به مانعی خارجی در مقابل جریان ژن (مانند انزوای جغرافیایی) است.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

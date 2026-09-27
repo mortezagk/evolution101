@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-جفت‌گیری میان افرادی که خویشاوندی بسیار دوری دارند.
+جفت‌گیری میان افرادی که خویشاوندیِ بسیار دوری با هم دارند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

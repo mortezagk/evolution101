@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-(جمع: لایه‌ها) یک لایه از سنگ رسوبی.
+(جمع در انگلیسی: strata) یک لایه از سنگ رسوبی.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

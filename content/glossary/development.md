@@ -1,4 +1,4 @@
-Title: رشدونمو
+Title: رشد
 Date: 2025-11-06 00:00
 Slug: glossary/development
 Term: development
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-تغییر یک جاندار در طول زندگی‌اش؛ فرایندهایی که از راه آن‌ها یک زیگوت به جانداری بالغ تبدیل می‌شود و سرانجام می‌میرد.
+تغییر یک جاندار در طول زندگی‌اش؛ فرایندهایی که طی آنها یک زیگوت به جانداری بالغ تبدیل می‌شود و در نهایت می‌میرد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

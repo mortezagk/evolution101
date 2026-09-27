@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-سیاره‌ای که به دور ستاره‌ای جز خورشیدِ ما می‌گردد. فراسیاره‌ها با نام سیاره‌های فراخورشیدی هم شناخته می‌شوند.
+سیاره‌ای که به دور ستاره‌ای غیر از خورشیدِ ما می‌گردد. به فراسیاره‌ها سیاره‌های فراخورشیدی هم گفته می‌شود.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

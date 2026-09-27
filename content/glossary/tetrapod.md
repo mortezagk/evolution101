@@ -1,4 +1,4 @@
-Title: چهاراندام
+Title: تتراپاد
 Date: 2025-11-06 00:00
 Slug: glossary/tetrapod
 Term: tetrapod
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-[کلادِ]({filename}clade.md) جانوری دربرگیرندهٔ [مهره‌دارانی]({filename}vertebrate.md) که به جای باله، پاهای استوار دارند.
+[کلادی]({filename}clade.md) از جانوران که شامل [مهره‌دارانی]({filename}vertebrate.md) با پاهای استوار (در مقایسه با باله) می‌شود.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

@@ -8,19 +8,19 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-سخت‌پوستان گروهی از [بندپایان]({filename}arthropod.md) هستند که این ویژگی‌ها از آن‌ها متمایزشان می‌کند:
+سخت‌پوستان گروهی از بندپایان هستند که با این ویژگی‌ها از دیگران متمایز می‌شوند:
 
-- بدنی که به سرسینه و [شکم]({filename}abdomen.md) تقسیم شده است
+- بدنی که به سرسینه و شکم تقسیم شده است
 
-![crustacean](https://evolution.berkeley.edu/wp-content/uploads/2020/07/crayfish_side.gif){: width="337" height="157" loading="lazy" }
+![نمای جانبی خرچنگ دراز آب شیرین](https://evolution.berkeley.edu/wp-content/uploads/2020/07/crayfish_side.gif){: width="337" height="157" loading="lazy" }
 
 - دو جفت شاخک و سه جفت زائدهٔ دهانی
 
-![crustacean](https://evolution.berkeley.edu/wp-content/uploads/2020/07/crayfish_ventral3.gif){: width="300" height="192" loading="lazy" }
+![نمای شکمی خرچنگ دراز آب شیرین](https://evolution.berkeley.edu/wp-content/uploads/2020/07/crayfish_ventral3.gif){: width="300" height="192" loading="lazy" }
 
-خرچنگ‌ها، خرخاکی‌ها و کشتی‌چسب‌ها نمونه‌هایی از سخت‌پوستان‌اند (بله، درست است! زیر آن پوستهٔ ناهموار، کشتی‌چسب‌ها سخت‌پوستانی با همهٔ ویژگی‌های لازم‌اند!).
+خرچنگ‌ها، خرخاکی‌ها و کشتی‌چسب‌ها نمونه‌هایی از سخت‌پوستان هستند (بله، درست است! کشتی‌چسب‌ها زیر آن ظاهرِ ناهموار، سخت‌پوستانی با همهٔ ویژگی‌های لازم هستند!).
 
-![crustacean](https://evolution.berkeley.edu/wp-content/uploads/2020/07/crustaceans.jpg){: width="351" height="69" loading="lazy" }
+![یک خرچنگ، کشتی‌چسب‌ها و خرخاکی‌ها](https://evolution.berkeley.edu/wp-content/uploads/2020/07/crustaceans.jpg){: width="351" height="69" loading="lazy" }
 
 ###### Sally Lightfoot Crab photo by Gerald and Buff Corsi © California Academy of Sciences; Acorn Barnacles photo by Sherry Ballard © California Academy of Sciences; Pillbugs photo © 2002 William Leonard
 </div>

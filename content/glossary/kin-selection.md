@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-گونه‌ای از انتخاب طبیعی که برهم‌کنش‌ها میان افراد خویشاوند آن را پدید می‌آورد. برای دانستن بیشتر، [قاعدهٔ Hamilton]({filename}hamiltons-rule.md) و [نوع‌دوستی]({filename}altruism.md) را ببینید.
+نوعی از انتخاب طبیعی که بر اثر برهم‌کنش‌های میان افرادِ خویشاوند ایجاد می‌شود. برای اطلاعات بیشتر، [قاعدهٔ همیلتون]({filename}hamiltons-rule.md) و [نوع‌دوستی]({filename}altruism.md) را ببینید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

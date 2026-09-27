@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-دئوکسی‌ریبونوکلئیک‌اسید؛ مولکولی که اطلاعات ژنتیکی را از نسلی به نسل دیگر می‌برد. برای توضیح مفصل‌تر، بخش DNA در فرگشت ۱۰۱ را ببینید.
+دئوکسی‌ریبونوکلئیک اسید، مولکولی که اطلاعات ژنتیکی را از نسلی به نسل دیگر منتقل می‌کند. برای توضیح مفصل‌تر، [منبع ما دربارهٔ DNA در فرگشت ۱۰۱](https://evolution.berkeley.edu/reviewing-dna/) (به انگلیسی) را ببینید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

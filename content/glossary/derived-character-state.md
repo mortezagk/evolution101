@@ -1,4 +1,4 @@
-Title: حالت ویژگیِ مشتق
+Title: حالت اشتقاقیِ ویژگی
 Date: 2025-11-06 00:00
 Slug: glossary/derived-character-state
 Term: derived character state
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-حالتِ [ویژگی]({filename}character.md) که بی‌درنگ پس از تغییرِ حالت ویژگی در یک [نسب]({filename}lineage.md) وجود دارد.
+حالتی از یک ویژگی که بلافاصله پس از تغییرِ حالتِ آن ویژگی، در یک نسب وجود دارد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

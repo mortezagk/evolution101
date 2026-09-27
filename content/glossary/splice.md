@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-بریدن اینترون‌ها از یک رونوشت RNA و پیوند دادن دوبارهٔ مولکول RNA.
+بریدن و جدا کردن اینترون‌ها از یک رونوشت RNA و دوباره به هم پیوند دادنِ مولکول RNA.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

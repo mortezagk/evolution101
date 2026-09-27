@@ -8,11 +8,12 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-کرم‌های مخملی برخی ویژگی‌ها را با [بندپایان]({filename}arthropod.md) در اشتراک دارند، اما [اسکلت بیرونی]({filename}exoskeleton.md) سخت یا پاهای بندبند ندارند. کرم‌های مخملی احتمالاً خویشاوندان نزدیک بندپایان‌اند و درست پیش از آنکه اسکلت بیرونیِ کاملاً سخت و پاهای بندبند فرگشت یابد، از درخت جدا شده‌اند.
+اونیکوفورها (که کرم‌های مخملی هم نامیده می‌شوند) برخی ویژگی‌ها را با [بندپایان]({filename}arthropod.md) مشترک دارند، اما [اسکلت بیرونی]({filename}exoskeleton.md) سخت یا پاهای بندبند ندارند. اونیکوفورها احتمالا خویشاوندان نزدیک بندپایان هستند و درست پیش از آنکه اسکلت بیرونیِ کاملا سخت و پاهای بندبند فرگشت یابند، از درخت منشعب شده‌اند.
 
-![onychophoran](https://evolution.berkeley.edu/wp-content/uploads/2020/07/onychophoran_peripatus2.jpg){: width="338" height="151" loading="lazy" }
-
-###### عکس کرم مخملی از Dr. Lynn Kimsey و Bohart Museum of Entomology، University of California Davis
+![یک کرم مخملی](https://evolution.berkeley.edu/wp-content/uploads/2020/07/onychophoran_peripatus2.jpg){: width="338" height="151" loading="lazy" }
+<div class="caption" markdown="1">
+*عکس کرم مخملی از Dr. Lynn Kimsey و Bohart Museum of Entomology، University of California Davis.*
+</div>
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

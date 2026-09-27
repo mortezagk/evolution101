@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-نسخه‌ای از ژن که اثرش حتی وقتی در یک فرد با نسخه‌ای ناهمسان از همان ژن جفت شود، دیده می‌شود.
+نسخه‌ای از ژن که اثرش حتی وقتی در همان فرد با نسخهٔ متفاوتی از آن ژن جفت شده باشد، دیده می‌شود.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

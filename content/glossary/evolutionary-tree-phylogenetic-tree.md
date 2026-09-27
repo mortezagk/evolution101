@@ -1,4 +1,4 @@
-Title: درخت فرگشتی/درخت فیلوژنتیک
+Title: درخت فرگشتی/درخت فیلوژنتیکی
 Date: 2025-11-06 00:00
 Slug: glossary/evolutionary-tree-phylogenetic-tree
 Term: evolutionary tree/phylogenetic tree
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-بازنمایی‌ای از روابط فرگشتیِ فرض‌شده میان گروهی از جانداران.
+نمایشی از روابط فرگشتیِ فرضی میان گروهی از جانداران.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

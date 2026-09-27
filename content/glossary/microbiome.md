@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-مجموعهٔ جاندارانِ میکروبی که در درون و بر روی جانداران بزرگ‌تر زندگی می‌کنند.
+مجموعهٔ جاندارانِ میکروبی که درون و روی بدن جانداران بزرگ‌تر زندگی می‌کنند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

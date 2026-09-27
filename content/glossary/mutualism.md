@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-برهم‌کنشی میان دو گونه که در آن هر دو گونهٔ درگیر از این برهم‌کنش سود می‌برند.
+تعاملی میان گونه‌ها که در آن هر دو گونهٔ درگیر از این تعامل سود می‌برند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

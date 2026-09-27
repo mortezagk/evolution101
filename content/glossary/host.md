@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-جانداری که [زیستگاهِ]({filename}habitat.md) جانداری دیگر می‌شود. میزبان ممکن است برای [انگل]({filename}parasite.md) خوراک فراهم کند یا تنها جایی برای زیستن.
+جانداری که [زیستگاهِ]({filename}habitat.md) جانداری دیگر است. میزبان ممکن است برای یک [انگل]({filename}parasite.md) غذا فراهم کند یا صرفاً جایی برای زندگی.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

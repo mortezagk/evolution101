@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-توانایی درک نمودارهای درخت فرگشتی و به‌کارگیری آن‌ها برای سامان دادن به دانسته‌های خود دربارهٔ تنوع زیستی.
+توانایی درک نمودارهای درخت فرگشتی و استفاده از آنها برای سازمان‌دهی دانسته‌های خود دربارهٔ تنوع زیستی.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-برداشتی از فرایندها و سازوکارهای فرگشت که بر ایده‌های اصلی داروین دربارهٔ فرگشت بنا شده و پیشرفت‌های ما در فهم [ژنتیک مندلی]({filename}mendelian-genetics.md)، [ژنتیک مولکولی]({filename}molecular-genetics.md) و [ژنتیک جمعیت]({filename}population-genetics.md) را در خود گنجانده است. سنتز مدرن در دههٔ ۱۹۳۰ و ۱۹۴۰ پرورده شد و کار Charles Darwin، Theodosius Dobzhansky، Ronald Fisher، Sewall Wright و دیگران را یکپارچه می‌کند. برای جزئیات بیشتر، جستار تاریخی ما دربارهٔ این موضوع را ببینید.
+برداشتی از فرایندها و سازوکارهای فرگشت که بر پایهٔ ایده‌های اولیهٔ داروین دربارهٔ فرگشت بنا شده و پیشرفت‌های ما در درک [ژنتیک مندلی]({filename}mendelian-genetics.md)، [ژنتیک مولکولی]({filename}molecular-genetics.md) و [ژنتیک جمعیت]({filename}population-genetics.md) را در خود گنجانده است. سنتز مدرن در دهه‌های ۱۹۳۰ و ۱۹۴۰ شکل گرفت و کارهای چارلز داروین، تئودوسیوس دوبژانسکی، رونالد فیشر، سوال رایت و دیگران را یکپارچه می‌کند. برای جزئیات بیشتر، [جستار تاریخی ما دربارهٔ این موضوع](https://evolution.berkeley.edu/the-history-of-evolutionary-thought/1900-to-present/starting-the-modern-synthesis-theodosius-dobzhansky/) (به انگلیسی) را ببینید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

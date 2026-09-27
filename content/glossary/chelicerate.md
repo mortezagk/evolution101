@@ -8,21 +8,21 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-شلیسرداران گروهی از [بندپایان]({filename}arthropod.md) هستند که این ویژگی‌ها از آن‌ها متمایزشان می‌کند:
+شلیسرداران گروهی از بندپایان هستند که با این ویژگی‌ها از دیگران متمایز می‌شوند:
 
-- بدنی که به سرسینه و [شکم]({filename}abdomen.md) تقسیم شده است
+- بدنی که به سرسینه و شکم تقسیم شده است
 
-![chelicerate](https://evolution.berkeley.edu/wp-content/uploads/2020/07/spider_topview.gif){: width="314" height="232" loading="lazy" }
+![شلیسرداران](https://evolution.berkeley.edu/wp-content/uploads/2020/07/spider_topview.gif){: width="314" height="232" loading="lazy" }
 
-- نداشتن شاخک، اما داشتن دو جفت زائده بر سرسینهٔ پیشین (شلیسرها و پدی‌پالپ‌ها) و چهار جفت پای راه‌رونده
+- نداشتن شاخک، اما داشتن دو جفت زائده روی بخش جلوییِ سرسینه (شلیسرها و پدی‌پالپ‌ها) و چهار جفت پای حرکتی
 
-![chelicerate](https://evolution.berkeley.edu/wp-content/uploads/2020/07/spiderhead.gif){: width="261" height="174" loading="lazy" }
+![سر یک شلیسردار](https://evolution.berkeley.edu/wp-content/uploads/2020/07/spiderhead.gif){: width="261" height="174" loading="lazy" }
 
-عنکبوت‌ها، عقرب‌ها و خرچنگ‌های نعل‌اسبی نمونه‌هایی از شلیسرداران‌اند.
+عنکبوت‌ها، عقرب‌ها و خرچنگ‌های نعل‌اسبی نمونه‌هایی از شلیسرداران هستند.
 
-![chelicerate](https://evolution.berkeley.edu/wp-content/uploads/2020/07/chelicerates3.jpg){: width="382" height="75" loading="lazy" }
+![شلیسرداران](https://evolution.berkeley.edu/wp-content/uploads/2020/07/chelicerates3.jpg){: width="382" height="75" loading="lazy" }
 
-###### Black Widow Spider photo by George W. Robinson © California Academy of Sciences; Scorpion photo by Dr. Antonio J. Ferreira © California Academy of Sciences; Horseshoe Crab photo © 2000 John White
+###### عکس عنکبوت بیوهٔ سیاه از George W. Robinson © California Academy of Sciences؛ عکس عقرب از Dr. Antonio J. Ferreira © California Academy of Sciences؛ عکس خرچنگ نعل‌اسبی © 2000 John White
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

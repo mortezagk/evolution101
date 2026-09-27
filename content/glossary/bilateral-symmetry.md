@@ -8,9 +8,9 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-![bilateral symmetry](https://evolution.berkeley.edu/wp-content/uploads/2020/07/bilateral.gif){: width="326" height="167" loading="lazy" }
+![تقارن دوطرفه](https://evolution.berkeley.edu/wp-content/uploads/2020/07/bilateral.gif){: width="326" height="167" loading="lazy" }
 
-حالتی که در آن سمت راست و سمت چپِ یک چیز (مثلاً یک شکل یا یک جانور) تصویر آینه‌ایِ یکدیگرند. برای نمونه، چون سمت راستِ بدن انسان عموماً آینهٔ سمت چپ است، انسان‌ها تقارن دوطرفه دارند.
+حالتی که در آن سمت راست و سمت چپِ یک چیز (مثلاً یک شکل یا یک جانور) تصویر آینه‌ایِ یکدیگر هستند. برای مثال، چون سمت راستِ بدن انسان به طور کلی قرینهٔ سمت چپ آن است، انسان‌ها تقارن دوطرفه دارند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">
