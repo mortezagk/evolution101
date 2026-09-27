@@ -3,6 +3,7 @@
 import json
 import os
 import re
+import sys
 from html import unescape
 from pathlib import Path
 
@@ -126,7 +127,47 @@ JINJA_FILTERS = {
     'to_json': to_json,
 }
 
-PLUGINS = []
+# Footnote entries come in two kinds: an English term on its own ("Lineage")
+# and an English term with a Persian gloss ("Phylogeny: روابط فرگشتی…"). Both
+# sit in a right-to-left list, which is what the glossed ones want. The
+# all-English ones do not: their last run ends at the left margin, so the "↩"
+# backref lands to the left of the term instead of after it. CSS cannot ask
+# whether an entry has Persian in it, so the ones that have none are marked
+# here and style.css turns just those left-to-right.
+
+PERSIAN_RANGE = re.compile(r'[؀-ۿ]')
+# The class goes on the <li>, not the paragraph inside it: the list marker is
+# drawn by the item, so the number only moves with the text when the item
+# itself is left-to-right.
+FOOTNOTE_ENTRY = re.compile(r'(<li id="fn:[^"]*")(>)(.*?)(</li>)', re.S)
+
+
+def latin_footnotes(content):
+    """Add class="footnote-latin" to footnote entries with no Persian text."""
+
+    def mark(match):
+        open_tag, close_bracket, body, end = match.groups()
+        # The backref's title ("Jump back to footnote 1 in the text") is
+        # English but never displayed, so it must not count as content.
+        visible = re.sub(r'<a class="footnote-backref".*?</a>', '', body, flags=re.S)
+        if PERSIAN_RANGE.search(visible):
+            return match.group(0)
+        return f'{open_tag} class="footnote-latin"{close_bracket}{body}{end}'
+
+    return FOOTNOTE_ENTRY.sub(mark, content)
+
+
+def mark_latin_footnotes(instance):
+    if instance._content and 'footnote-backref' in instance._content:
+        instance._content = latin_footnotes(instance._content)
+
+
+def register():
+    from pelican import signals
+    signals.content_object_init.connect(mark_latin_footnotes)
+
+
+PLUGINS = [sys.modules[__name__]]
 
 DIRECT_TEMPLATES = ('sitemap', 'search_index')
 SITEMAP_SAVE_AS = 'sitemap.xml'

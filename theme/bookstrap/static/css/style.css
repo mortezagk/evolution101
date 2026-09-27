@@ -21,7 +21,7 @@
 	--site-teal: #17a391;
 	--site-teal-dark: #11695f;
 	--site-teal-light: #e3f1ee;
-	--site-text: #333333;
+	--site-text: #000000;
 	--bs-body-font-family: 'Sahel', 'Droid Arabic Naskh', Tahoma, sans-serif;
 	--bs-body-font-size: 1.125rem;
 	--bs-body-line-height: 1.625;
@@ -32,6 +32,27 @@
 
 body {
 	padding-top: 3.5rem; /* fixed navbar */
+}
+
+/* Jumping to a footnote and back. The navbar is fixed, so the browser scrolls
+   the target to the very top of the window, where the bar then covers it —
+   most noticeably on a phone, where the bar takes up more of the screen.
+   scroll-margin-top keeps that much space above the target instead: the bar's
+   height (it measures about 3.7rem, a little more than the padding above
+   allows for) plus a line of breathing room, so the footnote is clearly in
+   view rather than flush against the bar.
+
+   Set on the targets themselves rather than on :target, which only matches
+   once the fragment is current and so does not apply to the jump that is
+   about to happen. Limited to what is actually jumped to — the footnote
+   entries, the markers the backrefs return to, and the headings the table of
+   contents links to — so it never affects the sidebar or navbar, which carry
+   ids of their own but are only ever scrolled past. */
+
+.footnote > ol > li[id],
+.entry-content [id^="fnref:"],
+.entry-content :is(h1, h2, h3, h4, h5, h6)[id] {
+	scroll-margin-top: 5rem;
 }
 
 a {
@@ -181,6 +202,70 @@ main hr {
 
 .footnote p {
 	margin: 0;
+}
+
+/* Entries are a mix: some are an English term on its own ("Lineage"), others
+   an English term with a Persian gloss ("Phylogeny: روابط فرگشتی…"). The
+   paragraph stays right-to-left for both, which is what the mixed ones need:
+   the gloss is Persian prose that merely opens with an English term, and the
+   bidi algorithm already lays it out correctly, sentence-final period and all.
+
+   The one thing that goes wrong is the "↩" backref on an all-English entry.
+   The paragraph is right-to-left, so its last run ends at the left margin and
+   the backref sits to the *left* of the term ("↩ Lineage") rather than after
+   it. `plaintext` on the paragraph would fix those, but it would also take its
+   direction from the first strong character, flipping every "English term:
+   Persian gloss" entry to left-to-right and throwing the gloss's final period
+   to the start of a line. Only an entry with no Persian at all should change
+   direction, so the build marks those with .footnote-latin (see
+   `latin_footnotes` in pelicanconf.py) and just those read left-to-right.
+
+   The class sits on the <li> rather than the paragraph inside it, because the
+   list marker is drawn by the item: turning only the paragraph leaves the
+   number behind on the right. */
+
+.footnote > ol > li.footnote-latin {
+	direction: ltr;
+	text-align: left;
+}
+
+/* Footnote numbers in Persian digits. Python-Markdown numbers footnotes in
+   order of first use and writes those numbers as Latin digits, both in the
+   text (<sup>1</sup>) and as the <ol>'s own markers; the [^۱] labels in the
+   source only become the link ids, and the two can differ (the twelfth label
+   used tenth shows as 10). So both sides are renumbered here instead, from
+   the same document order the markup already has, which keeps them in step. */
+
+@counter-style persian-footnotes {
+	system: numeric;
+	symbols: '۰' '۱' '۲' '۳' '۴' '۵' '۶' '۷' '۸' '۹';
+}
+
+.footnote > ol {
+	list-style: persian-footnotes;
+}
+
+/* The <sup> marker's number is literal text, so it is replaced by a counter
+   over the markers themselves (in document order, matching the list).
+   `visibility: hidden` would leave the Latin digit's own width behind and show
+   as a gap after the word, so the text is dropped from the line altogether
+   (zero font-size) and the Persian digit drawn in ::before instead. */
+
+.entry-content {
+	counter-reset: footnote-marker;
+}
+
+.footnote-ref {
+	font-size: 0;
+}
+
+/* Back to the <sup>'s own size. em would compound with the 0 above, so the
+   size is taken from the paragraph and scaled by Bootstrap's sup rule. */
+
+.footnote-ref::before {
+	counter-increment: footnote-marker;
+	content: counter(footnote-marker, persian-footnotes);
+	font-size: calc(var(--bs-body-font-size) * 0.75);
 }
 
 /* Sidebar */
