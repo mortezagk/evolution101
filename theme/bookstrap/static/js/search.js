@@ -80,13 +80,16 @@
     return c;
   }
 
-  function search(index, query) {
+  // scope is 'book', 'glossary' or 'all'.
+  function search(index, query, scope) {
     var words = terms(query);
     if (!words.length) return { words: words, hits: [] };
     var hits = [];
     index.forEach(function (entry) {
+      if (scope !== 'all' && entry.section !== scope) return;
       entry._norm = entry._norm || normalize(entry.text);
-      entry._title = entry._title || normalize(entry.title).text;
+      // A glossary term is also found by its English name.
+      entry._title = entry._title || normalize(entry.title + (entry.term ? ' ' + entry.term : '')).text;
       var score = 0;
       for (var i = 0; i < words.length; i++) {
         var inTitle = count(entry._title, words[i]), inText = count(entry._norm.text, words[i]);
@@ -115,12 +118,20 @@
     var google = document.getElementById('search-google');
     var domain = form.getAttribute('data-domain');
     var index = window.SEARCH_INDEX || [];
+    var scopes = form.querySelectorAll('input[name="in"]');
+
+    function currentScope() {
+      for (var i = 0; i < scopes.length; i++) if (scopes[i].checked) return scopes[i].value;
+      return 'book';
+    }
 
     function run(query, pushState) {
       query = query.trim();
+      var scope = currentScope();
       if (pushState && window.history && history.replaceState) {
         var url = new URL(window.location.href);
         if (query) url.searchParams.set('q', query); else url.searchParams.delete('q');
+        if (scope !== 'book') url.searchParams.set('in', scope); else url.searchParams.delete('in');
         try { history.replaceState(null, '', url); } catch (e) { /* file:// */ }
       }
       list.innerHTML = '';
@@ -129,7 +140,7 @@
         google.href = 'https://www.google.com/search?q=' + encodeURIComponent(query + ' site:' + domain);
       }
       if (!query) { status.textContent = ''; return; }
-      var result = search(index, query);
+      var result = search(index, query, scope);
       status.textContent = result.hits.length
         ? toPersianDigits(result.hits.length) + ' صفحه پیدا شد.'
         : 'صفحه‌ای با همهٔ این کلمات پیدا نشد.';
@@ -149,6 +160,14 @@
         var chapter = document.createElement('span');
         chapter.className = 'search-result__chapter';
         chapter.textContent = e.chapter;
+        if (e.term) {
+          var term = document.createElement('span');
+          term.lang = 'en';
+          term.dir = 'ltr';
+          term.textContent = e.term;
+          chapter.appendChild(document.createTextNode(' · '));
+          chapter.appendChild(term);
+        }
 
         var p = document.createElement('p');
         p.className = 'search-result__snippet';
@@ -166,7 +185,17 @@
       run(input.value, true);
     });
 
-    var initial = new URLSearchParams(window.location.search).get('q');
+    for (var i = 0; i < scopes.length; i++) {
+      scopes[i].addEventListener('change', function () {
+        if (input.value.trim()) run(input.value, true);
+      });
+    }
+
+    var params = new URLSearchParams(window.location.search);
+    for (var k = 0; k < scopes.length; k++) {
+      if (scopes[k].value === params.get('in')) scopes[k].checked = true;
+    }
+    var initial = params.get('q');
     if (initial) { input.value = initial; run(initial, false); }
     input.focus();
   });

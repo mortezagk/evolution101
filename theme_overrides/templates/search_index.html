@@ -1,5 +1,8 @@
 window.SEARCH_INDEX = [
 {%- for article in articles|sort(attribute='source_path') %}
-  {"title": {{ article.title|striptags|to_json }}, "url": {{ article.url|to_json }}, "chapter": {{ article.category.name|to_json }}, "text": {{ article.content|plain_text|to_json }}}{{ "," if not loop.last }}
+  {"section": "book", "title": {{ article.title|striptags|to_json }}, "url": {{ article.url|to_json }}, "chapter": {{ article.category.name|to_json }}, "text": {{ article.content|plain_text|to_json }}},
+{%- endfor %}
+{%- for page in pages|sort(attribute='source_path') if page.slug.startswith('glossary/') %}
+  {"section": "glossary", "title": {{ page.title|striptags|to_json }}, "term": {{ page.term|to_json }}, "url": {{ page.url|to_json }}, "chapter": "واژه‌نامه", "text": {{ page.content|plain_text|to_json }}}{{ "," if not loop.last }}
 {%- endfor %}
 ];

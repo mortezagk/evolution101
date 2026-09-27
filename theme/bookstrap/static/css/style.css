@@ -746,6 +746,45 @@ main .caption p {
 }
 
 /* Search page */
+
+/* Where to search: the book, the glossary or both. Radio inputs, drawn like
+   the glossary's ordering switch. */
+.search-scope {
+	display: flex;
+	gap: 0.5rem;
+	margin: 0 0 0.75rem;
+	padding: 0;
+	border: 0;
+}
+
+.search-scope__input {
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.search-scope__label {
+	padding: 0.35rem 0.9rem;
+	border: 1px solid var(--site-card-border);
+	border-radius: 0.4rem;
+	background: var(--site-card-bg);
+	color: var(--site-text-muted);
+	font-size: 0.9rem;
+	cursor: pointer;
+}
+
+.search-scope__input:checked + .search-scope__label {
+	border-color: var(--site-teal);
+	background: var(--site-card-hover-bg);
+	color: var(--site-teal-dark);
+	font-weight: 700;
+}
+
+.search-scope__input:focus-visible + .search-scope__label {
+	outline: 2px solid var(--site-teal);
+	outline-offset: 2px;
+}
+
 .search-status {
 	margin: 1rem 0 0.5rem;
 	color: var(--site-text-muted);
