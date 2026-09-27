@@ -31,7 +31,7 @@
 }
 
 body {
-	padding-top: 3.5rem; /* fixed navbar */
+	padding-top: 4rem; /* fixed navbar, which measures about 3.85rem */
 }
 
 /* Jumping to a footnote and back. The navbar is fixed, so the browser scrolls
@@ -65,7 +65,7 @@ main a:hover,
 }
 
 .navbar-brand img {
-	vertical-align: -3px;
+	vertical-align: -8px;
 }
 
 /* Page container and the two-column layout */
@@ -272,7 +272,7 @@ main hr {
 
 .sidebar-box {
 	position: sticky;
-	top: 5.375rem; /* navbar + page top padding */
+	top: 5.875rem; /* navbar + page top padding */
 	max-height: calc(100vh - 7.25rem);
 	font-size: 1rem;
 	line-height: 1.6;
