@@ -3,7 +3,9 @@
 import json
 import os
 import re
+import subprocess
 import sys
+from datetime import date
 from html import unescape
 from pathlib import Path
 
@@ -27,6 +29,24 @@ SITEURL = os.getenv('SITEURL', 'https://evolution101.ir')
 CANONICAL_SITEURL = SITEURL.rstrip('/')
 
 BASE_DIR = Path(__file__).resolve().parent
+
+
+def last_updated():
+    """Date of the latest commit (YYYY-MM-DD), shown in the footer. The monthly
+    scheduled rebuild changes nothing, so the build date would say too much;
+    outside a git checkout, fall back to today."""
+
+    try:
+        out = subprocess.run(['git', 'log', '-1', '--format=%cs'], cwd=BASE_DIR,
+                             capture_output=True, text=True, check=True).stdout.strip()
+        if out:
+            return out
+    except (OSError, subprocess.CalledProcessError):
+        pass
+    return date.today().isoformat()
+
+
+LAST_UPDATED = last_updated()
 
 OUTPUT_PATH = str((BASE_DIR / '_build').resolve())
 DELETE_OUTPUT_DIRECTORY = os.getenv('PELICAN_CLEAN_OUTPUT', '1') == '1'

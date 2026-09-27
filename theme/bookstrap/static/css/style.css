@@ -497,6 +497,11 @@ main hr {
 	margin-bottom: 0.4rem;
 }
 
+.site-footer__updated {
+	font-size: 0.8rem;
+	color: var(--site-text-faint);
+}
+
 /* Previous / next links */
 
 .page-nav {
