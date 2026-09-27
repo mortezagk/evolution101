@@ -10,29 +10,34 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ------
 خواندن یک فیلوژنی مشابه خواندن یک درخت خانوادگی است. ریشهٔ درخت نشانگر نسبِ نیایی است و نوک شاخه‌ها نشانگر نوادگانِ آن نیاکان. همینطور که از ریشه به سمت نوک شاخه‌ها حرکت می‌کنید، در زمان به جلو می‌روید.
 
-![فیلوژنی](https://evolution.berkeley.edu/wp-content/uploads/2021/11/understanding_phylos_Understanding-phylo1-500x185.png){: width="500" height="185" loading="lazy" }
+![یک فیلوژنیِ ساده با چهار نواده.](https://evolution.berkeley.edu/wp-content/uploads/2021/11/understanding_phylos_Understanding-phylo1-500x185.png){: width="500" height="185" loading="lazy" }
+<div class="caption" markdown="1">بالا: نوادگان (A، B، C و D). پایین: نیا. پیکان سمت راست: زمان.</div>
 
 وقتی یک نسب دچار انشقاق می‌شود (گونه‌زایی[^۱])، به صورت انشعاب روی فیلوژنی نمایش داده می‌شود. وقتی یک رویدادِ گونه‌زایی رخ می‌دهد، یک نسبِ نیاییْ دو -یا چند- نسبِ فرزند ایجاد می‌کند.
 
-![گونه‌زایی](https://evolution.berkeley.edu/wp-content/uploads/2021/11/understanding_phylos_speciation-event-500x184.png){: width="500" height="184" loading="lazy" }
+![نمایی نزدیک از یک انشعاب در فیلوژنی.](https://evolution.berkeley.edu/wp-content/uploads/2021/11/understanding_phylos_speciation-event-500x184.png){: width="500" height="184" loading="lazy" }
+<div class="caption" markdown="1">قرمز: رویداد گونه‌زایی. آبی: نسب نیایی.</div>
 
-فیلوژنی‌ها الگوی تبارهای مشترکِ نسب‌ها را ردیابی می‌کنند. هر نسب، تاریخی دارد که بخشی از آن منحصر به خودش است و بخشی‌هایی که با نسب‌های دیگر مشترک است.
+فیلوژنی‌ها الگوی تبارهای مشترکِ نسب‌ها را ردیابی می‌کنند. هر نسب، تاریخی دارد که بخشی از آن منحصر به خودش است و بخش‌هایی که با نسب‌های دیگر مشترک است.
 
-![تبارها](https://evolution.berkeley.edu/wp-content/uploads/2021/11/understanding_phylos_unique-history-500x185.png){: width="500" height="185" loading="lazy" }
+![فیلوژنیِ A، B و C با شاخه‌های رنگی.](https://evolution.berkeley.edu/wp-content/uploads/2021/11/understanding_phylos_unique-history-500x185.png){: width="500" height="185" loading="lazy" }
+<div class="caption" markdown="1">سبز: تاریخ منحصر به فرد B. آبی: تاریخ منحصر به فرد C. خط‌چینِ سبز و آبی: تاریخ مشترک B و C.</div>
 
 به طور مشابه، هر نسبْ نیاکانی دارد که منحصر به همان نسب هستند و نیاکانی که با دیگر نسب‌ها مشترکند -نیاکان مشترک[^۲].
 
-![نیاکان مشترک](https://evolution.berkeley.edu/wp-content/uploads/2021/11/understanding_phylos_unique-ancestor-500x184.png){: width="500" height="184" loading="lazy" }
+![همان فیلوژنیِ A، B و C با سه نیای مشخص‌شده.](https://evolution.berkeley.edu/wp-content/uploads/2021/11/understanding_phylos_unique-ancestor-500x184.png){: width="500" height="184" loading="lazy" }
+<div class="caption" markdown="1">آبی: نیای منحصر به فرد C. سبز: نیای مشترک B و C. نارنجی: نیای مشترک A، B و C.</div>
 
 ## کلادها
 ------
 کلاد یک دسته‌بندی است که شامل نیای مشترک و تمام نوادگان (زنده یا منقرض شدهٔ) آن نیا می‌شود. با استفاده از یک فیلوژنی، به سادگی می‌توان تشخیص داد که کدام نسب‌ها یک کلاد را تشکیل می‌دهند. فرض کنید یک شاخه را از فیلوژنی بچینیم -همهٔ جاندارانی که روی شاخهٔ هرس‌شده هستند یک کلاد را می‌سازند.
 
-![کلادها](https://evolution.berkeley.edu/wp-content/uploads/2021/06/7-scissorclade-e1625009351568.png){: width="792" height="576" loading="lazy" }
+![چهار فیلوژنی که بخشی از هر کدام با رنگ و قیچی جدا شده است.](https://evolution.berkeley.edu/wp-content/uploads/2021/06/7-scissorclade-e1625009351568.png){: width="792" height="576" loading="lazy" }
+<div class="caption" markdown="1">بالا چپ (سبز) و بالا راست (آبی): یک کلاد. پایین چپ (قرمز) و پایین راست (نارنجی): کلاد نیست.</div>
 
 کلادها درون یکدیگر قرار می‌گیرند -آنها یک سلسله مراتبِ تو در تو را تشکیل می‌دهند. یک کلاد می‌تواند شامل چندین هزار یا تعداد کمی گونه باشد. چند مثال از کلادها در سطوح مختلف روی فیلوژنی‌های زیر علامت‌گذاری شده است. توجه کنید که چگونه کلادها درون کلادهای بزرگتر قرار گرفته‌اند.
 
-![کلادهای تو در تو](https://evolution.berkeley.edu/wp-content/uploads/2021/03/nested.gif){: width="467" height="104" loading="lazy" }
+![چپ: یک کلاد کوچک که با رنگ زرد مشخص شده است. وسط: کلادی که با رنگ آبی مشخص شده و کلاد زرد درون آن قرار دارد. راست: کلادی که با رنگ قرمز مشخص شده و هر دو کلاد زرد و آبی درون آن قرار دارند.](https://evolution.berkeley.edu/wp-content/uploads/2021/03/nested.gif){: width="467" height="104" loading="lazy" }
 
 تا اینجا گفته‌ایم که نوک شاخه‌های یک فیلوژنی نشانگر نسب‌های فرزند هستند. اگرچه بسته به تعداد شاخه‌هایی از درخت که در نظر می‌گیرید، نوادگانِ روی سرشاخه‌ها ممکن است شامل جمعیت‌های مختلفی از یک گونه، گونه‌های مختلف یا کلادهای مختلف -که شامل چندین گونهٔ مختلف می‌شوند- باشند.
 
