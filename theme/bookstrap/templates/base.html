@@ -23,6 +23,20 @@
   <link rel="stylesheet" href="{{ SITEURL }}/theme/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
   <link rel="icon" href="{{ SITEURL }}/theme/images/favicon.ico">
+
+  {# Runs before the first paint, so a saved choice never flashes the other
+     theme. Everything else about the toggle lives in site.js. #}
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'dark' || saved === 'light') {
+          document.documentElement.setAttribute('data-theme', saved);
+          document.documentElement.setAttribute('data-bs-theme', saved);
+        }
+      } catch (e) { /* private mode: fall back to the system setting */ }
+    })();
+  </script>
 </head>
 
 <body {% block body_attrs %}{% endblock %}>
@@ -30,8 +44,7 @@
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <div class="site-container">
       <a class="navbar-brand" href="{{ SITEURL }}/index.html">
-        {# White, because the navbar is dark. #}
-        <img src="{{ SITEURL }}/theme/images/logo-light.png" alt="" width="32" height="32">
+        <i class="fa-solid fa-dna" aria-hidden="true"></i>
         {{ SITENAME }}
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#site-nav" aria-controls="site-nav" aria-expanded="false" aria-label="نمایش منو">
@@ -42,6 +55,12 @@
           <li class="nav-item"><a class="nav-link" href="{{ SITEURL }}/pages/search.html">جستجو</a></li>
           <li class="nav-item"><a class="nav-link" href="{{ SITEURL }}/pages/about.html">درباره</a></li>
           <li class="nav-item"><a class="nav-link" href="{{ SITEURL }}/pages/about-en.html" lang="en" dir="ltr">About</a></li>
+          <li class="nav-item">
+            <button type="button" class="nav-link theme-toggle" id="theme-toggle" aria-pressed="false" title="حالت تیره">
+              <i class="fa-solid fa-moon" aria-hidden="true"></i>
+              <span class="visually-hidden">حالت تیره</span>
+            </button>
+          </li>
         </ul>
       </div>
     </div>
