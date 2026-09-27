@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}{{ SITENAME }}{% endblock %}
+{% block description %}{{ page.content|plain_text(160) or SITENAME }}{% endblock %}
+{% block head_extra %}
+  {% if CANONICAL_SITEURL %}
+  <link rel="canonical" href="{{ CANONICAL_SITEURL }}/">
+  {% endif %}
+{% endblock %}
+{% block content %}
+<section id="content" class="body">
+  <h1 class="entry-title">{{ page.title }}</h1>
+  {{ page.content }}
+
+  <div class="home-cards">
+    <a class="home-card" href="{{ SITEURL }}/evo101/index.html">
+      <i class="fa-solid fa-dna" aria-hidden="true"></i>
+      <span class="home-card__title">فرگشت ۱۰۱</span>
+      <span class="home-card__text">مبانی الگوها و سازوکارهای فرگشت، در شش فصل.</span>
+    </a>
+    <a class="home-card" href="{{ SITEURL }}/glossary/index.html">
+      <i class="fa-solid fa-language" aria-hidden="true"></i>
+      <span class="home-card__title">واژه‌نامه</span>
+      <span class="home-card__text">معنای واژه‌های تخصصی‌ای که در فرگشت ۱۰۱ به کار رفته.</span>
+    </a>
+  </div>
+</section>
+{% endblock %}

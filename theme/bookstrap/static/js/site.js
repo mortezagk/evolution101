@@ -125,3 +125,31 @@ document.addEventListener('DOMContentLoaded', function () {
 
   render();
 });
+
+// Glossary: switch between the Persian ordering and the A–Z one. Both lists
+// are in the page; this only changes which is shown, so it still reads
+// without JavaScript.
+document.addEventListener('DOMContentLoaded', function () {
+  var buttons = document.querySelectorAll('.glossary-switch__button');
+  var lists = document.querySelectorAll('.glossary-index');
+  if (!buttons.length || !lists.length) {
+    return;
+  }
+
+  function show(script) {
+    lists.forEach(function (list) {
+      list.hidden = list.dataset.script !== script;
+    });
+    buttons.forEach(function (button) {
+      var current = button.dataset.script === script;
+      button.classList.toggle('is-current', current);
+      button.setAttribute('aria-pressed', current ? 'true' : 'false');
+    });
+  }
+
+  buttons.forEach(function (button) {
+    button.addEventListener('click', function () {
+      show(button.dataset.script);
+    });
+  });
+});

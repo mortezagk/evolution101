@@ -33,8 +33,6 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ![ماهی‌های نابینا](https://evolution.berkeley.edu/wp-content/uploads/2021/03/milyeringa.jpg){: width="225" height="148" loading="lazy" }
 <div class="caption" markdown="1">*تصویر از Wetland Care Australia.*</div>
 
-در واقع، زیست‌شناسان در مورد اینکه چه چیزهایی سازگاری هستند (یا نیستند) حرف‌های زیادی برای گفتن دارند.
-
 <br>
 
 [^۱]: Creosote Bush

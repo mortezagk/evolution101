@@ -5,8 +5,17 @@
 {% block content %}
 <section id="content" class="body">
 <h1 class="entry-title">{{ page.title }}</h1>
-<p>کلمه یا عبارت موردنظر را بنویسید تا در همهٔ صفحه‌های کتاب جستجو شود.</p>
+<p>کلمه یا عبارت موردنظر را بنویسید و انتخاب کنید در کجا جستجو شود.</p>
 <form id="site-search-form" role="search" action="" method="get" data-domain="{{ site_domain }}">
+  <fieldset class="search-scope">
+    <legend class="visually-hidden">جستجو در</legend>
+    <input type="radio" class="search-scope__input" name="in" id="search-in-book" value="book" checked>
+    <label class="search-scope__label" for="search-in-book">کتاب</label>
+    <input type="radio" class="search-scope__input" name="in" id="search-in-glossary" value="glossary">
+    <label class="search-scope__label" for="search-in-glossary">واژه‌نامه</label>
+    <input type="radio" class="search-scope__input" name="in" id="search-in-all" value="all">
+    <label class="search-scope__label" for="search-in-all">هر دو</label>
+  </fieldset>
   <div class="input-group">
     <input type="search" class="form-control" name="q" id="site-search-input" placeholder="مثلاً: رانش ژن" aria-label="عبارت جستجو" autocomplete="off">
     <button type="submit" class="btn btn-primary"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i> جستجو</button>

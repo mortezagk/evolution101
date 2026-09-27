@@ -40,6 +40,9 @@
 	--site-table-stripe: #f9fafb;
 	--site-note-bg: #f3f8ee;
 	--site-note-border: #cfe3c4;
+	--site-info-bg: #fbfbe0;
+	--site-info-border: #e2e39a;
+	--site-info-accent: #7a6a0a;
 	--site-mark-bg: #fff1a8;
 	--site-mark-text: #000000;
 	--bs-body-font-family: 'Sahel', 'Droid Arabic Naskh', Tahoma, sans-serif;
@@ -47,8 +50,11 @@
 	--bs-body-line-height: 1.625;
 	--bs-body-color: var(--site-text);
 	--bs-body-bg: var(--site-page-bg);
-	--bs-link-color-rgb: 0, 136, 204;
-	--bs-link-hover-color-rgb: 0, 85, 128;
+	/* The darker green rather than --site-teal itself: the bright teal reads
+	   at only 3.1:1 on white, below the 4.5:1 wanted for text. The glyphs keep
+	   the bright one, being large. */
+	--bs-link-color-rgb: 17, 105, 95;
+	--bs-link-hover-color-rgb: 11, 74, 67;
 }
 
 body {
@@ -85,10 +91,23 @@ main a:hover,
 	text-decoration: underline;
 }
 
-.navbar-brand .fa-dna {
+/* The site name sits beside the house only while the menu is collapsed:
+   above the breakpoint the links themselves say where you are. */
+
+.navbar-brand__name {
+	margin-right: 0.5rem;
+	font-size: 1.05rem;
+}
+
+@media (min-width: 48em) {
+	.navbar-brand__name {
+		display: none;
+	}
+}
+
+.navbar-brand .fa-house {
 	font-size: 1.6rem;
 	vertical-align: -3px;
-	margin-left: 0.15rem;
 }
 
 /* The theme switch is a button among the navbar's links, so it has to be
@@ -231,6 +250,13 @@ main ol ul {
 main ol ol,
 main ul ol {
 	margin-bottom: 0;
+}
+
+/* The one-line question under each chapter in the Evolution 101 list */
+.chapter-summary {
+	display: block;
+	padding-right: 1rem;
+	color: var(--site-text-muted);
 }
 
 main img {
@@ -637,6 +663,35 @@ main .source-note a:hover,
 	text-decoration: none;
 }
 
+/* A note set apart from the text: a translation choice, a caveat, anything
+   worth pausing on. The bar sits on the right, where a right-to-left line
+   starts. */
+
+.info-box {
+	margin: 2rem 0;
+	padding: 1rem 1.25rem;
+	background: var(--site-info-bg);
+	border: 1px solid var(--site-info-border);
+	border-right: 4px solid var(--site-info-accent);
+	border-radius: 0.4rem;
+	font-size: 0.97em;
+}
+
+.info-box > :first-child {
+	margin-top: 0;
+}
+
+.info-box > :last-child {
+	margin-bottom: 0;
+}
+
+.info-box i {
+	color: var(--site-info-accent);
+	font-size: 1.15em;
+	margin-left: 0.5rem;
+	vertical-align: -1px;
+}
+
 /* "Digging Data" research sections, styled after the original site */
 .digging-data {
 	margin: 2.5rem 0 1.5rem;
@@ -698,6 +753,45 @@ main .caption p {
 }
 
 /* Search page */
+
+/* Where to search: the book, the glossary or both. Radio inputs, drawn like
+   the glossary's ordering switch. */
+.search-scope {
+	display: flex;
+	gap: 0.5rem;
+	margin: 0 0 0.75rem;
+	padding: 0;
+	border: 0;
+}
+
+.search-scope__input {
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.search-scope__label {
+	padding: 0.35rem 0.9rem;
+	border: 1px solid var(--site-card-border);
+	border-radius: 0.4rem;
+	background: var(--site-card-bg);
+	color: var(--site-text-muted);
+	font-size: 0.9rem;
+	cursor: pointer;
+}
+
+.search-scope__input:checked + .search-scope__label {
+	border-color: var(--site-teal);
+	background: var(--site-card-hover-bg);
+	color: var(--site-teal-dark);
+	font-weight: 700;
+}
+
+.search-scope__input:focus-visible + .search-scope__label {
+	outline: 2px solid var(--site-teal);
+	outline-offset: 2px;
+}
+
 .search-status {
 	margin: 1rem 0 0.5rem;
 	color: var(--site-text-muted);
@@ -773,10 +867,13 @@ main .caption p {
 		--site-table-stripe: #1b1e21;
 		--site-note-bg: #1c241c;
 		--site-note-border: #33482f;
+		--site-info-bg: #262410;
+		--site-info-border: #4a4520;
+		--site-info-accent: #d8c85a;
 		--site-mark-bg: #6b5d18;
 		--site-mark-text: #f2f2f2;
-		--bs-link-color-rgb: 108, 190, 232;
-		--bs-link-hover-color-rgb: 150, 212, 244;
+		--bs-link-color-rgb: 63, 201, 180;
+		--bs-link-hover-color-rgb: 95, 216, 197;
 	}
 }
 
@@ -801,8 +898,204 @@ main .caption p {
 	--site-table-stripe: #1b1e21;
 	--site-note-bg: #1c241c;
 	--site-note-border: #33482f;
+	--site-info-bg: #262410;
+	--site-info-border: #4a4520;
+	--site-info-accent: #d8c85a;
 	--site-mark-bg: #6b5d18;
 	--site-mark-text: #f2f2f2;
-	--bs-link-color-rgb: 108, 190, 232;
-	--bs-link-hover-color-rgb: 150, 212, 244;
+	--bs-link-color-rgb: 63, 201, 180;
+	--bs-link-hover-color-rgb: 95, 216, 197;
+}
+
+/* Home page: one card per section of the site */
+
+.home-cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1.25rem;
+	margin: 2rem 0 1rem;
+}
+
+@media (max-width: 48em) {
+	.home-cards {
+		grid-template-columns: 1fr;
+	}
+}
+
+.home-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 0.6rem;
+	padding: 2.25rem 1.25rem;
+	border: 1px solid var(--site-card-border);
+	border-radius: 0.75rem;
+	background: var(--site-card-bg);
+	color: inherit;
+	text-decoration: none;
+	transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.home-card:hover,
+.home-card:focus-visible {
+	border-color: var(--site-teal);
+	background: var(--site-card-hover-bg);
+	box-shadow: 0 2px 10px rgba(17, 105, 95, 0.12);
+	color: inherit;
+	text-decoration: none;
+}
+
+.home-card i {
+	font-size: 4.125rem;
+	color: var(--site-teal);
+}
+
+.home-card__title {
+	font-size: 1.3rem;
+	font-weight: 700;
+	color: var(--site-teal-dark);
+}
+
+.home-card__text {
+	font-size: 0.95rem;
+	color: var(--site-text-muted);
+}
+
+/* Glossary: the term list, and the English original on a term's own page */
+
+.glossary-count {
+	color: var(--site-text-faint);
+	font-size: 0.95rem;
+}
+
+/* Switching between the Persian and the A-Z ordering */
+
+.glossary-switch {
+	display: flex;
+	gap: 0.5rem;
+	margin: 1rem 0 1.5rem;
+}
+
+.glossary-switch__button {
+	padding: 0.35rem 0.9rem;
+	border: 1px solid var(--site-card-border);
+	border-radius: 0.4rem;
+	background: var(--site-card-bg);
+	color: var(--site-text-muted);
+	font: inherit;
+	font-size: 0.9rem;
+	cursor: pointer;
+}
+
+.glossary-switch__button.is-current {
+	border-color: var(--site-teal);
+	background: var(--site-card-hover-bg);
+	color: var(--site-teal-dark);
+	font-weight: 700;
+}
+
+/* The row of initials, for jumping down the page */
+
+.glossary-jump {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.3rem;
+	margin-bottom: 1.5rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid var(--site-panel-border);
+}
+
+.glossary-jump a {
+	min-width: 2rem;
+	padding: 0.2rem 0.45rem;
+	border-radius: 0.3rem;
+	background: var(--site-panel-bg);
+	text-align: center;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.glossary-jump a:hover,
+.glossary-jump a:focus-visible {
+	background: var(--site-hover-bg);
+	text-decoration: none;
+}
+
+.glossary-letter {
+	margin-bottom: 1.75rem;
+	scroll-margin-top: 5rem;
+}
+
+.glossary-letter__heading {
+	margin: 0 0 0.5rem;
+	padding-bottom: 0.3rem;
+	border-bottom: 2px solid var(--site-teal);
+	color: var(--site-teal-dark);
+	font-size: 1.35rem;
+}
+
+.glossary-list {
+	list-style: none;
+	margin: 1rem 0 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+	gap: 0.4rem 1rem;
+}
+
+.glossary-list__item a {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: 0.5rem;
+	padding: 0.45rem 0.6rem;
+	border-radius: 0.4rem;
+	color: inherit;
+	text-decoration: none;
+}
+
+.glossary-list__item a:hover,
+.glossary-list__item a:focus-visible {
+	background: var(--site-hover-bg);
+	text-decoration: none;
+}
+
+.glossary-list__term {
+	font-weight: 700;
+}
+
+.glossary-list__original {
+	font-size: 0.85em;
+	color: var(--site-text-faint);
+}
+
+/* A term's definition: the Persian first, then the English it came from. The
+   two share a shape, with the original set quieter. */
+
+.term-translation {
+	margin: 1.25rem 0;
+	padding: 0.9rem 1.1rem;
+	border-right: 3px solid var(--site-teal);
+	background: var(--site-panel-bg);
+	border-radius: 0.4rem;
+}
+
+.term-translation > :last-child,
+.term-original > :last-child {
+	margin-bottom: 0;
+}
+
+.term-original {
+	margin: 1.25rem 0;
+	padding: 0.9rem 1.1rem;
+	border-right: 3px solid var(--site-rule);
+	background: var(--site-panel-bg);
+	border-radius: 0.4rem;
+	font-size: 0.95rem;
+	color: var(--site-text-muted);
+}
+
+.term-original p:last-child {
+	margin-bottom: 0;
 }

@@ -1,6 +1,8 @@
 Title: About
 Date: 2025-11-06 00:00
 Slug: about-en
+Save_as: pages/about-en.html
+URL: pages/about-en.html
 Direction: ltr
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
@@ -27,7 +29,7 @@ This translation (as a derivative work) is licensed under the [Creative Commons 
 ## Other Credits
 
 - The primary reference for the content is [Understanding Evolution](https://evolution.berkeley.edu/evolution-101/). Each page shows its figures directly from that website and links to its original page ("منبع") at the bottom.
-- This site's initial theme was based on the one [Jadi](https://jadi.net/) customized for his "[BikeZen](http://bikezen.ir/)", since rewritten on [Bootstrap](https://getbootstrap.com/) and [Font Awesome](https://fontawesome.com/).
+- This site's initial theme was based on the one [Jadi](https://jadi.net/) customized for his [BikeZen](http://bikezen.ir/), since rewritten on [Bootstrap](https://getbootstrap.com/) and [Font Awesome](https://fontawesome.com/).
 - This work uses the open-source Sahel Font, designed by [Saber Rastikerdar](https://rastikerdar.github.io/).
 - This website is built with [Pelican](https://blog.getpelican.com/) and [Python](http://python.org).
 

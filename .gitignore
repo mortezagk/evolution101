@@ -15,5 +15,5 @@ publishconf.py
 .idea
 .venv
 _build
-glossary
-data
+/glossary
+/data

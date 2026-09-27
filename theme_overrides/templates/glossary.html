@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }} | {{ SITENAME }}{% endblock %}
+{% block description %}{{ page.content|plain_text(160) or SITENAME }}{% endblock %}
+{% block head_extra %}
+  {% if CANONICAL_SITEURL %}
+  <link rel="canonical" href="{{ CANONICAL_SITEURL }}/{{ page.url|replace('index.html', '') }}">
+  {% endif %}
+{% endblock %}
+{% block content %}
+{# Every term is listed twice: once under its Persian initial, once under the
+   initial of the English original. The buttons swap which list is shown;
+   without JavaScript the Persian one stays up. #}
+{% set fa_groups = pages | glossary_groups('fa') %}
+{% set en_groups = pages | glossary_groups('en') %}
+{% set counter = namespace(total=0) %}
+{% for letter, group in fa_groups %}{% set counter.total = counter.total + group|length %}{% endfor %}
+<section id="content" class="body">
+  <h1 class="entry-title">{{ page.title }}</h1>
+  {{ page.content }}
+
+  <p class="glossary-count">{{ counter.total|persian_digits }} واژه</p>
+
+  <div class="glossary-switch" role="group" aria-label="ترتیب واژه‌ها">
+    <button type="button" class="glossary-switch__button is-current" data-script="fa" aria-pressed="true">به ترتیب فارسی</button>
+    <button type="button" class="glossary-switch__button" data-script="en" aria-pressed="false"><span lang="en" dir="ltr">به ترتیب انگلیسی</span></button>
+  </div>
+
+  <div class="glossary-index" data-script="fa">
+    <nav class="glossary-jump" aria-label="پرش به حرف">
+      {% for letter, group in fa_groups %}
+      <a href="#fa-{{ loop.index }}">{{ letter }}</a>
+      {% endfor %}
+    </nav>
+    {% for letter, group in fa_groups %}
+    <section class="glossary-letter" id="fa-{{ loop.index }}">
+      <h2 class="glossary-letter__heading">{{ letter }}</h2>
+      <ul class="glossary-list">
+        {% for term in group %}
+        <li class="glossary-list__item">
+          <a href="{{ SITEURL }}/{{ term.url }}">
+            <span class="glossary-list__term">{{ term.title }}</span>
+            {% if term.term and term.term != term.title %}
+            <span class="glossary-list__original" lang="en" dir="ltr">{{ term.term }}</span>
+            {% endif %}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endfor %}
+  </div>
+
+  <div class="glossary-index" data-script="en" hidden>
+    <nav class="glossary-jump" aria-label="پرش به حرف" lang="en" dir="ltr">
+      {% for letter, group in en_groups %}
+      <a href="#en-{{ loop.index }}">{{ letter }}</a>
+      {% endfor %}
+    </nav>
+    {% for letter, group in en_groups %}
+    <section class="glossary-letter" id="en-{{ loop.index }}">
+      <h2 class="glossary-letter__heading" lang="en" dir="ltr">{{ letter }}</h2>
+      <ul class="glossary-list">
+        {% for term in group %}
+        <li class="glossary-list__item">
+          <a href="{{ SITEURL }}/{{ term.url }}">
+            <span class="glossary-list__term" lang="en" dir="ltr">{{ term.term or term.title }}</span>
+            {% if term.term and term.term != term.title %}
+            <span class="glossary-list__original">{{ term.title }}</span>
+            {% endif %}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endfor %}
+  </div>
+
+  {% if page.source %}
+  <p class="source-note">
+    <a href="{{ page.source }}" rel="noopener" target="_blank" title="{{ page.source_title or page.source }}">منبع ⎋</a>
+  </p>
+  {% endif %}
+</section>
+{% endblock %}

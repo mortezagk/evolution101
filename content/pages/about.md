@@ -1,6 +1,8 @@
 Title: درباره
 Date: 2025-11-06 00:00
 Slug: about
+Save_as: pages/about.html
+URL: pages/about.html
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
@@ -26,7 +28,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ## سایر منابع و اعتبارها
 
 - مرجع اصلی مطالب [Understanding Evolution](https://evolution.berkeley.edu/evolution-101/) است. تصاویر هر صفحه مستقیماً از همان وب‌سایت نمایش داده می‌شوند و پایین هر صفحه، با پیوند «منبع»، به صفحهٔ اصلی آن ارجاع داده شده است.
-- قالب اولیهٔ این سایت بر پایهٔ قالب بود که [جادی](https://jadi.net/) برای «[راهنمای دوچرخه](http://bikezen.ir/)» شخصی‌سازی کرده بود، و اکنون با [Bootstrap](https://getbootstrap.com/) و [Font Awesome](https://fontawesome.com/) بازنویسی شده است.
+- قالب اولیهٔ این سایت بر پایهٔ قالب بود که [جادی](https://jadi.net/) برای [راهنمای دوچرخه](http://bikezen.ir/) شخصی‌سازی کرده بود، و اکنون با [Bootstrap](https://getbootstrap.com/) و [Font Awesome](https://fontawesome.com/) بازنویسی شده است.
 - در این اثر از فونت آزاد ساحل (اثری از [صابر راستی‌کردار](https://rastikerdar.github.io/)) استفاده شده است.
 - این وب‌سایت با [Pelican](https://blog.getpelican.com/) و [Python](http://python.org) ساخته شده است.
 

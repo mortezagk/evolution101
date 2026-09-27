@@ -33,6 +33,10 @@ DELETE_OUTPUT_DIRECTORY = os.getenv('PELICAN_CLEAN_OUTPUT', '1') == '1'
 
 PATH = 'content'
 STATIC_PATHS = ['extra']
+# Chapters are articles; the glossary entries are pages, like the about and
+# search pages, so they carry no category and stay out of the chapter nav.
+ARTICLE_PATHS = ['chapters']
+PAGE_PATHS = ['pages', 'glossary']
 FILENAME_METADATA = r'(?P<section>\d)(?P<section_index>\d{2})-.*'
 
 EXTRA_PATH_METADATA = {
@@ -69,6 +73,11 @@ ARTICLE_ORDER_BY = 'source_path'
 # explicitly so the built site also works when opened straight from disk.
 ARTICLE_URL = '{slug}/index.html'
 ARTICLE_SAVE_AS = '{slug}/index.html'
+
+# Pages follow the same shape, so a glossary entry whose Slug is
+# glossary/amino-acid is served at /glossary/amino-acid/.
+PAGE_URL = '{slug}/index.html'
+PAGE_SAVE_AS = '{slug}/index.html'
 
 # Category slugs (ch0-ch6) only feed the sidebar's open/closed state; the
 # category, tag, author and archive listing pages themselves are not built.
@@ -111,6 +120,62 @@ def plain_text(html, length=None):
     return text
 
 
+# The Persian alphabet in its own order. Unicode puts پ، چ، ژ، گ after ی,
+# so sorting by codepoint would file those words at the very end.
+PERSIAN_ALPHABET = 'آابپتثجچحخدذرزژسشصضطظعغفقکگلمنوهی'
+PERSIAN_ORDER = {letter: index for index, letter in enumerate(PERSIAN_ALPHABET)}
+# Forms that differ only by spelling or by a mark readers do not type.
+PERSIAN_EQUIVALENT = str.maketrans({
+    'أ': 'ا', 'إ': 'ا', 'ٱ': 'ا', 'ء': 'ا',
+    'ي': 'ی', 'ى': 'ی', 'ك': 'ک', 'ۀ': 'ه', 'ة': 'ه',
+    '\u200c': ' ',                      # zero-width non-joiner
+    '\u064b': '', '\u064c': '', '\u064d': '',   # tanwin
+    '\u064e': '', '\u064f': '', '\u0650': '',   # short vowels
+    '\u0651': '', '\u0652': '', '\u0654': '',
+})
+
+
+def glossary_key(title):
+    """Sort a glossary heading: Persian first in its own alphabet, then the
+    ones written in Latin (ATP, DNA, people's names), each alphabetically."""
+
+    text = str(title).translate(PERSIAN_EQUIVALENT).strip()
+    if not text:
+        return (2, ())
+    persian = text[0] in PERSIAN_ORDER
+    weights = tuple(PERSIAN_ORDER.get(ch, len(PERSIAN_ALPHABET) + ord(ch))
+                    for ch in text.lower())
+    return (0 if persian else 1, weights)
+
+
+def glossary_groups(pages, script='fa'):
+    """The glossary terms grouped under their initial letter, ready to list.
+
+    `fa` groups by the Persian heading in the Persian alphabet; `en` by the
+    original English term, A-Z. A heading written in Latin (ATP, DNA, a
+    person's name) is filed under that letter in both."""
+
+    terms = [p for p in pages if getattr(p, 'slug', '').startswith('glossary/')]
+    groups = {}
+    for term in terms:
+        if script == 'fa':
+            heading = str(term.title).translate(PERSIAN_EQUIVALENT).strip()
+        else:
+            heading = str(getattr(term, 'term', term.title)).strip()
+        letter = heading[:1].upper() if heading else '؟'
+        groups.setdefault(letter, []).append(term)
+
+    def letter_key(letter):
+        return glossary_key(letter)
+
+    def term_key(term):
+        return (glossary_key(term.title) if script == 'fa'
+                else glossary_key(getattr(term, 'term', term.title)))
+
+    return [(letter, sorted(items, key=term_key))
+            for letter, items in sorted(groups.items(), key=lambda kv: letter_key(kv[0]))]
+
+
 def to_json(value):
     """JSON for the search index, keeping Persian text as UTF-8 rather than
     \\uXXXX escapes (a third of the size)."""
@@ -119,6 +184,8 @@ def to_json(value):
 
 
 JINJA_FILTERS = {
+    'glossary_groups': glossary_groups,
+    'glossary_key': glossary_key,
     'persian_digits': persian_digits,
     'plain_text': plain_text,
     'to_json': to_json,
