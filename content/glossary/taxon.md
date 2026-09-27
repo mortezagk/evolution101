@@ -1,0 +1,16 @@
+Title: تاکسون
+Date: 2025-11-06 00:00
+Slug: glossary/taxon
+Term: taxon
+Source: https://evolution.berkeley.edu/glossary/taxon/
+Source_title: taxon
+Author: mortezagk
+Translated: no
+
+<div class="term-translation" markdown="1">
+(جمع: تاکسون‌ها) هر گروه نام‌داری از جانداران (برای نمونه خزندگان، Felidae، سوسک‌ها، *Homo sapiens*)، چه [کلاد]({filename}clade.md) باشد و چه نباشد.
+</div>
+
+<div class="term-original" lang="en" dir="ltr" markdown="1">
+(taxa — pl.) Any named group of organisms (e.g., the reptiles, Felidae, beetles, *Homo sapiens*), whether or not it forms a [clade]({filename}clade.md).
+</div>

@@ -1,0 +1,16 @@
+Title: هم‌خونی
+Date: 2025-11-06 00:00
+Slug: glossary/inbreeding
+Term: inbreeding
+Source: https://evolution.berkeley.edu/glossary/inbreeding/
+Source_title: inbreeding
+Author: mortezagk
+Translated: no
+
+<div class="term-translation" markdown="1">
+جفت‌گیری میان خویشاوندان. از دید فنی، این الگویی از جفت‌گیری است که در آن جفت‌ها خویشاوندیِ نزدیک‌تری از دو فردِ برگزیده به‌تصادف از جمعیت دارند.
+</div>
+
+<div class="term-original" lang="en" dir="ltr" markdown="1">
+Mating between relatives. Technically, this is defined as a pattern of mating in which mates are more closely related than two individuals selected at random from the population.
+</div>

@@ -1,0 +1,24 @@
+Title: کرم مخملی (Onychophora)
+Date: 2025-11-06 00:00
+Slug: glossary/onychophoran
+Term: onychophoran
+Source: https://evolution.berkeley.edu/glossary/onychophoran/
+Source_title: onychophoran
+Author: mortezagk
+Translated: no
+
+<div class="term-translation" markdown="1">
+کرم‌های مخملی برخی ویژگی‌ها را با [بندپایان]({filename}arthropod.md) در اشتراک دارند، اما [اسکلت بیرونی]({filename}exoskeleton.md) سخت یا پاهای بندبند ندارند. کرم‌های مخملی احتمالاً خویشاوندان نزدیک بندپایان‌اند و درست پیش از آنکه اسکلت بیرونیِ کاملاً سخت و پاهای بندبند فرگشت یابد، از درخت جدا شده‌اند.
+
+![onychophoran](https://evolution.berkeley.edu/wp-content/uploads/2020/07/onychophoran_peripatus2.jpg){: width="338" height="151" loading="lazy" }
+
+###### عکس کرم مخملی از Dr. Lynn Kimsey و Bohart Museum of Entomology، University of California Davis
+</div>
+
+<div class="term-original" lang="en" dir="ltr" markdown="1">
+Onychoporans (also known as velvet worms) share certain characters with [arthropods]({filename}arthropod.md), but are lacking a hard [exoskeleton]({filename}exoskeleton.md) or jointed legs. Onychophorans are probably closely related to arthropods and branched off the tree just before a fully hardened exoskeleton and jointed legs evolved.
+
+![onychophoran](https://evolution.berkeley.edu/wp-content/uploads/2020/07/onychophoran_peripatus2.jpg){: width="338" height="151" loading="lazy" }
+
+Onychophoran photo provided by Dr. Lynn Kimsey and the Bohart Museum of Entomology , University of California Davis
+</div>

@@ -1,0 +1,16 @@
+Title: کدون
+Date: 2025-11-06 00:00
+Slug: glossary/codon
+Term: codon
+Source: https://evolution.berkeley.edu/glossary/codon/
+Source_title: codon
+Author: mortezagk
+Translated: no
+
+<div class="term-translation" markdown="1">
+واحدی سه‌بازی از DNA که یک [آمینواسید]({filename}amino-acid.md) یا پایانِ یک [پروتئین]({filename}protein.md) را مشخص می‌کند.
+</div>
+
+<div class="term-original" lang="en" dir="ltr" markdown="1">
+A three base unit of DNA that specifies an amino acid or the end of a protein.
+</div>

@@ -1,0 +1,20 @@
+Title: رده‌بندی لینه‌ای
+Date: 2025-11-06 00:00
+Slug: glossary/linnaean-classification
+Term: Linnaean classification
+Source: https://evolution.berkeley.edu/glossary/linnaean-classification/
+Source_title: Linnaean classification
+Author: mortezagk
+Translated: no
+
+<div class="term-translation" markdown="1">
+دستگاه استاندارد رده‌بندی که در آن به هر جاندار یک فرمانرو، شاخه، رده، راسته، تیره، سرده و گونه نسبت داده می‌شود. این دستگاه جانداران را در گروه‌هایی هرچه کوچک‌تر و کوچک‌تر جای می‌دهد (مانند رشته‌ای از جعبه‌ها درونِ جعبه‌ها، که سلسله‌مراتبِ تودرتو نامیده می‌شود).
+</div>
+
+<div class="term-original" lang="en" dir="ltr" markdown="1">
+The standard system of classification in which every organism is assigned a kingdom, phylum, class, order, family, genus, and species. This system groups organisms into ever smaller and smaller groups (like a series of boxes within boxes, called a nested hierarchy).
+</div>
+
+## در این صفحه‌ها آمده است
+
+- [استفاده از درخت برای رده‌بندی]({filename}../chapters/106-using_trees_for_classification.md)
