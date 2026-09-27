@@ -3,6 +3,7 @@
 import json
 import os
 import re
+import sys
 from html import unescape
 from pathlib import Path
 
@@ -58,11 +59,9 @@ AUTHOR_FEED_RSS = None
 
 THEME = 'theme/bookstrap'
 
-THEME_STATIC_PATHS = ['static']
 THEME_TEMPLATES_OVERRIDES = ['theme_overrides/templates']
 
 ARTICLE_ORDER_BY = 'source_path'
-DEFAULT_PAGINATION = False
 
 # Addresses are <chapter>-<chapter slug>/<page order>-<page slug>/, e.g.
 # 4-speciation/06-cospeciation/. Each chapter file's Slug holds that path
@@ -70,8 +69,6 @@ DEFAULT_PAGINATION = False
 # explicitly so the built site also works when opened straight from disk.
 ARTICLE_URL = '{slug}/index.html'
 ARTICLE_SAVE_AS = '{slug}/index.html'
-ARTICLE_TRANSLATION_URL = '{slug}/{lang}/index.html'
-ARTICLE_TRANSLATION_SAVE_AS = '{slug}/{lang}/index.html'
 
 # Category slugs (ch0-ch6) only feed the sidebar's open/closed state; the
 # category, tag, author and archive listing pages themselves are not built.
@@ -86,12 +83,13 @@ CATEGORY_REGEX_SUBSTITUTIONS = [(r'(mqdmh)', 'ch0'),
 
 MARKDOWN = {
     'extension_configs': {
+        # extra brings footnotes, attr_list, tables and md_in_html with it.
         'markdown.extensions.extra': {},
-        'markdown.extensions.md_in_html': {},
         'markdown.extensions.meta': {},
-        'markdown.extensions.toc': {
-            'permalink': '',
-            'title': 'فهرست'},
+        # toc gives the headings their ids, which the footnote and heading
+        # links point at. No page uses a [TOC] marker, so the table itself is
+        # never generated.
+        'markdown.extensions.toc': {'permalink': ''},
     },
     'output_format': 'html5',
 }
@@ -126,7 +124,47 @@ JINJA_FILTERS = {
     'to_json': to_json,
 }
 
-PLUGINS = []
+# Footnote entries come in two kinds: an English term on its own ("Lineage")
+# and an English term with a Persian gloss ("Phylogeny: روابط فرگشتی…"). Both
+# sit in a right-to-left list, which is what the glossed ones want. The
+# all-English ones do not: their last run ends at the left margin, so the "↩"
+# backref lands to the left of the term instead of after it. CSS cannot ask
+# whether an entry has Persian in it, so the ones that have none are marked
+# here and style.css turns just those left-to-right.
+
+PERSIAN_RANGE = re.compile(r'[؀-ۿ]')
+# The class goes on the <li>, not the paragraph inside it: the list marker is
+# drawn by the item, so the number only moves with the text when the item
+# itself is left-to-right.
+FOOTNOTE_ENTRY = re.compile(r'(<li id="fn:[^"]*")(>)(.*?)(</li>)', re.S)
+
+
+def latin_footnotes(content):
+    """Add class="footnote-latin" to footnote entries with no Persian text."""
+
+    def mark(match):
+        open_tag, close_bracket, body, end = match.groups()
+        # The backref's title ("Jump back to footnote 1 in the text") is
+        # English but never displayed, so it must not count as content.
+        visible = re.sub(r'<a class="footnote-backref".*?</a>', '', body, flags=re.S)
+        if PERSIAN_RANGE.search(visible):
+            return match.group(0)
+        return f'{open_tag} class="footnote-latin"{close_bracket}{body}{end}'
+
+    return FOOTNOTE_ENTRY.sub(mark, content)
+
+
+def mark_latin_footnotes(instance):
+    if instance._content and 'footnote-backref' in instance._content:
+        instance._content = latin_footnotes(instance._content)
+
+
+def register():
+    from pelican import signals
+    signals.content_object_init.connect(mark_latin_footnotes)
+
+
+PLUGINS = [sys.modules[__name__]]
 
 DIRECT_TEMPLATES = ('sitemap', 'search_index')
 SITEMAP_SAVE_AS = 'sitemap.xml'

@@ -1,11 +1,13 @@
-Title: درباره / About
+Title: درباره
 Date: 2025-11-06 00:00
 Slug: about
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
 ## دربارهٔ این پروژه
-این پروژه تلاشی است برای در دسترس قرار دادن دانش علمی در مورد فرگشت برای مخاطبان فارسی زبان. منابع فارسی کمی وجود دارد که ایده‌های اصلی فرگشت را به شکل خلاصه و منسجم توصیف و تبیین کند، به همین خاطر این انگیزه به وجود آمد تا بخشی از مطالب وب‌سایت Understanding Evolution که توسط The University of California Museum of Paleontology ایجاد شده را به فارسی برگردانده و منتشر کنم.
+این پروژه تلاشی است برای در دسترس قرار دادن دانش علمی در مورد فرگشت برای مخاطبان فارسی زبان. منابع فارسی کمی وجود دارد که ایده‌های اصلی فرگشت را به شکل خلاصه و منسجم توصیف و تبیین کند، همین انگیزه‌ای شد تا بخشی از مطالب وب‌سایت Understanding Evolution که توسط The University of California Museum of Paleontology ایجاد شده را به فارسی برگردانده و منتشر کنم.
+
+ترجمهٔ این مطالب از دسامبر ۲۰۱۵ آغاز و به مرور تکمیل شد، و در نهایت در ژانویهٔ ۲۰۲۰ به شکل وب‌سایت منتشر شد.
 
 ------
 ## مجوز و حق نشر
@@ -19,60 +21,18 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 **این ترجمه:**
 <br>
 این ترجمه (به عنوان یک اثر اشتقاقی) تحت مجوز بین‌المللی [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/deed.fa) منتشر می‌شود.
-<br>
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.fa"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
 ------
 ## سایر منابع و اعتبارها
 
 - مرجع اصلی مطالب [Understanding Evolution](https://evolution.berkeley.edu/evolution-101/) است. تصاویر هر صفحه مستقیماً از همان وب‌سایت نمایش داده می‌شوند و پایین هر صفحه، با پیوند «منبع»، به صفحهٔ اصلی آن ارجاع داده شده است.
-- تصویر و فونت لوگو از جلد شمارهٔ سپتامبر ۲۰۱۴ نشریهٔ Scientific American وام گرفته شده.
-- قالب این سایت بر پایهٔ قالبی است که [جادی](http://jadi.ir/) برای «[راهنمای دوچرخه](http://bikezen.ir/)» شخصی‌سازی کرده بود، و اکنون با [Bootstrap](https://getbootstrap.com/) و [Font Awesome](https://fontawesome.com/) بازنویسی شده است. از جادی متشکرم.
+- قالب اولیهٔ این سایت بر پایهٔ قالب بود که [جادی](https://jadi.net/) برای «[راهنمای دوچرخه](http://bikezen.ir/)» شخصی‌سازی کرده بود، و اکنون با [Bootstrap](https://getbootstrap.com/) و [Font Awesome](https://fontawesome.com/) بازنویسی شده است.
 - در این اثر از فونت آزاد ساحل (اثری از [صابر راستی‌کردار](https://rastikerdar.github.io/)) استفاده شده است.
 - این وب‌سایت با [Pelican](https://blog.getpelican.com/) و [Python](http://python.org) ساخته شده است.
 
 ------
 ## مشارکت
 
-در صورتی که اصلاحی نیاز است می‌توانید از طریق ایمیل iranevolution101@gmail.com با من در میان بگذارید.
+لطفاً برای هر چیزی که به نظرتان نادرست می‌آید -غلط تایپی، جمله‌ای نارسا، یا پیوندی شکسته- یک Issue باز کنید، یا اگر دوست دارید خودتان آن را درست کنید، Pull Request بفرستید.
 
-اگر دوست دارید در اصلاح و بهبود پروژه مشارکت کنید، [پروژه روی گیت‌هاب](https://github.com/mortezagk/evolution101) هست.
-
-<div dir="ltr" markdown="1">
-
-------
-## About This Project
-
-This project is an effort to make scientific knowledge about evolution accessible to Persian-speaking audiences.
-There are few Persian resources that describe and explain the core ideas of evolution concisely and coherently. This motivated me to translate and publish a portion of the content from the **Understanding Evolution** website, which was created by **The University of California Museum of Paleontology (UCMP)**.
-
-------
-## License and Attribution
-
-**Original Content:**
-<br>
-© UC Museum of Paleontology Understanding Evolution, [www.understandingevolution.org](https://www.understandingevolution.org)
-
-**This Translation:**
-<br>
-This translation (as a derivative work) is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/).
-<br>
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
-
-------
-## Other Credits
-
-- The primary reference for the content is [Understanding Evolution](https://evolution.berkeley.edu/evolution-101/). Each page shows its figures directly from that website and links to its original page ("منبع") at the bottom.
-- The logo image and font are adapted from the cover of the September 2014 issue of Scientific American.
-- This site's theme is based on the one [Jadi](http://jadi.ir/) customized for his "[BikeZen](http://bikezen.ir/)", since rewritten on [Bootstrap](https://getbootstrap.com/) and [Font Awesome](https://fontawesome.com/). Many thanks to Jadi for this.
-- This work uses the open-source Sahel Font, designed by [Saber Rastikerdar](https://rastikerdar.github.io/).
-- This website is built with [Pelican](https://blog.getpelican.com/) and [Python](http://python.org).
-
-------
-## Contribution
-
-If any corrections are needed, you can contact me via email at iranevolution101@gmail.com.
-
-If you would like to participate in correcting and improving the project, [the project is on GitHub](https://github.com/mortezagk/evolution101).
-
-</div>
+در صورت نیاز به نشانی iranevolution101@gmail.com ایمیل بزنید.

@@ -62,3 +62,66 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 });
+
+// Dark mode. The page follows the reader's system setting on its own (a media
+// query in style.css); this button overrides that by setting data-theme on
+// <html>, and remembers the choice. base.html applies a saved choice before
+// the first paint.
+document.addEventListener('DOMContentLoaded', function () {
+  var button = document.getElementById('theme-toggle');
+  if (!button) {
+    return;
+  }
+
+  var root = document.documentElement;
+  var icon = button.querySelector('i');
+  var label = button.querySelector('.visually-hidden');
+  var systemDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+  function isDark() {
+    var chosen = root.getAttribute('data-theme');
+    return chosen ? chosen === 'dark' : systemDark.matches;
+  }
+
+  function render() {
+    var dark = isDark();
+    // The button offers the theme you would switch to, not the one you are in.
+    var text = dark ? 'حالت روشن' : 'حالت تیره';
+    button.setAttribute('aria-pressed', dark ? 'true' : 'false');
+    button.setAttribute('title', text);
+    if (label) {
+      label.textContent = text;
+    }
+    if (icon) {
+      icon.classList.toggle('fa-moon', !dark);
+      icon.classList.toggle('fa-sun', dark);
+    }
+  }
+
+  button.addEventListener('click', function () {
+    var next = isDark() ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    // Bootstrap's own components (form controls, buttons) read this one.
+    root.setAttribute('data-bs-theme', next);
+    try {
+      localStorage.setItem('theme', next);
+    } catch (e) { /* private mode: the choice lasts for this page only */ }
+    render();
+  });
+
+  // Follow the system setting while the reader has not chosen one here.
+  if (systemDark.addEventListener) {
+    systemDark.addEventListener('change', function (event) {
+      if (!root.getAttribute('data-theme')) {
+        root.setAttribute('data-bs-theme', event.matches ? 'dark' : 'light');
+        render();
+      }
+    });
+  }
+
+  if (!root.getAttribute('data-bs-theme')) {
+    root.setAttribute('data-bs-theme', isDark() ? 'dark' : 'light');
+  }
+
+  render();
+});

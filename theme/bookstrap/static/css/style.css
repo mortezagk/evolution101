@@ -17,21 +17,63 @@
    article titles stay link blue and headings use the text colour. The Persian font
    (Sahel) replaces Source Sans Pro; left/right are mirrored for RTL. */
 
+/* Colours are named by what they are for, not by their value, so the dark
+   theme further down only has to redefine this list. */
+
 :root {
 	--site-teal: #17a391;
 	--site-teal-dark: #11695f;
 	--site-teal-light: #e3f1ee;
-	--site-text: #333333;
+	--site-text: #000000;
+	--site-text-muted: #555555;
+	--site-text-faint: #777777;
+	--site-page-bg: #ffffff;
+	--site-panel-bg: #f5f5f5;
+	--site-panel-border: #e3e3e3;
+	--site-hover-bg: #e8e8e8;
+	--site-card-bg: #ffffff;
+	--site-card-border: #dfe6e4;
+	--site-card-hover-bg: #f6fbfa;
+	--site-rule: #d5dbd9;
+	--site-table-head-bg: #f1f3f5;
+	--site-table-border: #d7d7d7;
+	--site-table-stripe: #f9fafb;
+	--site-note-bg: #f3f8ee;
+	--site-note-border: #cfe3c4;
+	--site-mark-bg: #fff1a8;
+	--site-mark-text: #000000;
 	--bs-body-font-family: 'Sahel', 'Droid Arabic Naskh', Tahoma, sans-serif;
 	--bs-body-font-size: 1.125rem;
 	--bs-body-line-height: 1.625;
 	--bs-body-color: var(--site-text);
+	--bs-body-bg: var(--site-page-bg);
 	--bs-link-color-rgb: 0, 136, 204;
 	--bs-link-hover-color-rgb: 0, 85, 128;
 }
 
 body {
-	padding-top: 3.5rem; /* fixed navbar */
+	padding-top: 4rem; /* fixed navbar, which measures about 3.85rem */
+}
+
+/* Jumping to a footnote and back. The navbar is fixed, so the browser scrolls
+   the target to the very top of the window, where the bar then covers it —
+   most noticeably on a phone, where the bar takes up more of the screen.
+   scroll-margin-top keeps that much space above the target instead: the bar's
+   height (it measures about 3.7rem, a little more than the padding above
+   allows for) plus a line of breathing room, so the footnote is clearly in
+   view rather than flush against the bar.
+
+   Set on the targets themselves rather than on :target, which only matches
+   once the fragment is current and so does not apply to the jump that is
+   about to happen. Limited to what is actually jumped to — the footnote
+   entries, the markers the backrefs return to, and the headings the table of
+   contents links to — so it never affects the sidebar or navbar, which carry
+   ids of their own but are only ever scrolled past. */
+
+.footnote > ol > li[id],
+.entry-content [id^="fnref:"],
+.entry-content :is(h1, h2, h3, h4, h5, h6)[id] {
+	scroll-margin-top: 5rem;
 }
 
 a {
@@ -43,8 +85,39 @@ main a:hover,
 	text-decoration: underline;
 }
 
-.navbar-brand img {
+.navbar-brand .fa-dna {
+	font-size: 1.6rem;
 	vertical-align: -3px;
+	margin-left: 0.15rem;
+}
+
+/* The theme switch is a button among the navbar's links, so it has to be
+   stripped back to look like one of them. */
+
+.theme-toggle {
+	border: 0;
+	background: none;
+	cursor: pointer;
+}
+
+/* The switch sits apart from the links, at the far end of the bar. Once the
+   menu collapses into the burger the list is stacked, so it goes back to
+   being just another row. */
+
+@media (min-width: 48em) {
+	/* The menu takes the width left over by the brand, and the list fills it,
+	   so the auto margin below has room to push the switch to the far end. */
+	.navbar > .site-container > .navbar-collapse {
+		flex: 1 1 auto;
+	}
+
+	.navbar-nav {
+		width: 100%;
+	}
+
+	.navbar-nav .nav-item:has(.theme-toggle) {
+		margin-right: auto;
+	}
 }
 
 /* Page container and the two-column layout */
@@ -171,6 +244,27 @@ main table img {
 	margin: 0.5rem auto;
 }
 
+/* In the dark theme the figures keep the white background Berkeley drew them
+   on. Most are opaque and already white, so this shows on the ones that are
+   not: a transparent diagram would otherwise be black lines on a black page.
+   Applied to every figure rather than only those, since CSS cannot ask which
+   are transparent, and on an opaque white image it cannot be seen.
+   The logo is excluded: it is white artwork meant for the dark bar. */
+
+:root[data-theme="dark"] main :where(p, figure, td, th) > img,
+:root[data-theme="dark"] main > img {
+	background: #ffffff;
+	border-radius: 0.25rem;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root:not([data-theme="light"]) main :where(p, figure, td, th) > img,
+	:root:not([data-theme="light"]) main > img {
+		background: #ffffff;
+		border-radius: 0.25rem;
+	}
+}
+
 main hr {
 	margin: 2rem 0;
 }
@@ -183,18 +277,82 @@ main hr {
 	margin: 0;
 }
 
+/* Entries are a mix: some are an English term on its own ("Lineage"), others
+   an English term with a Persian gloss ("Phylogeny: روابط فرگشتی…"). The
+   paragraph stays right-to-left for both, which is what the mixed ones need:
+   the gloss is Persian prose that merely opens with an English term, and the
+   bidi algorithm already lays it out correctly, sentence-final period and all.
+
+   The one thing that goes wrong is the "↩" backref on an all-English entry.
+   The paragraph is right-to-left, so its last run ends at the left margin and
+   the backref sits to the *left* of the term ("↩ Lineage") rather than after
+   it. `plaintext` on the paragraph would fix those, but it would also take its
+   direction from the first strong character, flipping every "English term:
+   Persian gloss" entry to left-to-right and throwing the gloss's final period
+   to the start of a line. Only an entry with no Persian at all should change
+   direction, so the build marks those with .footnote-latin (see
+   `latin_footnotes` in pelicanconf.py) and just those read left-to-right.
+
+   The class sits on the <li> rather than the paragraph inside it, because the
+   list marker is drawn by the item: turning only the paragraph leaves the
+   number behind on the right. */
+
+.footnote > ol > li.footnote-latin {
+	direction: ltr;
+	text-align: left;
+}
+
+/* Footnote numbers in Persian digits. Python-Markdown numbers footnotes in
+   order of first use and writes those numbers as Latin digits, both in the
+   text (<sup>1</sup>) and as the <ol>'s own markers; the [^۱] labels in the
+   source only become the link ids, and the two can differ (the twelfth label
+   used tenth shows as 10). So both sides are renumbered here instead, from
+   the same document order the markup already has, which keeps them in step. */
+
+@counter-style persian-footnotes {
+	system: numeric;
+	symbols: '۰' '۱' '۲' '۳' '۴' '۵' '۶' '۷' '۸' '۹';
+}
+
+.footnote > ol {
+	list-style: persian-footnotes;
+}
+
+/* The <sup> marker's number is literal text, so it is replaced by a counter
+   over the markers themselves (in document order, matching the list).
+   `visibility: hidden` would leave the Latin digit's own width behind and show
+   as a gap after the word, so the text is dropped from the line altogether
+   (zero font-size) and the Persian digit drawn in ::before instead. */
+
+.entry-content {
+	counter-reset: footnote-marker;
+}
+
+.footnote-ref {
+	font-size: 0;
+}
+
+/* Back to the <sup>'s own size. em would compound with the 0 above, so the
+   size is taken from the paragraph and scaled by Bootstrap's sup rule. */
+
+.footnote-ref::before {
+	counter-increment: footnote-marker;
+	content: counter(footnote-marker, persian-footnotes);
+	font-size: calc(var(--bs-body-font-size) * 0.75);
+}
+
 /* Sidebar */
 
 .sidebar-box {
 	position: sticky;
-	top: 5.375rem; /* navbar + page top padding */
+	top: 5.875rem; /* navbar + page top padding */
 	max-height: calc(100vh - 7.25rem);
 	font-size: 1rem;
 	line-height: 1.6;
 	overflow-y: auto;
 	padding: 0.75rem 0.5rem;
-	background: #f5f5f5;
-	border: 1px solid #e3e3e3;
+	background: var(--site-panel-bg);
+	border: 1px solid var(--site-panel-border);
 	border-radius: 0.5rem;
 }
 
@@ -209,7 +367,7 @@ main hr {
 .sidebar-links {
 	margin-bottom: 0.5rem;
 	padding-bottom: 0.5rem;
-	border-bottom: 1px solid #e3e3e3;
+	border-bottom: 1px solid var(--site-panel-border);
 }
 
 .sidebar-links a,
@@ -224,7 +382,7 @@ main hr {
 
 .sidebar-links a:hover,
 .category-articles a:hover {
-	background: #e8e8e8;
+	background: var(--site-hover-bg);
 }
 
 .category-group {
@@ -252,7 +410,7 @@ main hr {
 
 .category-link:hover,
 .category-link:focus-visible {
-	background: #e8e8e8;
+	background: var(--site-hover-bg);
 	color: inherit;
 }
 
@@ -264,12 +422,12 @@ main hr {
 	border: 0;
 	border-radius: 0.4rem;
 	background: transparent;
-	color: #555;
+	color: var(--site-text-muted);
 }
 
 .category-toggle:hover,
 .category-toggle:focus-visible {
-	background: #e8e8e8;
+	background: var(--site-hover-bg);
 }
 
 .category-toggle i {
@@ -306,7 +464,7 @@ main hr {
 	padding-bottom: 2rem;
 	text-align: center;
 	font-size: 0.9rem;
-	color: #555;
+	color: var(--site-text-muted);
 }
 
 .site-footer p {
@@ -331,9 +489,9 @@ main hr {
 	align-items: center;
 	gap: 0.4rem;
 	padding: 0.2rem 0.8rem;
-	border: 1px solid #d5dbd9;
+	border: 1px solid var(--site-rule);
 	border-radius: 999px;
-	color: #555;
+	color: var(--site-text-muted);
 	font-size: 0.85rem;
 	text-decoration: none;
 	transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
@@ -350,7 +508,7 @@ main hr {
 main .page-nav__pill:hover,
 .page-nav__pill:focus-visible {
 	border-color: var(--site-teal);
-	background: #f6fbfa;
+	background: var(--site-card-hover-bg);
 	color: var(--site-teal-dark);
 	text-decoration: none;
 }
@@ -367,7 +525,7 @@ main .page-nav__pill:hover,
 	gap: 0.85rem;
 	min-width: 0;
 	padding: 0.75rem 1rem;
-	border: 1px solid #dfe6e4;
+	border: 1px solid var(--site-card-border);
 	border-radius: 0.6rem;
 	color: inherit;
 	text-decoration: none;
@@ -383,7 +541,7 @@ main .page-nav__pill:hover,
 main .page-nav__card:hover,
 .page-nav__card:focus-visible {
 	border-color: var(--site-teal);
-	background: #f6fbfa;
+	background: var(--site-card-hover-bg);
 	text-decoration: none;
 }
 
@@ -395,7 +553,7 @@ main .page-nav__card:hover,
 
 .page-nav__label {
 	font-size: 0.8rem;
-	color: #777;
+	color: var(--site-text-faint);
 }
 
 .page-nav__title {
@@ -406,7 +564,7 @@ main .page-nav__card:hover,
 
 .page-nav__arrow {
 	flex: 0 0 auto;
-	color: #999;
+	color: var(--site-text-faint);
 	font-size: 0.85rem;
 }
 
@@ -433,13 +591,13 @@ main table {
 }
 
 main table thead th {
-	background-color: #f1f3f5;
+	background-color: var(--site-table-head-bg);
 	font-weight: 700;
 }
 
 main table th,
 main table td {
-	border: 1px solid #d7d7d7;
+	border: 1px solid var(--site-table-border);
 	padding: 0.75rem 1rem;
 	vertical-align: middle;
 }
@@ -456,14 +614,14 @@ main table td {
 }
 
 main table tbody tr:nth-child(even) {
-	background-color: #f9fafb;
+	background-color: var(--site-table-stripe);
 }
 
 /* Link to the original page, after the footnotes */
 .source-note {
 	margin: 1.5rem 0 0;
 	padding-top: 0.75rem;
-	border-top: 1px dashed #d5dbd9;
+	border-top: 1px dashed var(--site-rule);
 	font-size: 0.9rem;
 }
 
@@ -474,96 +632,25 @@ main table tbody tr:nth-child(even) {
 
 main .source-note a:hover,
 .source-note a:focus-visible {
-	color: #0b4a43;
+	color: var(--site-teal-dark);
 	border-bottom-style: solid;
 	text-decoration: none;
-}
-
-/* Chapter cover: list of the chapter's pages */
-.chapter-toc {
-	margin: 2.5rem 0 1rem;
-}
-
-.chapter-toc h2 {
-	font-size: 1.4em;
-	margin-bottom: 1rem;
-}
-
-.chapter-toc__list {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: grid;
-	gap: 0.75rem;
-}
-
-.chapter-toc__link {
-	display: flex;
-	align-items: flex-start;
-	gap: 0.9rem;
-	padding: 0.85rem 1rem;
-	border: 1px solid #dfe6e4;
-	border-radius: 0.6rem;
-	background: #fff;
-	color: inherit;
-	text-decoration: none;
-	transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
-}
-
-.chapter-toc__link:hover,
-.chapter-toc__link:focus {
-	border-color: #17a391;
-	background: #f6fbfa;
-	box-shadow: 0 2px 8px rgba(17, 105, 95, 0.12);
-	color: inherit;
-	text-decoration: none;
-}
-
-.chapter-toc__number {
-	flex: 0 0 auto;
-	width: 2.2rem;
-	height: 2.2rem;
-	line-height: 2.2rem;
-	border-radius: 50%;
-	background: #17a391;
-	color: #fff;
-	font-weight: 700;
-	text-align: center;
-}
-
-.chapter-toc__text {
-	display: flex;
-	flex-direction: column;
-	gap: 0.25rem;
-	min-width: 0;
-}
-
-.chapter-toc__title {
-	font-weight: 700;
-	font-size: 1.05em;
-	color: #0b6b86;
-}
-
-.chapter-toc__summary {
-	font-size: 0.9em;
-	line-height: 1.7;
-	color: #555;
 }
 
 /* "Digging Data" research sections, styled after the original site */
 .digging-data {
 	margin: 2.5rem 0 1.5rem;
 	padding: 0 1.5rem 1.25rem;
-	background: #f3f8ee;
-	border: 1px solid #cfe3c4;
-	border-top: 6px solid #17a391;
+	background: var(--site-note-bg);
+	border: 1px solid var(--site-note-border);
+	border-top: 6px solid var(--site-teal);
 	border-radius: 0.6rem;
 }
 
 .digging-data__banner {
 	margin: 0 -1.5rem 0.5rem;
 	padding: 0.75rem 1.5rem 0;
-	background: #fff;
+	background: var(--site-card-bg);
 	border-radius: 0.4rem 0.4rem 0 0;
 	text-align: center;
 }
@@ -574,20 +661,20 @@ main .source-note a:hover,
 }
 
 .digging-data h2 {
-	color: #11695f;
+	color: var(--site-teal-dark);
 	font-size: 1.5em;
 }
 
 .digging-data h3 {
 	margin-top: 1.75rem;
 	padding-bottom: 0.3rem;
-	border-bottom: 2px solid #cfe3c4;
-	color: #11695f;
+	border-bottom: 2px solid var(--site-note-border);
+	color: var(--site-teal-dark);
 	font-size: 1.2em;
 }
 
 .digging-data img {
-	background: #fff;
+	background: var(--site-card-bg);
 }
 
 .digging-data p.digging-data__banner img {
@@ -613,7 +700,7 @@ main .caption p {
 /* Search page */
 .search-status {
 	margin: 1rem 0 0.5rem;
-	color: #555;
+	color: var(--site-text-muted);
 	font-size: 0.95rem;
 }
 
@@ -625,7 +712,7 @@ main .caption p {
 
 .search-result {
 	padding: 0.85rem 0;
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid var(--site-panel-border);
 }
 
 .search-result__title {
@@ -636,22 +723,86 @@ main .caption p {
 .search-result__chapter {
 	display: block;
 	font-size: 0.8rem;
-	color: #777;
+	color: var(--site-text-faint);
 }
 
 .search-result__snippet {
 	margin: 0.25rem 0 0;
 	font-size: 0.92rem;
-	color: #444;
+	color: var(--site-text-muted);
 }
 
 .search-results mark {
 	padding: 0 0.1em;
-	background: #fff1a8;
+	background: var(--site-mark-bg);
 	border-radius: 0.2em;
 }
 
 .search-google {
 	margin-top: 1rem;
 	font-size: 0.9rem;
+}
+
+/* Dark theme. Only the colour list at the top is redefined; every rule in
+   between is already written in terms of it. Declared once and applied from
+   two places: the reader's system setting, unless they have chosen light
+   here, and the navbar button, which sets data-theme on <html>. */
+
+@media (prefers-color-scheme: dark) {
+	/* Form controls and scrollbars follow this, and it is what makes the
+	   search box dark before site.js has set Bootstrap's own attribute. */
+	:root:not([data-theme="light"]) {
+		color-scheme: dark;
+
+		--site-teal: #3fc9b4;
+		--site-teal-dark: #5fd8c5;
+		--site-teal-light: #16302d;
+		--site-text: #e6e6e6;
+		--site-text-muted: #a8a8a8;
+		--site-text-faint: #8a8a8a;
+		--site-page-bg: #16181a;
+		--site-panel-bg: #1e2124;
+		--site-panel-border: #33383d;
+		--site-hover-bg: #2a2f34;
+		--site-card-bg: #1e2124;
+		--site-card-border: #33383d;
+		--site-card-hover-bg: #232a2c;
+		--site-rule: #3a4045;
+		--site-table-head-bg: #23272b;
+		--site-table-border: #3a4045;
+		--site-table-stripe: #1b1e21;
+		--site-note-bg: #1c241c;
+		--site-note-border: #33482f;
+		--site-mark-bg: #6b5d18;
+		--site-mark-text: #f2f2f2;
+		--bs-link-color-rgb: 108, 190, 232;
+		--bs-link-hover-color-rgb: 150, 212, 244;
+	}
+}
+
+:root[data-theme="dark"] {
+	color-scheme: dark;
+	--site-teal: #3fc9b4;
+	--site-teal-dark: #5fd8c5;
+	--site-teal-light: #16302d;
+	--site-text: #e6e6e6;
+	--site-text-muted: #a8a8a8;
+	--site-text-faint: #8a8a8a;
+	--site-page-bg: #16181a;
+	--site-panel-bg: #1e2124;
+	--site-panel-border: #33383d;
+	--site-hover-bg: #2a2f34;
+	--site-card-bg: #1e2124;
+	--site-card-border: #33383d;
+	--site-card-hover-bg: #232a2c;
+	--site-rule: #3a4045;
+	--site-table-head-bg: #23272b;
+	--site-table-border: #3a4045;
+	--site-table-stripe: #1b1e21;
+	--site-note-bg: #1c241c;
+	--site-note-border: #33482f;
+	--site-mark-bg: #6b5d18;
+	--site-mark-text: #f2f2f2;
+	--bs-link-color-rgb: 108, 190, 232;
+	--bs-link-hover-color-rgb: 150, 212, 244;
 }

@@ -53,28 +53,6 @@
                 </p>
                 {% endif %}
 
-                {% if article.section_index == '00' and article.section != '0' %}
-                {% set chapter_articles = articles | selectattr('category', 'equalto', article.category) | rejectattr('source_path', 'equalto', article.source_path) | sort(attribute='source_path') | list %}
-                {% if chapter_articles %}
-                <nav class="chapter-toc" aria-labelledby="chapter-toc-title">
-                        <h2 id="chapter-toc-title">مطالب این فصل</h2>
-                        <ol class="chapter-toc__list">
-                        {% for item in chapter_articles %}
-                                <li class="chapter-toc__item">
-                                        <a class="chapter-toc__link" href="{{ SITEURL }}/{{ item.url }}">
-                                                <span class="chapter-toc__number">{{ item.section_index|int|persian_digits }}</span>
-                                                <span class="chapter-toc__text">
-                                                        <span class="chapter-toc__title">{{ item.title|persian_digits }}</span>
-                                                        <span class="chapter-toc__summary">{{ item.content|plain_text(170) }}</span>
-                                                </span>
-                                        </a>
-                                </li>
-                        {% endfor %}
-                        </ol>
-                </nav>
-                {% endif %}
-                {% endif %}
-
 
                 {% if nav.prev or nav.next %}
                 <nav class="page-nav page-nav--bottom" aria-label="مطلب قبلی و بعدی">
