@@ -252,6 +252,13 @@ main ul ol {
 	margin-bottom: 0;
 }
 
+/* The one-line question under each chapter in the Evolution 101 list */
+.chapter-summary {
+	display: block;
+	padding-right: 1rem;
+	color: var(--site-text-muted);
+}
+
 main img {
 	display: block;
 	max-width: 100%;
