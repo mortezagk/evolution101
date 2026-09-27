@@ -28,7 +28,11 @@ Translated: no
 <div class="term-original" lang="en" dir="ltr" markdown="1">
 Chelicerates are a group of arthropods distinguished by the following characters:
 
+- a body divided into a cephalothorax and abdomen
+
 ![chelicerate](https://evolution.berkeley.edu/wp-content/uploads/2020/07/spider_topview.gif){: width="314" height="232" loading="lazy" }
+
+- no antennae, but two pairs of appendages on the anterior cephalothorax (chelicerae and pedipalps), and four pairs of walking legs
 
 ![chelicerate](https://evolution.berkeley.edu/wp-content/uploads/2020/07/spiderhead.gif){: width="261" height="174" loading="lazy" }
 
@@ -36,5 +40,5 @@ Examples of chelicerates include spiders, scorpions, and horseshoe crabs.
 
 ![chelicerate](https://evolution.berkeley.edu/wp-content/uploads/2020/07/chelicerates3.jpg){: width="382" height="75" loading="lazy" }
 
-Black Widow Spider photo by George W. Robinson © California Academy of Sciences; Scorpion photo by Dr. Antonio J. Ferreira © California Academy of Sciences; Horseshoe Crab photo © 2000 John White
+###### Black Widow Spider photo by George W. Robinson © California Academy of Sciences; Scorpion photo by Dr. Antonio J. Ferreira © California Academy of Sciences; Horseshoe Crab photo © 2000 John White
 </div>

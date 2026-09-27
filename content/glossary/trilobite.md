@@ -28,6 +28,10 @@ Translated: no
 <div class="term-original" lang="en" dir="ltr" markdown="1">
 Trilobites are an extinct group of arthropods, distinguished by the following characters:
 
+- a body built from a cephalon, thorax, and pygidium
+- a body divided into three lobes, running from head to tail
+- one pair of antennae
+
 ![trilobite](https://evolution.berkeley.edu/wp-content/uploads/2020/07/trilobite-1.gif){: width="380" height="242" loading="lazy" }
 
 The last trilobites went extinct about 245 million years ago, but they are well represented by the fossil record.

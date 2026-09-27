@@ -12,6 +12,7 @@ never overwritten; pass --force to rebuild everything.
 """
 
 import argparse
+import ast
 import json
 import pathlib
 import re
@@ -62,6 +63,18 @@ def blocks_markdown(record, terms):
             out.append(f'![{alt}]({block["src"]}){size}')
             if block.get('caption'):
                 out.append(f'<div class="caption" markdown="1">{block["caption"]}</div>')
+        elif kind == 'list':
+            items = block.get('items') or []
+            # The scraper sometimes stored the list as its Python repr.
+            if isinstance(items, str):
+                items = ast.literal_eval(items)
+            marker = '1.' if block.get('ordered') else '-'
+            out.append('\n'.join(f'{marker} {local_links(item, terms)}' for item in items))
+        elif kind == 'heading':
+            # The small headings on these pages hold labels and photo credits.
+            level = block.get('level', 6)
+            text = ' '.join(block['text'].split())
+            out.append(f'{"#" * level} {text}')
         elif block.get('markdown') or block.get('text'):
             out.append(local_links(block.get('markdown') or block['text'], terms))
     if not out:

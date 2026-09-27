@@ -20,5 +20,5 @@ Onychoporans (also known as velvet worms) share certain characters with [arthro
 
 ![onychophoran](https://evolution.berkeley.edu/wp-content/uploads/2020/07/onychophoran_peripatus2.jpg){: width="338" height="151" loading="lazy" }
 
-Onychophoran photo provided by Dr. Lynn Kimsey and the Bohart Museum of Entomology , University of California Davis
+###### Onychophoran photo provided by Dr. Lynn Kimsey and the Bohart Museum of Entomology , University of California Davis
 </div>
