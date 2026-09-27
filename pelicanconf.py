@@ -59,11 +59,9 @@ AUTHOR_FEED_RSS = None
 
 THEME = 'theme/bookstrap'
 
-THEME_STATIC_PATHS = ['static']
 THEME_TEMPLATES_OVERRIDES = ['theme_overrides/templates']
 
 ARTICLE_ORDER_BY = 'source_path'
-DEFAULT_PAGINATION = False
 
 # Addresses are <chapter>-<chapter slug>/<page order>-<page slug>/, e.g.
 # 4-speciation/06-cospeciation/. Each chapter file's Slug holds that path
@@ -71,8 +69,6 @@ DEFAULT_PAGINATION = False
 # explicitly so the built site also works when opened straight from disk.
 ARTICLE_URL = '{slug}/index.html'
 ARTICLE_SAVE_AS = '{slug}/index.html'
-ARTICLE_TRANSLATION_URL = '{slug}/{lang}/index.html'
-ARTICLE_TRANSLATION_SAVE_AS = '{slug}/{lang}/index.html'
 
 # Category slugs (ch0-ch6) only feed the sidebar's open/closed state; the
 # category, tag, author and archive listing pages themselves are not built.
@@ -87,12 +83,13 @@ CATEGORY_REGEX_SUBSTITUTIONS = [(r'(mqdmh)', 'ch0'),
 
 MARKDOWN = {
     'extension_configs': {
+        # extra brings footnotes, attr_list, tables and md_in_html with it.
         'markdown.extensions.extra': {},
-        'markdown.extensions.md_in_html': {},
         'markdown.extensions.meta': {},
-        'markdown.extensions.toc': {
-            'permalink': '',
-            'title': 'فهرست'},
+        # toc gives the headings their ids, which the footnote and heading
+        # links point at. No page uses a [TOC] marker, so the table itself is
+        # never generated.
+        'markdown.extensions.toc': {'permalink': ''},
     },
     'output_format': 'html5',
 }
