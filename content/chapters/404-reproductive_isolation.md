@@ -1,7 +1,7 @@
 Title: انزوای تولید‌مثلی
 Date: 2025-11-06 00:39
 Category: فصل چهارم: گونه‌زایی
-Slug: 4-speciation/04-reproductive-isolation
+Slug: evo101/chapter-4/reproductive-isolation
 Source: https://evolution.berkeley.edu/evolution-101/speciation/reproductive-isolation/
 Source_title: Reproductive isolation
 Author: mortezagk

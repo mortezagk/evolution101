@@ -1,7 +1,7 @@
 Title: الگوها در فرگشت کلان
 Date: 2025-11-06 00:44
 Category: فصل پنجم: فرگشت کلان
-Slug: 5-macroevolution/02-patterns-in-macroevolution
+Slug: evo101/chapter-5/patterns-in-macroevolution
 Source: https://evolution.berkeley.edu/evolution-101/macroevolution/patterns-in-macroevolution/
 Source_title: Patterns in macroevolution
 Author: mortezagk

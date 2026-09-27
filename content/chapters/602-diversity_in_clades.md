@@ -1,7 +1,7 @@
 Title: تنوع در کلادها
 Date: 2025-11-06 00:47
 Category: فصل ششم: مسائل مهم
-Slug: 6-the-big-issues/02-diversity-in-clades
+Slug: evo101/chapter-6/diversity-in-clades
 Source: https://evolution.berkeley.edu/evolution-101/the-big-issues/diversity-in-clades/
 Source_title: Diversity in clades
 Author: mortezagk

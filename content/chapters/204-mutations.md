@@ -1,7 +1,7 @@
 Title: جهش‌ها
 Date: 2025-11-06 00:16
 Category: فصل دوم: سازوکارها
-Slug: 2-mechanisms-the-processes-of-evolution/04-mutations
+Slug: evo101/chapter-2/mutations
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/mutations/
 Source_title: Mutations
 Author: mortezagk

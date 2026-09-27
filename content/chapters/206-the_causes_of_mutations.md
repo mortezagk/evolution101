@@ -1,7 +1,7 @@
 Title: عوامل جهش
 Date: 2025-11-06 00:17
 Category: فصل دوم: سازوکارها
-Slug: 2-mechanisms-the-processes-of-evolution/06-the-causes-of-mutations
+Slug: evo101/chapter-2/the-causes-of-mutations
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/the-causes-of-mutations/
 Source_title: The causes of mutations
 Author: mortezagk

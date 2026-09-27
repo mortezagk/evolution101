@@ -1,7 +1,7 @@
 Title: انتخاب جنسی
 Date: 2025-11-06 00:25
 Category: فصل دوم: سازوکارها
-Slug: 2-mechanisms-the-processes-of-evolution/14-sexual-selection
+Slug: evo101/chapter-2/sexual-selection
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/sexual-selection/
 Source_title: Sexual selection
 Author: mortezagk

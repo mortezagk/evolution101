@@ -1,7 +1,7 @@
 Title: مقدمه‌ای بر فرگشت
 Date: 2025-11-06 00:01
 Category: مقدمه
-Slug: 0-an-introduction-to-evolution
+Slug: evo101/chapter-0
 Source: https://evolution.berkeley.edu/evolution-101/an-introduction-to-evolution/
 Source_title: An introduction to evolution
 Author: mortezagk

@@ -1,7 +1,7 @@
 Title: تاریخ حیات: نگاهی به الگوها
 Date: 2025-11-06 00:02
 Category: فصل اول: الگوها
-Slug: 1-the-history-of-life-looking-at-the-patterns
+Slug: evo101/chapter-1
 Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/
 Source_title: The history of life: looking at the patterns
 Author: mortezagk

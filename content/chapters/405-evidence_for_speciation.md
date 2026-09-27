@@ -1,7 +1,7 @@
 Title: شواهد گونه‌زایی
 Date: 2025-11-06 00:40
 Category: فصل چهارم: گونه‌زایی
-Slug: 4-speciation/05-evidence-for-speciation
+Slug: evo101/chapter-4/evidence-for-speciation
 Source: https://evolution.berkeley.edu/evolution-101/speciation/evidence-for-speciation/
 Source_title: Evidence for speciation
 Author: mortezagk

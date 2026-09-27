@@ -1,7 +1,7 @@
 Title: جریان ژن
 Date: 2025-11-06 00:18
 Category: فصل دوم: سازوکارها
-Slug: 2-mechanisms-the-processes-of-evolution/07-gene-flow
+Slug: evo101/chapter-2/gene-flow
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/gene-flow/
 Source_title: Gene flow
 Author: mortezagk

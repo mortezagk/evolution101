@@ -1,7 +1,7 @@
 Title: تعریف گونه‌زایی
 Date: 2025-11-06 00:37
 Category: فصل چهارم: گونه‌زایی
-Slug: 4-speciation/02-defining-speciation
+Slug: evo101/chapter-4/defining-speciation
 Source: https://evolution.berkeley.edu/evolution-101/speciation/defining-speciation/
 Source_title: Defining speciation
 Author: mortezagk

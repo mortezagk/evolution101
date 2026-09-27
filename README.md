@@ -44,9 +44,13 @@ also works when opened straight from disk.
 - `content/chapters/NNN-name.md`: one file per page. The first digit is the
   chapter (0 is the introduction, 1-6 the chapters) and the next two digits
   its position; `x00` is the chapter's cover page.
-- Each page's address is `<chapter>-<chapter slug>/<position>-<page slug>/`,
-  e.g. `4-speciation/06-cospeciation/`, taken from its `Slug` metadata. The
-  slugs follow the original page's path on evolution.berkeley.edu.
+- Each page's address is `evo101/chapter-<N>/<page slug>/`, e.g.
+  `evo101/chapter-4/cospeciation/`, taken from its `Slug` metadata. The page slug is
+  the last part of the original page's path on evolution.berkeley.edu; a
+  chapter cover (and the introduction, as chapter 0) is the chapter folder
+  itself, e.g. `evo101/chapter-4/`.
+- Search and the about pages sit at the root: `search/`, `about/`,
+  `about-en/`.
 - `Source` / `Source_title` name the original page, linked as «منبع ⎋» after
   the footnotes.
 - Search runs in the browser over `search-index.js`, which the build writes

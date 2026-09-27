@@ -150,7 +150,7 @@
 
         var a = document.createElement('a');
         a.className = 'search-result__title';
-        // The search page is pages/search.html, so the site root is always '..'
+        // The search page is search/index.html, so the site root is always '..'
         // (index URLs are relative to it). Still refuse script-running schemes.
         var href = '../' + e.url;
         var scheme = href.replace(/[\u0000-\u0020]/g, ''); // browsers ignore these

@@ -1,7 +1,7 @@
 Title: فرگشت خُرد
 Date: 2025-11-06 00:31
 Category: فصل سوم: فرگشت خُرد
-Slug: 3-microevolution
+Slug: evo101/chapter-3
 Source: https://evolution.berkeley.edu/evolution-101/microevolution/
 Source_title: Microevolution
 Author: mortezagk

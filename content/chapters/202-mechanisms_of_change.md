@@ -1,7 +1,7 @@
 Title: سازوکارهای تغییر
 Date: 2025-11-06 00:14
 Category: فصل دوم: سازوکارها
-Slug: 2-mechanisms-the-processes-of-evolution/02-mechanisms-of-change
+Slug: evo101/chapter-2/mechanisms-of-change
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/mechanisms-of-change/
 Source_title: Mechanisms of change
 Author: mortezagk

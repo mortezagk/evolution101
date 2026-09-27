@@ -1,7 +1,7 @@
 Title: فرگشت کلان چیست؟
 Date: 2025-11-06 00:43
 Category: فصل پنجم: فرگشت کلان
-Slug: 5-macroevolution/01-what-is-macroevolution
+Slug: evo101/chapter-5/what-is-macroevolution
 Source: https://evolution.berkeley.edu/evolution-101/macroevolution/what-is-macroevolution/
 Source_title: What is macroevolution?
 Author: mortezagk

@@ -1,7 +1,7 @@
 Title: تنوع ژنتیکی
 Date: 2025-11-06 00:15
 Category: فصل دوم: سازوکارها
-Slug: 2-mechanisms-the-processes-of-evolution/03-genetic-variation
+Slug: evo101/chapter-2/genetic-variation
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/genetic-variation/
 Source_title: Genetic variation
 Author: mortezagk
