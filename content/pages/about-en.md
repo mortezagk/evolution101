@@ -1,8 +1,6 @@
 Title: About
 Date: 2025-11-06 00:00
 Slug: about-en
-Save_as: pages/about-en.html
-URL: pages/about-en.html
 Direction: ltr
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی

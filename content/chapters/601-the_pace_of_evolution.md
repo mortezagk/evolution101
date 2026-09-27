@@ -1,7 +1,7 @@
 Title: سرعت فرگشت
 Date: 2025-11-06 00:46
 Category: فصل ششم: مسائل مهم
-Slug: 6-the-big-issues/01-the-pace-of-evolution
+Slug: evo101/chapter-6/the-pace-of-evolution
 Source: https://evolution.berkeley.edu/evolution-101/the-big-issues/the-pace-of-evolution/
 Source_title: The pace of evolution
 Author: mortezagk

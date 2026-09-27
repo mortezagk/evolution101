@@ -1,7 +1,7 @@
 Title: مسائل مهم
 Date: 2025-11-06 00:45
 Category: فصل ششم: مسائل مهم
-Slug: 6-the-big-issues
+Slug: evo101/chapter-6
 Source: https://evolution.berkeley.edu/evolution-101/the-big-issues/
 Source_title: The big issues
 Author: mortezagk

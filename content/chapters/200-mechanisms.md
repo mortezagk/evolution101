@@ -1,7 +1,7 @@
 Title: سازوکارها: شیوه‌های عملکرد فرگشت
 Date: 2025-11-06 00:12
 Category: فصل دوم: سازوکارها
-Slug: 2-mechanisms-the-processes-of-evolution
+Slug: evo101/chapter-2
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/
 Source_title: Mechanisms: the processes of evolution
 Author: mortezagk

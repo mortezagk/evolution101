@@ -1,7 +1,7 @@
 Title: هومولوژی و آنالوژی
 Date: 2025-11-06 00:07
 Category: فصل اول: الگوها
-Slug: 1-the-history-of-life-looking-at-the-patterns/05-homologies-and-analogies
+Slug: evo101/chapter-1/homologies-and-analogies
 Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/homologies-and-analogies/
 Source_title: Homologies and analogies
 Author: mortezagk

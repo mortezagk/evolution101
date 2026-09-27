@@ -1,7 +1,7 @@
 Title: انتخاب طبیعی
 Date: 2025-11-06 00:22
 Category: فصل دوم: سازوکارها
-Slug: 2-mechanisms-the-processes-of-evolution/11-natural-selection
+Slug: evo101/chapter-2/natural-selection
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/natural-selection/
 Source_title: Natural Selection
 Author: mortezagk

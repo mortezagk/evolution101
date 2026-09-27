@@ -1,7 +1,7 @@
 Title: تعریف گونه
 Date: 2025-11-06 00:36
 Category: فصل چهارم: گونه‌زایی
-Slug: 4-speciation/01-defining-a-species
+Slug: evo101/chapter-4/defining-a-species
 Source: https://evolution.berkeley.edu/evolution-101/speciation/defining-a-species/
 Source_title: Defining a species
 Author: mortezagk

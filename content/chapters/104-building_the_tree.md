@@ -1,7 +1,7 @@
 Title: ساختن درخت
 Date: 2025-11-06 00:06
 Category: فصل اول: الگوها
-Slug: 1-the-history-of-life-looking-at-the-patterns/04-building-the-tree
+Slug: evo101/chapter-1/building-the-tree
 Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/building-the-tree/
 Source_title: Building the tree
 Author: mortezagk

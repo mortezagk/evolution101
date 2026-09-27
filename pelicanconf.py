@@ -67,10 +67,12 @@ THEME_TEMPLATES_OVERRIDES = ['theme_overrides/templates']
 
 ARTICLE_ORDER_BY = 'source_path'
 
-# Addresses are <chapter>-<chapter slug>/<page order>-<page slug>/, e.g.
-# 4-speciation/06-cospeciation/. Each chapter file's Slug holds that path
-# (a chapter cover is just the chapter folder). Links point at index.html
-# explicitly so the built site also works when opened straight from disk.
+# Addresses are evo101/chapter-<N>/<page slug>/, e.g.
+# evo101/chapter-4/cospeciation/, the page slug being the last part of the
+# original page's address. Each chapter file's Slug holds that path (a chapter
+# cover, and the introduction as chapter 0, is just the chapter folder). Links
+# point at index.html explicitly so the built site also works when opened
+# straight from disk.
 ARTICLE_URL = '{slug}/index.html'
 ARTICLE_SAVE_AS = '{slug}/index.html'
 
@@ -235,7 +237,7 @@ PLUGINS = [sys.modules[__name__]]
 
 DIRECT_TEMPLATES = ('sitemap', 'search_index')
 SITEMAP_SAVE_AS = 'sitemap.xml'
-# Full text of every page for the on-site search (pages/search.html). A .js
+# Full text of every page for the on-site search (search/index.html). A .js
 # file rather than JSON so it also loads when the site is opened from disk.
 SEARCH_INDEX_SAVE_AS = 'search-index.js'
 CATEGORY_SAVE_AS = ''

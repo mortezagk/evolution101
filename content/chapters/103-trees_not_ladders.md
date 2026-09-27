@@ -1,7 +1,7 @@
 Title: درخت، نه نردبان!
 Date: 2025-11-06 00:05
 Category: فصل اول: الگوها
-Slug: 1-the-history-of-life-looking-at-the-patterns/03-trees-not-ladders
+Slug: evo101/chapter-1/trees-not-ladders
 Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/trees-not-ladders/
 Source_title: Trees, not ladders
 Author: mortezagk

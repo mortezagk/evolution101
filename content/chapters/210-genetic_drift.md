@@ -1,7 +1,7 @@
 Title: رانش ژن
 Date: 2025-11-06 00:21
 Category: فصل دوم: سازوکارها
-Slug: 2-mechanisms-the-processes-of-evolution/10-genetic-drift
+Slug: evo101/chapter-2/genetic-drift
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/genetic-drift/
 Source_title: Genetic drift
 Author: mortezagk

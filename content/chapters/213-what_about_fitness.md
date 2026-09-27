@@ -1,7 +1,7 @@
 Title: در مورد سازواری
 Date: 2025-11-06 00:24
 Category: فصل دوم: سازوکارها
-Slug: 2-mechanisms-the-processes-of-evolution/13-evolutionary-fitness
+Slug: evo101/chapter-2/evolutionary-fitness
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/evolutionary-fitness/
 Source_title: Evolutionary fitness
 Author: mortezagk

@@ -1,7 +1,7 @@
 Title: گونه‌زایی
 Date: 2025-11-06 00:35
 Category: فصل چهارم: گونه‌زایی
-Slug: 4-speciation
+Slug: evo101/chapter-4
 Source: https://evolution.berkeley.edu/evolution-101/speciation/
 Source_title: Speciation
 Author: mortezagk

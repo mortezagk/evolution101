@@ -1,7 +1,7 @@
 Title: رویدادهای مهم در تاریخ حیات
 Date: 2025-11-06 00:11
 Category: فصل اول: الگوها
-Slug: 1-the-history-of-life-looking-at-the-patterns/09-important-events-in-the-history-of-life
+Slug: evo101/chapter-1/important-events-in-the-history-of-life
 Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/important-events-in-the-history-of-life/
 Source_title: Important events in the history of life
 Author: mortezagk

@@ -1,7 +1,7 @@
 Title: وراثت همراه با تغییر
 Date: 2025-11-06 00:13
 Category: فصل دوم: سازوکارها
-Slug: 2-mechanisms-the-processes-of-evolution/01-descent-with-modification
+Slug: evo101/chapter-2/descent-with-modification
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/descent-with-modification/
 Source_title: Descent with modification
 Author: mortezagk

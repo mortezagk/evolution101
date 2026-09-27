@@ -1,7 +1,7 @@
 Title: یک مطالعهٔ موردی در هم‌فرگشتی
 Date: 2025-11-06 00:30
 Category: فصل دوم: سازوکارها
-Slug: 2-mechanisms-the-processes-of-evolution/20-a-case-study-of-coevolution-squirrels-birds-and-the-pinecones-they-love
+Slug: evo101/chapter-2/a-case-study-of-coevolution-squirrels-birds-and-the-pinecones-they-love
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/a-case-study-of-coevolution-squirrels-birds-and-the-pinecones-they-love/
 Source_title: A case study of coevolution: squirrels, birds, and the pinecones they love
 Author: mortezagk
