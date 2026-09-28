@@ -11,7 +11,25 @@
    "About" uses ltr), so its text, headings and lists read the right way round
    on an otherwise right-to-left site. #}
 <section id="content" class="body"{% if page.direction %} dir="{{ page.direction }}"{% endif %}>
-        <h1 class="entry-title">{{ page.title }}</h1>
+        <h1 class="entry-title">
+                <a href="{{ SITEURL }}/{{ page.url }}"
+                        rel="bookmark"
+                        title="Permalink to {{ page.title|striptags }}">
+                        {{ page.title }}
+                </a>
+        </h1>
+        {# A glossary term's English original, under its Persian title. #}
+        {% if page.term and page.term != page.title %}
+        <p class="entry-original" lang="en" dir="ltr">{{ page.term }}</p>
+        {% endif %}
+        {# Glossary terms not yet checked by hand; flipping Translated to yes
+           removes the note. #}
+        {% if page.translated == 'no' %}
+        <div class="info-box">
+                <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
+                ترجمهٔ این واژه با مدل زبانی Claude Opus 5.5 انجام شده و هنوز بازبینی نشده است.
+        </div>
+        {% endif %}
         {{ page.content }}
         {% if page.source %}
         <p class="source-note">

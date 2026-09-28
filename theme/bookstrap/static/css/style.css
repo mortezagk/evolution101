@@ -252,6 +252,15 @@ main ul ol {
 	margin-bottom: 0;
 }
 
+/* Numbered lists count in Persian digits, except inside English text. */
+main ol {
+	list-style-type: persian;
+}
+
+main [dir="ltr"] ol {
+	list-style-type: decimal;
+}
+
 /* The one-line question under each chapter in the Evolution 101 list */
 .chapter-summary {
 	display: block;
