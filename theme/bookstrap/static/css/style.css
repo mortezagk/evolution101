@@ -520,6 +520,73 @@ main hr {
 	font-weight: 700;
 }
 
+/* The Digging Data sections, under the chapters: a dropdown in the colours of
+   the sections themselves, so it reads as something apart from the book's
+   page list. */
+
+.digging-nav {
+	margin-top: 0.75rem;
+	background: var(--site-note-bg);
+	border: 1px solid var(--site-note-border);
+	border-top: 4px solid var(--site-teal);
+	border-radius: 0.5rem;
+}
+
+.digging-nav__summary {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.5rem 0.75rem;
+	color: var(--site-teal-dark);
+	font-size: 0.95rem;
+	font-weight: 700;
+	list-style: none;
+	cursor: pointer;
+}
+
+.digging-nav__summary::-webkit-details-marker {
+	display: none;
+}
+
+.digging-nav__summary:focus-visible {
+	outline: 2px solid var(--site-teal);
+	outline-offset: 2px;
+	border-radius: 0.4rem;
+}
+
+.digging-nav__chevron {
+	margin-right: auto;
+	font-size: 0.8rem;
+	transition: transform 0.2s ease;
+}
+
+.digging-nav[open] .digging-nav__chevron {
+	transform: rotate(180deg);
+}
+
+.digging-nav__list {
+	list-style: none;
+	margin: 0;
+	padding: 0 0.4rem 0.5rem;
+}
+
+.digging-nav__list a {
+	display: block;
+	padding: 0.35rem 0.6rem;
+	border-radius: 0.4rem;
+	text-decoration: none;
+}
+
+.digging-nav__list a:hover {
+	background: var(--site-hover-bg);
+}
+
+.digging-nav__list a.is-current {
+	background: var(--site-teal-light);
+	color: var(--site-teal-dark);
+	font-weight: 700;
+}
+
 /* Footer */
 
 .site-footer {
@@ -736,6 +803,7 @@ main .source-note a:hover,
 
 /* "Digging Data" research sections, styled after the original site */
 .digging-data {
+	scroll-margin-top: 5rem; /* the sidebar links jump here; clear the navbar */
 	margin: 2.5rem 0 1.5rem;
 	padding: 0 1.5rem 1.25rem;
 	background: var(--site-note-bg);

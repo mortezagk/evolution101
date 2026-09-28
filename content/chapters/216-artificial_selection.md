@@ -15,7 +15,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ![محصولات زراعیِ گوناگونی که با انتخاب مصنوعی از خردل وحشی پدید آمده‌اند](https://evolution.berkeley.edu/wp-content/uploads/2021/03/brassica_artificial_selection.jpg){: width="2512" height="2421" loading="lazy" }
 <div class="caption" markdown="1">چپ: خردل وحشی. راست: گل‌کلم (انتخاب برای عقیم بودنِ گل‌ها)، بروکلی (انتخاب برای سرکوبِ رشدِ گل)، کلم (انتخاب برای کوتاه شدنِ میان‌گره‌ها)، کلم قمری (انتخاب برای تقویتِ مریستم جانبی) و کلم برگ یا کِیل (انتخاب برای بزرگ شدنِ برگ‌ها).<br>*عکس خردل از Pat Holroyd، سایر عکس‌ها از Helina Chin.*</div>
 
-<section class="digging-data" markdown="1">
+<section class="digging-data" id="digging-data" markdown="1">
 <p class="digging-data__banner"><img src="https://evolution.berkeley.edu/wp-content/themes/understandingevo-2020/images/Shovel_DiggingData.png" alt="کندوکاو در داده‌ها (Digging Data)"></p>
 
 ## کندوکاو در داده‌ها[^۳]: انتخاب مصنوعی

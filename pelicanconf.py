@@ -205,7 +205,28 @@ def to_json(value):
     return json.dumps(value, ensure_ascii=False)
 
 
+DIGGING_DATA = re.compile(
+    r'<section class="digging-data" id="([^"]+)"[^>]*>.*?<h2[^>]*>(.*?)</h2>', re.S)
+
+
+def digging_data(articles):
+    """The chapters' Digging Data sections, in book order, for the sidebar:
+    (article, anchor id, title), the title being what follows the colon in
+    «کندوکاو در داده‌ها: …»."""
+
+    found = []
+    for article in sorted(articles, key=lambda a: a.source_path):
+        match = DIGGING_DATA.search(article.content)
+        if not match:
+            continue
+        heading = re.sub(r'<sup.*?</sup>|<[^>]+>', '', match.group(2), flags=re.S)
+        title = unescape(heading).split(':', 1)[-1].strip()
+        found.append((article, match.group(1), title))
+    return found
+
+
 JINJA_FILTERS = {
+    'digging_data': digging_data,
     'glossary_groups': glossary_groups,
     'glossary_key': glossary_key,
     'persian_digits': persian_digits,

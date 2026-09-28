@@ -23,7 +23,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 ![رادیواکتیو](https://evolution.berkeley.edu/wp-content/uploads/2021/10/radioactive-sign-300x298.png){: width="220" height="219" loading="lazy" }
 
-<section class="digging-data" markdown="1">
+<section class="digging-data" id="digging-data" markdown="1">
 <p class="digging-data__banner"><img src="https://evolution.berkeley.edu/wp-content/themes/understandingevo-2020/images/Shovel_DiggingData.png" alt="کندوکاو در داده‌ها (Digging Data)"></p>
 
 ## کندوکاو در داده‌ها[^۱]: عوامل جهش
