@@ -97,6 +97,7 @@ main a:hover,
 .navbar-brand__name {
 	margin-right: 0.5rem;
 	font-size: 1.05rem;
+	font-weight: 700;
 }
 
 @media (min-width: 48em) {
@@ -196,12 +197,26 @@ main h1, main h2, main h3, main h4, main h5, main h6 {
 	line-height: 1.2;
 }
 
+/* Every page title looks like a chapter's, whose title is a link to itself;
+   titles that are not links (home, search, the glossary index) take the same
+   colour. */
 main h1 {
 	margin-bottom: 0.625rem;
 	font-size: 1.875rem;
+	font-weight: 700;
+	color: rgb(var(--bs-link-color-rgb));
 }
 
 /* The article title links to the page itself and keeps the link blue. */
+/* A glossary term's English original, faded, just under its title. On a
+   right-to-left page it still sits at the right, below the title's start. */
+.entry-original {
+	margin: -0.25rem 0 1.25rem;
+	color: var(--site-text-faint);
+	font-size: 1.1rem;
+	text-align: right;
+}
+
 main h1 a,
 main h1 a:hover {
 	text-decoration: none;
@@ -232,6 +247,13 @@ main h6 {
 
 main p {
 	margin: 0 0 1.875rem;
+}
+
+/* A sentence that introduces a list sits close to it. Markdown needs the
+   blank line between them, so the gap is closed here; a paragraph that is
+   only an image keeps its space. */
+main p:has(+ ul, + ol):not(:has(img)) {
+	margin-bottom: 0.5rem;
 }
 
 main ul,
@@ -289,14 +311,12 @@ main table img {
 :root[data-theme="dark"] main :where(p, figure, td, th) > img,
 :root[data-theme="dark"] main > img {
 	background: #ffffff;
-	border-radius: 0.25rem;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root:not([data-theme="light"]) main :where(p, figure, td, th) > img,
 	:root:not([data-theme="light"]) main > img {
 		background: #ffffff;
-		border-radius: 0.25rem;
 	}
 }
 
@@ -403,6 +423,13 @@ main hr {
 	margin-bottom: 0.5rem;
 	padding-bottom: 0.5rem;
 	border-bottom: 1px solid var(--site-panel-border);
+}
+
+/* The site's own links, in the navbar and at the top of the sidebar, are
+   bold like the chapter covers; the chapter pages under a cover are not. */
+.navbar .nav-link,
+.sidebar-links a {
+	font-weight: 700;
 }
 
 .sidebar-links a,
@@ -663,6 +690,7 @@ main table tbody tr:nth-child(even) {
 	padding-top: 0.75rem;
 	border-top: 1px dashed var(--site-rule);
 	font-size: 0.9rem;
+	text-align: left;
 }
 
 .source-note a {
