@@ -35,4 +35,4 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 لطفاً برای هر چیزی که به نظرتان نادرست می‌آید -غلط تایپی، جمله‌ای نارسا، یا پیوندی شکسته- یک Issue باز کنید، یا اگر دوست دارید خودتان آن را درست کنید، Pull Request بفرستید.
 
-در صورت نیاز به نشانی iranevolution101@gmail.com ایمیل بزنید.
+در صورت نیاز به نشانی [iranevolution101@gmail.com](mailto:iranevolution101@gmail.com) ایمیل بزنید.

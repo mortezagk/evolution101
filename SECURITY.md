@@ -20,7 +20,7 @@ We take all security vulnerabilities in this project seriously. If you discover 
 Please report vulnerabilities through one of the following methods:
 
 1.  **GitHub Security Advisories (Preferred):** You can create a private vulnerability report by going to the "Security" tab of the repository and clicking "Report a vulnerability". This is the most secure and direct way to reach us.
-2.  **Email:** Send an email to `iranevolution101@gmail.com` with the subject line "Security Vulnerability Report".
+2.  **Email:** Send an email to [iranevolution101@gmail.com](mailto:iranevolution101@gmail.com?subject=Security%20Vulnerability%20Report) with the subject line "Security Vulnerability Report".
 
 Please include the following information in your report:
 
