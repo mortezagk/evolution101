@@ -19,7 +19,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 این سیستم رده‌بندیِ فیلوژنتیکی فقط نام کلادها -گروهی از جانداران که همه از یک نیای مشترک نشأت گرفته‌اند- را عنوان می‌کند. به عنوان مثال، می‌توانیم به طور دقیق‌تر به خزندگان و پرندگان نگاهی بیاندازیم.
 
 ![فیلوژنی‌ای که روابط میان پرندگان، دایناسورهای غیرپرنده و خزندگان را نشان می‌دهد.](https://evolution.berkeley.edu/wp-content/uploads/2021/12/15_01_How_to_classify-1-500x411.png){: width="500" height="411" loading="lazy" }
-<div class="caption" markdown="1">نوک شاخه‌ها (از چپ به راست): مارها، مارمولک‌های ایگوآنایی[^۹]، گکوها[^۱۰]، لاکپشت‌ها، پرندگان، دایناسورهای غیرپرنده[^۱۱] و کروکودیل‌ها. محور عمودی: زمان.<br>*درخت برگرفته از: Irisarri, I., Baurain, D., Brinkmann, H., Delsuc, F., Sire, J.-Y., Kupfer, A., … and Philippe, H., 2017. Phylotranscriptomic consolidation of the jawed vertebrate timetree. Nat Ecol Evol 1, 1370–1378.*</div>
+<div class="caption" markdown="1">نوک شاخه‌ها (از چپ به راست): مارها، مارمولک‌های ایگوآنایی[^۹]، گکوها[^۱۰]، لاکپشت‌ها، پرندگان، دایناسورهای غیرپرنده[^۱۱] و کروکودیل‌ها. محور عمودی: زمان.<br>*درخت برگرفته از:<br>Irisarri, I., Baurain, D., Brinkmann, H., Delsuc, F., Sire, J.-Y., Kupfer, A., … and Philippe, H., 2017. Phylotranscriptomic consolidation of the jawed vertebrate timetree. Nat Ecol Evol 1, 1370–1378.*</div>
 
 در یک سیستم رده‌بندی فیلوژنتیکی، می‌توانیم هر کدام از کلادهای روی درخت را نام‌گذاری کنیم. برای مثال، Testudines، Squamata، Archosauria و Crocodylomorpha هر کدام یک کلاد هستند.
 
@@ -29,7 +29,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 اما، خزندگان یک کلاد را تشکیل نمی‌دهند، همان‌گونه که در کلادوگرام[^۱۲] نشان داده شده. از این رو یا «خزنده» یک دسته‌بندی فیلوژنتیکیِ معتبر نیست یا از این به بعد باید پرندگان را به عنوان خزنده در نظر بگیریم.
 
 ![فیلوژنی‌ای که نشان می‌دهد خزندگان یک کلاد را تشکیل نمی‌دهند.](https://evolution.berkeley.edu/wp-content/uploads/2021/12/15_03_How_to_classify_15_-500x452.png){: width="500" height="452" loading="lazy" }
-<div class="caption" markdown="1">برچسبِ خط‌خورده بالای کادر: «خزندگان». کادر همهٔ نسب‌ها به جز پرندگان را در بر می‌گیرد.</div>
+<div class="caption" markdown="1">برچسبِ خط‌خورده بالای کادر: «خزندگان».<br>کادر همهٔ نسب‌ها به جز پرندگان را در بر می‌گیرد.</div>
 
 یک نکتهٔ جالب دیگر این که از نظر رده‌بندی فیلوژنتیکی دایناسورها کاملاً منقرض نشده‌اند. پرندگان در واقع دایناسور هستند (عضوی از کلاد Dinosauria). خیلی جالب است، وقتی به این فکر می‌کنید که با مطالعهٔ پرندگان می‌توانید در مورد تی‌رکس اطلاعات کسب کنید!
 

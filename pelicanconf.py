@@ -52,7 +52,7 @@ OUTPUT_PATH = str((BASE_DIR / '_build').resolve())
 DELETE_OUTPUT_DIRECTORY = os.getenv('PELICAN_CLEAN_OUTPUT', '1') == '1'
 
 PATH = 'content'
-STATIC_PATHS = ['extra']
+STATIC_PATHS = ['extra', 'images']
 # Chapters are articles; the glossary entries are pages, like the about and
 # search pages, so they carry no category and stay out of the chapter nav.
 ARTICLE_PATHS = ['chapters']

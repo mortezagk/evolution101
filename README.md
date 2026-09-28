@@ -61,6 +61,9 @@ also works when opened straight from disk.
 - Figures are not stored in this repository: each image links to the file
   on evolution.berkeley.edu, at the size the original page shows it, e.g.
   `![alt](https://evolution.berkeley.edu/wp-content/uploads/…/x.png){: width="500" height="185" loading="lazy" }`.
+  The exception is `content/images/`, for figures the original has no file
+  for (e.g. `tree.png`, a screenshot of the zoom interactive in chapter 3),
+  linked as `{static}/images/<name>`.
 
 ---
 
