@@ -1,4 +1,4 @@
-Title: تتراپاد
+Title: چهاراندام
 Date: 2026-09-27
 Slug: glossary/tetrapod
 Term: tetrapod

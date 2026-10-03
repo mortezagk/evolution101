@@ -5,14 +5,10 @@ Term: allopatric speciation
 Source: https://evolution.berkeley.edu/glossary/allopatric-speciation/
 Source_title: allopatric speciation
 Author: mortezagk
-Translated: no
+Translated: yes
 
 <div class="term-translation" markdown="1">
-گونه‌زایی‌ای که برای شروع یا تکمیل فرایند گونه‌زایی، وابسته به مانعی خارجی در مقابل جریان ژن (مانند انزوای جغرافیایی) است.
-</div>
-
-<div class="term-original" lang="en" dir="ltr" markdown="1">
-Speciation that depends on an external barrier to gene flow (such as geographic isolation) to begin or complete the process of speciation.
+نوعی از گونه‌زایی که شروع یا تکمیل فرایندش به مانعی خارجی در مقابل جریان ژن (مانند انزوای جغرافیایی) وابسته است.
 </div>
 
 ## در این صفحه‌ها آمده است

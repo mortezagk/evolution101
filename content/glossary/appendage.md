@@ -5,12 +5,8 @@ Term: appendage
 Source: https://evolution.berkeley.edu/glossary/appendage/
 Source_title: appendage
 Author: mortezagk
-Translated: no
+Translated: yes
 
 <div class="term-translation" markdown="1">
-هر اندامی که از بدن بیرون آمده باشد. برای مثال، دست‌ها و پاها زائده هستند. قطعات دهانیِ بندپایان اغلب برآمدگی‌هایی کوچک از بدن‌اند که از اندام‌ها مشتق شده‌اند، و بنابراین زائده به شمار می‌آیند.
-</div>
-
-<div class="term-original" lang="en" dir="ltr" markdown="1">
-Any limb that extends from the body. Arms and legs, for example, are appendages. Arthropods’ mouthparts are often small, limb-derived extensions of the body, and so are considered appendages.
+هر اندام حرکتی که از بدن بیرون می‌زند. برای مثال، دست‌ها و پاها زائده‌اند. قطعات دهانیِ بندپایان هم اغلب برآمدگی‌های کوچکی از بدن‌اند که از اندام‌های حرکتی فرگشت یافته‌اند و از همین رو زائده به شمار می‌آیند.
 </div>
