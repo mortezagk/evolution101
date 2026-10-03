@@ -38,7 +38,7 @@
       <h2 class="glossary-letter__heading">{{ letter }}</h2>
       <ul class="glossary-list">
         {% for term in group %}
-        <li class="glossary-list__item">
+        <li class="glossary-list__item" data-term="{{ term.slug.split('/')[-1] }}">
           <a href="{{ SITEURL }}/{{ term.url }}">
             <span class="glossary-list__term">{{ term.title }}</span>
             {% if term.term and term.term != term.title %}
@@ -63,7 +63,7 @@
       <h2 class="glossary-letter__heading">{{ letter }}</h2>
       <ul class="glossary-list">
         {% for term in group %}
-        <li class="glossary-list__item">
+        <li class="glossary-list__item" data-term="{{ term.slug.split('/')[-1] }}">
           <a href="{{ SITEURL }}/{{ term.url }}">
             <span class="glossary-list__term">{{ term.term or term.title }}</span>
             {% if term.term and term.term != term.title %}

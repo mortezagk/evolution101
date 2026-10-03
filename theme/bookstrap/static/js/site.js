@@ -142,11 +142,34 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     buttons.forEach(function (button) {
       var current = button.dataset.script === script;
+  // Remember the choice; if storage is blocked, Persian order shows.
+  var STORE = 'glossary-script';
+
       button.classList.toggle('is-current', current);
       button.setAttribute('aria-pressed', current ? 'true' : 'false');
     });
+      try { localStorage.setItem(STORE, button.dataset.script); } catch (e) { /* no storage */ }
   }
 
+
+  var saved = null;
+  try { saved = localStorage.getItem(STORE); } catch (e) { /* no storage */ }
+  if (saved === 'fa' || saved === 'en') {
+    show(saved);
+  }
+
+  // Back from a term (…/glossary/#<term>): scroll to it and highlight it.
+  var wanted = decodeURIComponent(window.location.hash.slice(1));
+  if (wanted) {
+    var items = document.querySelectorAll('.glossary-index:not([hidden]) .glossary-list__item');
+    for (var i = 0; i < items.length; i++) {
+      if (items[i].dataset.term === wanted) {
+        items[i].scrollIntoView({ block: 'center' });
+        items[i].classList.add('is-returned');
+        break;
+      }
+    }
+  }
   buttons.forEach(function (button) {
     button.addEventListener('click', function () {
       show(button.dataset.script);

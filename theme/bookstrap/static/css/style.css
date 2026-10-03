@@ -1123,6 +1123,23 @@ main p:has(+ .caption) + .caption {
 	gap: 0.3rem;
 	margin-bottom: 1.5rem;
 	padding-bottom: 1rem;
+/* The term the reader just came back from: highlighted, then fading out. */
+.glossary-list__item.is-returned a {
+	animation: glossary-returned 2.5s ease-out;
+}
+
+@keyframes glossary-returned {
+	from { background: var(--site-teal-light); }
+	to { background: transparent; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.glossary-list__item.is-returned a {
+		animation: none;
+		background: var(--site-teal-light);
+	}
+}
+
 	border-bottom: 1px solid var(--site-panel-border);
 }
 

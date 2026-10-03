@@ -22,8 +22,13 @@
         {% if page.term and page.term != page.title %}
         <p class="entry-original" lang="en" dir="ltr">{{ page.term }}</p>
         {% endif %}
-        {# Glossary terms not yet checked by hand; flipping Translated to yes
-           removes the note. #}
+        {# Back to the glossary, scrolled to this term. #}
+        {% if page.slug.startswith('glossary/') %}
+        <nav class="page-nav page-nav--top" aria-label="بازگشت به واژه‌نامه">
+                <a class="page-nav__pill" href="{{ SITEURL }}/glossary/index.html#{{ page.slug.split('/')[-1] }}"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i> واژه‌نامه</a>
+        </nav>
+        {% endif %}
+        {# Shown until the term is marked Translated: yes. #}
         {% if page.translated == 'no' %}
         <div class="info-box">
                 <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
