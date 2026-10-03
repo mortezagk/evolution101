@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-در فرگشت، وضعیتی که در آن قرار گرفتن تحت انتخاب طبیعیِ بهبوددهندهٔ عملکرد در یک زمینه (برای مثال، جذب جفت با دُمی بسیار بلند) هم‌زمان به معنای کاهش عملکرد در زمینه‌ای دیگر (برای مثال، گریز از شکارچیان) است. برای جزئیات بیشتر، [دربارهٔ بده‌بستان‌ها](https://evolution.berkeley.edu/misconceptions-about-natural-selection-and-adaptation/the-limitations-of-natural-selection/) (به انگلیسی) بخوانید.
+در فرگشت، وضعیتی که در آن انتخاب طبیعی عملکرد را در یک زمینه (برای مثال، جذب جفت با دُمی بسیار بلند) بهبود می‌دهد و این بهبود هم‌زمان به معنای کاهش عملکرد در زمینه‌ای دیگر (برای مثال، گریز از شکارچیان) است. برای جزئیات بیشتر، [دربارهٔ بده‌بستان‌ها](https://evolution.berkeley.edu/misconceptions-about-natural-selection-and-adaptation/the-limitations-of-natural-selection/) (به انگلیسی) بخوانید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

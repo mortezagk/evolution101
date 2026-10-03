@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-نظامی از جفت‌گیری که در آن احتمال جفت‌گیریِ یک فرد با هر فرد دیگرِ جمعیت یکسان است، صرف‌نظر از ژنوتیپِ آن فرد.
+نظامی از جفت‌گیری که در آن هر فرد، صرف‌نظر از ژنوتیپش، با احتمال یکسان با هر فرد دیگرِ جمعیت جفت‌گیری می‌کند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

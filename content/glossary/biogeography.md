@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-مطالعهٔ اینکه جانداران کجا زندگی می‌کنند و چطور ساکن همان‌جایی شده‌اند که در آن زندگی می‌کنند.
+مطالعهٔ اینکه جانداران کجا زندگی می‌کنند و چطور ساکن آنجا شده‌اند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

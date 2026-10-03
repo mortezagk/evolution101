@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-ذخیرهٔ پرباری از [فسیل‌های]({filename}fossil.md) [دورهٔ کامبرین]({filename}cambrian-period.md) در غرب کانادا. این بسترِ فسیلی از آن رو بسیار ارزشمند است که بخش‌های نرمِ بسیاری از جاندارانِ دریازی، که به‌ندرت فسیل می‌شوند، همراه با بخش‌های سختشان (مثلاً [اسکلت بیرونی]({filename}exoskeleton.md)) در این سنگ‌ها حفظ شده‌اند.
+ذخیرهٔ پرباری از [فسیل‌های]({filename}fossil.md) [دورهٔ کامبرین]({filename}cambrian-period.md) در غرب کانادا. این بسترِ فسیلی از آن رو بسیار ارزشمند است که در این سنگ‌ها بخش‌های نرمِ بسیاری از جاندارانِ دریازی همراه با بخش‌های سختشان (مثلاً [اسکلت بیرونی]({filename}exoskeleton.md)) حفظ شده‌اند؛ بخش‌هایی که به‌ندرت فسیل می‌شوند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

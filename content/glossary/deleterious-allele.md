@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-نسخه‌ای از یک ژن که به طور میانگین سازواریِ جانداری را که آن را حمل می‌کند کاهش می‌دهد.
+نسخه‌ای از یک ژن که به طور میانگین سازواریِ جاندارِ حاملِ خود را کاهش می‌دهد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

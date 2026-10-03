@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-ناحیه‌ای از DNA که به RNA رونویسی می‌شود. اگزون‌ها همهٔ نواحیِ رمزگذارِ پروتئین در یک ژنوم، به‌علاوهٔ نواحی‌ای را که rRNA و tRNA را رمزگذاری می‌کنند، در بر می‌گیرند.
+ناحیه‌ای از DNA که به RNA رونویسی می‌شود. اگزون‌ها همهٔ نواحیِ رمزگذارِ پروتئین در یک ژنوم را در بر می‌گیرند، به‌علاوهٔ نواحی‌ای که rRNA و tRNA را رمزگذاری می‌کنند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

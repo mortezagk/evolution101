@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-رویدادی که در آن نسب‌های مختلفِ بسیاری در حدود یک زمان [منقرض]({filename}extinction.md) می‌شوند. نرخ انقراض در انقراض‌های بزرگ بیشتر از نرخ معمولِ انقراضِ زمینه‌ای بوده است که همیشه در جریان است. برای توضیح مفصل‌تر، [منبع ما دربارهٔ انقراض‌های بزرگ در فرگشت ۱۰۱](https://evolution.berkeley.edu/mass-extinctions/) (به انگلیسی) را ببینید.
+رویدادی که در آن بسیاری از نسب‌های مختلف کمابیش هم‌زمان [منقرض]({filename}extinction.md) می‌شوند. انقراضِ زمینه‌ای همیشه در جریان است، اما نرخ انقراض در انقراض‌های بزرگ از نرخ معمولِ آن بیشتر بوده است. برای توضیح مفصل‌تر، [منبع ما دربارهٔ انقراض‌های بزرگ در فرگشت ۱۰۱](https://evolution.berkeley.edu/mass-extinctions/) (به انگلیسی) را ببینید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

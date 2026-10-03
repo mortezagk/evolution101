@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-حالتی از یک ویژگی که بلافاصله پس از تغییرِ حالتِ آن ویژگی، در یک نسب وجود دارد.
+حالتی از یک ویژگی که در یک نسب، بلافاصله پس از تغییرِ حالتِ آن، وجود دارد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

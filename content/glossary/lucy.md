@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-نامی که به یک [هومینیدِ]({filename}hominid.md) مادهٔ خاص (از [گونهٔ]({filename}species.md) *Australopithecus afarensis*) داده شده است که حدود سه میلیون سال پیش در جایی که اکنون اتیوپی است زندگی می‌کرد. «لوسی» از آن رو مشهور است که اسکلت فسیل‌شدهٔ بسیار کاملی از خود بر جای گذاشت که در سال ۱۹۷۴ پیدا شد.
+نامی که به یک [هومینیدِ]({filename}hominid.md) مادهٔ خاص (از [گونهٔ]({filename}species.md) *Australopithecus afarensis*) داده شده است. او حدود سه میلیون سال پیش در جایی زندگی می‌کرد که اکنون اتیوپی است. «لوسی» از آن رو مشهور است که اسکلت فسیل‌شدهٔ بسیار کاملی از خود بر جای گذاشت که در سال ۱۹۷۴ پیدا شد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

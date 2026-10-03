@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-روشی برای تعیین زمانی که یک سنگ آذرین در آن جامد شده است، بر اساس سرعت واپاشیِ اتم‌های پرتوزای درون آن سنگ. برای توضیح بیشتر، [منبع ما دربارهٔ سن‌سنجی پرتوسنجانه](https://evolution.berkeley.edu/radiometric-dating/) (به انگلیسی) را ببینید.
+روشی برای تعیین زمانِ جامد شدنِ یک سنگ آذرین بر اساس سرعت واپاشیِ اتم‌های پرتوزای درون آن. برای توضیح بیشتر، [منبع ما دربارهٔ سن‌سنجی پرتوسنجانه](https://evolution.berkeley.edu/radiometric-dating/) (به انگلیسی) را ببینید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">
