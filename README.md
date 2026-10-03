@@ -2,85 +2,55 @@
 
 [![CC BY-NC-SA 4.0](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
+<div dir="rtl">
+
 این پروژه، ترجمهٔ فارسی وب‌سایت [Understanding Evolution](https://evolution.berkeley.edu/) متعلق به دانشگاه برکلی است.
 
 **[می‌توانید نسخهٔ آنلاین را اینجا بخوانید.](https://evolution101.ir/)**
+
+### 🤝 مشارکت
+
+برای مشارکت، اصلاح خطاها، یا بهبود گرافیک‌ها، لطفاً یک «Issue» باز کنید یا «Pull Request» بفرستید.
+
+### ⚖️ مجوز و حق نشر
+
+**محتوای اصلی:** © UC Museum of Paleontology Understanding Evolution، [www.understandingevolution.org](https://www.understandingevolution.org)
+
+**این ترجمه:** این ترجمه، به‌عنوان اثری اقتباسی، تحت مجوز [کریتیو کامنز «انتساب-غیرتجاری-اشتراک همسان» ۴٫۰ بین‌المللی](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fa) منتشر شده است.
+
+</div>
+
+---
+
+## 🛠️ Technical note
+
+Built with [Pelican](https://getpelican.com/) on Python 3.12.
+
+```bash
+python -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+pelican content                        # build into _build/
+pelican content --listen --autoreload  # preview at localhost:8000
+python scripts/check_links.py _build   # check internal links (CI does too)
+```
+
+- `content/chapters/NNN-*.md`: one page each (chapter digit, then position; `x00` is the cover). The address comes from `Slug`, e.g. `evo101/chapter-4/cospeciation/`.
+- `content/glossary/*.md`: one term each; set `Translated: yes` once checked.
+- Images link to evolution.berkeley.edu; `content/images/` holds the few the original lacks.
+- Link between pages with `{filename}NNN-name.md`.
+
+---
 
 This project is a Persian translation of UC Berkeley's [Understanding Evolution](https://evolution.berkeley.edu/) website.
 
 **[You can read the live version here.](https://evolution101.ir/)**
 
----
-
-## 🛠️ ساخت و پیش‌نمایش (Building and previewing)
-
-The site is built with [Pelican](https://getpelican.com/) (Python 3.12, see `.python-version`).
-
-```bash
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-
-# Build into _build/ exactly as CI does (any warning fails the build):
-pelican content -s pelicanconf.py --fatal warnings
-
-# Check that every internal link resolves (CI runs this after each build and
-# won't deploy if a link is broken):
-python scripts/check_links.py _build
-
-# Check that every image hotlinked from evolution.berkeley.edu loads (CI runs
-# this on every pull request and weekly; see .github/workflows/check-images.yml):
-python scripts/check_links.py --images _build
-
-# Preview at http://localhost:8000 with rebuild on save:
-pelican content -s pelicanconf.py --listen --autoreload
-```
-
-Every link points at a real `index.html` file, so the built `_build/` folder
-also works when opened straight from disk.
-
-### Content layout
-
-- `content/pages/index.md`: the home page, listing every section.
-- `content/chapters/NNN-name.md`: one file per page. The first digit is the
-  chapter (0 is the introduction, 1-6 the chapters) and the next two digits
-  its position; `x00` is the chapter's cover page.
-- Each page's address is `evo101/chapter-<N>/<page slug>/`, e.g.
-  `evo101/chapter-4/cospeciation/`, taken from its `Slug` metadata. The page slug is
-  the last part of the original page's path on evolution.berkeley.edu; a
-  chapter cover (and the introduction, as chapter 0) is the chapter folder
-  itself, e.g. `evo101/chapter-4/`.
-- Search and the about pages sit at the root: `search/`, `about/`,
-  `about-en/`.
-- `Source` / `Source_title` name the original page, linked as «منبع ⎋» after
-  the footnotes.
-- Search runs in the browser over `search-index.js`, which the build writes
-  from every page's text (`theme_overrides/templates/search_index.html`,
-  `theme/bookstrap/static/js/search.js`); no Google indexing needed.
-- Link to another page with `{filename}NNN-name.md` so links follow any
-  future address change.
-- Figures are not stored in this repository: each image links to the file
-  on evolution.berkeley.edu, at the size the original page shows it, e.g.
-  `![alt](https://evolution.berkeley.edu/wp-content/uploads/…/x.png){: width="500" height="185" loading="lazy" }`.
-  The exception is `content/images/`, for figures the original has no file
-  for (e.g. `tree.png`, a screenshot of the zoom interactive in chapter 3),
-  linked as `{static}/images/<name>`.
-
----
-
-## 🤝 مشارکت (Contribution)
-
-برای مشارکت، اصلاح خطاها، یا بهبود گرافیک‌ها، لطفاً یک «Issue» باز کنید یا «Pull Request» بفرستید.
+### 🤝 Contribution
 
 To contribute, fix typos, or improve graphics, please open an issue or submit a pull request.
 
----
+### ⚖️ License and Attribution
 
-## ⚖️ مجوز و حق نشر (License and Attribution)
+**Original content:** © UC Museum of Paleontology Understanding Evolution, [www.understandingevolution.org](https://www.understandingevolution.org)
 
-**محتوای اصلی / Original Content:**
-<br>
-© UC Museum of Paleontology Understanding Evolution, [www.understandingevolution.org](https://www.understandingevolution.org)
-
-**این ترجمه / This Translation:**
-<br>
-This translation (as a derivative work) is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+**This translation:** This translation (as a derivative work) is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
