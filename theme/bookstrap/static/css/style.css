@@ -862,6 +862,16 @@ main .caption p {
 	margin: 0;
 }
 
+/* The image's paragraph would otherwise keep its full bottom margin, leaving
+   the caption far from the figure it belongs to. */
+main p:has(+ .caption) {
+	margin-bottom: 0;
+}
+
+main p:has(+ .caption) + .caption {
+	margin: 0.4rem 0 1.875rem;
+}
+
 /* Search page */
 
 /* Where to search: the book, the glossary or both. Radio inputs, drawn like
