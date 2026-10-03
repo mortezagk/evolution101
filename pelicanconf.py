@@ -269,9 +269,29 @@ def mark_latin_footnotes(instance):
         instance._content = latin_footnotes(instance._content)
 
 
+# Links that leave the site (an English article on the original site, a tool
+# credited on the about page) open in a new tab, so the reader keeps their
+# place here. Links within the site, relative or to our own domain, stay as
+# they are.
+EXTERNAL_LINK = re.compile(r'<a href="https?://([^/"]*)[^"]*"(?![^>]*\btarget=)')
+SITE_HOST = re.sub(r'^https?://(www\.)?', '', CANONICAL_SITEURL).split('/')[0]
+
+
+def external_links_new_tab(instance):
+    def mark(match):
+        host = match.group(1).lower().removeprefix('www.')
+        if host == SITE_HOST:
+            return match.group(0)
+        return match.group(0) + ' target="_blank" rel="noopener"'
+
+    if instance._content:
+        instance._content = EXTERNAL_LINK.sub(mark, instance._content)
+
+
 def register():
     from pelican import signals
     signals.content_object_init.connect(mark_latin_footnotes)
+    signals.content_object_init.connect(external_links_new_tab)
 
 
 PLUGINS = [sys.modules[__name__]]
