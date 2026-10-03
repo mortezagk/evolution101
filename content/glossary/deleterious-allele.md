@@ -1,5 +1,5 @@
 Title: آلل زیان‌آور
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/deleterious-allele
 Term: deleterious allele
 Source: https://evolution.berkeley.edu/glossary/deleterious-allele/

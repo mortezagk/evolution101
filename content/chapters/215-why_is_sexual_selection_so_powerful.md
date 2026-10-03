@@ -1,5 +1,5 @@
 Title: چرا انتخاب جنسی اینقدر قدرتمند است؟
-Date: 2025-11-06 00:24
+Date: 2026-09-25
 Category: فصل دوم: سازوکارها
 Slug: evo101/chapter-2/why-is-sexual-selection-so-powerful
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/why-is-sexual-selection-so-powerful/

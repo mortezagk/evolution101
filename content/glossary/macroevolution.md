@@ -1,5 +1,5 @@
 Title: فرگشت کلان
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/macroevolution
 Term: macroevolution
 Source: https://evolution.berkeley.edu/glossary/macroevolution/

@@ -1,5 +1,5 @@
 Title: سنتز مدرن
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/modern-synthesis
 Term: modern synthesis
 Source: https://evolution.berkeley.edu/glossary/modern-synthesis/

@@ -1,5 +1,5 @@
 Title: جفت‌گیری غیرتصادفی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/non-random-mating
 Term: non-random mating
 Source: https://evolution.berkeley.edu/glossary/non-random-mating/

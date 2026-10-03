@@ -1,5 +1,5 @@
 Title: فرگشت همگرا
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/convergent-evolution
 Term: convergent evolution
 Source: https://evolution.berkeley.edu/glossary/convergent-evolution/

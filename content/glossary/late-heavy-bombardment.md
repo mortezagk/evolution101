@@ -1,5 +1,5 @@
 Title: بمباران سنگین پسین
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/late-heavy-bombardment
 Term: Late Heavy Bombardment
 Source: https://evolution.berkeley.edu/glossary/late-heavy-bombardment/

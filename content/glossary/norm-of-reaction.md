@@ -1,5 +1,5 @@
 Title: هنجار واکنش
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/norm-of-reaction
 Term: norm of reaction
 Source: https://evolution.berkeley.edu/glossary/norm-of-reaction/

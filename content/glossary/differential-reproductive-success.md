@@ -1,5 +1,5 @@
 Title: کامیابی تولیدمثلی افتراقی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/differential-reproductive-success
 Term: differential reproductive success
 Source: https://evolution.berkeley.edu/glossary/differential-reproductive-success/

@@ -1,5 +1,5 @@
 Title: سیارک
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/asteroid
 Term: asteroid
 Source: https://evolution.berkeley.edu/glossary/asteroid/

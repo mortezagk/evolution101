@@ -1,5 +1,5 @@
 Title: آمیزش تصادفی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/random-mating
 Term: random mating
 Source: https://evolution.berkeley.edu/glossary/random-mating/

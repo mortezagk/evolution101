@@ -1,5 +1,5 @@
 Title: هاتن، جیمز
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/hutton-james
 Term: Hutton, James
 Source: https://evolution.berkeley.edu/glossary/hutton-james/

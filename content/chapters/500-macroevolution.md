@@ -1,5 +1,5 @@
 Title: فرگشت کلان
-Date: 2025-11-06 00:42
+Date: 2020-01-17
 Category: فصل پنجم: فرگشت کلان
 Slug: evo101/chapter-5
 Source: https://evolution.berkeley.edu/evolution-101/macroevolution/

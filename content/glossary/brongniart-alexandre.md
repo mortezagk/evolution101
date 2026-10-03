@@ -1,5 +1,5 @@
 Title: برونیار، الکساندر
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/brongniart-alexandre
 Term: Brongniart, Alexandre
 Source: https://evolution.berkeley.edu/glossary/brongniart-alexandre/

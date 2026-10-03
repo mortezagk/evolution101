@@ -1,5 +1,5 @@
 Title: پزشکی فرگشتی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/evolutionary-medicine
 Term: evolutionary medicine
 Source: https://evolution.berkeley.edu/glossary/evolutionary-medicine/

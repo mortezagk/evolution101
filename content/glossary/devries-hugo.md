@@ -1,5 +1,5 @@
 Title: دوفریس، هوگو
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/devries-hugo
 Term: DeVries, Hugo
 Source: https://evolution.berkeley.edu/glossary/devries-hugo/

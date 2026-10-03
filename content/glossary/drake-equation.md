@@ -1,5 +1,5 @@
 Title: معادلهٔ دریک
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/drake-equation
 Term: Drake Equation
 Source: https://evolution.berkeley.edu/glossary/drake-equation/

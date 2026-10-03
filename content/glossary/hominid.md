@@ -1,5 +1,5 @@
 Title: هومینید
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/hominid
 Term: hominid
 Source: https://evolution.berkeley.edu/glossary/hominid/

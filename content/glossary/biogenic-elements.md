@@ -1,5 +1,5 @@
 Title: عناصر زیست‌زاد
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/biogenic-elements
 Term: biogenic elements
 Source: https://evolution.berkeley.edu/glossary/biogenic-elements/

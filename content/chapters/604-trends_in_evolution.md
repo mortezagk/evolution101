@@ -1,5 +1,5 @@
 Title: روندها در فرگشت
-Date: 2025-11-06 00:49
+Date: 2020-01-17
 Category: فصل ششم: مسائل مهم
 Slug: evo101/chapter-6/trends-in-evolution
 Source: https://evolution.berkeley.edu/evolution-101/the-big-issues/trends-in-evolution/

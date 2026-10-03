@@ -1,5 +1,5 @@
 Title: فیلوژنی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/phylogeny
 Term: phylogeny
 Source: https://evolution.berkeley.edu/glossary/phylogeny/

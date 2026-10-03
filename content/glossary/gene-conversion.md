@@ -1,5 +1,5 @@
 Title: تبدیل ژنی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/gene-conversion
 Term: gene conversion
 Source: https://evolution.berkeley.edu/glossary/gene-conversion/

@@ -1,5 +1,5 @@
 Title: نظریهٔ خنثی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/neutral-theory
 Term: neutral theory
 Source: https://evolution.berkeley.edu/glossary/neutral-theory/

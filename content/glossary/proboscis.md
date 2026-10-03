@@ -1,5 +1,5 @@
 Title: خرطوم
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/proboscis
 Term: proboscis
 Source: https://evolution.berkeley.edu/glossary/proboscis/

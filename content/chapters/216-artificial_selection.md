@@ -1,5 +1,5 @@
 Title: انتخاب مصنوعی
-Date: 2025-11-06 00:26
+Date: 2020-01-17
 Category: فصل دوم: سازوکارها
 Slug: evo101/chapter-2/artificial-selection
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/artificial-selection/

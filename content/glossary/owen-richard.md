@@ -1,5 +1,5 @@
 Title: اوون، ریچارد
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/owen-richard
 Term: Owen, Richard
 Source: https://evolution.berkeley.edu/glossary/owen-richard/

@@ -1,5 +1,5 @@
 Title: میتوکندری
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/mitochondrion
 Term: mitochondrion
 Source: https://evolution.berkeley.edu/glossary/mitochondrion/

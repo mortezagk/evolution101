@@ -1,5 +1,5 @@
 Title: هومولوژی/ساختار هومولوگ
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/homology-homologous-structure
 Term: homology/homologous structure
 Source: https://evolution.berkeley.edu/glossary/homology-homologous-structure/

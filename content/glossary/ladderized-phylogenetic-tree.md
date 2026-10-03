@@ -1,5 +1,5 @@
 Title: درخت فیلوژنتیکیِ نردبانی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/ladderized-phylogenetic-tree
 Term: ladderized phylogenetic tree
 Source: https://evolution.berkeley.edu/glossary/ladderized-phylogenetic-tree/

@@ -1,5 +1,5 @@
 Title: حالت نیایی ویژگی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/ancestral-character-state
 Term: ancestral character state
 Source: https://evolution.berkeley.edu/glossary/ancestral-character-state/

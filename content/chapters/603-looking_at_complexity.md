@@ -1,5 +1,5 @@
 Title: نگاهی به پیچیدگی
-Date: 2025-11-06 00:48
+Date: 2020-01-17
 Category: فصل ششم: مسائل مهم
 Slug: evo101/chapter-6/looking-at-complexity
 Source: https://evolution.berkeley.edu/evolution-101/the-big-issues/looking-at-complexity/

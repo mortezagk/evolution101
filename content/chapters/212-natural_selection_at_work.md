@@ -1,5 +1,5 @@
 Title: انتخاب طبیعی در عمل
-Date: 2025-11-06 00:23
+Date: 2020-01-17
 Category: فصل دوم: سازوکارها
 Slug: evo101/chapter-2/natural-selection-at-work
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/natural-selection-at-work/

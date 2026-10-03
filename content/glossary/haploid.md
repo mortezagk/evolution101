@@ -1,5 +1,5 @@
 Title: هاپلوئید
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/haploid
 Term: haploid
 Source: https://evolution.berkeley.edu/glossary/haploid/

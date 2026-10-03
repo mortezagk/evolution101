@@ -1,5 +1,5 @@
 Title: جایگاه
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/locus
 Term: locus
 Source: https://evolution.berkeley.edu/glossary/locus/

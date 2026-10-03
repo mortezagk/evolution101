@@ -1,5 +1,5 @@
 Title: تاکسون پایانی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/terminal-taxon
 Term: terminal taxon
 Source: https://evolution.berkeley.edu/glossary/terminal-taxon/

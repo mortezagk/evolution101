@@ -1,5 +1,5 @@
 Title: گروه‌های خواهری
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/sister-groups
 Term: sister groups
 Source: https://evolution.berkeley.edu/glossary/sister-groups/

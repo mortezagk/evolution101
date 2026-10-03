@@ -1,5 +1,5 @@
 Title: نسخهٔ غالبِ ژن
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/dominant-gene-version
 Term: dominant gene version
 Source: https://evolution.berkeley.edu/glossary/dominant-gene-version/

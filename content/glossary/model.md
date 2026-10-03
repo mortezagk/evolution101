@@ -1,5 +1,5 @@
 Title: مدل
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/model
 Term: model
 Source: https://evolution.berkeley.edu/glossary/model/

@@ -1,5 +1,5 @@
 Title: فرضیهٔ ملکهٔ سرخ
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/red-queen-hypothesis
 Term: Red Queen hypothesis
 Source: https://evolution.berkeley.edu/glossary/red-queen-hypothesis/

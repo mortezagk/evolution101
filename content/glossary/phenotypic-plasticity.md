@@ -1,5 +1,5 @@
 Title: انعطاف‌پذیری فنوتیپی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/phenotypic-plasticity
 Term: phenotypic plasticity
 Source: https://evolution.berkeley.edu/glossary/phenotypic-plasticity/

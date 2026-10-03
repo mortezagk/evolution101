@@ -1,5 +1,5 @@
 Title: نزدیک‌ترین نیای مشترک
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/most-recent-common-ancestor
 Term: most recent common ancestor
 Source: https://evolution.berkeley.edu/glossary/most-recent-common-ancestor/

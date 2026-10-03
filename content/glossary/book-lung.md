@@ -1,5 +1,5 @@
 Title: شش کتابی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/book-lung
 Term: book lung
 Source: https://evolution.berkeley.edu/glossary/book-lung/

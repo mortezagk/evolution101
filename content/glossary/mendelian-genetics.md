@@ -1,5 +1,5 @@
 Title: ژنتیک مندلی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/mendelian-genetics
 Term: Mendelian genetics
 Source: https://evolution.berkeley.edu/glossary/mendelian-genetics/

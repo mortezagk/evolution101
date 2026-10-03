@@ -1,5 +1,5 @@
 Title: ویژگی اختیاری
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/facultative-trait
 Term: facultative trait
 Source: https://evolution.berkeley.edu/glossary/facultative-trait/

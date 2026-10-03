@@ -1,5 +1,5 @@
 Title: واگرایش سازشی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/adaptive-radiation
 Term: adaptive radiation
 Source: https://evolution.berkeley.edu/glossary/adaptive-radiation/

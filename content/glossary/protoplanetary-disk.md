@@ -1,5 +1,5 @@
 Title: قرص پیش‌سیاره‌ای
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/protoplanetary-disk
 Term: protoplanetary disk
 Source: https://evolution.berkeley.edu/glossary/protoplanetary-disk/

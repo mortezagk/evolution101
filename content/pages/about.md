@@ -1,5 +1,5 @@
 Title: درباره
-Date: 2025-11-06 00:00
+Date: 2020-01-04
 Slug: about
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی

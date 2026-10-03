@@ -1,5 +1,5 @@
 Title: گوشت‌خوار
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/carnivore
 Term: carnivore
 Source: https://evolution.berkeley.edu/glossary/carnivore/

@@ -1,5 +1,5 @@
 Title: گونه‌زایی موازی
-Date: 2025-11-06 00:41
+Date: 2020-01-17
 Category: فصل چهارم: گونه‌زایی
 Slug: evo101/chapter-4/cospeciation
 Source: https://evolution.berkeley.edu/evolution-101/speciation/cospeciation/

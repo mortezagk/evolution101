@@ -1,5 +1,5 @@
 Title: اگزون
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/exon
 Term: exon
 Source: https://evolution.berkeley.edu/glossary/exon/

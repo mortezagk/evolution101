@@ -1,5 +1,5 @@
 Title: شکل میانی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/intermediate-form
 Term: intermediate form
 Source: https://evolution.berkeley.edu/glossary/intermediate-form/
