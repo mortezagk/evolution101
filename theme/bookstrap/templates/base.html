@@ -24,8 +24,7 @@
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
   <link rel="icon" href="{{ SITEURL }}/theme/images/favicon.ico">
 
-  {# Runs before the first paint, so a saved choice never flashes the other
-     theme. Everything else about the toggle lives in site.js. #}
+  {# Before first paint, so a saved theme never flashes; the rest is in site.js. #}
   <script>
     (function () {
       try {
@@ -45,8 +44,7 @@
     <div class="site-container">
       <a class="navbar-brand" href="{{ SITEURL }}/index.html" aria-label="خانه">
         <i class="fa-solid fa-house" aria-hidden="true"></i>
-        {# Once the menu folds into the burger the bar says nothing about the
-           site, so the name appears beside the house there. #}
+        {# Site name, shown only when the menu is folded. #}
         <span class="navbar-brand__name">{{ SITENAME }}</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#site-nav" aria-controls="site-nav" aria-expanded="false" aria-label="نمایش منو">

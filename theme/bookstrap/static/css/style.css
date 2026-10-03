@@ -8,17 +8,12 @@
 	font-display: swap;
 }
 
-/* Type and layout follow the original site's article pages
-   (evolution.berkeley.edu, "Understanding Evolution: content page style
-   reference"): one layout breakpoint at 960px, a 1140px page with the text
-   column at 65% and the sidebar at 30%. Sizes are in rem/em rather than the
-   original's px, so they match it exactly at the default 16px browser font
-   size but grow with the reader's font-size setting. Colours are our own:
-   article titles stay link blue and headings use the text colour. The Persian font
-   (Sahel) replaces Source Sans Pro; left/right are mirrored for RTL. */
+/* Layout follows the original site's article pages: one breakpoint at 960px,
+   a 1140px page, text 65% and sidebar 30%. Sizes in rem/em, so they match at
+   16px but follow the reader's font size. Sahel replaces Source Sans Pro;
+   left/right are mirrored for RTL. */
 
-/* Colours are named by what they are for, not by their value, so the dark
-   theme further down only has to redefine this list. */
+/* Colours named by role, so the dark theme only redefines this list. */
 
 :root {
 	--site-teal: #17a391;
@@ -50,9 +45,7 @@
 	--bs-body-line-height: 1.625;
 	--bs-body-color: var(--site-text);
 	--bs-body-bg: var(--site-page-bg);
-	/* The darker green rather than --site-teal itself: the bright teal reads
-	   at only 3.1:1 on white, below the 4.5:1 wanted for text. The glyphs keep
-	   the bright one, being large. */
+	/* The darker green: bright teal is only 3.1:1 on white. Icons keep it. */
 	--bs-link-color-rgb: 17, 105, 95;
 	--bs-link-hover-color-rgb: 11, 74, 67;
 }
@@ -61,20 +54,9 @@ body {
 	padding-top: 4rem; /* fixed navbar, which measures about 3.85rem */
 }
 
-/* Jumping to a footnote and back. The navbar is fixed, so the browser scrolls
-   the target to the very top of the window, where the bar then covers it —
-   most noticeably on a phone, where the bar takes up more of the screen.
-   scroll-margin-top keeps that much space above the target instead: the bar's
-   height (it measures about 3.7rem, a little more than the padding above
-   allows for) plus a line of breathing room, so the footnote is clearly in
-   view rather than flush against the bar.
-
-   Set on the targets themselves rather than on :target, which only matches
-   once the fragment is current and so does not apply to the jump that is
-   about to happen. Limited to what is actually jumped to — the footnote
-   entries, the markers the backrefs return to, and the headings the table of
-   contents links to — so it never affects the sidebar or navbar, which carry
-   ids of their own but are only ever scrolled past. */
+/* The navbar is fixed, so a jump would land the target under it. Keep the
+   bar's height plus a line clear above. Set on the jump targets themselves
+   (not :target, which applies too late), and only on them. */
 
 .footnote > ol > li[id],
 .entry-content [id^="fnref:"],
@@ -91,8 +73,7 @@ main a:hover,
 	text-decoration: underline;
 }
 
-/* The site name sits beside the house only while the menu is collapsed:
-   above the breakpoint the links themselves say where you are. */
+/* Site name beside the house only when the menu is collapsed. */
 
 .navbar-brand__name {
 	margin-right: 0.5rem;
@@ -111,8 +92,7 @@ main a:hover,
 	vertical-align: -3px;
 }
 
-/* The theme switch is a button among the navbar's links, so it has to be
-   stripped back to look like one of them. */
+/* The theme button, made to look like the other nav links. */
 
 .theme-toggle {
 	border: 0;
@@ -120,13 +100,11 @@ main a:hover,
 	cursor: pointer;
 }
 
-/* The switch sits apart from the links, at the far end of the bar. Once the
-   menu collapses into the burger the list is stacked, so it goes back to
-   being just another row. */
+/* The theme button sits at the far end of the bar; in the collapsed menu it
+   is just another row. */
 
 @media (min-width: 48em) {
-	/* The menu takes the width left over by the brand, and the list fills it,
-	   so the auto margin below has room to push the switch to the far end. */
+	/* The menu takes the remaining width, so the switch can be pushed to the end. */
 	.navbar > .site-container > .navbar-collapse {
 		flex: 1 1 auto;
 	}
@@ -197,9 +175,7 @@ main h1, main h2, main h3, main h4, main h5, main h6 {
 	line-height: 1.2;
 }
 
-/* Every page title looks like a chapter's, whose title is a link to itself;
-   titles that are not links (home, search, the glossary index) take the same
-   colour. */
+/* All page titles look like a chapter's (bold, link colour), links or not. */
 main h1 {
 	margin-bottom: 0.625rem;
 	font-size: 1.875rem;
@@ -208,8 +184,7 @@ main h1 {
 }
 
 /* The article title links to the page itself and keeps the link blue. */
-/* A glossary term's English original, faded, just under its title. On a
-   right-to-left page it still sits at the right, below the title's start. */
+/* A glossary term's English original, faded, under its title. */
 .entry-original {
 	margin: -0.25rem 0 1.25rem;
 	color: var(--site-text-faint);
@@ -249,9 +224,8 @@ main p {
 	margin: 0 0 1.875rem;
 }
 
-/* A sentence that introduces a list sits close to it. Markdown needs the
-   blank line between them, so the gap is closed here; a paragraph that is
-   only an image keeps its space. */
+/* An intro sentence sits close to its list (Markdown needs the blank line);
+   image paragraphs keep their space. */
 main p:has(+ ul, + ol):not(:has(img)) {
 	margin-bottom: 0.5rem;
 }
@@ -301,12 +275,9 @@ main table img {
 	margin: 0.5rem auto;
 }
 
-/* In the dark theme the figures keep the white background Berkeley drew them
-   on. Most are opaque and already white, so this shows on the ones that are
-   not: a transparent diagram would otherwise be black lines on a black page.
-   Applied to every figure rather than only those, since CSS cannot ask which
-   are transparent, and on an opaque white image it cannot be seen.
-   The logo is excluded: it is white artwork meant for the dark bar. */
+/* Dark theme: figures keep a white backdrop, or transparent diagrams would be
+   black on black. Applied to all (CSS can't tell which are transparent);
+   invisible on opaque ones. Not the logo. */
 
 :root[data-theme="dark"] main :where(p, figure, td, th) > img,
 :root[data-theme="dark"] main > img {
@@ -332,37 +303,17 @@ main hr {
 	margin: 0;
 }
 
-/* Entries are a mix: some are an English term on its own ("Lineage"), others
-   an English term with a Persian gloss ("Phylogeny: روابط فرگشتی…"). The
-   paragraph stays right-to-left for both, which is what the mixed ones need:
-   the gloss is Persian prose that merely opens with an English term, and the
-   bidi algorithm already lays it out correctly, sentence-final period and all.
-
-   The one thing that goes wrong is the "↩" backref on an all-English entry.
-   The paragraph is right-to-left, so its last run ends at the left margin and
-   the backref sits to the *left* of the term ("↩ Lineage") rather than after
-   it. `plaintext` on the paragraph would fix those, but it would also take its
-   direction from the first strong character, flipping every "English term:
-   Persian gloss" entry to left-to-right and throwing the gloss's final period
-   to the start of a line. Only an entry with no Persian at all should change
-   direction, so the build marks those with .footnote-latin (see
-   `latin_footnotes` in pelicanconf.py) and just those read left-to-right.
-
-   The class sits on the <li> rather than the paragraph inside it, because the
-   list marker is drawn by the item: turning only the paragraph leaves the
-   number behind on the right. */
+/* Footnotes stay right-to-left (right for "Term: Persian gloss"), except
+   English-only ones, marked .footnote-latin at build time: there the ↩ would
+   otherwise land before the term. On the <li>, so the number moves too. */
 
 .footnote > ol > li.footnote-latin {
 	direction: ltr;
 	text-align: left;
 }
 
-/* Footnote numbers in Persian digits. Python-Markdown numbers footnotes in
-   order of first use and writes those numbers as Latin digits, both in the
-   text (<sup>1</sup>) and as the <ol>'s own markers; the [^۱] labels in the
-   source only become the link ids, and the two can differ (the twelfth label
-   used tenth shows as 10). So both sides are renumbered here instead, from
-   the same document order the markup already has, which keeps them in step. */
+/* Persian footnote numbers. Python-Markdown writes Latin digits in order of
+   first use, so both markers and list are renumbered here in document order. */
 
 @counter-style persian-footnotes {
 	system: numeric;
@@ -373,11 +324,8 @@ main hr {
 	list-style: persian-footnotes;
 }
 
-/* The <sup> marker's number is literal text, so it is replaced by a counter
-   over the markers themselves (in document order, matching the list).
-   `visibility: hidden` would leave the Latin digit's own width behind and show
-   as a gap after the word, so the text is dropped from the line altogether
-   (zero font-size) and the Persian digit drawn in ::before instead. */
+/* The <sup>'s Latin digit is shrunk to nothing (hiding it would leave a gap)
+   and a Persian counter drawn in ::before. */
 
 .entry-content {
 	counter-reset: footnote-marker;
@@ -387,8 +335,7 @@ main hr {
 	font-size: 0;
 }
 
-/* Back to the <sup>'s own size. em would compound with the 0 above, so the
-   size is taken from the paragraph and scaled by Bootstrap's sup rule. */
+/* Back to <sup> size, from the paragraph (em would compound with the 0). */
 
 .footnote-ref::before {
 	counter-increment: footnote-marker;
@@ -425,8 +372,7 @@ main hr {
 	border-bottom: 1px solid var(--site-panel-border);
 }
 
-/* The site's own links, in the navbar and at the top of the sidebar, are
-   bold like the chapter covers; the chapter pages under a cover are not. */
+/* Navbar and top sidebar links bold, like chapter covers; chapter pages not. */
 .navbar .nav-link,
 .sidebar-links a {
 	font-weight: 700;
@@ -520,9 +466,7 @@ main hr {
 	font-weight: 700;
 }
 
-/* The Digging Data sections, under the chapters: a dropdown in the colours of
-   the sections themselves, so it reads as something apart from the book's
-   page list. */
+/* Digging Data dropdown, in the sections' own colours. */
 
 .digging-nav {
 	margin-top: 0.75rem;
@@ -704,12 +648,6 @@ main .page-nav__card:hover,
 
 .page-nav__card:hover .page-nav__arrow {
 	color: var(--site-teal);
-/* Links in the text that leave the site (pelicanconf.py marks them) */
-.external-link::after {
-	content: "\00a0⎋";
-	font-size: 0.85em;
-}
-
 }
 
 @media (max-width: 35.999em) {
@@ -766,6 +704,12 @@ main table tbody tr:nth-child(even) {
 	text-align: left;
 }
 
+/* Links in the text that leave the site (pelicanconf.py marks them) */
+.external-link::after {
+	content: "\00a0⎋";
+	font-size: 0.85em;
+}
+
 .source-note a {
 	color: var(--site-teal-dark);
 	border-bottom: 1px dotted currentColor;
@@ -778,9 +722,7 @@ main .source-note a:hover,
 	text-decoration: none;
 }
 
-/* A note set apart from the text: a translation choice, a caveat, anything
-   worth pausing on. The bar sits on the right, where a right-to-left line
-   starts. */
+/* A note set apart from the text, bar on the right where RTL lines start. */
 
 .info-box {
 	margin: 2rem 0;
@@ -852,8 +794,7 @@ main .source-note a:hover,
 	width: 100%;
 }
 
-/* Figure captions: 14px, centred under the image or table (the original
-   site aligns them to the side; centring keeps them next to narrow images) */
+/* Captions: centred under the figure (the original aligns them to the side). */
 .caption {
 	margin: 0.5em 0 1em;
 	padding: 0 0.625rem;
@@ -868,8 +809,7 @@ main .caption p {
 	margin: 0;
 }
 
-/* The image's paragraph would otherwise keep its full bottom margin, leaving
-   the caption far from the figure it belongs to. */
+/* Captions sit close to their image. */
 main p:has(+ .caption) {
 	margin-bottom: 0;
 }
@@ -880,8 +820,7 @@ main p:has(+ .caption) + .caption {
 
 /* Search page */
 
-/* Where to search: the book, the glossary or both. Radio inputs, drawn like
-   the glossary's ordering switch. */
+/* Search scope: radio inputs drawn like the glossary's ordering switch. */
 .search-scope {
 	display: flex;
 	gap: 0.5rem;
@@ -963,14 +902,11 @@ main p:has(+ .caption) + .caption {
 	font-size: 0.9rem;
 }
 
-/* Dark theme. Only the colour list at the top is redefined; every rule in
-   between is already written in terms of it. Declared once and applied from
-   two places: the reader's system setting, unless they have chosen light
-   here, and the navbar button, which sets data-theme on <html>. */
+/* Dark theme: only the colour list is redefined. Applied by the system
+   setting (unless light was chosen) or the navbar button's data-theme. */
 
 @media (prefers-color-scheme: dark) {
-	/* Form controls and scrollbars follow this, and it is what makes the
-	   search box dark before site.js has set Bootstrap's own attribute. */
+	/* Also darkens form controls before site.js sets Bootstrap's attribute. */
 	:root:not([data-theme="light"]) {
 		color-scheme: dark;
 
@@ -1129,23 +1065,6 @@ main p:has(+ .caption) + .caption {
 	gap: 0.3rem;
 	margin-bottom: 1.5rem;
 	padding-bottom: 1rem;
-/* The term the reader just came back from: highlighted, then fading out. */
-.glossary-list__item.is-returned a {
-	animation: glossary-returned 2.5s ease-out;
-}
-
-@keyframes glossary-returned {
-	from { background: var(--site-teal-light); }
-	to { background: transparent; }
-}
-
-@media (prefers-reduced-motion: reduce) {
-	.glossary-list__item.is-returned a {
-		animation: none;
-		background: var(--site-teal-light);
-	}
-}
-
 	border-bottom: 1px solid var(--site-panel-border);
 }
 
@@ -1204,6 +1123,23 @@ main p:has(+ .caption) + .caption {
 	text-decoration: none;
 }
 
+/* The term the reader just came back from: highlighted, then fading out. */
+.glossary-list__item.is-returned a {
+	animation: glossary-returned 2.5s ease-out;
+}
+
+@keyframes glossary-returned {
+	from { background: var(--site-teal-light); }
+	to { background: transparent; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.glossary-list__item.is-returned a {
+		animation: none;
+		background: var(--site-teal-light);
+	}
+}
+
 .glossary-list__term {
 	font-weight: 700;
 }
@@ -1213,8 +1149,7 @@ main p:has(+ .caption) + .caption {
 	color: var(--site-text-faint);
 }
 
-/* A term's definition: the Persian first, then the English it came from. The
-   two share a shape, with the original set quieter. */
+/* A term's definition: Persian first, then the quieter English original. */
 
 .term-translation {
 	margin: 1.25rem 0;

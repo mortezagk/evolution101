@@ -24,17 +24,15 @@ def persian_digits(value):
 AUTHOR = 'mortezagk'
 SITENAME = 'فرگشت ۱۰۱'
 SITEURL = os.getenv('SITEURL', 'https://evolution101.ir')
-# Absolute site address for canonical links; SITEURL itself becomes relative
-# in templates when RELATIVE_URLS is on.
+# Absolute address for canonical links; SITEURL goes relative in templates.
 CANONICAL_SITEURL = SITEURL.rstrip('/')
 
 BASE_DIR = Path(__file__).resolve().parent
 
 
 def last_updated():
-    """Date of the latest commit (YYYY-MM-DD), shown in the footer. The monthly
-    scheduled rebuild changes nothing, so the build date would say too much;
-    outside a git checkout, fall back to today."""
+    """Latest commit date for the footer (today outside git). Not the build
+    date: the monthly scheduled rebuild changes nothing."""
 
     try:
         out = subprocess.run(['git', 'log', '-1', '--format=%cs'], cwd=BASE_DIR,
@@ -53,8 +51,7 @@ DELETE_OUTPUT_DIRECTORY = os.getenv('PELICAN_CLEAN_OUTPUT', '1') == '1'
 
 PATH = 'content'
 STATIC_PATHS = ['extra', 'images']
-# Chapters are articles; the glossary entries are pages, like the about and
-# search pages, so they carry no category and stay out of the chapter nav.
+# Chapters are articles; glossary terms are pages, so they stay out of the chapter nav.
 ARTICLE_PATHS = ['chapters']
 PAGE_PATHS = ['pages', 'glossary']
 FILENAME_METADATA = r'(?P<section>\d)(?P<section_index>\d{2})-.*'
@@ -67,8 +64,7 @@ EXTRA_PATH_METADATA = {
 
 TIMEZONE = 'Asia/Tehran'
 DEFAULT_LANG = 'fa'
-# C.UTF-8 exists on every modern Linux, so the build never warns (and never
-# fails under --fatal warnings) on machines without fa/en locales.
+# C.UTF-8 always exists, so a missing fa/en locale never fails the build.
 LOCALE = ('fa_IR.UTF-8', 'en_US.UTF-8', 'C.UTF-8')
 DEFAULT_DATE_FORMAT = '%Y/%m/%d'
 
@@ -87,22 +83,16 @@ THEME_TEMPLATES_OVERRIDES = ['theme_overrides/templates']
 
 ARTICLE_ORDER_BY = 'source_path'
 
-# Addresses are evo101/chapter-<N>/<page slug>/, e.g.
-# evo101/chapter-4/cospeciation/, the page slug being the last part of the
-# original page's address. Each chapter file's Slug holds that path (a chapter
-# cover, and the introduction as chapter 0, is just the chapter folder). Links
-# point at index.html explicitly so the built site also works when opened
-# straight from disk.
+# evo101/chapter-<N>/<page>/, from each file's Slug; a cover is the chapter
+# folder itself. Links name index.html so the site also works from disk.
 ARTICLE_URL = '{slug}/index.html'
 ARTICLE_SAVE_AS = '{slug}/index.html'
 
-# Pages follow the same shape, so a glossary entry whose Slug is
-# glossary/amino-acid is served at /glossary/amino-acid/.
+# Same shape for pages, e.g. glossary/amino-acid/.
 PAGE_URL = '{slug}/index.html'
 PAGE_SAVE_AS = '{slug}/index.html'
 
-# Category slugs (ch0-ch6) only feed the sidebar's open/closed state; the
-# category, tag, author and archive listing pages themselves are not built.
+# Category slugs (ch0–ch6) only mark the sidebar's open chapter; listing pages aren't built.
 CATEGORY_REGEX_SUBSTITUTIONS = [(r'(mqdmh)', 'ch0'),
                                 (r'(fsl wl: lgwh)', 'ch1'),
                                 (r'(fsl dwm: szwkhrh)', 'ch2'),
@@ -114,12 +104,10 @@ CATEGORY_REGEX_SUBSTITUTIONS = [(r'(mqdmh)', 'ch0'),
 
 MARKDOWN = {
     'extension_configs': {
-        # extra brings footnotes, attr_list, tables and md_in_html with it.
+        # extra: footnotes, attr_list, tables, md_in_html.
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
-        # toc gives the headings their ids, which the footnote and heading
-        # links point at. No page uses a [TOC] marker, so the table itself is
-        # never generated.
+        # toc: heading ids for links (no page uses [TOC]).
         'markdown.extensions.toc': {'permalink': ''},
     },
     'output_format': 'html5',
@@ -131,8 +119,7 @@ JINJA_ENVIRONMENT = {
 }
 
 def plain_text(html, length=None):
-    """Visible text of *html* without footnote markers or images, optionally
-    shortened to about *length* characters at a word boundary."""
+    """Visible text of *html*, without footnote markers; cut at a word near *length*."""
 
     html = re.sub(r'<sup[^>]*>.*?</sup>', '', html or '', flags=re.S)
     text = re.sub(r'<[^>]+>', ' ', html)
@@ -142,11 +129,10 @@ def plain_text(html, length=None):
     return text
 
 
-# The Persian alphabet in its own order. Unicode puts پ، چ، ژ، گ after ی,
-# so sorting by codepoint would file those words at the very end.
+# Persian alphabet order; by codepoint پ چ ژ گ would sort after ی.
 PERSIAN_ALPHABET = 'آابپتثجچحخدذرزژسشصضطظعغفقکگلمنوهی'
 PERSIAN_ORDER = {letter: index for index, letter in enumerate(PERSIAN_ALPHABET)}
-# Forms that differ only by spelling or by a mark readers do not type.
+# Spelling variants, and marks readers don't type.
 PERSIAN_EQUIVALENT = str.maketrans({
     'أ': 'ا', 'إ': 'ا', 'ٱ': 'ا', 'ء': 'ا',
     'ي': 'ی', 'ى': 'ی', 'ك': 'ک', 'ۀ': 'ه', 'ة': 'ه',
@@ -158,8 +144,7 @@ PERSIAN_EQUIVALENT = str.maketrans({
 
 
 def glossary_key(title):
-    """Sort a glossary heading: Persian first in its own alphabet, then the
-    ones written in Latin (ATP, DNA, people's names), each alphabetically."""
+    """Sort key: Persian headings in Persian order, then Latin ones (ATP, DNA)."""
 
     text = str(title).translate(PERSIAN_EQUIVALENT).strip()
     if not text:
@@ -171,11 +156,7 @@ def glossary_key(title):
 
 
 def glossary_groups(pages, script='fa'):
-    """The glossary terms grouped under their initial letter, ready to list.
-
-    `fa` groups by the Persian heading in the Persian alphabet; `en` by the
-    original English term, A-Z. A heading written in Latin (ATP, DNA, a
-    person's name) is filed under that letter in both."""
+    """Glossary terms grouped by initial: `fa` by Persian title, `en` by English term."""
 
     terms = [p for p in pages if getattr(p, 'slug', '').startswith('glossary/')]
     groups = {}
@@ -199,8 +180,7 @@ def glossary_groups(pages, script='fa'):
 
 
 def to_json(value):
-    """JSON for the search index, keeping Persian text as UTF-8 rather than
-    \\uXXXX escapes (a third of the size)."""
+    """JSON with Persian kept as UTF-8 (a third the size of \\u escapes)."""
 
     return json.dumps(value, ensure_ascii=False)
 
@@ -210,9 +190,7 @@ DIGGING_DATA = re.compile(
 
 
 def digging_data(articles):
-    """The chapters' Digging Data sections, in book order, for the sidebar:
-    (article, anchor id, title), the title being what follows the colon in
-    «کندوکاو در داده‌ها: …»."""
+    """Digging Data sections in book order: (article, anchor, title after the colon)."""
 
     found = []
     for article in sorted(articles, key=lambda a: a.source_path):
@@ -234,18 +212,11 @@ JINJA_FILTERS = {
     'to_json': to_json,
 }
 
-# Footnote entries come in two kinds: an English term on its own ("Lineage")
-# and an English term with a Persian gloss ("Phylogeny: روابط فرگشتی…"). Both
-# sit in a right-to-left list, which is what the glossed ones want. The
-# all-English ones do not: their last run ends at the left margin, so the "↩"
-# backref lands to the left of the term instead of after it. CSS cannot ask
-# whether an entry has Persian in it, so the ones that have none are marked
-# here and style.css turns just those left-to-right.
+# English-only footnotes ("Lineage") get class footnote-latin so style.css can
+# set them left-to-right; otherwise the ↩ lands before the term, not after.
 
 PERSIAN_RANGE = re.compile(r'[؀-ۿ]')
-# The class goes on the <li>, not the paragraph inside it: the list marker is
-# drawn by the item, so the number only moves with the text when the item
-# itself is left-to-right.
+# On the <li>, so the list number moves with the text.
 FOOTNOTE_ENTRY = re.compile(r'(<li id="fn:[^"]*")(>)(.*?)(</li>)', re.S)
 
 
@@ -254,8 +225,7 @@ def latin_footnotes(content):
 
     def mark(match):
         open_tag, close_bracket, body, end = match.groups()
-        # The backref's title ("Jump back to footnote 1 in the text") is
-        # English but never displayed, so it must not count as content.
+        # The backref's English title isn't visible text.
         visible = re.sub(r'<a class="footnote-backref".*?</a>', '', body, flags=re.S)
         if PERSIAN_RANGE.search(visible):
             return match.group(0)
@@ -296,8 +266,7 @@ PLUGINS = [sys.modules[__name__]]
 
 DIRECT_TEMPLATES = ('sitemap', 'search_index')
 SITEMAP_SAVE_AS = 'sitemap.xml'
-# Full text of every page for the on-site search (search/index.html). A .js
-# file rather than JSON so it also loads when the site is opened from disk.
+# Search index as .js rather than JSON, so it also loads from disk.
 SEARCH_INDEX_SAVE_AS = 'search-index.js'
 CATEGORY_SAVE_AS = ''
 TAG_SAVE_AS = ''

@@ -43,8 +43,7 @@
   {% endfor %}
 </ul>
 
-{# The Digging Data sections, each linked straight to its section. Open on a
-   page that has one. #}
+{# Digging Data sections; open on a page that has one. #}
 {% set digs = articles | digging_data %}
 {% if digs %}
 {% set here = namespace(open=False) %}

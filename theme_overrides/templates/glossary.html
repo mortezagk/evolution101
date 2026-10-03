@@ -7,9 +7,8 @@
   {% endif %}
 {% endblock %}
 {% block content %}
-{# Every term is listed twice: once under its Persian initial, once under the
-   initial of the English original. The buttons swap which list is shown;
-   without JavaScript the Persian one stays up. #}
+{# Each term is listed twice, by Persian and by English initial; the switch
+   shows one (Persian without JavaScript). #}
 {% set fa_groups = pages | glossary_groups('fa') %}
 {% set en_groups = pages | glossary_groups('en') %}
 {% set counter = namespace(total=0) %}

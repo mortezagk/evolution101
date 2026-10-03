@@ -4,18 +4,13 @@
   python scripts/check_links.py [_build]           # internal links
   python scripts/check_links.py --images [_build]  # external images
 
-* By default, internal links and images (relative href/src) must point at a
-  file that exists in the build. No network needed; takes a second or two.
-* With --images, external images (<img src="http...">, hotlinked from
-  evolution.berkeley.edu) are checked instead. An image is broken only when
-  its server answers and says so: 404/410 (or another 4xx), or a reply that
-  isn't an image. A server that can't be reached (timeouts, refused or
-  dropped connections, 403/429/5xx) proves nothing about the image, so that
-  is only a warning: Berkeley's firewall drops connections from some GitHub
-  runners. After a few such failures in a row with no success, the rest of
-  that server's images are skipped rather than waited on.
+* Default: every relative href/src must point at a file in the build.
+* --images: external images are fetched instead. Only a 4xx or a non-image
+  reply counts as broken; an unreachable server (timeout, 403/429/5xx) is a
+  warning, since Berkeley's firewall blocks some GitHub runners. After a few
+  failures in a row, that server's remaining images are skipped.
 
-Exits with status 1 and lists every broken link if anything is broken.
+Exits 1 and lists the broken links if there are any.
 """
 
 import argparse
@@ -30,8 +25,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit
 
-# Browser-like headers, so the request is treated like the page's own image
-# requests.
+# Browser-like headers, as the page's own image requests would send.
 HEADERS = {
     'User-Agent': ('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 '
                    '(KHTML, like Gecko) Chrome/140.0 Safari/537.36 '

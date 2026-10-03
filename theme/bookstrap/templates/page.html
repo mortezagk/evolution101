@@ -7,9 +7,7 @@
   {% endif %}
 {% endblock %}
 {% block content %}
-{# A page in another script sets Direction in its metadata (the English
-   "About" uses ltr), so its text, headings and lists read the right way round
-   on an otherwise right-to-left site. #}
+{# Direction metadata (ltr on the English About) sets the page's text direction. #}
 <section id="content" class="body"{% if page.direction %} dir="{{ page.direction }}"{% endif %}>
         <h1 class="entry-title">
                 <a href="{{ SITEURL }}/{{ page.url }}"
