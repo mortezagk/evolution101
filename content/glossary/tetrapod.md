@@ -1,5 +1,5 @@
-Title: تتراپاد
-Date: 2025-11-06 00:00
+Title: چهاراندام
+Date: 2026-09-27
 Slug: glossary/tetrapod
 Term: tetrapod
 Source: https://evolution.berkeley.edu/glossary/tetrapod/

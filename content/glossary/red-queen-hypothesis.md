@@ -1,5 +1,5 @@
 Title: فرضیهٔ ملکهٔ سرخ
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/red-queen-hypothesis
 Term: Red Queen hypothesis
 Source: https://evolution.berkeley.edu/glossary/red-queen-hypothesis/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-این ایده که یک گونه، برای حفظ کُنامی مشخص در یک بوم‌سازگان و حفظ سازواری‌اش نسبت به گونه‌های دیگر، باید پیوسته در حال فرگشت سازشی باشد، زیرا جاندارانی که این گونه با آنها [هم‌فرگشتی]({filename}coevolution.md) دارد، خودشان هم در حال فرگشت سازشی هستند. وقتی گونه‌ها مطابق با فرضیهٔ ملکهٔ سرخ فرگشت می‌یابند، نتیجه اغلب یک [مسابقهٔ تسلیحاتیِ]({filename}arms-race.md) فرگشتی است.
+این ایده که یک گونه باید پیوسته در حال فرگشت سازشی باشد تا کُنامی مشخص در یک بوم‌سازگان و سازواری‌اش نسبت به گونه‌های دیگر را حفظ کند، زیرا جاندارانی که با آنها [هم‌فرگشتی]({filename}coevolution.md) دارد، خودشان هم در حال فرگشت سازشی هستند. وقتی گونه‌ها مطابق با فرضیهٔ ملکهٔ سرخ فرگشت می‌یابند، نتیجه اغلب یک [مسابقهٔ تسلیحاتیِ]({filename}arms-race.md) فرگشتی است.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

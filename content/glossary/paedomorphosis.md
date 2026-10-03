@@ -1,5 +1,5 @@
 Title: کودک‌ریختی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/paedomorphosis
 Term: paedomorphosis
 Source: https://evolution.berkeley.edu/glossary/paedomorphosis/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-داشتن برخی ویژگی‌های مرحلهٔ نابالغِ نیایی در عین بالغ بودن (با دستگاه تولیدمثلیِ بالغ). این واژه به معنای «شکل کودک» است، و تغییر کودک‌ریخت هر تغییر فرگشتی در رشد یک جاندار است که فردی بالغ با «شکل کودک» پدید می‌آورد.
+داشتن برخی ویژگی‌های مرحلهٔ نابالغِ نیایی در عین بالغ بودن (با دستگاه تولیدمثلیِ بالغ). این واژه به معنای «شکل کودک» است. تغییر کودک‌ریخت به هر تغییر فرگشتی در رشد یک جاندار گفته می‌شود که فردی بالغ با «شکل کودک» پدید آورد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

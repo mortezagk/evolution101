@@ -1,5 +1,5 @@
 Title: جفت
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/placenta
 Term: placenta
 Source: https://evolution.berkeley.edu/glossary/placenta/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-در پستانداران جفت‌دار، اندامی که جنین را به دیوارهٔ رحم مادرش متصل می‌کند. مواد مغذی و اکسیژن از راه جفت از مادر به رویانِ در حال رشد می‌رسند و مواد زائد از همین راه به جریان خون مادر بازمی‌گردند.
+اندامی در پستانداران جفت‌دار که جنین را به دیوارهٔ رحم مادرش متصل می‌کند. مواد مغذی و اکسیژن از راه جفت از مادر به رویانِ در حال رشد می‌رسند و مواد زائد از همین راه به جریان خون مادر بازمی‌گردند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

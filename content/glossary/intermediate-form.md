@@ -1,5 +1,5 @@
 Title: شکل میانی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/intermediate-form
 Term: intermediate form
 Source: https://evolution.berkeley.edu/glossary/intermediate-form/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-سازگاری‌ای که تنها بخشی از آن شکل گرفته است. سازگاری‌های پیچیده طی رشته‌ای از گام‌های کوچک‌تر فرگشت می‌یابند و به این گام‌ها در طول تاریخ فرگشتِ یک سازگاری، شکل‌های میانی گفته می‌شود.
+سازگاری‌ای که تنها بخشی از آن شکل گرفته است. سازگاری‌های پیچیده طی رشته‌ای از گام‌های کوچک‌تر فرگشت می‌یابند. به این گام‌ها در تاریخ فرگشتِ یک سازگاری، شکل‌های میانی می‌گویند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

@@ -1,5 +1,5 @@
 Title: تجربهٔ اوایل زندگی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/early-life-experience
 Term: early-life experience
 Source: https://evolution.berkeley.edu/glossary/early-life-experience/

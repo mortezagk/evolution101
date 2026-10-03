@@ -1,5 +1,5 @@
 Title: وراثت همراه با تغییر
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/descent-with-modification
 Term: descent with modification
 Source: https://evolution.berkeley.edu/glossary/descent-with-modification/

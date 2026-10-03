@@ -1,5 +1,5 @@
 Title: جهش رگهٔ زایشی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/germ-line-mutation
 Term: germ line mutation
 Source: https://evolution.berkeley.edu/glossary/germ-line-mutation/

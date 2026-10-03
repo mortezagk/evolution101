@@ -1,5 +1,5 @@
 Title: کلاد
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/clade
 Term: clade
 Source: https://evolution.berkeley.edu/glossary/clade/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-گروهی از جانداران که شامل همهٔ نوادگان یک [نیای مشترک]({filename}common-ancestor.md) و خودِ آن نیا هستند. برای مثال، پرندگان، دایناسورها، کروکودیل‌ها و خویشاوندان منقرض‌شدهٔ آنها یک کلاد را تشکیل می‌دهند. برای توضیح مفصل‌تر، [بخش «درک فیلوژنی‌ها» در فرگشت ۱۰۱]({filename}../chapters/102-understanding_phylogenies.md) را ببینید.
+گروهی از جانداران که یک [نیای مشترک]({filename}common-ancestor.md) و همهٔ نوادگانش را در بر می‌گیرد. برای مثال، پرندگان، دایناسورها، کروکودیل‌ها و خویشاوندان منقرض‌شدهٔ آنها یک کلاد را تشکیل می‌دهند. برای توضیح مفصل‌تر، [بخش «درک فیلوژنی‌ها» در فرگشت ۱۰۱]({filename}../chapters/102-understanding_phylogenies.md) را ببینید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

@@ -3,12 +3,8 @@
 
   python scripts/build_glossary.py [glossary/glossary.jsonl]
 
-One file per term. Each keeps the English definition inside an "original"
-block so it can be translated in place: replace the Persian placeholder above
-it, leave the original for reference, and delete nothing.
-
-Re-running it leaves any file that already exists alone, so translations are
-never overwritten; pass --force to rebuild everything.
+One page per term: an empty Persian block, then the English definition to
+translate from. Existing files are never overwritten; --force rebuilds all.
 """
 
 import argparse
@@ -47,8 +43,7 @@ def local_links(markdown, terms):
 
 
 def blocks_markdown(record, terms):
-    """The entry's body, with its images hotlinked from evolution.berkeley.edu
-    the way the chapters do it, at the size the original page shows them."""
+    """The entry's body; images hotlinked from Berkeley at the original's size."""
     out = []
     for block in record.get('blocks', []):
         kind = block.get('type')
@@ -93,8 +88,7 @@ def page(record, terms, chapters):
         if found:
             used.append(f'- [{found[1]}]({{filename}}../chapters/{found[0]})')
 
-    # The Persian translation first, then the English it came from. Title is
-    # the Persian term once translated; Term keeps the English one.
+    # Title becomes the Persian term once translated; Term keeps the English.
     lines = [
         f'Title: {term}',
         'Date: 2025-11-06 00:00',

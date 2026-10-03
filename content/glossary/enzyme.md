@@ -1,5 +1,5 @@
 Title: آنزیم
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/enzyme
 Term: enzyme
 Source: https://evolution.berkeley.edu/glossary/enzyme/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-پروتئینی که واکنش‌های شیمیایی را هماهنگ و سریع‌تر می‌کند. آنزیم‌ها کارهای ضروری را در سلول‌ها انجام می‌دهند و معمولاً توسط DNA رمزگذاری می‌شوند.
+پروتئینی که واکنش‌های شیمیایی را هماهنگ و سریع‌تر می‌کند. آنزیم‌ها کارهای ضروری را در سلول‌ها انجام می‌دهند و معمولاً DNA آنها را رمزگذاری می‌کند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

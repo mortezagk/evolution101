@@ -1,5 +1,5 @@
 Title: شکل‌های انتقالی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/transitional-forms
 Term: transitional forms
 Source: https://evolution.berkeley.edu/glossary/transitional-forms/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-فسیل‌ها یا جاندارانی که دگرگونی از یک شکل نیایی به شکلِ گونه‌های نواده را نشان می‌دهند. برای مثال، سابقهٔ فسیلیِ به‌خوبی مستندشده‌ای از شکل‌های انتقالی برای فرگشت نهنگ‌ها از نیایی که هم در خشکی و هم در آب زندگی می‌کرد، در دست است. برای توضیح بیشتر، [منبع ما دربارهٔ شکل‌های انتقالی](https://evolution.berkeley.edu/lines-of-evidence/transitional-features/) (به انگلیسی) را ببینید.
+فسیل‌ها یا جاندارانی که دگرگونی از یک شکل نیایی به شکلِ گونه‌های نواده را نشان می‌دهند. برای مثال، برای فرگشت نهنگ‌ها از نیایی که هم در خشکی و هم در آب زندگی می‌کرد، سابقهٔ فسیلیِ به‌خوبی مستندشده‌ای از شکل‌های انتقالی در دست است. برای توضیح بیشتر، [منبع ما دربارهٔ شکل‌های انتقالی](https://evolution.berkeley.edu/lines-of-evidence/transitional-features/) (به انگلیسی) را ببینید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

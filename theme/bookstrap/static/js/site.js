@@ -1,5 +1,4 @@
-// Sidebar: open/close each chapter's page list, keep one open at a time,
-// and open the chapter of the current page on load.
+// Sidebar: one chapter open at a time; the current page's chapter opens on load.
 document.addEventListener('DOMContentLoaded', function () {
   var groups = Array.prototype.slice.call(document.querySelectorAll('#sidebar .category-group'));
   if (!groups.length) {
@@ -63,10 +62,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
-// Dark mode. The page follows the reader's system setting on its own (a media
-// query in style.css); this button overrides that by setting data-theme on
-// <html>, and remembers the choice. base.html applies a saved choice before
-// the first paint.
+// Dark mode: the button overrides the system setting via data-theme on <html>
+// and remembers it; base.html applies a saved choice before first paint.
 document.addEventListener('DOMContentLoaded', function () {
   var button = document.getElementById('theme-toggle');
   if (!button) {
@@ -85,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function render() {
     var dark = isDark();
-    // The button offers the theme you would switch to, not the one you are in.
+    // The button shows the theme you'd switch to.
     var text = dark ? 'حالت روشن' : 'حالت تیره';
     button.setAttribute('aria-pressed', dark ? 'true' : 'false');
     button.setAttribute('title', text);
@@ -126,9 +123,7 @@ document.addEventListener('DOMContentLoaded', function () {
   render();
 });
 
-// Glossary: switch between the Persian ordering and the A–Z one. Both lists
-// are in the page; this only changes which is shown, so it still reads
-// without JavaScript.
+// Glossary: switch between Persian and A–Z order (both lists are in the page).
 document.addEventListener('DOMContentLoaded', function () {
   var buttons = document.querySelectorAll('.glossary-switch__button');
   var lists = document.querySelectorAll('.glossary-index');
@@ -147,9 +142,32 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  // Remember the choice; if storage is blocked, Persian order shows.
+  var STORE = 'glossary-script';
+
   buttons.forEach(function (button) {
     button.addEventListener('click', function () {
       show(button.dataset.script);
+      try { localStorage.setItem(STORE, button.dataset.script); } catch (e) { /* no storage */ }
     });
   });
+
+  var saved = null;
+  try { saved = localStorage.getItem(STORE); } catch (e) { /* no storage */ }
+  if (saved === 'fa' || saved === 'en') {
+    show(saved);
+  }
+
+  // Back from a term (…/glossary/#<term>): scroll to it and highlight it.
+  var wanted = decodeURIComponent(window.location.hash.slice(1));
+  if (wanted) {
+    var items = document.querySelectorAll('.glossary-index:not([hidden]) .glossary-list__item');
+    for (var i = 0; i < items.length; i++) {
+      if (items[i].dataset.term === wanted) {
+        items[i].scrollIntoView({ block: 'center' });
+        items[i].classList.add('is-returned');
+        break;
+      }
+    }
+  }
 });

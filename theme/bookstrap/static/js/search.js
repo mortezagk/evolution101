@@ -1,8 +1,5 @@
-// On-site search over window.SEARCH_INDEX (built by Pelican into
-// search-index.js). Every word of the query must appear in a page; matches in
-// the title rank higher. Spelling variants are smoothed over first: Arabic
-// yeh/kaf, diacritics, tatweel, zero-width non-joiners and Persian/Arabic
-// digits.
+// Search over window.SEARCH_INDEX (search-index.js). Every query word must
+// match; title matches rank higher. Spelling variants are normalised first.
 (function () {
   'use strict';
 
@@ -23,8 +20,7 @@
     return ch.toLowerCase();
   }
 
-  // Normalised text plus, for each normalised character, its index in the
-  // original string (so matches can be highlighted in the original text).
+  // Normalised text, with each character's index in the original (for highlighting).
   function normalize(text) {
     var out = '', map = [];
     for (var i = 0; i < text.length; i++) {
@@ -150,8 +146,7 @@
 
         var a = document.createElement('a');
         a.className = 'search-result__title';
-        // The search page is search/index.html, so the site root is always '..'
-        // (index URLs are relative to it). Still refuse script-running schemes.
+        // The site root is '..' from search/; refuse script-running schemes.
         var href = '../' + e.url;
         var scheme = href.replace(/[\u0000-\u0020]/g, ''); // browsers ignore these
         a.setAttribute('href', /^(?:javascript|data|vbscript):/i.test(scheme) ? '#' : href);

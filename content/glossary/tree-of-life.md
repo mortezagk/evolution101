@@ -1,5 +1,5 @@
 Title: درخت حیات
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/tree-of-life
 Term: tree of life
 Source: https://evolution.berkeley.edu/glossary/tree-of-life/

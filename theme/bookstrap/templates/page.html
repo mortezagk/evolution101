@@ -7,11 +7,32 @@
   {% endif %}
 {% endblock %}
 {% block content %}
-{# A page in another script sets Direction in its metadata (the English
-   "About" uses ltr), so its text, headings and lists read the right way round
-   on an otherwise right-to-left site. #}
+{# Direction metadata (ltr on the English About) sets the page's text direction. #}
 <section id="content" class="body"{% if page.direction %} dir="{{ page.direction }}"{% endif %}>
-        <h1 class="entry-title">{{ page.title }}</h1>
+        <h1 class="entry-title">
+                <a href="{{ SITEURL }}/{{ page.url }}"
+                        rel="bookmark"
+                        title="Permalink to {{ page.title|striptags }}">
+                        {{ page.title }}
+                </a>
+        </h1>
+        {# A glossary term's English original, under its Persian title. #}
+        {% if page.term and page.term != page.title %}
+        <p class="entry-original" lang="en" dir="ltr">{{ page.term }}</p>
+        {% endif %}
+        {# Back to the glossary, scrolled to this term. #}
+        {% if page.slug.startswith('glossary/') %}
+        <nav class="page-nav page-nav--top" aria-label="بازگشت به واژه‌نامه">
+                <a class="page-nav__pill" href="{{ SITEURL }}/glossary/index.html#{{ page.slug.split('/')[-1] }}"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i> واژه‌نامه</a>
+        </nav>
+        {% endif %}
+        {# Shown until the term is marked Translated: yes. #}
+        {% if page.translated == 'no' %}
+        <div class="info-box">
+                <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
+                ترجمهٔ این واژه با مدل زبانی Claude Opus 5.5 انجام شده و هنوز بازبینی نشده است.
+        </div>
+        {% endif %}
         {{ page.content }}
         {% if page.source %}
         <p class="source-note">

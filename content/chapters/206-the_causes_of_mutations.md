@@ -1,5 +1,5 @@
 Title: عوامل جهش
-Date: 2025-11-06 00:17
+Date: 2020-01-17
 Category: فصل دوم: سازوکارها
 Slug: evo101/chapter-2/the-causes-of-mutations
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/the-causes-of-mutations/
@@ -10,20 +10,20 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ------
 جهش‌ها به چند دلیل رخ می‌دهند.
 
-**۱) تجزیهٔ خودبه‌خودی یا عدم رونویسی دقیق DNA**
+#### ۱. تجزیهٔ خودبه‌خودی یا عدم رونویسی دقیق DNA
 
 بیشترِ جهش‌هایی که ما گمان می‌کنیم برای فرگشت مهم هستند «به شکل طبیعی رخ می‌دهند». برای مثال، وقتی یک سلول تقسیم می‌شود، از DNA خود یک رونوشت (کپی) تهیه می‌کند -و بعضی اوقات این رونوشت کاملاً بی‌عیب و نقص نیست. این تفاوتِ کوچک نسبت به DNA اصلی یک جهش است. تجزیهٔ خودبه‌خودیِ DNA نیز می‌تواند باعث جهش شود.
 
 ![تصویر همانندسازیِ DNA](https://evolution.berkeley.edu/wp-content/uploads/2021/03/dna_mutation_09092019.gif){: width="389" height="185" loading="lazy" }
 <div class="caption" markdown="1">بالا: رشتهٔ اصلی و رونوشتِ درست. پایین: رشتهٔ اصلی و رونوشتِ جهش‌یافته.</div>
 
-**۲) تاثیراتِ خارجی می‌توانند جهش ایجاد کنند**
+#### ۲. تاثیراتِ خارجی می‌توانند جهش ایجاد کنند
 
 جهش‌ها همچنین می‌توانند به سببِ قرارگیری در معرضِ مواد شیمیاییِ خاص یا تشعشع رخ دهند که باعث تجزیه یا شکسته شدنِ DNA می‌شوند. سلول‌ها سازوکارهایی برای ترمیمِ مولکول‌های آسیب‌دیده یا تغییریافتهٔ DNA دارند، ولی این سازوکارها بی‌عیب و نقص نیستند. علت هرچه باشد، هرگاه سلولی در نهایت حاویِ توالیِ DNAیی با کمی تفاوت نسبت به توالیِ اصلی باشد، یک **جهش** رخ داده است.
 
 ![رادیواکتیو](https://evolution.berkeley.edu/wp-content/uploads/2021/10/radioactive-sign-300x298.png){: width="220" height="219" loading="lazy" }
 
-<section class="digging-data" markdown="1">
+<section class="digging-data" id="digging-data" markdown="1">
 <p class="digging-data__banner"><img src="https://evolution.berkeley.edu/wp-content/themes/understandingevo-2020/images/Shovel_DiggingData.png" alt="کندوکاو در داده‌ها (Digging Data)"></p>
 
 ## کندوکاو در داده‌ها[^۱]: عوامل جهش

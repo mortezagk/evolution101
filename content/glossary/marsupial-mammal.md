@@ -1,5 +1,5 @@
 Title: پستاندار کیسه‌دار
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/marsupial-mammal
 Term: marsupial mammal
 Source: https://evolution.berkeley.edu/glossary/marsupial-mammal/

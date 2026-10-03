@@ -1,5 +1,5 @@
 Title: اَبَرنواختر
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/supernova
 Term: supernova
 Source: https://evolution.berkeley.edu/glossary/supernova/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-(جمع در انگلیسی: supernovae) ستاره‌ای پرجرم که منفجر می‌شود. یک ابرنواختر ممکن است برای مدت کوتاهی از کل کهکشان میزبانش درخشان‌تر شود و هنگام انفجار ممکن است عناصر سبک را همجوشی دهد و عناصر سنگین‌تر و همچنین غبار کیهانی بسازد.
+(جمع در انگلیسی: supernovae) ستاره‌ای پرجرم که منفجر می‌شود. یک ابرنواختر ممکن است برای مدت کوتاهی از کل کهکشان میزبانش درخشان‌تر شود. همچنین ممکن است هنگام انفجار عناصر سبک را همجوشی دهد و از این راه عناصر سنگین‌تر و نیز غبار کیهانی بسازد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

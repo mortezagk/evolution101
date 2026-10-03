@@ -1,5 +1,5 @@
 Title: گلوگاه جمعیتی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/population-bottleneck
 Term: population bottleneck
 Source: https://evolution.berkeley.edu/glossary/population-bottleneck/

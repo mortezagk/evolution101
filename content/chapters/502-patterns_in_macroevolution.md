@@ -1,5 +1,5 @@
 Title: الگوها در فرگشت کلان
-Date: 2025-11-06 00:44
+Date: 2020-01-17
 Category: فصل پنجم: فرگشت کلان
 Slug: evo101/chapter-5/patterns-in-macroevolution
 Source: https://evolution.berkeley.edu/evolution-101/macroevolution/patterns-in-macroevolution/
@@ -34,7 +34,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ![نمودار تغییر خصوصیات در نسب‌های تریلوبیت](https://evolution.berkeley.edu/wp-content/uploads/2021/04/trilobitechange.gif){: width="343" height="218" loading="lazy" }
 <div class="caption" markdown="1">تغییرات تعداد بندها در هشت نسب تریلوبیت. محور عمودی: زمان؛ محور افقی: تعداد بندها (۰ تا ۱۵).</div>
 
-### انشقاقِ نسب (یا گونه‌زایی)
+### انشقاقِ نسب (گونه‌زایی)
 با ساختن و بررسی یک فیلوژنی می‌توان الگوهای انشقاقِ نسب را شناسایی کرد. فیلوژنی ممکن است نمایانگر این باشد که یک نسب خاص به شکلی غیرمعمول و به تکرار دچار انشقاق شده است، و یک دستهٔ انبوه از شاخه‌ها روی درخت ایجاد کرده (کلاد A، پایین). همچنین ممکن است نمایانگر این باشد که یک نسب به شکلی غیرمعمول نرخ انشقاقِ پایینی دارد، که با یک شاخهٔ بلند که چند ترکه از آن بیرون زده نمایش داده شده (کلاد B، پایین). یا ممکن است نمایانگر این باشد که چندین نسب به طور هم‌زمان انفجاری از انشقاق‌ها را تجربه کرده‌اند (کلاد C، پایین).
 
 ![نمودار انشقاقِ نسب در سه کلاد](https://evolution.berkeley.edu/wp-content/uploads/2021/04/lineagesplitting.gif){: width="367" height="190" loading="lazy" }
@@ -46,7 +46,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ![نمودار انقراض در یک کلاد](https://evolution.berkeley.edu/wp-content/uploads/2021/04/extinction.gif){: width="209" height="178" loading="lazy" }
 <div class="caption" markdown="1">محور عمودی: زمان؛ محور افقی: شکل بدن.</div>
 
-<section class="digging-data" markdown="1">
+<section class="digging-data" id="digging-data" markdown="1">
 <p class="digging-data__banner"><img src="https://evolution.berkeley.edu/wp-content/themes/understandingevo-2020/images/Shovel_DiggingData.png" alt="کندوکاو در داده‌ها (Digging Data)"></p>
 
 ## کندوکاو در داده‌ها[^۳]: الگوهای انقراض

@@ -1,5 +1,5 @@
 Title: هومولوژی/ساختار هومولوگ
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/homology-homologous-structure
 Term: homology/homologous structure
 Source: https://evolution.berkeley.edu/glossary/homology-homologous-structure/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-به ارث رسیده از یک نیای مشترک. چشم‌های انسان و موش ساختارهای هومولوگ هستند، چون انسان و موش هر دو آنها را از نیای مشترکشان که چشمانی از همین نوع داشت به ارث برده‌اند. این را با [هوموپلاستیک]({filename}homoplasious.md) و [آنالوگ]({filename}analogy-analogous-structure.md) مقایسه کنید.
+به ارث رسیده از یک نیای مشترک. چشم‌های انسان و موش ساختارهای هومولوگ هستند، چون انسان و موش هر دو آنها را از نیای مشترکشان به ارث برده‌اند، نیایی که چشمانی از همین نوع داشت. این را با [هوموپلاستیک]({filename}homoplasious.md) و [آنالوگ]({filename}analogy-analogous-structure.md) مقایسه کنید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

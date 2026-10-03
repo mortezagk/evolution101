@@ -1,5 +1,5 @@
 Title: هم‌خونی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/inbreeding
 Term: inbreeding
 Source: https://evolution.berkeley.edu/glossary/inbreeding/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-جفت‌گیری میان خویشاوندان. به بیان فنی، هم‌خونی الگویی از جفت‌گیری تعریف می‌شود که در آن جفت‌ها خویشاوندیِ نزدیک‌تری از دو فردِ تصادفی انتخاب‌شده از جمعیت با هم دارند.
+جفت‌گیری میان خویشاوندان. به بیان فنی، هم‌خونی چنین تعریف می‌شود: الگویی از جفت‌گیری که در آن جفت‌ها با هم خویشاوندیِ نزدیک‌تری دارند تا دو فردی که تصادفی از جمعیت انتخاب شده‌اند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

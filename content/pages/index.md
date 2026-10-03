@@ -1,5 +1,5 @@
 Title: فرگشت ۱۰۱
-Date: 2025-11-06 00:00
+Date: 2026-09-25
 Slug: index
 Save_as: index.html
 URL: index.html

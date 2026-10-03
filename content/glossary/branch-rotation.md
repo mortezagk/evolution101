@@ -1,5 +1,5 @@
 Title: چرخش شاخه
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/branch-rotation
 Term: branch rotation
 Source: https://evolution.berkeley.edu/glossary/branch-rotation/

@@ -1,5 +1,5 @@
 Title: About
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: about-en
 Direction: ltr
 Author: mortezagk
@@ -36,4 +36,4 @@ This translation (as a derivative work) is licensed under the [Creative Commons 
 
 Please open an issue for anything that looks wrong -a typo, an awkward sentence, a broken link- or send a pull request if you would like to fix it yourself.
 
-If needed, email me at iranevolution101@gmail.com.
+If needed, email me at [iranevolution101@gmail.com](mailto:iranevolution101@gmail.com).

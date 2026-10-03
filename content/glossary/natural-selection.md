@@ -1,5 +1,5 @@
 Title: انتخاب طبیعی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/natural-selection
 Term: natural selection
 Source: https://evolution.berkeley.edu/glossary/natural-selection/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-بقا یا تولیدمثلِ افتراقیِ ژنوتیپ‌های مختلف در یک جمعیت که به تغییر فراوانی ژن‌ها در آن جمعیت می‌انجامد. شرایط لازم برای عملکرد فرگشت از راه انتخاب طبیعی عبارت‌اند از [تنوع]({filename}variation.md)، یک سازوکار [وراثت]({filename}heredity.md)، [تولیدمثل افتراقی]({filename}differential-reproductive-success.md) و زمان. برای توضیح مفصل‌تر، [بخش «انتخاب طبیعی» در فرگشت ۱۰۱]({filename}../chapters/211-natural_selection.md) را ببینید.
+بقا یا تولیدمثلِ افتراقیِ ژنوتیپ‌های مختلف در یک جمعیت که به تغییر فراوانی ژن‌ها در آن جمعیت می‌انجامد. شرایط لازم برای اینکه فرگشت از راه انتخاب طبیعی عمل کند عبارت‌اند از [تنوع]({filename}variation.md)، یک سازوکار [وراثت]({filename}heredity.md)، [تولیدمثل افتراقی]({filename}differential-reproductive-success.md) و زمان. برای توضیح مفصل‌تر، [بخش «انتخاب طبیعی» در فرگشت ۱۰۱]({filename}../chapters/211-natural_selection.md) را ببینید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

@@ -1,5 +1,5 @@
 Title: رویدادهای مهم در تاریخ حیات
-Date: 2025-11-06 00:11
+Date: 2020-01-04
 Category: فصل اول: الگوها
 Slug: evo101/chapter-1/important-events-in-the-history-of-life
 Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/important-events-in-the-history-of-life/
@@ -9,6 +9,8 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 ------
 یک خط سیر زمانی می‌تواند اطلاعات بیشتری در مورد تاریخ حیات در اختیارمان قرار دهد، اطلاعاتی که روی درخت حیات محسوس نیست. اینها شامل رویدادهای بزرگ زمین‌شناختی، تغییرات اقلیمی، انتقال جانداران به زیست‌بوم‌های جدید، تغییر در اکوسیستم‌ها، تغییر موقعیتِ قاره‌ها و انقراض‌های گسترده می‌شود. در خط سیر زمانی که در ادامه می‌آید می‌توانید برخی از رویدادهای مهم تاریخ حیات را مرور کنید.
+
+![خط زمانیِ مصوّرِ رویدادهای مهم در تاریخ حیات]({static}/images/history.png){: width="905" height="736" loading="lazy" }
 
 | سال پیش | رویداد |
 | --- | --- |

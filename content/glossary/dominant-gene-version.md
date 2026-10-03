@@ -1,5 +1,5 @@
 Title: نسخهٔ غالبِ ژن
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/dominant-gene-version
 Term: dominant gene version
 Source: https://evolution.berkeley.edu/glossary/dominant-gene-version/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-نسخه‌ای از ژن که اثرش حتی وقتی در همان فرد با نسخهٔ متفاوتی از آن ژن جفت شده باشد، دیده می‌شود.
+نسخه‌ای از ژن که اثرش دیده می‌شود، حتی وقتی در همان فرد با نسخهٔ متفاوتی از آن ژن جفت شده باشد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

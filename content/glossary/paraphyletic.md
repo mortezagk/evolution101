@@ -1,5 +1,5 @@
 Title: پارافیلتیک
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/paraphyletic
 Term: paraphyletic
 Source: https://evolution.berkeley.edu/glossary/paraphyletic/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-اصطلاحی برای توصیف گروهی از جانداران که نزدیک‌ترین نیای مشترکِ همهٔ اعضایش را در بر می‌گیرد، اما همهٔ نوادگانِ آن نزدیک‌ترین نیای مشترک را در بر نمی‌گیرد.
+اصطلاحی برای توصیف گروهی از جانداران که نزدیک‌ترین نیای مشترکِ همهٔ اعضایش را در بر می‌گیرد، اما نه همهٔ نوادگانِ آن نیا را.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

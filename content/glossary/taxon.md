@@ -1,5 +1,5 @@
 Title: تاکسون
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/taxon
 Term: taxon
 Source: https://evolution.berkeley.edu/glossary/taxon/

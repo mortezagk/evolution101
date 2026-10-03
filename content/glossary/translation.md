@@ -1,5 +1,5 @@
 Title: ترجمه
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/translation
 Term: translation
 Source: https://evolution.berkeley.edu/glossary/translation/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-بخشی از فرایند رمزگشایی یک مولکول [RNA]({filename}rna.md) که از بازهای نوکلئوتیدی ساخته شده است، به یک پروتئین که از [آمینواسیدها]({filename}amino-acid.md) ساخته شده است.
+بخشی از فرایندی که طی آن یک مولکول [RNA]({filename}rna.md)، ساخته‌شده از بازهای نوکلئوتیدی، رمزگشایی و به پروتئینی ساخته‌شده از [آمینواسیدها]({filename}amino-acid.md) تبدیل می‌شود.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

@@ -1,5 +1,5 @@
 Title: انتخاب جنسی
-Date: 2025-11-06 00:25
+Date: 2020-01-17
 Category: فصل دوم: سازوکارها
 Slug: evo101/chapter-2/sexual-selection
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/sexual-selection/
@@ -16,7 +16,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 انتخاب جنسی حتی به اندازه‌ای قدرتمند است که می‌تواند ویژگی‌هایی ایجاد کند که برای بقای جاندار مضر است. برای مثال، این احتمال وجود دارد که پرهای دم یا باله‌های عجیب و رنگارنگ، همانطور که باعث جذب افراد علاقه‌مند از جنس مخالف می‌شوند، باعث جذب شکارگران هم بشوند.
 
-<section class="digging-data" markdown="1">
+<section class="digging-data" id="digging-data" markdown="1">
 <p class="digging-data__banner"><img src="https://evolution.berkeley.edu/wp-content/themes/understandingevo-2020/images/Shovel_DiggingData.png" alt="کندوکاو در داده‌ها (Digging Data)"></p>
 
 ## کندوکاو در داده‌ها[^۴]: انتخاب جنسی

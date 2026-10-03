@@ -1,5 +1,5 @@
 Title: اجتماعی‌زیستی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/sociality
 Term: sociality
 Source: https://evolution.berkeley.edu/glossary/sociality/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-در فرگشت، تمایل به تشکیل گروه‌های اجتماعی که در آنها افرادِ یک گونه، جدا از موقعیت‌های جفت‌گیری هم، با یکدیگر تعامل دارند.
+در فرگشت، تمایل به تشکیل گروه‌های اجتماعی؛ گروه‌هایی که افرادِ یک گونه در آنها، جدا از موقعیت‌های جفت‌گیری هم، با یکدیگر تعامل دارند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

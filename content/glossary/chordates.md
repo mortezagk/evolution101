@@ -1,5 +1,5 @@
 Title: طنابداران
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/chordates
 Term: chordates
 Source: https://evolution.berkeley.edu/glossary/chordates/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-هر عضوی از کلادِ جانوریِ Chordata، گروهی بزرگ از [مهره‌داران]({filename}vertebrate.md) و برخی بی‌مهرگان دریایی. طنابداران نوتوکورد دارند، ساختاری میله‌مانند و غضروفی که طناب عصبی را نگه می‌دارد و آن را از [نیای مشترک]({filename}common-ancestor.md) خود به ارث برده‌اند. طنابدارانِ امروزی شامل مهره‌داران، پوشینه‌داران (تونیکات‌ها)، میکسین‌ها و نیزه‌ماهی‌ها هستند.
+هر عضوی از کلادِ جانوریِ Chordata، گروهی بزرگ از [مهره‌داران]({filename}vertebrate.md) و برخی بی‌مهرگان دریایی. طنابداران نوتوکورد دارند و آن را از [نیای مشترک]({filename}common-ancestor.md) خود به ارث برده‌اند. نوتوکورد ساختاری میله‌مانند و غضروفی است که طناب عصبی را نگه می‌دارد. طنابدارانِ امروزی شامل مهره‌داران، پوشینه‌داران (تونیکات‌ها)، میکسین‌ها و نیزه‌ماهی‌ها هستند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

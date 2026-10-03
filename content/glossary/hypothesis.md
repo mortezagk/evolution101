@@ -1,5 +1,5 @@
 Title: فرضیه
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/hypothesis
 Term: hypothesis
 Source: https://evolution.berkeley.edu/glossary/hypothesis/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-یک توضیح پیشنهادی برای دسته‌ی محدودی از پدیده‌ها. یک فرضیه باید توسط شواهدی از دنیای طبیعی قابل آزمایش باشد. اگر یک توضیح امکان آزمایش توسط نتایج تجربی، مشاهده یا روشی دیگر را نداشته باشد، آنگاه یک فرضیه‌ی علمی نخواهد بود.
+یک توضیح پیشنهادی برای دسته‌ی محدودی از پدیده‌ها. باید بتوان یک فرضیه را با شواهدی از دنیای طبیعی آزمایش کرد. اگر نتوان توضیحی را با نتایج تجربی، مشاهده یا روشی دیگر آزمایش کرد، آن توضیح فرضیه‌ی علمی نیست.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

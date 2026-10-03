@@ -1,5 +1,5 @@
 Title: انتخاب جنسی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/sexual-selection
 Term: sexual selection
 Source: https://evolution.berkeley.edu/glossary/sexual-selection/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-انتخابی که بر توانایی جاندار در یافتن جفت یا جفت‌گیری موفق با آن عمل می‌کند. این فرایند ممکن است ویژگی‌هایی ایجاد کند که به نظر می‌رسد شانس بقای جاندار را کاهش می‌دهند، در حالی که شانس جفت‌گیری‌اش را افزایش می‌دهند. برای توضیح مفصل‌تر، [بخش «انتخاب جنسی» در فرگشت ۱۰۱]({filename}../chapters/214-sexual_selection.md) را ببینید.
+انتخابی که بر توانایی جاندار در یافتن جفت یا جفت‌گیری موفق با آن عمل می‌کند. این فرایند ممکن است ویژگی‌هایی ایجاد کند که شانس جفت‌گیری جاندار را افزایش می‌دهند، هرچند به نظر می‌رسد شانس بقایش را کاهش می‌دهند. برای توضیح مفصل‌تر، [بخش «انتخاب جنسی» در فرگشت ۱۰۱]({filename}../chapters/214-sexual_selection.md) را ببینید.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

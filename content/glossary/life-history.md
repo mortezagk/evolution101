@@ -1,5 +1,5 @@
 Title: تاریخ زندگی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/life-history
 Term: life history
 Source: https://evolution.berkeley.edu/glossary/life-history/

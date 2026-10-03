@@ -1,5 +1,5 @@
 Title: رنگ‌دانه
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/pigment
 Term: pigment
 Source: https://evolution.berkeley.edu/glossary/pigment/

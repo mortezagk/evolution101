@@ -1,5 +1,5 @@
 Title: جهش جهت‌دار
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/directed-mutation
 Term: directed mutation
 Source: https://evolution.berkeley.edu/glossary/directed-mutation/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-این فرضیه که جهش‌هایی که در شرایط خاصی مفیدند، اگر جاندار واقعاً در آن شرایط قرار داشته باشد، با احتمال بیشتری رخ می‌دهند. به عبارت دیگر، این ایده که جهت جهش را نیاز جاندار تعیین می‌کند. شواهد اندکی از این فرضیه پشتیبانی می‌کند.
+این فرضیه که اگر جاندار واقعاً در شرایط خاصی قرار داشته باشد، جهش‌هایی که در آن شرایط مفیدند با احتمال بیشتری رخ می‌دهند. به عبارت دیگر، این ایده که جهت جهش را نیاز جاندار تعیین می‌کند. شواهد اندکی از این فرضیه پشتیبانی می‌کند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

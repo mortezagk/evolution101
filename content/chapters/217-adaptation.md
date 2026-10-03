@@ -1,5 +1,5 @@
 Title: سازگاری
-Date: 2025-11-06 00:27
+Date: 2020-01-17
 Category: فصل دوم: سازوکارها
 Slug: evo101/chapter-2/adaptation
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/adaptation/

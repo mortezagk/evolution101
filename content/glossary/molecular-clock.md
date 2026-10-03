@@ -1,5 +1,5 @@
 Title: ساعت مولکولی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/molecular-clock
 Term: molecular clock
 Source: https://evolution.berkeley.edu/glossary/molecular-clock/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-این ایده که برخی بخش‌های DNA با نرخی به اندازهٔ کافی ثابت فرگشت می‌یابند که می‌توان از آنها برای تخمین تاریخ رویدادهای گذشته استفاده کرد. [دربارهٔ ساعت‌های مولکولی بیشتر بدانید.](https://evolution.berkeley.edu/molecular-clocks/) (به انگلیسی)
+این ایده که نرخ فرگشتِ برخی بخش‌های DNA به اندازه‌ای ثابت است که می‌توان از آنها برای تخمین تاریخ رویدادهای گذشته استفاده کرد. [دربارهٔ ساعت‌های مولکولی بیشتر بدانید.](https://evolution.berkeley.edu/molecular-clocks/) (به انگلیسی)
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

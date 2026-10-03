@@ -1,5 +1,5 @@
 Title: کامیابی تولیدمثلی افتراقی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/differential-reproductive-success
 Term: differential reproductive success
 Source: https://evolution.berkeley.edu/glossary/differential-reproductive-success/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-وضعیتی که در آن برخی افراد در نسل بعد فرزندان بیشتری از دیگران بر جای می‌گذارند، که اغلب به خاطر ویژگی‌هایی است که در بقا و/یا تولیدمثل به آنها برتری می‌دهند.
+وضعیتی که در آن برخی افراد در نسل بعد فرزندان بیشتری از دیگران بر جای می‌گذارند؛ اغلب به خاطر ویژگی‌هایی که در بقا و/یا تولیدمثل به آنها برتری می‌دهند.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

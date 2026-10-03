@@ -1,5 +1,5 @@
 Title: زنجیرهٔ غذایی/شبکهٔ غذایی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/food-chain-food-web
 Term: food chain/food web
 Source: https://evolution.berkeley.edu/glossary/food-chain-food-web/

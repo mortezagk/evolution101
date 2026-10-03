@@ -1,5 +1,5 @@
 Title: شهاب‌واره
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/meteoroid
 Term: meteoroid
 Source: https://evolution.berkeley.edu/glossary/meteoroid/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-جسمی کوچک (با قطر کمتر از حدود یک متر)، سنگی یا فلزی، که در فضا حرکت می‌کند. اگر یک شهاب‌واره وارد جو زمین شود، ممکن است داغ شود و به شکل یک شهاب، یا «ستارهٔ ثاقب»، بدرخشد.
+جسمی کوچکِ سنگی یا فلزی (با قطر کمتر از حدود یک متر) که در فضا حرکت می‌کند. اگر یک شهاب‌واره وارد جو زمین شود، ممکن است داغ شود و به شکل یک شهاب، یا «ستارهٔ ثاقب»، بدرخشد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

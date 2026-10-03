@@ -1,5 +1,5 @@
 Title: انتخاب خویشاوندی
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/kin-selection
 Term: kin selection
 Source: https://evolution.berkeley.edu/glossary/kin-selection/

@@ -1,5 +1,5 @@
 Title: در مورد سازواری
-Date: 2025-11-06 00:24
+Date: 2020-01-17
 Category: فصل دوم: سازوکارها
 Slug: evo101/chapter-2/evolutionary-fitness
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/evolutionary-fitness/
@@ -15,9 +15,14 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 
 البته، سازواری یک موضوع نسبی است. سازواریِ یک ژنوتیپ به محیط زیستی که جاندار در آن زندگی می‌کند بستگی دارد. برای مثال، ژنوتیپی که در عصر یخبندان سازوارترین است، احتمالاً پس از پایان این دوره دیگر سازوارترین ژنوتیپ نخواهد بود.
 
-| ![یک پنگوئن و دو فرزندش.](https://evolution.berkeley.edu/wp-content/uploads/2021/03/penguin3.jpg){: width="178" height="243" loading="lazy" } | ![یک استوماتوپود (یا میگوی آخوندکی) با هزاران تخمِ کوچکِ صورتیِ کم‌رنگ.](https://evolution.berkeley.edu/wp-content/uploads/2021/03/stomatopod3.jpg){: width="190" height="243" loading="lazy" } | ![طاووسی نر که پرهای دمش را باز کرده است.](https://evolution.berkeley.edu/wp-content/uploads/2021/03/peacock3.jpg){: width="178" height="150" loading="lazy" } |
-| :---: | :---: | :---: |
-| نگهداری از فرزند<br>*عکس از Jeff Abbas © California Academy of Sciences.* | زاییدن هزاران فرزند<br>*عکس از Roy Caldwell.* | به رخ کشیدنِ پرها<br>*عکس از Rock Maple Farm.* |
+![یک پنگوئن و دو فرزندش.](https://evolution.berkeley.edu/wp-content/uploads/2021/03/penguin3.jpg){: width="178" height="243" loading="lazy" }
+<div class="caption" markdown="1">نگهداری از فرزند<br>*عکس از Jeff Abbas © California Academy of Sciences.*</div>
+
+![یک استوماتوپود (یا میگوی آخوندکی) با هزاران تخمِ کوچکِ صورتیِ کم‌رنگ.](https://evolution.berkeley.edu/wp-content/uploads/2021/03/stomatopod3.jpg){: width="190" height="243" loading="lazy" }
+<div class="caption" markdown="1">زاییدن هزاران فرزند<br>*عکس از Roy Caldwell.*</div>
+
+![طاووسی نر که پرهای دمش را باز کرده است.](https://evolution.berkeley.edu/wp-content/uploads/2021/03/peacock3.jpg){: width="178" height="150" loading="lazy" }
+<div class="caption" markdown="1">به رخ کشیدنِ پرها<br>*عکس از Rock Maple Farm.*</div>
 
 مراقبت از فرزند (تصویر اول)، زاییدن هزاران فرزند -که بسیاری از آنها بقا نمی‌یابند- (تصویر دوم)، به رخ کشیدنِ پرهای پر زرق و برق که جنس مونث را جذب می‌کند (تصویر سوم)، باری بر سلامتی و بقای والدین هستند؛ اما، این راهبردها سازواری را افزایش می‌دهند، چون به والدین کمک می‌کنند فرزندان بیشتری از آنها در نسل بعد باقی بماند.
 

@@ -42,3 +42,26 @@
     </li>
   {% endfor %}
 </ul>
+
+{# Digging Data sections; open on a page that has one. #}
+{% set digs = articles | digging_data %}
+{% if digs %}
+{% set here = namespace(open=False) %}
+{% for dig_article, anchor, title in digs %}{% if article is defined and dig_article == article %}{% set here.open = True %}{% endif %}{% endfor %}
+<details class="digging-nav"{% if here.open %} open{% endif %}>
+  <summary class="digging-nav__summary">
+    <i class="fa-solid fa-trowel" aria-hidden="true"></i>
+    <span>کندوکاو در داده‌ها</span>
+    <i class="fa-solid fa-chevron-down digging-nav__chevron" aria-hidden="true"></i>
+  </summary>
+  <ul class="digging-nav__list">
+    {% for dig_article, anchor, title in digs %}
+    <li>
+      <a href="{{ SITEURL }}/{{ dig_article.url }}#{{ anchor }}"{% if article is defined and dig_article == article %} class="is-current"{% endif %}>
+        <span class="digging-nav__title">{{ title }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</details>
+{% endif %}

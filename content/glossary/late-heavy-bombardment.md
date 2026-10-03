@@ -1,5 +1,5 @@
 Title: بمباران سنگین پسین
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/late-heavy-bombardment
 Term: Late Heavy Bombardment
 Source: https://evolution.berkeley.edu/glossary/late-heavy-bombardment/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-دوره‌ای در حدود ۶۰۰ میلیون سال پس از آغاز شکل‌گیریِ سامانهٔ خورشیدی (در اوایل تاریخ سامانهٔ خورشیدی، اما «پسین» در روند شکل‌گیری آن) که در آن نرخ برخورد میان اجرام بسیار بیشتر از امروز بود.
+دوره‌ای در حدود ۶۰۰ میلیون سال پس از آغاز شکل‌گیریِ سامانهٔ خورشیدی که نرخ برخورد میان اجرام در آن بسیار بیشتر از امروز بود (در اوایل تاریخ سامانهٔ خورشیدی، اما «پسین» در روند شکل‌گیری آن).
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">

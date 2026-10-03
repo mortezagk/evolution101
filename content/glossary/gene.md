@@ -1,5 +1,5 @@
 Title: ژن
-Date: 2025-11-06 00:00
+Date: 2026-09-27
 Slug: glossary/gene
 Term: gene
 Source: https://evolution.berkeley.edu/glossary/gene/
@@ -8,7 +8,7 @@ Author: mortezagk
 Translated: no
 
 <div class="term-translation" markdown="1">
-واحد وراثت. به‌طور کلی، به معنای ناحیه‌ای از [DNA]({filename}dna.md) با اثر [فنوتیپیِ]({filename}phenotype.md) مشخص است. از نظر فنی، ممکن است به معنای بخشی از DNA باشد که یک ناحیهٔ [رونویسی‌شونده]({filename}transcription.md) و یک ناحیهٔ تنظیمی را در بر می‌گیرد.
+واحد وراثت. به‌طور کلی، منظور از ژن ناحیه‌ای از [DNA]({filename}dna.md) است که اثر [فنوتیپیِ]({filename}phenotype.md) مشخصی دارد. از نظر فنی، ممکن است منظور بخشی از DNA باشد که هم یک ناحیهٔ [رونویسی‌شونده]({filename}transcription.md) و هم یک ناحیهٔ تنظیمی را در بر می‌گیرد.
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">
