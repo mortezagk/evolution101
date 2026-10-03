@@ -704,6 +704,12 @@ main .page-nav__card:hover,
 
 .page-nav__card:hover .page-nav__arrow {
 	color: var(--site-teal);
+/* Links in the text that leave the site (pelicanconf.py marks them) */
+.external-link::after {
+	content: "\00a0⎋";
+	font-size: 0.85em;
+}
+
 }
 
 @media (max-width: 35.999em) {
