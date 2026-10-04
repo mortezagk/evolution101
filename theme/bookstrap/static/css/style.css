@@ -122,6 +122,14 @@ main a:hover,
 	vertical-align: -3px;
 }
 
+/* Navbar text in solid greys: Bootstrap's translucent white shows brighter
+   where Persian letters overlap. Same look over the bar's #212529. */
+.navbar.navbar-dark {
+	--bs-navbar-color: #9b9d9f;
+	--bs-navbar-hover-color: #c8c9ca;
+	--bs-navbar-disabled-color: #595c5f;
+}
+
 /* The theme button, made to look like the other nav links. */
 
 .theme-toggle {
