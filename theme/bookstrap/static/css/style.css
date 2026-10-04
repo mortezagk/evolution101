@@ -1,10 +1,40 @@
 /* فرگشت ۱۰۱: site styles on top of Bootstrap 5 (RTL build). */
 
+/* Sahel v3.4.0, one file per weight; a browser fetches only the weights a page
+   uses, so bold text gets real bold glyphs rather than faked ones. Static
+   files rather than Sahel-VF, whose diacritics are misplaced. */
 @font-face {
 	font-family: 'Sahel';
-	src: url('../font/Sahel.woff2') format('woff2'), url('../font/Sahel.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
+	src: url('../font/Sahel-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Sahel';
+	src: url('../font/Sahel.woff2') format('woff2');
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Sahel';
+	src: url('../font/Sahel-SemiBold.woff2') format('woff2');
+	font-weight: 600;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Sahel';
+	src: url('../font/Sahel-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Sahel';
+	src: url('../font/Sahel-Black.woff2') format('woff2');
+	font-weight: 900;
 	font-display: swap;
 }
 
