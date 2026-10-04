@@ -1045,7 +1045,7 @@ main p:has(+ .caption) + .caption {
 
 .home-card__title {
 	font-size: 1.3rem;
-	font-weight: 700;
+	font-weight: 900;
 	color: var(--site-teal-dark);
 }
 
