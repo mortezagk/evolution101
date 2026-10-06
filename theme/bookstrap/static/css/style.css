@@ -726,6 +726,13 @@ main table {
 	font-size: 1em;
 }
 
+/* Phones: table text one step below the body size. */
+@media (max-width: 35.999em) {
+	main table {
+		font-size: 1rem;
+	}
+}
+
 main table thead th {
 	background-color: var(--site-table-head-bg);
 	font-weight: 700;
