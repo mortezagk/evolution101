@@ -1,6 +1,6 @@
 Title: ساختن درخت
 Date: 2020-01-04
-Category: فصل اول: الگوها
+Category: تاریخ حیات: نگاهی به الگوها
 Slug: evo101/chapter-1/building-the-tree
 Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/building-the-tree/
 Source_title: Building the tree

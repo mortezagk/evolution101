@@ -1,6 +1,6 @@
 Title: تعریف فرگشت خُرد
 Date: 2020-01-17
-Category: فصل سوم: فرگشت خُرد
+Category: فرگشت خُرد
 Slug: evo101/chapter-3/defining-microevolution
 Source: https://evolution.berkeley.edu/evolution-101/microevolution/defining-microevolution/
 Source_title: Defining microevolution

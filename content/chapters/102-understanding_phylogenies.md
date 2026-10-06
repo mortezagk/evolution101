@@ -1,6 +1,6 @@
 Title: درک فیلوژنی‌ها
 Date: 2020-01-04
-Category: فصل اول: الگوها
+Category: تاریخ حیات: نگاهی به الگوها
 Slug: evo101/chapter-1/understanding-phylogenies
 Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/understanding-phylogenies/
 Source_title: Understanding phylogenies

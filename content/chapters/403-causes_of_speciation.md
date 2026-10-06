@@ -1,6 +1,6 @@
 Title: علل گونه‌زایی
 Date: 2020-01-17
-Category: فصل چهارم: گونه‌زایی
+Category: گونه‌زایی
 Slug: evo101/chapter-4/causes-of-speciation
 Source: https://evolution.berkeley.edu/evolution-101/speciation/causes-of-speciation/
 Source_title: Causes of speciation

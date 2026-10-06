@@ -1,6 +1,6 @@
 Title: استفاده از درخت برای رده‌بندی
 Date: 2020-01-04
-Category: فصل اول: الگوها
+Category: تاریخ حیات: نگاهی به الگوها
 Slug: evo101/chapter-1/using-the-tree-for-classification
 Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/using-the-tree-for-classification/
 Source_title: Using the tree for classification

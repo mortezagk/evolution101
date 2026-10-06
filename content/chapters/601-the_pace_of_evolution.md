@@ -1,6 +1,6 @@
 Title: سرعت فرگشت
 Date: 2020-01-17
-Category: فصل ششم: مسائل مهم
+Category: مسائل مهم
 Slug: evo101/chapter-6/the-pace-of-evolution
 Source: https://evolution.berkeley.edu/evolution-101/the-big-issues/the-pace-of-evolution/
 Source_title: The pace of evolution

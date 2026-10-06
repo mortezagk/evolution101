@@ -1,6 +1,6 @@
 Title: اثرات جهش‌ها
 Date: 2026-09-25
-Category: فصل دوم: سازوکارها
+Category: سازوکارها: فرایندهای فرگشت
 Slug: evo101/chapter-2/the-effects-of-mutations
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/the-effects-of-mutations/
 Source_title: The effects of mutations

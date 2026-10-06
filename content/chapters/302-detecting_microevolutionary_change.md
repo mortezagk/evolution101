@@ -1,6 +1,6 @@
 Title: شناسایی تغییر فرگشتی خرد
 Date: 2020-01-17
-Category: فصل سوم: فرگشت خُرد
+Category: فرگشت خُرد
 Slug: evo101/chapter-3/detecting-microevolutionary-change
 Source: https://evolution.berkeley.edu/evolution-101/microevolution/detecting-microevolutionary-change/
 Source_title: Detecting microevolutionary change

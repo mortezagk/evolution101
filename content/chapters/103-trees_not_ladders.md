@@ -1,6 +1,6 @@
 Title: درخت، نه نردبان!
 Date: 2020-01-04
-Category: فصل اول: الگوها
+Category: تاریخ حیات: نگاهی به الگوها
 Slug: evo101/chapter-1/trees-not-ladders
 Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/trees-not-ladders/
 Source_title: Trees, not ladders

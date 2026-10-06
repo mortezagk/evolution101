@@ -1,6 +1,6 @@
 Title: تصورات غلط در مورد انتخاب طبیعی
 Date: 2020-01-17
-Category: فصل دوم: سازوکارها
+Category: سازوکارها: فرایندهای فرگشت
 Slug: evo101/chapter-2/misconceptions-about-natural-selection
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/misconceptions-about-natural-selection/
 Source_title: Misconceptions about natural selection

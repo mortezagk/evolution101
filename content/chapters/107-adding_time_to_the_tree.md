@@ -1,6 +1,6 @@
 Title: اضافه‌ کردن زمان به درخت
 Date: 2020-01-04
-Category: فصل اول: الگوها
+Category: تاریخ حیات: نگاهی به الگوها
 Slug: evo101/chapter-1/adding-time-to-the-tree
 Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/adding-time-to-the-tree/
 Source_title: Adding time to the tree

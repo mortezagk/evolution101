@@ -1,6 +1,6 @@
 Title: سازوکارهای فرگشت خُرد
 Date: 2020-01-17
-Category: فصل سوم: فرگشت خُرد
+Category: فرگشت خُرد
 Slug: evo101/chapter-3/mechanisms-of-microevolution
 Source: https://evolution.berkeley.edu/evolution-101/microevolution/mechanisms-of-microevolution/
 Source_title: Mechanisms of microevolution

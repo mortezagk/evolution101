@@ -1,6 +1,6 @@
 Title: تعریف گونه
 Date: 2020-01-17
-Category: فصل چهارم: گونه‌زایی
+Category: گونه‌زایی
 Slug: evo101/chapter-4/defining-a-species
 Source: https://evolution.berkeley.edu/evolution-101/speciation/defining-a-species/
 Source_title: Defining a species

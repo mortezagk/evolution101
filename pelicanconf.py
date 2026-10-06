@@ -93,13 +93,13 @@ PAGE_URL = '{slug}/index.html'
 PAGE_SAVE_AS = '{slug}/index.html'
 
 # Category slugs (ch0–ch6) only mark the sidebar's open chapter; listing pages aren't built.
-CATEGORY_REGEX_SUBSTITUTIONS = [(r'(mqdmh)', 'ch0'),
-                                (r'(fsl wl: lgwh)', 'ch1'),
-                                (r'(fsl dwm: szwkhrh)', 'ch2'),
-                                (r'(fsl swm: frgsht khurd)', 'ch3'),
-                                (r'(fsl chhrm: gwnhzyy)', 'ch4'),
-                                (r'(fsl pnjm: frgsht khln)', 'ch5'),
-                                (r"(fsl shshm: msy'l mhm)", 'ch6')]
+CATEGORY_REGEX_SUBSTITUTIONS = [(r'^mqdmhy br frgsht$', 'ch0'),
+                                (r'^trykh hyt: nghy bh lgwh$', 'ch1'),
+                                (r'^szwkhrh: fryndhy frgsht$', 'ch2'),
+                                (r'^frgsht khurd$', 'ch3'),
+                                (r'^gwnhzyy$', 'ch4'),
+                                (r'^frgsht khln$', 'ch5'),
+                                (r"^msy'l mhm$", 'ch6')]
 
 
 MARKDOWN = {

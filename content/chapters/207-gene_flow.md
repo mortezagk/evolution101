@@ -1,6 +1,6 @@
 Title: جریان ژن
 Date: 2020-01-17
-Category: فصل دوم: سازوکارها
+Category: سازوکارها: فرایندهای فرگشت
 Slug: evo101/chapter-2/gene-flow
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/gene-flow/
 Source_title: Gene flow

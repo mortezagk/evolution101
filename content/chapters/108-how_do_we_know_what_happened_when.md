@@ -1,6 +1,6 @@
 Title: از کجا می‌دانیم چه چیزی چه زمانی اتفاق افتاده؟
 Date: 2020-01-04
-Category: فصل اول: الگوها
+Category: تاریخ حیات: نگاهی به الگوها
 Slug: evo101/chapter-1/how-we-know-what-happened-when
 Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/how-we-know-what-happened-when/
 Source_title: How we know what happened when
