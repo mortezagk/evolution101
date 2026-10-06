@@ -28,8 +28,6 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ![همان فیلوژنیِ A، B و C با سه نیای مشخص‌شده.](https://evolution.berkeley.edu/wp-content/uploads/2021/11/understanding_phylos_unique-ancestor-500x184.png){: width="500" height="184" loading="lazy" }
 <div class="caption" markdown="1">آبی: نیای منحصر به فرد C.<br>سبز: نیای مشترک B و C.<br>نارنجی: نیای مشترک A، B و C.</div>
 
-### کلادها
-
 کلاد یک دسته‌بندی است که شامل نیای مشترک و تمام نوادگان (زنده یا منقرض شدهٔ) آن نیا می‌شود. با استفاده از یک فیلوژنی، به سادگی می‌توان تشخیص داد که کدام نسب‌ها یک کلاد را تشکیل می‌دهند. فرض کنید یک شاخه را از فیلوژنی بچینیم -همهٔ جاندارانی که روی شاخهٔ هرس‌شده هستند یک کلاد را می‌سازند.
 
 ![چهار فیلوژنی که بخشی از هر کدام با رنگ و قیچی جدا شده است.](https://evolution.berkeley.edu/wp-content/uploads/2021/06/7-scissorclade-e1625009351568.png){: width="792" height="576" loading="lazy" }
