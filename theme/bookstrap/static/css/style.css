@@ -295,6 +295,26 @@ main [dir="ltr"] ol {
 	list-style-type: decimal;
 }
 
+/* Lettered sub-lists (الف، ب، …), as in the original's a., b. */
+@counter-style persian-letters {
+	system: alphabetic;
+	symbols: 'الف' 'ب' 'پ' 'ت' 'ث' 'ج' 'چ' 'ح' 'خ' 'د';
+	suffix: '. ';
+}
+
+main ol.alpha-list {
+	list-style-type: persian-letters;
+}
+
+/* List numbers (with their dot) in bold; footnote numbers stay plain. */
+main ol > li::marker {
+	font-weight: 700;
+}
+
+main .footnote > ol > li::marker {
+	font-weight: 400;
+}
+
 /* The one-line question under each chapter in the Evolution 101 list */
 .chapter-summary {
 	display: block;
