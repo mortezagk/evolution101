@@ -1159,6 +1159,7 @@ main p:has(+ .caption) + .caption {
 	border-bottom: 2px solid var(--site-teal);
 	color: var(--site-teal-dark);
 	font-size: 1.35rem;
+	font-weight: 900;
 }
 
 .glossary-list {
