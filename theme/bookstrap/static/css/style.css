@@ -108,7 +108,6 @@ main a:hover,
 .navbar-brand__name {
 	margin-right: 0.5rem;
 	font-size: 1.05rem;
-	font-weight: 700;
 }
 
 @media (min-width: 48em) {
@@ -120,6 +119,12 @@ main a:hover,
 .navbar-brand .fa-house {
 	font-size: 1.6rem;
 	vertical-align: -3px;
+}
+
+/* Filled icons (search, info) look bigger than the outline ones beside
+   Sahel's small letters; shrink them to match. */
+.navbar .nav-link :is(.fa-magnifying-glass, .fa-circle-info) {
+	font-size: 0.85em;
 }
 
 /* Navbar text in solid greys: Bootstrap's translucent white shows brighter
@@ -428,12 +433,6 @@ main hr {
 	margin-bottom: 0.5rem;
 	padding-bottom: 0.5rem;
 	border-bottom: 1px solid var(--site-panel-border);
-}
-
-/* Navbar and top sidebar links bold, like chapter covers; chapter pages not. */
-.navbar .nav-link,
-.sidebar-links a {
-	font-weight: 700;
 }
 
 .sidebar-links a,
