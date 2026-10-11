@@ -21,7 +21,7 @@ Translated: no
 
 ![یک مگس، یک شب‌پره و یک سوسک](https://evolution.berkeley.edu/wp-content/uploads/2020/07/insects.jpg){: width="427" height="84" loading="lazy" }
 
-###### عکس‌ها از T. W. Davies © California Academy of Sciences
+<div class="photo-credit" markdown="1">عکس‌ها از T. W. Davies © California Academy of Sciences</div>
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">
@@ -38,5 +38,5 @@ Examples of insects include flies, moths and beetles.
 
 ![insect](https://evolution.berkeley.edu/wp-content/uploads/2020/07/insects.jpg){: width="427" height="84" loading="lazy" }
 
-###### Photos by T. W. Davies © California Academy of Sciences
+<div class="photo-credit" markdown="1">Photos by T. W. Davies © California Academy of Sciences</div>
 </div>

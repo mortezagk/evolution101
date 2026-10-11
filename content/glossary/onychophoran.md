@@ -11,9 +11,8 @@ Translated: no
 اونیکوفورها (که کرم‌های مخملی هم نامیده می‌شوند) برخی ویژگی‌ها را با [بندپایان]({filename}arthropod.md) مشترک دارند، اما [اسکلت بیرونی]({filename}exoskeleton.md) سخت یا پاهای بندبند ندارند. اونیکوفورها احتمالا خویشاوندان نزدیک بندپایان هستند و درست پیش از آنکه اسکلت بیرونیِ کاملا سخت و پاهای بندبند فرگشت یابند، از درخت منشعب شده‌اند.
 
 ![یک کرم مخملی](https://evolution.berkeley.edu/wp-content/uploads/2020/07/onychophoran_peripatus2.jpg){: width="338" height="151" loading="lazy" }
-<div class="caption" markdown="1">
-*عکس کرم مخملی از Dr. Lynn Kimsey و Bohart Museum of Entomology، University of California Davis.*
-</div>
+
+<div class="photo-credit" markdown="1">عکس کرم مخملی از Dr. Lynn Kimsey و Bohart Museum of Entomology، University of California Davis.</div>
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">
@@ -21,5 +20,5 @@ Onychoporans (also known as velvet worms) share certain characters with [arthro
 
 ![onychophoran](https://evolution.berkeley.edu/wp-content/uploads/2020/07/onychophoran_peripatus2.jpg){: width="338" height="151" loading="lazy" }
 
-###### Onychophoran photo provided by Dr. Lynn Kimsey and the Bohart Museum of Entomology , University of California Davis
+<div class="photo-credit" markdown="1">Onychophoran photo provided by Dr. Lynn Kimsey and the Bohart Museum of Entomology , University of California Davis</div>
 </div>

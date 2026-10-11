@@ -18,10 +18,9 @@ Translated: no
 صدپاها و هزارپاها نمونه‌هایی از هزارپایان (Myriapoda) هستند.
 
 ![یک صدپا و یک هزارپا](https://evolution.berkeley.edu/wp-content/uploads/2020/07/myriapods.jpg){: width="369" height="124" loading="lazy" }
+<div class="caption" markdown="1">چپ: صدپا. راست: هزارپا.</div>
 
-###### صدپا                                           هزارپا
-
-###### *عکس صدپا از جیمز تی. جانسون © آکادمی علوم کالیفرنیا؛ عکس هزارپا © ۲۰۰۳ جان وایت*
+<div class="photo-credit" markdown="1">عکس صدپا از جیمز تی. جانسون © آکادمی علوم کالیفرنیا؛ عکس هزارپا © ۲۰۰۳ جان وایت</div>
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">
@@ -35,8 +34,7 @@ Myriapods (*myria* = ten thousand, *pod* = foot) are a group of arthropods di
 Examples of myriapods include centipedes and millipedes.
 
 ![myriapod](https://evolution.berkeley.edu/wp-content/uploads/2020/07/myriapods.jpg){: width="369" height="124" loading="lazy" }
+<div class="caption" markdown="1">Left: centipede. Right: millipede.</div>
 
-##### Centipede Millipede
-
-###### Centipede photo by James T. Johnson © California Academy of Sciences; Millipede photo © 2003 John White
+<div class="photo-credit" markdown="1">Centipede photo by James T. Johnson © California Academy of Sciences; Millipede photo © 2003 John White</div>
 </div>

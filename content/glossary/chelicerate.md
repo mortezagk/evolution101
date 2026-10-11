@@ -22,7 +22,7 @@ Translated: no
 
 ![شلیسرداران](https://evolution.berkeley.edu/wp-content/uploads/2020/07/chelicerates3.jpg){: width="382" height="75" loading="lazy" }
 
-###### عکس عنکبوت بیوهٔ سیاه از George W. Robinson © California Academy of Sciences؛ عکس عقرب از Dr. Antonio J. Ferreira © California Academy of Sciences؛ عکس خرچنگ نعل‌اسبی © 2000 John White
+<div class="photo-credit" markdown="1">عکس عنکبوت بیوهٔ سیاه از George W. Robinson © California Academy of Sciences؛ عکس عقرب از Dr. Antonio J. Ferreira © California Academy of Sciences؛ عکس خرچنگ نعل‌اسبی © 2000 John White</div>
 </div>
 
 <div class="term-original" lang="en" dir="ltr" markdown="1">
@@ -40,5 +40,5 @@ Examples of chelicerates include spiders, scorpions, and horseshoe crabs.
 
 ![chelicerate](https://evolution.berkeley.edu/wp-content/uploads/2020/07/chelicerates3.jpg){: width="382" height="75" loading="lazy" }
 
-###### Black Widow Spider photo by George W. Robinson © California Academy of Sciences; Scorpion photo by Dr. Antonio J. Ferreira © California Academy of Sciences; Horseshoe Crab photo © 2000 John White
+<div class="photo-credit" markdown="1">Black Widow Spider photo by George W. Robinson © California Academy of Sciences; Scorpion photo by Dr. Antonio J. Ferreira © California Academy of Sciences; Horseshoe Crab photo © 2000 John White</div>
 </div>
