@@ -375,6 +375,53 @@ main hr {
 	text-align: left;
 }
 
+/* Footnote popover (site.js): the note beside its marker, with a link to the
+   full list at the bottom. */
+.fn-pop {
+	position: absolute;
+	z-index: 1060;
+	width: max-content;
+	max-width: min(22rem, calc(100vw - 1.5rem));
+	padding: 0.75rem 1rem 0.6rem;
+	background: var(--site-card-bg);
+	border: 1px solid var(--site-panel-border);
+	border-radius: 0.5rem;
+	box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.15);
+	font-size: 0.9375rem;
+	line-height: 1.7;
+}
+
+.fn-pop__text p {
+	display: inline;
+	margin: 0;
+}
+
+.fn-pop__num {
+	margin-inline-end: 0.35rem;
+	color: var(--site-text-muted);
+}
+
+.fn-pop__bar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	margin-top: 0.5rem;
+	padding-top: 0.4rem;
+	border-top: 1px solid var(--site-panel-border);
+	font-size: 0.85rem;
+}
+
+.fn-pop__close {
+	padding: 0 0.25rem;
+	border: 0;
+	background: none;
+	color: var(--site-text-muted);
+	font-size: 1.25rem;
+	line-height: 1;
+	cursor: pointer;
+}
+
 /* Persian footnote numbers. Python-Markdown writes Latin digits in order of
    first use, so both markers and list are renumbered here in document order. */
 
