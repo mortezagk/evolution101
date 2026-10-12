@@ -5,12 +5,13 @@ Direction: ltr
 Author: mortezagk
 Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natural selection, انتخاب طبیعی, علم, دانش, تکامل, فرگشت, تطور, فرگشت ۱۰۱, فرگشت۱۰۱, زیست, زیست‌شناسی
 
-## About This Project
+## The Story of This Project
 
-This project is an effort to make scientific knowledge about evolution accessible to Persian-speaking audiences.
-There are few Persian resources that describe and explain the core ideas of evolution concisely and coherently. This motivated me to translate and publish a portion of the content from the **Understanding Evolution** website, which was created by **The University of California Museum of Paleontology (UCMP)**.
+Years ago, we were a circle of friends, most of us serious about science. On 10 March 2015 we went together to a session on evolution at the University of Guilan. That wasn't the end of it: on 14 December 2015 a debate on evolution was held, and this time we weren't just spectators; we got involved ourselves. We prepared content and even started an online group so that people interested in the subject could come together.
 
-The translation began in December 2015 and grew over time, and was finally published as a website in January 2020.
+It was through all of this that I noticed a gap: despite the many websites and pages devoted to science communication, simple, accurate and coherent material explaining the core ideas of evolution in Persian was hard to find. After some searching I came across Understanding Evolution, a website by the University of California Museum of Paleontology, and in December 2015 I began translating its Evolution 101 section, posting the pages to that same online group and to the [Evolution 101 Telegram channel](https://t.me/evolution101).
+
+A few years later, in January 2020, I brought these scattered pieces together as the website [evolution101.ir](https://evolution101.ir/). In autumn 2026, with the help of the Claude language model, I compared the translated pages against the original website once again to bring them in line with its current version, and added a [glossary]({filename}glossary.md) section so that the meaning of the technical terms in the text is at hand too, though I am still reviewing parts of the content.
 
 ------
 ## License and Attribution
