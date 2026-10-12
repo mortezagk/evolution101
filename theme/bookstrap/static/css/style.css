@@ -388,9 +388,10 @@ main hr {
 }
 
 /* The <sup>'s Latin digit is shrunk to nothing (hiding it would leave a gap)
-   and a Persian counter drawn in ::before. */
+   and a Persian counter drawn in ::before. Reset on <main>, which chapters,
+   pages and glossary terms all share. */
 
-.entry-content {
+main {
 	counter-reset: footnote-marker;
 }
 
