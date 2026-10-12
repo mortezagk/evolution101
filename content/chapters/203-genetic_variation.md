@@ -1,6 +1,6 @@
 Title: تنوع ژنتیکی
 Date: 2020-01-17
-Category: فصل دوم: سازوکارها
+Category: سازوکارها: فرایندهای فرگشت
 Slug: evo101/chapter-2/genetic-variation
 Source: https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/genetic-variation/
 Source_title: Genetic variation

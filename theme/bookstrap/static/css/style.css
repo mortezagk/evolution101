@@ -108,7 +108,6 @@ main a:hover,
 .navbar-brand__name {
 	margin-right: 0.5rem;
 	font-size: 1.05rem;
-	font-weight: 700;
 }
 
 @media (min-width: 48em) {
@@ -120,6 +119,12 @@ main a:hover,
 .navbar-brand .fa-house {
 	font-size: 1.6rem;
 	vertical-align: -3px;
+}
+
+/* Filled icons (search, info) look bigger than the outline ones beside
+   Sahel's small letters; shrink them to match. */
+.navbar .nav-link :is(.fa-magnifying-glass, .fa-circle-info) {
+	font-size: 0.85em;
 }
 
 /* Navbar text in solid greys: Bootstrap's translucent white shows brighter
@@ -295,6 +300,26 @@ main [dir="ltr"] ol {
 	list-style-type: decimal;
 }
 
+/* Lettered sub-lists (الف، ب، …), as in the original's a., b. */
+@counter-style persian-letters {
+	system: alphabetic;
+	symbols: 'الف' 'ب' 'پ' 'ت' 'ث' 'ج' 'چ' 'ح' 'خ' 'د';
+	suffix: '. ';
+}
+
+main ol.alpha-list {
+	list-style-type: persian-letters;
+}
+
+/* List numbers (with their dot) in bold; footnote numbers stay plain. */
+main ol > li::marker {
+	font-weight: 700;
+}
+
+main .footnote > ol > li::marker {
+	font-weight: 400;
+}
+
 /* The one-line question under each chapter in the Evolution 101 list */
 .chapter-summary {
 	display: block;
@@ -408,12 +433,6 @@ main hr {
 	margin-bottom: 0.5rem;
 	padding-bottom: 0.5rem;
 	border-bottom: 1px solid var(--site-panel-border);
-}
-
-/* Navbar and top sidebar links bold, like chapter covers; chapter pages not. */
-.navbar .nav-link,
-.sidebar-links a {
-	font-weight: 700;
 }
 
 .sidebar-links a,
@@ -704,6 +723,13 @@ main table {
 	border-collapse: collapse;
 	margin: 2.5rem 0 1.5rem;
 	font-size: 1em;
+}
+
+/* Phones: table text one step below the body size. */
+@media (max-width: 35.999em) {
+	main table {
+		font-size: 1rem;
+	}
 }
 
 main table thead th {
@@ -1133,6 +1159,7 @@ main p:has(+ .caption) + .caption {
 	border-bottom: 2px solid var(--site-teal);
 	color: var(--site-teal-dark);
 	font-size: 1.35rem;
+	font-weight: 900;
 }
 
 .glossary-list {
@@ -1214,4 +1241,17 @@ main p:has(+ .caption) + .caption {
 
 .term-original p:last-child {
 	margin-bottom: 0;
+}
+
+/* One-line photo credit at the end of a definition, set off like the footnotes. */
+.photo-credit {
+	margin-top: 1rem;
+	padding-top: 0.5rem;
+	border-top: 1px solid var(--site-rule);
+	color: var(--site-text-muted);
+	font-size: 0.85rem;
+}
+
+.photo-credit p {
+	margin: 0;
 }

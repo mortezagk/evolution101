@@ -5,16 +5,10 @@ Term: bilateral symmetry
 Source: https://evolution.berkeley.edu/glossary/bilateral-symmetry/
 Source_title: bilateral symmetry
 Author: mortezagk
-Translated: no
+Translated: yes
 
 <div class="term-translation" markdown="1">
-![تقارن دوطرفه](https://evolution.berkeley.edu/wp-content/uploads/2020/07/bilateral.gif){: width="326" height="167" loading="lazy" }
-
 حالتی که سمت راست و سمت چپِ یک چیز (مثلاً یک شکل یا یک جانور) تصویر آینه‌ایِ یکدیگر باشند. برای مثال، انسان‌ها تقارن دوطرفه دارند، چون سمت راستِ بدنشان به طور کلی قرینهٔ سمت چپ آن است.
-</div>
 
-<div class="term-original" lang="en" dir="ltr" markdown="1">
-![bilateral symmetry](https://evolution.berkeley.edu/wp-content/uploads/2020/07/bilateral.gif){: width="326" height="167" loading="lazy" }
-
-A condition in which the right and left sides of an item (e.g., a shape or an animal) are mirror images of one another. For example, since the right side of the human body generally mirrors the left side, humans are bilaterally symmetric.
+![تقارن دوطرفه](https://evolution.berkeley.edu/wp-content/uploads/2020/07/bilateral.gif){: width="326" height="167" loading="lazy" }
 </div>

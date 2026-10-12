@@ -8,5 +8,13 @@ Author: mortezagk
 Translated: yes
 
 <div class="term-translation" markdown="1">
-هر عضوی از کلادِ بزرگِ جانوریِ بندپایان (Arthropoda). سخت‌پوستان، عنکبوتیان، صدپایان، هزارپایان و حشرات از [نسب‌های]({filename}lineage.md) زندهٔ این کلادند و [تریلوبیت‌های]({filename}trilobite.md) منقرض‌شده از نسب‌های [فسیلیِ]({filename}fossil.md) آن. همهٔ بندپایان [اسکلت بیرونیِ]({filename}exoskeleton.md) سختی دارند که در طول رشد هر از چندگاهی آن را می‌اندازند، بدنی قطعه‌قطعه و پاهایی مفصل‌دار. این ویژگی‌ها را از [نیای مشترکِ]({filename}common-ancestor.md) همهٔ بندپایان به ارث برده‌اند.
+هر عضوی از [کلادِ]({filename}clade.md)[^۱] بزرگِ جانوریِ بندپایان[^۲]. [سخت‌پوستان]({filename}crustacean.md)[^۳]، عنکبوتیان[^۴]، صدپایان[^۵]، هزارپایان[^۶] و [حشرات]({filename}insect.md)[^۷] از [نسب‌های]({filename}lineage.md) زندهٔ این کلادند و [تریلوبیت‌های]({filename}trilobite.md) منقرض‌شده از نسب‌های [فسیلیِ]({filename}fossil.md) آن. همهٔ بندپایان [اسکلت بیرونیِ]({filename}exoskeleton.md) سختی دارند که در طول رشد هر از چندگاهی آن را می‌اندازند، بدنی قطعه‌قطعه و پاهایی مفصل‌دار. این ویژگی‌ها را از [نیای مشترکِ]({filename}common-ancestor.md) همهٔ بندپایان به ارث برده‌اند.
 </div>
+
+[^۱]: Clade
+[^۲]: Arthropoda
+[^۳]: Crustaceans
+[^۴]: Arachnids
+[^۵]: Centipedes
+[^۶]: Millipedes
+[^۷]: Insects

@@ -1,6 +1,6 @@
 Title: هومولوژی و آنالوژی
 Date: 2020-01-04
-Category: فصل اول: الگوها
+Category: تاریخ حیات: نگاهی به الگوها
 Slug: evo101/chapter-1/homologies-and-analogies
 Source: https://evolution.berkeley.edu/evolution-101/the-history-of-life-looking-at-the-patterns/homologies-and-analogies/
 Source_title: Homologies and analogies
@@ -13,9 +13,7 @@ Tags: evolution, biology, evolution 101, evolution101, science, bio, dna, natura
 ![چهار اندامی یک ویژگی اشتقاقیِ مشترکِ کلادِ چهاراندامان است.](https://evolution.berkeley.edu/wp-content/uploads/2021/10/03-Vertebrate_homology.png){: width="792" height="528" loading="lazy" }
 <div class="caption" markdown="1">یک فیلوژنی که نشان می‌دهد چهار اندام زیرین کجا شکل گرفت.<br>نوک شاخه‌ها (از چپ به راست): لامپری‌ها[^۳]، پلاکودرم‌ها[^۴]، ماهیان غضروفی[^۵]، ماهیان باله‌شعاعی[^۶]، تهی‌خارها[^۷]، ماهیان شش‌دار[^۸]، سسیلین‌ها[^۹]، سمندرها، قورباغه‌ها، تک‌سوراخیان[^۱۰]، کیسه‌داران[^۱۱]، پستانداران جفت‌دار[^۱۲]، مارها، مارمولک‌های ایگوآنایی[^۱۳]، گکوها[^۱۴]، لاکپشت‌ها، کروکدیل‌ها، پرندگان و دایناسورهای غیرپرنده[^۱۵].<br>کادر سبز: Tetrapoda. علامت پایهٔ کادر: «چهار اندام اینجا فرگشت یافت».<br>محور عمودی: زمان.<br>*درخت برگرفته از:<br>Irisarri, I., Baurain, D., Brinkmann, H., Delsuc, F., Sire, J.-Y., Kupfer, A., … and Philippe, H., 2017. Phylotranscriptomic consolidation of the jawed vertebrate timetree. Nat Ecol Evol 1, 1370–1378.*</div>
 
-همهٔ ویژگی‌ها هومولوژی نیستند. برای مثال، هم پرندگان و هم خفاش‌ها بال دارند، در حالی که موش‌ها و کروکدیل‌ها ندارند. آیا این به آن معنی است که پرندگان با خفاش‌ها ارتباط نزدیکتری دارند تا موش‌ها و کروکدیل‌ها؟ خیر.
-
-وقتی بال‌های پرنده و خفاش را دقیق‌تر بررسی کنیم، متوجه تفاوت‌هایی اساسی می‌شویم.
+همهٔ ویژگی‌ها هومولوژی نیستند. برای مثال، هم پرندگان و هم خفاش‌ها بال دارند، در حالی که موش‌ها و کروکدیل‌ها ندارند. آیا این به آن معنی است که پرندگان با خفاش‌ها ارتباط نزدیکتری دارند تا موش‌ها و کروکدیل‌ها؟ خیر. وقتی بال‌های پرنده و خفاش را دقیق‌تر بررسی کنیم، متوجه تفاوت‌هایی اساسی می‌شویم.
 
 ![ساختار بال](https://evolution.berkeley.edu/wp-content/uploads/2021/11/bat_bird_wings_english-300x98.png){: width="500" height="164" loading="lazy" }
 <div class="caption" markdown="1">مقایسهٔ ساختار بال یک پرنده و یک خفاش.<br>چپ: خفاش. راست: پرنده.</div>

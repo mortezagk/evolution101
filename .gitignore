@@ -17,3 +17,4 @@ publishconf.py
 _build
 /glossary
 /data
+tmp/
