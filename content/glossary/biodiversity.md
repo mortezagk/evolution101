@@ -5,12 +5,11 @@ Term: biodiversity
 Source: https://evolution.berkeley.edu/glossary/biodiversity/
 Source_title: biodiversity
 Author: mortezagk
-Translated: no
+Translated: yes
 
 <div class="term-translation" markdown="1">
-گوناگونی و تنوع در میان جاندارانی که در یک منطقهٔ خاص زندگی می‌کنند. با این حال، این اصطلاح را می‌توان به شیوه‌های مختلفی دقیق‌تر تعریف و اندازه‌گیری کرد. برای مثال، منظور از تنوع زیستی گاهی تعداد گونه‌های یک منطقهٔ خاص است، گاهی تعداد کُنام‌های بوم‌شناختیِ متفاوتی که جانداران آن منطقه اشغال کرده‌اند، و گاهی میزان واگرایی ژنتیکی‌ای که جانداران آن منطقه از سر گذرانده‌اند.
+گوناگونی و تنوع در میان جاندارانی که در یک منطقهٔ خاص زندگی می‌کنند. با این حال، این اصطلاح را می‌توان به شیوه‌های مختلفی دقیق‌تر تعریف و اندازه‌گیری کرد. برای مثال، تنوع زیستی گاهی به تعداد گونه‌های یک منطقهٔ خاص اشاره دارد، گاهی به تعداد [کُنام‌های]({filename}niche.md) بوم‌شناختیِ[^۱] گوناگونی که جانداران آن منطقه در اختیار دارند، و گاهی به میزان [واگراییِ]({filename}divergence.md) ژنتیکی‌ای[^۲] که جانداران آن منطقه پشت سر گذاشته‌اند.
 </div>
 
-<div class="term-original" lang="en" dir="ltr" markdown="1">
-The variety and variability among organisms inhabiting a particular region. However, the term may be more specifically defined and measured in different ways. For example, sometimes biodiversity is used to refer to the number of species in a particular area, sometimes to the number of different ecological niches occupied by organisms in a particular area, and sometimes to the amount of genetic divergence that the organisms in a particular area have experienced.
-</div>
+[^۱]: Ecological niches
+[^۲]: Genetic divergence

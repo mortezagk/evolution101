@@ -5,16 +5,14 @@ Term: base
 Source: https://evolution.berkeley.edu/glossary/base/
 Source_title: base
 Author: mortezagk
-Translated: no
+Translated: yes
 
 <div class="term-translation" markdown="1">
-بخشِ رمزکنندهٔ اطلاعات در DNA و RNA؛ حروفِ رمز ژنتیکی. ترتیب بازها در یک قطعه از DNA (یعنی ترتیب Aها، Tها، Gها و Cها) تعیین می‌کند که آن DNA چه کاری انجام می‌دهد؛ اینکه پروتئینی را رمز کند، ژنی را روشن کند یا هر کار دیگری. در نواحیِ رمزکنندهٔ پروتئین، هر سه باز یک آمینواسید را رمز می‌کنند. برای مثال، توالیِ بازیِ ATG آمینواسیدِ متیونین را رمز می‌کند. DNA دورشته‌ای است و بازهایش با هم جفت می‌شوند و روبه‌روی یکدیگر قرار می‌گیرند: A با T جفت می‌شود و G با C. RNA تک‌رشته‌ای است و بازهای آن A، U، G و C هستند.
-</div>
-
-<div class="term-original" lang="en" dir="ltr" markdown="1">
-The information coding part of DNA and RNA, the letters of the genetic code. The sequence of bases on a stretch of DNA (i.e., the sequence of As, Ts, Gs, and Cs) determines what the DNA does — if it codes for a protein, turns on a gene, or whatever. In protein-coding regions, three bases code for a single amino acid. For example, the base sequence ATG codes for the amino acid methionine. In DNA, which is double-stranded, bases are paired and are lined up across from one another: A pairs with T and G pairs with C. RNA is single-stranded, and its bases are A, U, G, and C.
+بخشی از DNA و RNA که اطلاعات را رمزگذاری می‌کند؛ حروفِ رمز ژنتیکی. توالیِ بازها در یک قطعه از DNA (یعنی توالیِ Aها، Tها، Gها و Cها) تعیین می‌کند که آن DNA چه کاری انجام می‌دهد؛ اینکه پروتئینی را رمز کند، ژنی را روشن کند یا هر کار دیگری. در نواحیِ رمزکنندهٔ پروتئین، سه باز با هم یک [آمینواسید]({filename}amino-acid.md) را رمز می‌کنند. برای مثال، توالیِ بازهای ATG آمینواسیدِ متیونین[^۱] را رمز می‌کند. در DNA، که دورشته‌ای است، بازها با هم جفت شده‌اند و روبه‌روی یکدیگر قرار می‌گیرند: A با T جفت می‌شود و G با C. اما RNA تک‌رشته‌ای است و بازهای آن A و U و G و C هستند.
 </div>
 
 ## در این صفحه‌ها آمده است
 
 - [عوامل جهش]({filename}../chapters/206-the_causes_of_mutations.md)
+
+[^۱]: Methionine

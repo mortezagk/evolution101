@@ -8,6 +8,7 @@ Author: mortezagk
 Translated: yes
 
 <div class="term-translation" markdown="1">
-جاندارانی تک‌سلولی و شبیه به باکتری که اندامک‌های غشادار ندارند و از نظر فیلوژنتیکی از باکتری‌های حقیقی متمایزند. [یوکاریوت‌ها]({filename}eukaryote.md) از ادغامی [درون‌همزیستانه]({filename}endosymbiosis.md) میان باکتری‌ها و باستانیان پدید آمدند.
+جاندارانی تک‌سلولی و شبیه به باکتری که اندامک‌های غشادار[^۱] ندارند و از نظر فیلوژنتیکی از باکتری‌های حقیقی متمایزند. [یوکاریوت‌ها]({filename}eukaryote.md) از ادغامی [درون‌همزیستانه]({filename}endosymbiosis.md) میان باکتری‌ها و باستانیان پدید آمدند.
 </div>
 
+[^۱]: Membrane-bound organelles
