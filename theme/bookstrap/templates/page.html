@@ -23,7 +23,7 @@
         {# Back to the glossary, scrolled to this term. #}
         {% if page.slug.startswith('glossary/') %}
         <nav class="page-nav page-nav--top" aria-label="بازگشت به واژه‌نامه">
-                <a class="page-nav__pill" href="{{ SITEURL }}/glossary/index.html#{{ page.slug.split('/')[-1] }}"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i> واژه‌نامه</a>
+                <a class="page-nav__pill" href="{{ SITEURL }}/glossary/#{{ page.slug.split('/')[-1] }}"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i> واژه‌نامه</a>
         </nav>
         {% endif %}
         {# Shown until the term is marked Translated: yes. #}

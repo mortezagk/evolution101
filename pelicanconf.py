@@ -84,12 +84,13 @@ THEME_TEMPLATES_OVERRIDES = ['theme_overrides/templates']
 ARTICLE_ORDER_BY = 'source_path'
 
 # evo101/chapter-<N>/<page>/, from each file's Slug; a cover is the chapter
-# folder itself. Links name index.html so the site also works from disk.
-ARTICLE_URL = '{slug}/index.html'
+# folder itself. Links end in the folder (evo101/chapter-0/); the server finds
+# index.html, so the built site no longer browses from disk.
+ARTICLE_URL = '{slug}/'
 ARTICLE_SAVE_AS = '{slug}/index.html'
 
 # Same shape for pages, e.g. glossary/amino-acid/.
-PAGE_URL = '{slug}/index.html'
+PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 
 # Category slugs (ch0–ch6) only mark the sidebar's open chapter; listing pages aren't built.
